@@ -1,0 +1,8 @@
+shootSound: plasma-shot
+
+shoot: {
+    type: ShootSpread
+    shotDelay: 5
+    spread: 4.5
+    shots: 3
+    }

@@ -1,0 +1,11 @@
+itemCapacity: 13000
+health: 7500
+armor: 7
+
+requirements: [
+    lead/7250
+    metaglass/3250
+    titanium/7500
+    thorium/2500
+    silicon/5000
+]

@@ -1,0 +1,20 @@
+type: PowerNode
+name: "Armored power node"
+description: "An armored power node with a slightly longer power transfer range, but at the expense of fewer possible connections."
+research: power-node-large
+category: power
+size: 1
+
+laserColor1: 8aa3f4
+laserColor2: 5757c1
+
+laserRange: 9
+maxNodes: 7
+health: 180
+armor: 15
+
+requirements: [
+    lead/12
+    titanium/3
+    silicon/5
+]

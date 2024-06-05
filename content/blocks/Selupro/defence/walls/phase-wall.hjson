@@ -1,0 +1,12 @@
+research: surge-wall-large
+
+buildCostMultiplier: 4.41
+
+chanceDeflect: 100
+health: 720
+armor: 8
+
+requirements: [
+    thorium/12
+    phase-fabric/15
+]

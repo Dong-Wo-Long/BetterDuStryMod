@@ -1,0 +1,10 @@
+itemCapacity: 9000
+health: 4500
+armor: 5
+
+requirements: [
+    graphite/3200
+    lead/2150
+    titanium/750
+    silicon/1250
+]

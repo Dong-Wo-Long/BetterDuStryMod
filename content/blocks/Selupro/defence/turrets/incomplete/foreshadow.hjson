@@ -1,0 +1,9 @@
+research: meltdown
+rotateSpeed: 1
+shake: 15
+
+scaledHealth: 530
+ammoPerShot: 30
+maxAmmo: 90
+range: 1440
+armor: 32

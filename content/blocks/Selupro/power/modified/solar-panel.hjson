@@ -1,0 +1,9 @@
+research: combustion-generator
+
+powerProduction: 0.533333333
+health: 75
+
+requirements: [
+    lead/15
+    silicon/12
+]

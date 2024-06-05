@@ -1,0 +1,16 @@
+research: copper-wall-large
+
+buildCostMultiplier: 2.7277
+phaseRangeBoost: -40
+phaseBoost: 2.5
+
+itemCapacity: 15
+healPercent: 0.5
+reload: 120
+health: 50
+range: 100
+armor: 2
+
+consumes: {
+    power: 0.533333333
+}

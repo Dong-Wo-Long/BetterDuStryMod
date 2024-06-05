@@ -1,0 +1,438 @@
+research: salvo
+rotateSpeed: 1.75
+fogRadius: 47.5
+recoilTime: 10
+shootCone: 30
+recoil: 1.5
+recoils: 3
+shootY: 10
+
+buildCostMultiplier: 3.2
+coolantMultiplier: 2.4
+
+scaledHealth: 360
+ammoPerShot: 96
+inaccuracy: 4.5
+maxAmmo: 720
+reload: 750
+range: 340
+armor: 21
+
+consumes: {
+    power: 5.3345
+}
+
+requirements: [
+    lead/180
+    titanium/125
+    plastanium/75
+]
+
+chargeSound: minigun-charge
+shootSound: minigun-shot
+ammoUseEffect: casing2
+shoot: {
+    type: ShootBarrel
+    firstShotDelay: 30
+    shotDelay: 3.2
+    shots: 96
+
+barrels: [
+    0, 1, 0
+    3, 0, 0
+    -3, 0, 0
+]
+    }
+
+ammoTypes: {
+metaglass: { 
+    type: BasicBulletType
+    pierce: true
+    height: 12.5
+    width: 4.8
+
+    buildingDamageMultiplier: 0.1
+    reloadMultiplier: 1.25
+    ammoMultiplier: 32
+    rangeChange: 44
+
+    splashDamageRadius: 40
+    splashDamage: 5
+    fragBullets: 4
+    pierceCap: 18
+    lifetime: 64
+    damage: 7.5
+    speed: 6
+
+    hitEffect: flakExplosion
+    shootEffect: shootSmall
+
+    lightColor: ffffff
+    lightOpacity: 0.7
+    lightRadius: 24.5
+
+    frontColor: ffffff
+    backColor: ebeef5
+
+    trailColor: ebeef5
+    trailLength: 32.5
+    trailWidth: 0.75
+
+fragBullet: {
+    type: BasicBulletType
+    pierce: true
+    shrinkY: 1
+    height: 12
+    width: 5
+
+    buildingDamageMultiplier: 0.01
+
+    pierceCap: 3
+    lifetime: 20
+    damage: 4.5
+
+    despawnEffect: none
+
+    lightColor: ffffff
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    frontColor: ffffff
+    backColor: ebeef5
+
+    trailColor: ebeef5
+    trailLength: 12.5
+    trailWidth: 1
+}
+    }
+
+blast-compound: { 
+    type: BasicBulletType
+    height: 15.25
+    width: 5.25
+
+    buildingDamageMultiplier: 0.1
+    pierceDamageFactor: 1.25
+    reloadMultiplier: 0.75
+    ammoMultiplier: 18
+    rangeChange: 20
+
+    splashDamageRadius: 60
+    fragRandomSpread: 45
+    fragVelocityMin: 0.4
+    statusDuration: 60
+    splashDamage: 42.5
+    lifetime: 106.5
+    status: blasted
+    fragBullets: 3
+    fragLifeMin: 0
+    damage: 47.5
+    speed: 3.2
+
+    despawnEffect: flakExplosionBig
+    hitEffect: flakExplosionBig
+    shootEffect: shootBig
+
+    lightColor: ff795e
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    trailColor: c85c51
+    trailLength: 32.5
+    trailWidth: 1
+
+    frontColor: ff795e
+    backColor: c85c51
+
+fragBullet: {
+    type: BasicBulletType
+    height: 12.5
+    shrinkY: 1
+    width: 7.5
+
+    buildingDamageMultiplier: 0.05
+    pierceDamageFactor: 0.75
+
+    splashDamageRadius: 26
+    statusDuration: 60
+    splashDamage: 27.5
+    status: blasted
+    lifetime: 33.5
+    pierceCap: 5
+    damage: 32.5
+    speed: 3
+
+    despawnEffect: blastExplosion
+    hitEffect: hitBulletColor
+
+    lightColor: ff795e
+    lightOpacity: 0.7
+    lightRadius: 27.5
+
+    trailColor: c85c51
+    trailLength: 12.5
+    trailWidth: 1.75
+
+    frontColor: ff795e
+    backColor: c85c51
+}
+    }
+
+plastanium: { 
+    type: BasicBulletType
+    height: 12.5
+    width: 5
+
+    buildingDamageMultiplier: 0.21
+    ammoMultiplier: 24
+
+    splashDamageRadius: 36
+    splashDamage: 17.5
+    fragBullets: 6
+    lifetime: 66.5
+    pierceCap: 12
+    damage: 14.5
+    speed: 5
+    
+    despawnEffect: plasticExplosion
+    hitEffect: plasticExplosion
+    shootEffect: shootBig
+
+    lightColor: edf3a9
+    lightOpacity: 0.7
+    lightRadius: 24.5
+
+    frontColor: edf3a9
+    backColor: cbd97f
+
+    trailColor: cbd97f
+    trailLength: 32.5
+    trailWidth: 1
+
+fragBullet: {
+    type: BasicBulletType
+    shrinkY: 1
+    height: 9
+    width: 6
+
+    buildingDamageMultiplier: 0.18
+
+    pierceCap: 5
+    lifetime: 15
+    damage: 12.5
+
+    hitEffect: hitBulletColor
+    despawnEffect: none
+
+    lightColor: edf3a9
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    trailColor: cbd97f
+    trailLength: 12.5
+    trailWidth: 1.25
+
+    frontColor: edf3a9
+    backColor: cbd97f
+}
+    }
+
+surge-alloy: {
+    type: BasicBulletType
+    height: 16
+    width: 4.5
+
+    buildingDamageMultiplier: 0.15
+    reloadMultiplier: 2.25
+    ammoMultiplier: 12
+    rangeChange: 172
+
+    status: 20s-36-status-tier-1-direct-purpose-emp
+    splashDamageRadius: 40
+    statusDuration: 180
+    lightningDamage: 5
+    lightningLength: 7
+    splashDamage: 7.5
+    lifetime: 68.5
+    lightning: 3
+    damage: 12.5
+    speed: 7.5
+
+    despawnEffect: flakExplosionBig
+    hitEffect: flakExplosionBig
+    shootEffect: shootBig
+
+    lightColor: fcf387
+    lightOpacity: 0.7
+    lightRadius: 27.5
+
+    trailColor: e8d174
+    trailLength: 41.5
+    trailWidth: 0.75
+
+    frontColor: fcf387
+    backColor: e8d174
+}
+
+silicon: {
+    type: BasicBulletType
+    height: 12
+    width: 6
+
+    buildingDamageMultiplier: 0.18
+    reloadMultiplier: 1.75
+    ammoMultiplier: 41
+    rangeChange: 40
+
+    homingPower: 0.18
+    pierceCap: 5
+    lifetime: 75
+    damage: 17.5
+    speed: 4.8
+
+    hitEffect: hitBulletSmall
+    shootEffect: shootSmall
+
+    lightColor: 8e9097
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    frontColor: 8e9097
+    backColor: 767a84
+
+    trailColor: 767a84
+    trailLength: 32.5
+    trailWidth: 1.25
+}
+
+pyratite: {
+    type: BasicBulletType
+    makeFire: true
+    height: 15
+    width: 7.5
+
+    buildingDamageMultiplier: 0.01
+    pierceDamageFactor: 0.5
+    ammoMultiplier: 21
+    rangeChange: 24
+
+    splashDamageRadius: 12
+    statusDuration: 180
+    splashDamage: 21.5
+    status: burning
+    pierceCap: 3
+    lifetime: 90
+    damage: 24.5
+    speed: 4.1
+
+    shootEffect: shootBig
+
+    lightColor: ffaa5f
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    frontColor: ffaa5f
+    backColor: d37f47
+
+    trailColor: d37f47
+    trailLength: 32.5
+    trailWidth: 1.75
+
+hitEffect: {
+    type: MultiEffect
+
+effects: [
+{
+    effect: hitBulletSmall
+    colorTo: ffaa5f
+    lifetime: 20
+    sizeFrom: 3
+    sizeTo: 0
+    }
+{
+    effect: fireHit
+    colorTo: ffaa5f
+    lifetime: 20
+    sizeFrom: 1
+    sizeTo: 0
+    }
+]
+    }
+}
+
+scrap: {
+    type: BasicBulletType
+    height: 11
+    width: 6
+
+    buildingDamageMultiplier: 0.12
+    pierceDamageFactor: 0.25
+    reloadMultiplier: 0.85
+    ammoMultiplier: 9
+    rangeChange: 60
+
+    fragBullets: 12
+    pierceCap: 4
+    lifetime: 66
+    damage: 14.5
+    speed: 6.75
+
+    lightColor: e0b28d
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    trailColor: 9b928b
+    trailLength: 34.5
+    trailWidth: 1.32
+
+    frontColor: e0b28d
+    backColor: 9b928b
+
+fragBullet: {
+    type: BasicBulletType
+    shrinkY: 0.25
+    height: 12
+    width: 5
+
+    buildingDamageMultiplier: 0.09
+    pierceDamageFactor: 0.5
+
+    lifetime: 13.5
+    pierceCap: 3
+    damage: 12.5
+    speed: 4.5
+
+    lightColor: e0b28d
+    lightOpacity: 0.7
+    lightRadius: 12.5
+
+    trailColor: 9b928b
+    trailLength: 12.5
+    trailWidth: 0.85
+
+    frontColor: e0b28d
+    backColor: 9b928b
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: e0b28d
+    waveStroke: 1.5
+    waveRad: 3
+
+    smokeColor: e0b28d
+    smokeSizeBase: 0
+    smokeSize: 0
+    smokes: 0
+
+    sparkColor: e0b28d
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+}
+    }
+}
+    }

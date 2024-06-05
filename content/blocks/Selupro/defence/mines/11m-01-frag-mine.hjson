@@ -1,0 +1,98 @@
+name: Frag mine
+underBullets: true
+hasShadow: false
+category: effect
+type: ShockMine
+fogRadius: 0
+teamAlpha: 0
+tendrils: 0
+length: 0
+shots: 1
+size: 1
+
+research: shock-mine
+researchCostMultiplier: 0.2
+buildCostMultiplier: 2
+
+tileDamage: 100
+cooldown: 60
+damage: 300
+health: 100
+
+destroySound: mine-boom
+
+requirements:[
+    graphite/18
+    silicon/15
+    plastanium/12
+]
+
+bullet:{
+    collidesTiles: false
+    collidesAir: false
+    absorbable: false
+    hittable: false
+    collides: true
+    height: 1
+    width: 1
+
+    splashDamagePierce: true
+    splashDamageRadius: 26
+    splashDamage: 300
+    fragLifeMax: 1.8
+    fragLifeMin: 1.4
+    status: blasted
+    fragBullets: 9
+    fragSpread: 45
+    fragAngle: 30
+    lifetime: 1
+    damage: 300
+    speed: 0
+
+    hitEffect: massiveExplosion
+
+fragBullet: {
+    type: BasicBulletType
+    collidesAir: false
+    shrinkY: 1
+    height: 12
+    width: 5
+
+    pierceCap: 5
+    lifetime: 12
+    damage: 24.5
+    speed: 2.4
+
+    trailColor: f9c27a
+    trailLength: 12.5
+    trailWidth: 0.5
+
+    lightColor: ffb657
+    lightOpacity: 0.7
+    lightRadius: 12.5
+
+    frontColor: ffb657
+    backColor: f9c27a
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 25
+
+    waveColor: f9c27a
+    waveStroke: 1.5
+    waveRad: 3
+
+    smokeColor: f9c27a
+    smokeSizeBase: 0
+    smokeSize: 0
+    smokes: 0
+
+    sparkColor: f9c27a
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+}
+    }
+}
