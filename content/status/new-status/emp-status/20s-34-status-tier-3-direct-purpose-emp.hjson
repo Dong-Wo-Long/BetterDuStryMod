@@ -1,4 +1,24 @@
 name: Tier 3 direct purpose EMP
-reloadMultiplier: 0.1
 healthMultiplier: 0.65
+reloadMultiplier: 0.1
 speedMultiplier: 0.25
+show: false
+
+affinities: [ wet ]
+
+effectChance: 0.125
+effect: {
+    type: ParticleEffect
+    particles: 12
+    lifetime: 25
+    line: true
+
+    baseRotation: 0
+    baseLength: 3.2
+    length: 0
+
+    strokeFrom: 1.25
+    strokeTo: 0
+
+    colorTo: d1efff
+}
