@@ -1,3 +1,23 @@
 name: Tier 1 direct purpose EMP
 reloadMultiplier: 0.6
 speedMultiplier: 0.75
+show: false
+
+affinities: [ wet ]
+
+effectChance: 0.05
+effect: {
+    type: ParticleEffect
+    particles: 7
+    lifetime: 25
+    line: true
+
+    baseRotation: 0
+    baseLength: 3.2
+    length: 0
+
+    strokeFrom: 1.25
+    strokeTo: 0
+
+    colorTo: d1efff
+}
