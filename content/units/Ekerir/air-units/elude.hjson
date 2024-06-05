@@ -1,0 +1,85 @@
+rotateMoveFirst: true
+omniMovement: false
+
+rotateSpeed: 5
+health: 750
+speed: 2.5
+armor: 4
+
+lightColor: bf92f9
+lightOpacity: 0.7
+lightRadius: 75
+
+weapons: [
+{
+name: ekerir-machine-gun
+
+    rotateSpeed: 1.75
+    shootCone: 90
+    mirror: false
+    rotate: true
+    recoil: 0.15
+    top: false
+    x: 0
+    y: -2
+
+    cooldownTime: 210
+    inaccuracy: 3
+    reload: 150
+
+    shootSound: machine-gun
+    ejectEffect: casing1
+shoot: {
+    type: ShootSpread
+    shotDelay: 7.5
+    spread: 1
+    shots: 9
+}
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl
+    progress: recoil
+    outline: false
+    mirror: false
+    moveY: -0.75
+    under: true
+    x: 0
+    y: 1
+}
+    ]
+
+bullet: {
+    type: BasicBulletType
+    removeAfterPierce: false
+    collideTerrain: true
+    height: 12
+    width: 7
+
+    pierceDamageFactor: 0.9
+
+    pierceCap: 3
+    lifetime: 54
+    damage: 24.5
+    speed: 4.8
+
+    despawnEffect: hitBulletColor
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletColor
+    shootEffect: sparkShoot
+
+    frontColor: ffffff
+    backColor: bf92f9
+    hitColor: bf92f9
+    
+    trailColor: bf92f9
+    trailLength: 24.5
+    trailWidth: 1.5
+
+    lightColor: ffffff
+    lightOpacity: 0.7
+    lightRadius: 24.5
+}
+    }
+]

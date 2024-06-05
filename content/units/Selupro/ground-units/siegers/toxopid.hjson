@@ -1,0 +1,363 @@
+research: arkyid
+
+rotateSpeed: 0.45
+stepShake: 5.75
+fogRadius: 96
+
+itemCapacity: 900
+health: 32000
+armor: 75
+
+lightColor: 665c9f
+lightOpacity: 0.7
+lightRadius: 230
+
+immunities: [ sapped, spore-slowed, wet ]
+
+abilities: [
+{
+    type: ShieldArcAbility
+    region: bsm-toxopid-shield-right
+    angleOffset: -55
+    radius: 25
+    angle: 60
+    width: 5.5
+    y: -7
+
+    cooldown: 900
+    regen: 2.5
+    max: 8100
+    }
+{
+    type: ShieldArcAbility
+    region: bsm-toxopid-shield-left
+    angleOffset: 55
+    radius: 25
+    angle: 60
+    width: 5.5
+    y: -7
+
+    cooldown: 900
+    regen: 2.5
+    max: 8100
+    }
+]
+
+weapons: [
+{
+    name: mount-purple-weapon
+    layerOffset: -0.001
+    rotationLimit: 45
+    rotate: true
+    x: 3
+    y: 9
+
+    reload: 4.5
+
+    shootSound: sap
+
+bullet: {
+    type: SapBulletType
+    knockback: -1
+    length: 180
+    width: 0.45
+
+    buildingDamageMultiplier: 0.01
+
+    sapStrength: 1.25
+    lifetime: 15
+    damage: 32
+
+    shootEffect: shootSmall
+    despawnEffect: none
+
+    hitColor: bf92f9
+    color: bf92f9
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 17
+}
+    }
+
+{
+    name: large-purple-mount
+    rotationLimit: 60
+    rotateSpeed: 2
+    rotate: true
+    shadow: 12
+    recoil: 3
+    shootY: 7
+    shake: 17
+    x: 11
+    y: -5
+
+    reload: 90
+
+    ejectEffect: casing1
+
+    shootSound: shootBig
+
+shoot: {
+    type: ShootSpread
+    spread: 17
+    shots: 2
+}
+
+bullet: {
+    type: ShrapnelBulletType
+    length: 115
+    width: 25
+
+    serrationSpaceOffset: 60
+    serrationFadeOffset: 0
+    serrationLenScl: 7
+    serrationWidth: 6
+    serrations: 10
+    damage: 320
+
+    shootEffect: sparkShoot
+    smokeEffect: sparkShoot
+
+    fromColor: bf92f9
+    toColor: 6d56bf
+}
+    }
+
+{
+    name: toxopid-cannon
+    rotationLimit: 25
+    rotateSpeed: 0.1
+    mirror: false
+    rotate: true
+    shadow: 30
+    shootY: 22
+    recoil: 10
+    shake: 32
+    y: -14
+    x: 0
+
+    inaccuracy: 15
+    reload: 1920
+
+    ejectEffect: casing3
+
+    shootSound: artillery
+
+    shootStatusDuration: 750
+    shootStatus: slow
+shoot: {
+    shotDelay: 60
+    shots: 3
+    }
+
+    bullet: {
+    type: ArtilleryBulletType
+    collidesTiles: true
+    collidesAir: false
+    despawnShake: 17
+    knockback: 0.8
+    collides: true
+    hitShake: 17
+    height: 32
+    width: 32
+
+    buildingDamageMultiplier: 8.5
+
+    splashDamageRadius: 90
+    lightningDamage: 120
+    lightningLength: 20
+    statusDuration: 720
+    ammoMultiplier: 4
+    splashDamage: 320
+    lightOpacity: 0.6
+    fragLifeMin: 0.3
+    lightRadius: 40
+    fragBullets: 9
+    status: sapped
+    lifetime: 500
+    lightning: 9
+    damage: 180
+    speed: 1.45
+
+    smokeEffect: shootBigSmoke2
+    hitEffect: sapExplosion
+
+    frontColor: bf92f9
+    backColor: 6d56bf
+
+    lightningColor: bf92f9
+    lightColor: 665c9f
+    lightOpacity: 0.7
+    lightRadius: 160
+
+    trailLength: 9
+    trailWidth: 5
+    trailSize: 7
+
+fragBullet: { 
+    type: ArtilleryBulletType
+    collidesTiles: false
+    collidesAir: false
+    despawnShake: 11
+    knockback: 0.8
+    hitShake: 11
+    height: 21
+    width: 21
+
+    buildingDamageMultiplier: 6
+
+    splashDamageRadius: 75
+    lightningDamage: 64
+    statusDuration: 540
+    lightningLength: 6
+    lightOpacity: 0.5
+    splashDamage: 210
+    lightRadius: 30
+    status: sapped
+    lifetime: 110
+    lightning: 2
+    damage: 90
+    speed: 1.7
+
+    smokeEffect: shootBigSmoke2
+    hitEffect: sapExplosion
+
+    frontColor: bf92f9
+    backColor: 6d56bf
+
+    lightningColor: bf92f9
+    lightColor: 665c9f
+    lightOpacity: 0.7
+    lightRadius: 90
+    }
+}
+    }
+
+{
+    name: purple-missiles
+    layerOffset: -0.001
+    baseRotation: -25
+    shootCone: 120
+    mirror: true
+    shootY: 3.5
+    shake: 11.5
+    x: 13.5
+    y: 9
+
+    velocityRnd: 0.5
+    inaccuracy: 15
+    recoil: 1.5
+    reload: 420
+
+shoot: { 
+    shotDelay: 12
+    shots: 3
+}
+
+    shootSound: missile
+
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    despawnShake: 15
+    hitShake: 15
+    shrinkX: 0.3
+    shrinkY: 0.6
+    drag: -0.003
+    height: 11
+    width: 11
+
+    splashDamageRadius: 16
+    lightningLength: 5
+    lightningDamage: 21
+    collidesTeam: true
+    splashDamage: 45
+    homingPower: 0.96
+    homingRange: 55
+    weaveScale: 5
+    lifetime: 140
+    lightning: 3
+    weaveMag: 2
+    speed: 2.25
+    damage: 81
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    lightningColor: ffffff
+    frontColor: ffffff
+    trailColor: bf92f9
+    trailInterval: 15
+    backColor: bf92f9
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 31
+}
+    }
+
+{
+    name: purple-missiles
+    layerOffset: -0.001
+    baseRotation: -25
+    shootCone: 120
+    mirror: true
+    shootY: 3.5
+    shake: 11.5
+    x: 17.5
+    y: 3.5
+
+    velocityRnd: 0.5
+    inaccuracy: 15
+    recoil: 1.5
+    reload: 600
+
+shoot: { 
+    shotDelay: 12
+    shots: 3
+}
+
+    shootSound: missile
+
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    despawnShake: 15
+    hitShake: 15
+    shrinkX: 0.3
+    shrinkY: 0.6
+    drag: -0.003
+    height: 11
+    width: 11
+
+    splashDamageRadius: 16
+    lightningLength: 5
+    lightningDamage: 21
+    collidesTeam: true
+    splashDamage: 45
+    homingPower: 0.96
+    homingRange: 55
+    weaveScale: 5
+    lifetime: 140
+    lightning: 3
+    weaveMag: 2
+    speed: 2.25
+    damage: 81
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    lightningColor: ffffff
+    frontColor: ffffff
+    trailColor: bf92f9
+    trailInterval: 15
+    backColor: bf92f9
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 31
+    }
+}
+    ]
+

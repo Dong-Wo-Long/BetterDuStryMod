@@ -1,0 +1,109 @@
+research: crawler
+
+stepShake: 0.7
+fogRadius: 29
+health: 690
+
+lightColor: 665c9f
+lightOpacity: 0.7
+lightRadius: 90
+
+weapons: [
+{
+    name: atrax-weapon
+    shootY: 3
+    reload: 9
+    recoil: 1
+    x: 7
+    y: 0
+
+    ejectEffect: none
+
+    shootSound: flame
+
+bullet: { 
+    type: LiquidBulletType
+    collideTerrain: true
+    collidesAir: false
+    liquid: slag
+
+    buildingDamageMultiplier: 1.32
+
+    knockback: 3.2
+    lifetime: 57
+    damage: 27.5
+    drag: 0.009
+    speed: 2.5
+
+    shootEffect: shootSmall
+
+    lightColor: ffa166
+    lightOpacity: 0.7
+    lightRadius: 32
+}
+    }
+
+{
+    name: purple-missiles
+    mirror: false
+    shootY: 1
+    shake: 7.5
+    x: 4.15
+    y: -5
+
+    velocityRnd: 0.45
+    inaccuracy: 15
+    reload: 300
+    recoil: 2
+    
+    shootSound: missile
+
+    shootStatusDuration: 120
+    shootStatus: slow
+shoot: {
+    shotDelay: 24
+    shots: 3
+}
+
+bullet: {
+    type: MissileBulletType
+    collidesGround: true
+    collidesTiles: false
+    keepVelocity: false
+    collidesAir: false
+    despawnShake: 7.5
+    shrinkX: 0.25
+    shrinkY: 0.5
+    drag: -0.003
+    height: 11
+    width: 11
+
+    buildingDamageMultiplier: 0.25
+
+    splashDamageRadius: 26
+    lightningLength: 5
+    lightningDamage: 9
+    homingPower: 0.11
+    splashDamage: 45
+    homingRange: 32
+    lightning: 3
+    lifetime: 80
+    damage: 32
+    speed: 2.5
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    lightningColor: ffffff
+    trailColor: bf92f9
+    trailInterval: 12
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 23.5
+
+    frontColor: ffffff
+    backColor: bf92f9
+    }
+}
+    ]

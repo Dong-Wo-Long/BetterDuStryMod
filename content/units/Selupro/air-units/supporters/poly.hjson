@@ -1,0 +1,78 @@
+research: mono
+
+itemCapacity: 32
+buildSpeed: 1.8
+fogRadius: 37.5
+mineSpeed: 3.2
+mineTier: 1
+health: 180
+speed: 3.25
+armor: 2
+
+trailLength: 6.25
+
+lightColor: 98ffa9
+lightOpacity: 0.7
+lightRadius: 62.5
+
+ammoType: {
+    type: PowerAmmoType
+    totalPower: 90
+}
+
+abilities: [
+{
+    type: RepairFieldAbility
+    reload: 240
+    amount: 24
+    range: 70
+    }
+]
+
+weapons: [
+{
+    name: poly-weapon
+    
+    alternate: true
+    inaccuracy: 15
+    recoil: 2
+    x: 3.75
+    y: -2.5
+    
+    velocityRnd: 0.25
+    reload: 50
+    
+    shootSound: missile
+    
+    ejectEffect: none
+
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    collidesTeam: true
+
+    homingPower: 1
+    healPercent: 7.5
+    homingRange: 180
+    weaveScale: 4
+    lifetime: 60
+    weaveMag: 4
+    damage: 32
+    speed: 4.8
+    
+    despawnEffect: hitLaser
+    shootEffect: shootHeal
+    smokeEffect: hitLaser
+    frontColor: ffffff
+    hitEffect: hitLaser
+    hitSound: none
+
+    trailColor: 98ffa9
+    backColor: 98ffa9
+
+    lightColor: 98ffa9
+    lightOpacity: 0.7
+    lightRadius: 25
+}
+    }
+]

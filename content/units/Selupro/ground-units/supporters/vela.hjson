@@ -1,0 +1,395 @@
+research: quasar
+
+rotateSpeed: 0.9
+stepShake: 7.5
+fogRadius: 30
+
+itemCapacity: 450
+health: 32000
+speed: 0.32
+armor: 69
+
+lightColor: 98ffa9
+lightOpacity: 0.7
+lightRadius: 125
+
+trailLength: 15
+
+immunities: [ burning ]
+
+weapons: [
+{
+name: vela-weapon
+
+    continuous: true
+    mirror: false
+    shootY: 14
+    top: false
+    recoil: 0
+    shake: 8
+    x: 0
+    y: 0
+
+    cooldownTime: 200
+    reload: 155
+
+    shootStatusDuration: 180
+    shootStatus: slow
+
+shoot: {
+    firstShotDelay: 60
+    lifetime: 1
+}
+
+    chargeSound: lasercharge2
+    shootSound: beam
+
+    parentizeEffects: true
+
+effects: [
+{
+    type: ParticleEffect
+    region: vela-weapon-heat
+    sizeFrom: 50
+    ength: 0
+
+    lifetime: 30
+    particles: 1
+
+    colorFrom: ffb380
+    colorTo: ffb380
+    }
+]
+
+bullet: {
+    type: ContinuousLaserBulletType
+    collidesTeam: true
+    despawnShake: 4.5
+    drawSize: 420
+    hitShake: 4.5
+    length: 180
+    shake: 5.5
+
+    lifetime: 160
+    damage: 140
+
+    incendChance: 0.1
+    incendSpread: 5
+    incendAmount: 1
+
+    healPercent: 5
+
+    chargeEffect: greenLaserChargeSmall
+    despawnEffect: smokeCloud
+    hitEffect: hitMeltHeal
+    smokeEffect: none
+
+    colors: [ 98ffa9, ffffff ]
+    lightColor: 98ffa9
+    lightOpacity: 0.7
+}
+    }
+
+{
+name: repair-bwc-large-green
+
+    type: RepairBeamWeapon
+    rotationLimit: 90
+    shootY: 6
+    x: 5
+    y: -2.5
+
+    repairSpeed: 1.4
+    beamWidth: 0.8
+
+bullet: {
+    maxRange: 120
+}
+    }
+
+{
+name: plasma-gun
+
+    controllable: false
+    layerOffset: -0.001
+    rotationLimit: 25
+    rotateSpeed: 0.8
+    autoTarget: true
+    alternate: false
+    shootCone: 360
+    mirror: true
+    rotate: true
+    recoil: 2
+    shake: 7
+    x: 14.5
+    y: 3.75
+
+    inaccuracy: 1.75
+    reload: 180
+
+shoot: {
+    firstShotDelay: 45
+    shotDelay: 15
+    shots: 3
+}
+
+    ejectEffect: casing1
+    shootSound: laser
+
+bullet: {
+    type: LaserBoltType
+    collideTerrain: true
+    despawnShake: 5
+    hitShake: 5
+    height: 9
+    width: 5
+
+    splashDamageRadius: 20
+    homingPower: 0.6
+    splashDamage: 48
+    homingRange: 50
+    healPercent: 9
+    weaveScale: 5
+    lifetime: 40
+    weaveMag: 3
+    damage: 96
+    speed: 4
+
+    trailColor: 84f491
+    trailLength: 5.25
+    trailWidth: 1.75
+
+    frontColor: ffffff
+    backColor: 84f491
+
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 25
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+    parentizeEffects: true
+
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    sizeFrom: 7.5
+    sizeTo: 0
+
+    lifetime: 45
+
+    colorFrom: 84f491
+    colorTo: ffffff
+    }
+}
+    }
+
+{
+name: plasma-cannon-mount
+
+    rotationLimit: 135
+    baseRotation: -45
+    rotateSpeed: 1.5
+    shootCone: 60
+    mirror: false
+    rotate: true
+    recoil: 3
+    shake: 21
+    x: 11
+    y: -8
+
+    inaccuracy: 3
+    reload: 420
+
+    shootEffect: shootSmall
+    shootSound: artillery
+    ejectEffect: casing2
+
+    shootStatusDuration: 180
+    shootStatus: slow
+shoot: {
+    shotDelay: 32
+    shots: 3
+}
+
+bullet: {
+    type: EmpBulletType
+    sprite: mine-bullet
+    collidesAir: false
+    despawnShake: 12.5
+    hitShake: 12.5
+    shrinkX: 0.5
+    shrinkY: 0.25
+    height: 18
+    width: 18
+
+    splashDamageRadius: 60
+    statusDuration: 300
+    status: electrified
+    splashDamage: 120
+    healPercent: 21
+    knockback: 0.8
+    lifetime: 210
+    damage: 140
+    speed: 1.25
+
+    smokeEffect: shootBigSmoke2
+
+    hitSound: plasmaboom
+
+    trailEffect: hitSquaresColor
+    trailInterval: 5.45
+    trailColor: 84f491
+    trailLength: 7.25
+    trailWidth: 3.25
+
+    frontColor: ffffff
+    backColor: 84f491
+
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 75
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 40
+
+    waveColor: 84f491
+    waveStroke: 4
+    waveRad: 90
+
+    smokeColor: 84f491
+    smokeSizeBase: 0
+    smokeSize: 5
+    smokes: 8
+
+    sparkColor: 84f491
+    sparkStroke: 3
+    sparkRad: 40
+    sparkLen: 4
+    sparks: 8
+    }
+}
+    }
+
+{
+    name: double-machine-gun
+
+    controllable: false
+    rotationLimit: 180
+    baseRotation: 45
+    rotateSpeed: 3.2
+    autoTarget: true
+    shootCone: 45
+    mirror: false
+    rotate: true
+    shootY: 4.5
+    recoils: 2
+    recoil: 1
+    shake: 5
+    x: -12
+    y: -7.5
+
+    cooldownTime: 180
+    reload: 14.5
+
+    ejectEffect: casing2Double
+    shootSound: auto-cannon-shot
+shoot: { 
+    type: ShootMulti
+source: {
+    type: ShootAlternate
+    barrels: 2
+    spread: 4
+    shots: 1
+    }
+
+dest: [ 
+{
+    type: ShootSpread
+    spread: 4
+    shots: 1
+    }
+]
+    }
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl-2
+    progress: recoil
+    recoilIndex: 1
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+}
+    }
+
+{
+    type: RegionPart
+    suffix: -brl-1
+    progress: recoil
+    recoilIndex: 0
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+    }
+}
+    ]
+
+bullet: {
+    type: FlakBulletType
+    collidesGround: false
+    despawnShake: 3.2
+    hitShake: 3.2
+    hitSize: 3
+    height: 15
+    width: 9
+
+    splashDamageRadius: 26
+    statusDuration: 45
+    splashDamage: 47.5
+    status: blasted
+    pierceCap: 32
+    lifetime: 80
+    speed: 3.2
+
+    despawnEffect: hitBulletColor
+    shootEffect: shootSmallColor
+    smokeEffect: shootBigSmoke
+    hitEffect: blastExplosion
+    hitSound: auto-cannon-hit
+
+    lightColor: 62ae7f
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    trailInterp: slope
+    trailColor: 62ae7f
+    trailLength: 41.5
+    trailWidth: 2.1
+
+    frontColor: ffffff
+    backColor: 62ae7f
+    hitColor: ffffff
+    }
+}
+    ]

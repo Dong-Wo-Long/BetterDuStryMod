@@ -1,0 +1,59 @@
+research: flare
+
+rotateSpeed: 7.5
+faceTarget: true
+fogRadius: 19.5
+
+ammoType: pyratite
+health: 360
+speed: 2.5
+
+trailLength: 9.5
+
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 52
+
+targetFlags: [ generator, unitAssembler, factory, storage, battery, drill ]
+
+weapons: [
+{
+    minShootVelocity: 0.75
+    ignoreRotation: true
+    shootCone: 360
+    shootY: 0
+    x: 0
+    y: 0
+
+    shootStatusDuration: 7.5
+    shootStatus: slow
+    reload: 14.5
+
+    ejectEffect: none
+    shootSound: none
+
+bullet: {
+    type: BombBulletType
+    despawnShake: 3.25
+    hitShake: 3.25
+    maxRange: 90
+    height: 14
+    width: 14
+
+    splashDamageRadius: 36.5
+    statusDuration: 180
+    splashDamage: 41.5
+    status: burning
+    lifetime: 90
+    damage: 32.5
+
+    hitEffect: flakExplosion
+    shootEffect: none
+    smokeEffect: none
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 45
+}
+    }
+]

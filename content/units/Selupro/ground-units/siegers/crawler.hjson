@@ -1,0 +1,43 @@
+research: ground-factory
+
+stepShake: 0.05
+fogRadius: 5
+range: 25
+
+lightColor: 665c9f
+lightOpacity: 0.7
+lightRadius: 47.5
+
+weapons: [
+    {
+    shootOnDeath: true
+    shootCone: 160
+    mirror: false
+    shootY: 0
+    x: 0
+
+    reload: 80
+
+    shootSound: explosion
+    ejectEffect: none
+
+bullet: {
+    instantDisappear: true
+    collidesTiles: false
+    killShooter: true
+    collidesAir: true
+    hittable: false
+    collides: false
+
+    buildingDamageMultiplier: 1.45
+
+    splashDamageRadius: 55
+    rangeOverride: 15
+    splashDamage: 120
+    speed: 0
+
+    hitEffect: pulverize
+    hitSound: explosion
+    }
+}
+    ]

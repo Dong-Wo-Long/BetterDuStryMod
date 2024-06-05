@@ -1,0 +1,427 @@
+research: quad
+
+fallSpeed: 0.0012
+faceTarget: true
+fogRadius: 55
+
+crashDamageMultiplier: 12.5
+
+itemCapacity: 18000
+itemOffsetY: -4.5
+rotateSpeed: 0.25
+buildSpeed: 3.2
+mineSpeed: 4.5
+health: 48000
+mineTier: 4
+speed: 0.32
+armor: 121
+
+trailLength: 41.5
+
+lightColor: 98ffa9
+lightOpacity: 0.7
+lightRadius: 215
+
+abilities: [
+{
+    type: EnergyFieldAbility
+    sameTypeHealMult: 1.25
+    statusDuration: 500
+    healPercent: 32
+    maxTargets: 25
+    damage: 181
+    reload: 75
+    range: 256
+    x: 0
+    y: -5
+    }
+{
+    type: ForceFieldAbility
+    cooldown: 1800
+    radius: 125
+    regen: 7.5
+    sides: 8
+    max: 32000
+    }
+
+{
+    type: RepairFieldAbility
+    reload: 1800
+    amount: 1250
+    range: 180
+    }
+]
+
+immunities: [ shocked, blasted, electrified, burning ]
+
+weapons: [
+{
+    controllable: false
+    baseRotation: -180
+    rotateSpeed: 0.5
+    autoTarget: true
+    alternate: false
+    shootCone: 45
+    rotate: false
+    mirror: false
+    x: 0
+    y: -13
+
+    reload: 900
+
+    heatColor: f9350f
+
+    shootSound: missile
+
+shoot: { 
+    shotDelay: 48
+    shots: 12
+}
+
+bullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    despawnShake: 4.5
+    hitShake: 4.5
+    shrinkX: 0.5
+    shrinkY: 0.5
+    height: 9
+    width: 9
+
+    buildingDamageMultiplier: 0.75
+
+    splashDamageRadius: 20
+    statusDuration: 180
+    splashDamage: 75
+    homingRange: 180
+    status: burning
+    homingPower: 1
+    lifetime: 121
+    damage: 90
+    speed: 2.5
+
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 24.5
+
+    trailColor: 84f491
+    trailLength: 15
+    trailWidth: 1.5
+
+    frontColor: ffffff
+    backColor: 84f491
+    hitColor: 84f491
+
+    smokeEffect: shootBigSmoke
+    shootEffect: shootBigColor
+    despawnEffect: explosion
+    hitSound: dullExplosion
+}
+    }
+
+{
+    controllable: false
+    baseRotation: -135
+    rotateSpeed: 0.5
+    autoTarget: true
+    alternate: false
+    shootCone: 45
+    rotate: false
+    x: 17.5
+    y: 1.5
+
+    reload: 600
+
+    heatColor: f9350f
+
+    shootSound: missile
+
+shoot: { 
+    shotDelay: 32
+    shots: 9
+}
+
+bullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    despawnShake: 4.5
+    hitShake: 4.5
+    shrinkX: 0.5
+    shrinkY: 0.5
+    height: 7.5
+    width: 7.5
+
+    buildingDamageMultiplier: 0.5
+
+    splashDamageRadius: 24
+    statusDuration: 180
+    splashDamage: 121
+    homingRange: 180
+    status: burning
+    homingPower: 1
+    lifetime: 142
+    damage: 181
+    speed: 2.5
+
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 24.5
+
+    trailColor: 84f491
+    trailLength: 15
+    trailWidth: 1.5
+
+    frontColor: ffffff
+    backColor: 84f491
+    hitColor: 84f491
+
+    smokeEffect: shootBigSmoke
+    shootEffect: shootBigColor
+    despawnEffect: explosion
+    hitSound: dullExplosion
+}
+    }
+
+{
+    controllable: false
+    rotateSpeed: 0.5
+    autoTarget: true
+    alternate: false
+    shootCone: 90
+    rotate: false
+    mirror: false
+    x: 0
+    y: 5
+
+    reload: 480
+
+    heatColor: f9350f
+
+    shootSound: missile
+
+shoot: { 
+    shotDelay: 24
+    shots: 6
+}
+
+bullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    despawnShake: 4.5
+    hitShake: 4.5
+    shrinkX: 0.5
+    shrinkY: 0.5
+    height: 12
+    width: 12
+
+    buildingDamageMultiplier: 0.25
+
+    splashDamageRadius: 26
+    statusDuration: 180
+    splashDamage: 256
+    homingRange: 180
+    status: burning
+    homingPower: 1
+    lifetime: 122
+    damage: 181
+    speed: 2.5
+
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 24.5
+
+    trailColor: 84f491
+    trailLength: 15
+    trailWidth: 1.5
+
+    frontColor: ffffff
+    backColor: 84f491
+    hitColor: 84f491
+
+    smokeEffect: shootBigSmoke
+    shootEffect: shootBigColor
+    despawnEffect: explosion
+    hitSound: dullExplosion
+}
+    }
+
+{
+    name: hidden-oct-weapon
+
+    controllable: false
+    layerOffset: -0.001
+    rotationLimit: 60
+    baseRotation: -45
+    rotateSpeed: 0.8
+    autoTarget: true
+    alternate: false
+    rotate: true
+    shootY: 7.5
+    recoil: 1
+    x: 24
+    y: 15.5
+
+    cooldownTime: 60
+    reload: 90
+
+    heatColor: f9350f
+
+    shootSound: railgun
+
+shoot: { 
+    type: ShootAlternate
+    shotDelay: 12
+    barrels: 2
+    spread: 3.2
+    shots: 6
+}
+
+bullet: {
+    type: BasicBulletType
+    sprite: missile-large
+    collideTerrain: true
+    collidesAir: false
+    pierceArmor: true
+    hitSize: 4
+    height: 15
+    width: 7
+
+    buildingDamageMultiplier: 1.25
+
+    splashDamageRadius: 36
+    splashDamage: 320
+    pierceCap: 32
+    lifetime: 60
+    damage: 250
+    speed: 3.2
+
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    trailColor: 84f491
+    trailWidth: 1.7
+    trailLength: 5
+
+    frontColor: ffffff
+    backColor: 84f491
+    hitColor: 84f491
+
+    despawnEffect: hitBulletColor
+    smokeEffect: shootBigSmoke
+    shootEffect: shootBigColor
+    hitSound: dullExplosion
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 50
+
+    waveColor: 84f491
+    waveStroke: 4
+    waveRad: 60
+
+    smokeColor: 84f491
+    smokeSizeBase: 0
+    smokeSize: 5
+    smokes: 8
+
+    sparkColor: 84f491
+    sparkStroke: 3
+    sparkRad: 40
+    sparkLen: 4
+    sparks: 8
+    }
+}
+
+    }
+{
+    name: hidden-oct-weapon
+
+    controllable: false
+    layerOffset: -0.001
+    baseRotation: -135
+    rotationLimit: 60
+    rotateSpeed: 0.8
+    autoTarget: true
+    alternate: false
+    rotate: true
+    shootY: 7.5
+    recoil: 1
+    x: 24
+    y: -31
+
+    cooldownTime: 60
+    reload: 90
+
+    heatColor: f9350f
+
+    shootSound: railgun
+
+shoot: { 
+    type: ShootAlternate
+    shotDelay: 12
+    barrels: 2
+    spread: 3.2
+    shots: 6
+}
+
+bullet: {
+    type: BasicBulletType
+    sprite: missile-large
+    collideTerrain: true
+    collidesAir: false
+    pierceArmor: true
+    hitSize: 4
+    height: 15
+    width: 7
+
+    buildingDamageMultiplier: 1.25
+
+    splashDamageRadius: 36
+    splashDamage: 320
+    pierceCap: 32
+    lifetime: 60
+    damage: 250
+    speed: 3.2
+
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    trailColor: 84f491
+    trailWidth: 1.7
+    trailLength: 5
+
+    frontColor: ffffff
+    backColor: 84f491
+    hitColor: 84f491
+
+    despawnEffect: hitBulletColor
+    smokeEffect: shootBigSmoke
+    shootEffect: shootBigColor
+    hitSound: dullExplosion
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 50
+
+    waveColor: 84f491
+    waveStroke: 4
+    waveRad: 60
+
+    smokeColor: 84f491
+    smokeSizeBase: 0
+    smokeSize: 5
+    smokes: 8
+
+    sparkColor: 84f491
+    sparkStroke: 3
+    sparkRad: 40
+    sparkLen: 4
+    sparks: 8
+}
+    }
+}
+    ]

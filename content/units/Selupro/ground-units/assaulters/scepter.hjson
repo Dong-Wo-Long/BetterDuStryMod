@@ -1,0 +1,118 @@
+research: fortress
+
+rotateSpeed: 1.32
+stepShake: 8.75
+fogRadius: 34.5
+
+itemCapacity: 900
+health: 48000
+speed: 0.35
+armor: 81
+
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 140
+
+immunities: [ burning, shocked ]
+
+weapons: [
+{
+name: scepter-weapon
+
+    inaccuracy: 3
+    shootCone: 45
+    shootY: 8
+    recoil: 5
+    shake: 12
+    y: 1
+    x: 16
+
+    reload: 75
+
+    ejectEffect: casing3
+
+    shootSound: bang
+
+shoot: {
+    shotDelay: 4
+    shots: 3
+}
+
+bullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    despawnShake: 15
+    hitShake: 15
+    height: 20
+    width: 11
+
+    lifetime: 38
+    damage: 181
+    speed: 7
+
+    lightningColor: f3e979
+    lightningDamage: 41.5
+    lightningLength: 7
+    lightning: 3
+
+    shootEffect: shootBig
+
+    frontColor: ffffff
+    backColor: f3e979
+
+    lightColor: f3e979
+    lightOpacity: 0.7
+    lightRadius: 37.5
+}
+    }
+
+{
+name: mount-weapon
+    rotate: true
+    x: 8.5
+    y: 6
+
+    reload: 7
+
+    ejectEffect: casing1
+
+bullet: {
+    type: BasicBulletType
+    height: 9
+    width: 7
+
+    lifetime: 50
+    damage: 32
+    speed: 4.5
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 21
+}
+    }
+
+{
+name: mount-weapon
+    rotate: true
+    x: 8.5
+    y: -7
+
+    reload: 9
+
+    ejectEffect: casing1
+
+bullet: {
+    type: BasicBulletType
+    height: 9
+    width: 7
+
+    lifetime: 50
+    damage: 32
+    speed: 4.5
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 21
+}
+    }
+]

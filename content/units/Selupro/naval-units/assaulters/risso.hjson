@@ -1,0 +1,128 @@
+research: naval-factory
+
+rotateSpeed: 3.2
+fogRadius: 35
+speed: 1.25
+
+health: 750
+armor: 5
+
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 62.5
+
+weapons: [
+{
+    name: selupro-machine-gun
+
+    rotationLimit: 275
+    rotateSpeed: 2
+    mirror: false
+    rotate: true
+    shootY: 4
+    x: 0
+    y: 3
+
+    cooldownTime: 120
+    inaccuracy: 3.2
+    reload: 6
+
+    shootSound: machine-gun-shot
+    ejectEffect: casing1
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl
+    progress: recoil
+    outline: false
+    mirror: false
+    moveY: -0.75
+    under: true
+    x: 0
+    y: 1
+}
+    ]
+
+bullet: {
+    type: BasicBulletType
+    removeAfterPierce: false
+    collideTerrain: true
+    ammoMultiplier: 2
+    height: 8.5
+    width: 6.5
+
+    pierceDamageFactor: 0.75
+
+    pierceCap: 5
+    lifetime: 35
+    damage: 7.5
+    speed: 7.5
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 20
+
+    trailColor: f9c27a
+    trailLength: 27.5
+    trailWidth: 1.25
+}
+    }
+
+{
+    name: missiles-mount
+
+    rotate: true
+    mirror: false
+    shake: 2.75
+    x: 0
+    y: -5
+
+    velocityRnd: 0.32
+    inaccuracy: 5
+    reload: 180
+
+    shootSound: missile
+shoot: {
+    shotDelay: 15
+    shots: 5
+    }
+
+bullet: {
+    type: MissileBulletType
+    pierceBuilding: true
+    keepVelocity: true
+    despawnShake: 2.5
+    hitShake: 2.5
+    pierceCap: 2
+    pierce: true
+    drag: -0.003
+    shrinkY: 0
+    height: 8
+    width: 8
+
+    pierceDamageFactor: 0.75
+
+    splashDamageRadius: 25.5
+    splashDamage: 21.5
+    homingRange: 60
+    weaveScale: 8
+    lifetime: 96
+    damage: 24.5
+    weaveMag: 2
+    speed: 2
+
+    trailColor: 454545
+
+    frontColor: fff8e8
+    backColor: f9c27a
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 27.5
+    }
+}
+    ]

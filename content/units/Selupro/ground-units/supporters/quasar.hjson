@@ -1,0 +1,139 @@
+research: pulsar
+
+forceMultiTarget: true
+stepShake: 2.65
+fogRadius: 32.5
+
+itemCapacity: 140
+health: 2100
+armor: 15
+
+lightColor: 98ffa9
+lightOpacity: 0.7
+lightRadius: 90
+
+trailLength: 12.5
+engineOffset: 7
+engineSize: 3.5
+
+abilities: [
+    {
+    type: ForceFieldAbility 
+    cooldown: 720
+    radius: 70
+    regen: 0.3
+    sides: 4
+    max: 1200
+    }
+]
+
+weapons: [
+{
+    name: quasar-weapon
+    predictTarget: true
+    shootCone: 160
+    shake: 11.5
+    recoil: 4
+    shootY: 4
+    x: 6.5
+
+    reload: 55
+
+    shootSound: laser
+
+bullet: {
+    type: LaserBulletType
+    collidesTeam: true
+    length: 150
+    recoil: 1
+    width: 25
+
+    healPercent: 25
+    damage: 96
+
+    colors: [ 84f491, 84f491, ffffff ]
+}
+    }
+
+{
+    name: hidden-pm-mount
+    layerOffset: -0.001
+    baseRotation: -115
+    alternate: false
+    shootCone: 360
+    rotate: false
+    shootY: 5.25
+    shake: 5
+    x: 5
+    y: -1.5
+
+    velocityRnd: 0.2
+    inaccuracy: 30
+    reload: 275
+    recoil: -5
+    shake: 1
+
+shoot: { 
+    shotDelay: 6
+    shots: 2
+}
+
+    shootSound: missile
+
+bullet: {
+    type: MissileBulletType
+    collideTerrain: true
+    keepVelocity: false
+    collidesTeam: true
+    collidesAir: false
+    despawnShake: 3
+    shrinkX: 0.25
+    shrinkY: 0.5
+    drag: -0.003
+    hitShake: 3
+    height: 9
+    width: 9
+
+    splashDamageRadius: 15
+    homingPower: 0.65
+    splashDamage: 45
+    homingRange: 45
+    healPercent: 7
+    weaveScale: 4
+    lifetime: 106
+    weaveMag: 2
+    damage: 32
+    speed: 2
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    frontColor: ffffff
+    trailColor: 62ae7f
+    trailInterval: 12
+    backColor: 62ae7f
+
+    lightColor: 98ffa9
+    lightOpacity: 0.7
+    lightRadius: 27
+}
+    }
+
+{
+    name: repair-bwc-green
+    type: RepairBeamWeapon
+    rotationLimit: 45
+    mirror: false
+    rotate: true
+    shootY: 3
+    x: 2
+    y: -4.5
+
+    repairSpeed: 0.15
+    beamWidth: 0.6
+
+bullet: {
+    maxRange: 100
+    }
+}
+    ]

@@ -1,0 +1,53 @@
+research: core-shard
+researchCostMultiplier: 0
+
+itemCapacity: 75
+buildSpeed: 0.75
+mineSpeed: 6.75
+health: 170
+speed: 4.1
+
+trailLength: 5.2
+
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 60
+
+weapons: [
+{
+name: alpha-weapon
+    
+    alternate: false
+    inaccuracy: 7
+    x: 2.75
+    y: 1
+    
+    reload: 25
+
+    ejectEffect: casing1
+
+shoot: {
+    shotDelay: 7
+    shots: 3
+}
+
+bullet: {
+    type: BasicBulletType
+    height: 9
+    width: 7
+    
+    buildingDamageMultiplier: 0.01
+
+    lifetime: 67.5
+    damage: 11.5
+    speed: 3.2
+
+    smokeEffect: shootSmallSmoke
+    shootEffect: shootSmall
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 17.5
+}
+    }
+]

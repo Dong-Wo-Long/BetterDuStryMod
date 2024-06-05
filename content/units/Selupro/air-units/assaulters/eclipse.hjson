@@ -1,0 +1,532 @@
+research: antumbra
+
+circleTarget: true
+fallSpeed: 0.0021
+rotateSpeed: 0.8
+fogRadius: 41.5
+
+crashDamageMultiplier: 7.5
+
+itemCapacity: 4500
+ammoType: thorium
+health: 48000
+speed: 0.7
+armor: 144
+
+trailLength: 46
+
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 145
+
+immunities: [ burning, blasted, shocked ]
+
+targetFlags: [ turret, repair, extinguisher, hasFogRadius, unitAssembler, unitCargoUnloadPoint, launchPad, reactor, generator, battery, factory, storage, drill, core ]
+
+abilities: [
+{
+    type: ShieldArcAbility
+    region: bsm-eclipse-shield
+    radius: 52.5
+    angle: 54.5
+    width: 10.5
+    y: -7
+
+    cooldown: 900
+    regen: 3.2
+    max: 12500
+    }
+{
+    type: ShieldRegenFieldAbility
+    range: 0
+
+    reload: 1050
+    amount: 3200
+    max: 24500
+    }
+{
+    type: ShieldRegenFieldAbility
+    range: 500
+
+    reload: 1050
+    amount: 320
+    max: 1250
+    }
+]
+
+weapons: [
+{
+name: mount-weapon
+
+    predictTarget: false
+    controllable: false
+    layerOffset: -0.001
+    rotationLimit: 30
+    baseRotation: 7.5
+    autoTarget: true
+    alternate: false
+    inaccuracy: 5
+    shootCone: 7.5
+    rotate: true
+    shake: 1.1
+    x: 3
+    y: 37
+
+    velocityRnd: 0.02
+    reload: 2.25
+
+    ejectEffect: casing1
+
+    shootSound: shoot
+
+bullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    keepVelocity: false
+    height: 9
+    width: 7
+
+    buildingDamageMultiplier: 0.5
+
+    lifetime: 60
+    damage: 121
+    speed: 4.5
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 21
+}
+    }
+
+{
+name: large-caliber-minigun
+
+    predictTarget: false
+    layerOffset: -0.001
+    rotationLimit: 7.5
+    baseRotation: 9
+    rotateSpeed: 2
+    inaccuracy: 11
+    shootCone: 30
+    rotate: true
+    shootY: 10
+    shadow: 8
+    shake: 3
+    x: 12
+    y: 26
+
+    velocityRnd: 0.09
+    reload: 0.75
+    
+    ejectEffect: casing1
+
+    shootSound: shootBig
+    
+bullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    keepVelocity: false
+    collidesAir: false
+    despawnShake: 5
+    pierceCap: 7
+    pierce: true
+    hitShake: 5
+    height: 15
+    width: 9
+
+    buildingDamageMultiplier: 0.01
+
+    splashDamageRadius: 26
+    splashDamage: 121
+    lifetime: 45
+    damage: 175
+    speed: 6.75
+
+    hitEffect: flakExplosion
+    shootEffect: shootBig
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 37.5
+}
+    }
+
+{
+name: orange-bsw
+    
+    type: PointDefenseWeapon
+    targetSwitchInterval: 15
+    targetInterval: 10
+    rotationLimit: 150
+    mirror: false
+    shadow: 9
+    x: 0
+    y: -7
+
+    reload: 4.5
+
+    shootSound: lasershoot
+
+bullet: {
+    maxRange: 130
+
+    damage: 64
+
+    shootEffect: sparkShoot
+    hitEffect: pointHit
+}
+    }
+{
+name: orange-bsw
+    
+    type: PointDefenseWeapon
+    targetSwitchInterval: 15
+    targetInterval: 10
+    rotationLimit: 250
+    baseRotation: -45
+    shadow: 9
+    x: 6
+    y: -27
+
+    reload: 6.5
+
+    shootSound: lasershoot
+
+bullet: {
+    maxRange: 170
+
+    damage: 75
+
+    shootEffect: sparkShoot
+    hitEffect: pointHit
+}
+    }
+
+{
+name: large-mm
+
+    rotationLimit: 15
+    baseRotation: 30
+    alternate: false
+    shootCone: 30
+    rotate: true
+    shake: 4
+    x: 11.5
+    y: 24
+
+    velocityRnd: 0.3
+    inaccuracy: 32
+    reload: 210
+
+    shootSound: missile
+
+    shootStatusDuration: 65
+    shootStatus: slow
+shoot: {
+    shotDelay: 6
+    shots: 6
+}
+
+bullet: {
+    type: MissileBulletType
+    collideTerrain: true
+    keepVelocity: false
+    despawnShake: 7
+    shrinkX: 0.25
+    shrinkY: 0.5
+    drag: -0.003
+    hitShake: 7
+    height: 8
+    width: 8
+
+    splashDamageRadius: 24
+    statusDuration: 90
+    splashDamage: 256
+    homingPower: 0.25
+    homingRange: 25
+    status: burning
+    weaveScale: 6
+    lifetime: 75
+    weaveMag: 1
+    damage: 181
+    speed: 2.8
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    frontColor: ffa665
+    trailColor: d06b53
+    backColor: d06b53
+
+    lightColor: d06b53
+    lightOpacity: 0.7
+    lightRadius: 41.5
+}
+    }
+{
+name: large-mm
+
+    rotationLimit: 15
+    baseRotation: 30
+    alternate: false
+    shootCone: 30
+    rotate: true
+    shake: 4
+    x: 19.5
+    y: 19.5
+
+    velocityRnd: 0.4
+    inaccuracy: 45
+    reload: 250
+
+    shootSound: missile
+
+    shootStatusDuration: 65
+    shootStatus: slow
+shoot: {
+    shotDelay: 6
+    shots: 6
+}
+
+bullet: {
+    type: MissileBulletType
+    collideTerrain: true
+    keepVelocity: false
+    despawnShake: 7
+    shrinkX: 0.25
+    shrinkY: 0.5
+    drag: -0.003
+    hitShake: 7
+    height: 8
+    width: 8
+
+    splashDamageRadius: 26
+    statusDuration: 90
+    splashDamage: 361
+    homingPower: 0.5
+    homingRange: 32
+    status: burning
+    weaveScale: 6
+    lifetime: 75
+    weaveMag: 1
+    damage: 256
+    speed: 2.8
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    frontColor: ffa665
+    trailColor: d06b53
+    backColor: d06b53
+
+    lightColor: d06b53
+    lightOpacity: 0.7
+    lightRadius: 41.5
+}
+    }
+{
+name: large-mm
+
+    controllable: false
+    rotationLimit: 45
+    baseRotation: -30
+    autoTarget: true
+    alternate: false
+    shootCone: 60
+    rotate: true
+    shake: 4
+    x: 24.5
+    y: -1.5
+
+    velocityRnd: 0.5
+    inaccuracy: 21
+    reload: 230
+
+    shootSound: missile
+
+    shootStatusDuration: 65
+    shootStatus: slow
+shoot: {
+    shotDelay: 6
+    shots: 9
+}
+
+bullet: {
+    type: MissileBulletType
+    collidesGround: false
+    keepVelocity: false
+    despawnShake: 7
+    shrinkX: 0.25
+    shrinkY: 0.5
+    drag: -0.003
+    hitShake: 7
+    height: 8
+    width: 8
+
+    splashDamageRadius: 36
+    splashDamage: 256
+    homingRange: 75
+    status: blasted
+    homingPower: 1
+    weaveScale: 6
+    lifetime: 75
+    weaveMag: 1
+    damage: 181
+    speed: 3.2
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    frontColor: ffa665
+    trailColor: d06b53
+    backColor: d06b53
+
+    lightColor: d06b53
+    lightOpacity: 0.7
+    lightRadius: 41.5
+}
+    }
+
+{
+name: large-artillery
+
+    controllable: false
+    rotationLimit: 100
+    baseRotation: -135
+    rotateSpeed: 2.1
+    autoTarget: true
+    alternate: false
+    inaccuracy: 9
+    shootCone: 30
+    rotate: true
+    shadow: 17.5
+    shake: 11
+    x: 18.5
+    y: -17
+
+    reload: 180
+    
+    shootEffect: shootSmall
+    ejectEffect: casing2
+
+    shootSound: artillery
+
+    shootStatusDuration: 75
+    shootStatus: slow
+shoot: {
+    shotDelay: 23
+    shots: 5
+}
+    
+bullet: {
+    type: ArtilleryBulletType
+    pierceBuilding: true
+    collidesTiles: true
+    collidesAir: false
+    despawnShake: 9
+    pierceCap: 5
+    shrinkX: 0.3
+    shrinkY: 0.5
+    pierce: true
+    height: 23.5
+    width: 19.5
+
+    splashDamageRadius: 40
+    fragRandomSpread: 360
+    splashDamage: 361
+    fragBullets: 3
+    fragLifeMin: 0
+    knockback: 0.8
+    lifetime: 120
+    speed: 2.25
+
+    hitEffect: blastExplosion
+
+    trailEffect: artilleryTrail
+    trailInterval: 9.5
+    trailColor: f9c27a
+    frontColor: fff8e8
+    backColor: f9c27a
+    trailLength: 3
+    trailWidth: 1
+    trailSize: 4
+
+    lightColor: f9c27a
+    lightOpacity: 0.7
+    lightRadius: 67.5
+
+fragBullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    pierceBuilding: true
+    collidesAir: false
+    despawnShake: 1.75
+    hitShake: 1.75
+    pierce: true
+    height: 5
+    width: 5
+
+    buildingDamageMultiplier: 0.5
+
+    splashDamageRadius: 26
+    splashDamage: 75
+    pierceCap: 3
+    lifetime: 60
+    damage: 121
+    speed: 1.5
+
+    hitEffect: flakExplosion
+
+    trailInterval: 6.5
+    trailColor: ffa665
+
+    lightColor: ffa665
+    lightOpacity: 0.7
+    lightRadius: 17
+    }
+}
+    }
+
+{
+name: large-laser-mount
+    
+    predictTarget: false
+    rotationLimit: 15
+    baseRotation: 15
+    rotateSpeed: 1.8
+    inaccuracy: 11
+    rotate: true
+    shadow: 20
+    shootY: 9
+    recoil: 4
+    shake: 6
+    x: 15
+    y: 2
+
+    reload: 320
+
+    shootSound: laser
+
+shoot: {
+    shotDelay: 15
+    shots: 5
+}
+
+bullet: {
+    type: LaserBulletType
+    sideLength: 80
+    sideWidth: 1.5
+    sideAngle: 20
+    length: 270
+    width: 27.5
+
+    buildingDamageMultiplier: 1.25
+
+    damage: 181
+    
+    shootEffect: shockwave
+
+    colors: [ ec7458aa, ff9c5a, ffffff ]
+}
+    }
+]

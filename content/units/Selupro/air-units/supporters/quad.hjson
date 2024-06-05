@@ -1,0 +1,324 @@
+research: mega
+
+fallSpeed: 0.0025
+faceTarget: true
+fogRadius: 64
+
+crashDamageMultiplier: 5
+
+itemCapacity: 800
+buildSpeed: 2.4
+fogRadius: 62.5
+health: 24000
+mineSpeed: 8
+mineTier: 3
+speed: 1.1
+armor: 49
+
+trailLength: 21.5
+
+lightColor: 98ffa9
+lightOpacity: 0.7
+lightRadius: 75
+
+ammoType: {
+    type: PowerAmmoType
+    totalPower: 7500
+}
+
+abilities: [
+{
+    type: ShieldRegenFieldAbility
+    range: 0
+
+    reload: 900
+    amount: 320
+    max: 12000
+    }
+{
+    type: RepairFieldAbility
+    reload: 150
+    amount: 180
+    range: 60
+    }
+]
+
+immunities: [ shocked, blasted, electrified ]
+
+targetFlags: [ turret, repair, extinguisher, hasFogRadius, unitAssembler, unitCargoUnloadPoint, launchPad, reactor, generator, battery, factory, storage, drill, core ]
+
+weapons: [
+{
+    minShootVelocity: 0.01
+    soundPitchMin: 1
+    mirror: false
+    x: 0
+    y: 0
+
+    reload: 75
+
+    shootSound: plasmadrop
+
+    shootStatusDuration: 32
+    shootStatus: slow
+
+bullet: {
+    type: BasicBulletType
+    ignoreRotation: true
+    keepVelocity: false
+    collidesAir: false
+    sprite: large-bomb
+    despawnShake: 11
+    collides: false
+    shootCone: 180
+    maxRange: 625
+    hitShake: 11
+    shrinkX: 0.7
+    shrinkY: 0.7
+    height: 30
+    width: 30
+    spin: 2
+
+    buildingDamageMultiplier: 1.5
+
+    splashDamageRadius: 60
+    statusDuration: 900
+    status: electrified
+    splashDamage: 500
+    healPercent: 1.8
+    pierceCap: 32
+    lifetime: 70
+    speed: 0
+
+    hitEffect: massiveExplosion
+    despawnEffect: greenBomb
+    ejectEffect: none
+
+    frontColor: ffffff
+    mixColorTo: ffffff
+    backColor: 84f491
+
+    hitSound: plasmaboom
+}
+    }
+
+{
+    name: rocket-plasma-mount
+
+    controllable: false
+    layerOffset: -0.001
+    autoTarget: true
+    shootCone: 45
+    recoil: 2.5
+    shake: 1.5
+    x: 17.5
+    y: 12.5
+
+    velocityRnd: 0.25
+    reload: 200
+
+    shootSound: missile
+
+shoot: {
+    shotDelay: 32
+    shots: 2
+}
+
+bullet: {
+    type: MissileBulletType
+    collideTerrain: true
+    keepVelocity: false
+    collidesTeam: true
+    despawnShake: 3.25
+    hitShake: 3.25
+
+    splashDamageRadius: 36
+    statusDuration: 450
+    status: electrified
+    splashDamage: 47.5
+    healPercent: 0.5
+    homingRange: 320
+    homingPower: 1
+    lifetime: 280
+    damage: 41.5
+    speed: 1.75
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    frontColor: ffffff
+    trailColor: 98ffa9
+    backColor: 98ffa9
+}
+    }
+{
+    name: rocket-plasma-mount
+
+    controllable: false
+    layerOffset: -0.001
+    autoTarget: true
+    shootCone: 45
+    recoil: 2.5
+    shake: 1.5
+    x: 15
+    y: 16.5
+
+    velocityRnd: 0.25
+    reload: 180
+
+    shootSound: missile
+
+shoot: {
+    shotDelay: 32
+    shots: 2
+}
+
+bullet: {
+    type: MissileBulletType
+    collideTerrain: true
+    keepVelocity: false
+    collidesTeam: true
+    despawnShake: 3.25
+    hitShake: 3.25
+
+    splashDamageRadius: 36
+    statusDuration: 450
+    status: electrified
+    splashDamage: 47.5
+    homingPower: 0.05
+    healPercent: 0.5
+    homingRange: 320
+    lifetime: 280
+    damage: 41.5
+    speed: 1.75
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    frontColor: ffffff
+    trailColor: 98ffa9
+    backColor: 98ffa9
+}
+    }
+
+{
+    name: large-plasma-gun
+
+    controllable: false
+    layerOffset: -0.001
+    rotationLimit: 15
+    autoTarget: true
+    shootCone: 15
+    rotate: true
+    shake: 0.32
+    x: 3
+    y: 21.5
+
+    inaccuracy: 3
+    reload: 3.25
+
+    shootSound: lasershoot
+
+bullet: {
+    type: LaserBoltBulletType
+    collideTerrain: true
+    collidesTeam: true
+    collidesAir: false
+
+    buildingDamageMultiplier: 0.25
+
+    healPercent: 0.32
+    lifetime: 32
+    damage: 47.5
+    speed: 7.25
+
+    frontColor: ffffff
+    backColor: 84f491
+}
+    }
+
+{
+    name: hidden-plasma-cannon-mount
+
+    controllable: false
+    layerOffset: -0.001
+    rotationLimit: 115
+    baseRotation: -45
+    rotateSpeed: 0.15
+    alternate: false
+    autoTarget: true
+    shootCone: 30
+    rotate: true
+    recoil: 1.5
+    shake: 7.5
+    x: 21.5
+    y: -0.75
+
+    inaccuracy: 15
+    reload: 240
+
+    shootStatusDuration: 180
+    shootStatus: slow
+shoot: {
+        shotDelay: 21
+        shots: 3
+}
+
+    ejectEffect: casing1
+
+    shootSound: railgun
+
+bullet: {
+    type: LaserBoltType
+    collideTerrain: true
+    collidesAir: false
+    despawnShake: 5
+    shrinkX: 0.5
+    shrinkY: 0.25
+    hitShake: 5
+    height: 26
+    width: 22
+
+    splashDamageRadius: 60
+    statusDuration: 30
+    splashDamage: 275
+    status: blasted
+    healPercent: 9
+    lifetime: 120
+    damage: 325
+    speed: 2.4
+
+    trailEffect: hitSquaresColor
+    trailInterval: 5.25
+    trailColor: 84f491
+    trailLength: 7.25
+    trailWidth: 3.25
+
+    frontColor: ffffff
+    backColor: 84f491
+
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 27.5
+
+    despawnEffect: massiveExplosion
+    smokeEffect: shootBigSmoke2
+    hitEffect: massiveExplosion
+    parentizeEffects: true
+    hitSound: dullExplosion
+
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    sizeFrom: 7.5
+    sizeTo: 0
+
+    lifetime: 45
+
+    colorFrom: 84f491
+    colorTo: ffffff
+}
+    }
+}
+    ]

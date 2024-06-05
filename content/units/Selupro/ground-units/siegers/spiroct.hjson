@@ -1,0 +1,157 @@
+research: atrax
+
+fogRadius: 36.5
+stepShake: 1.7
+
+itemCapacity: 130
+health: 1800
+armor: 9
+
+lightColor: 665c9f
+lightOpacity: 0.7
+lightRadius: 120
+
+immunities: [ sapped ]
+
+weapons: [
+    {
+    name: spiroct-weapon
+    rotationLimit: 45
+    rotate: true
+    recoil: 2
+    shootY: 4
+    x: 8.5
+    y: -1.5
+
+    reload: 15
+
+    ejectEffect: none
+
+    shootSound: sap
+
+bullet: {
+    type: SapBulletType
+    knockback: -1.24
+    length: 90
+    width: 0.55
+
+    buildingDamageMultiplier: 0.45
+
+    sapStrength: 1.7
+    lifetime: 35
+    damage: 29
+
+    shootEffect: shootSmall
+    despawnEffect: none
+    hitColor: bf92f9
+    color: bf92f9
+
+    hitColor: bf92f9
+    color: bf92f9
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 18
+}
+    }
+
+{
+    name: mount-purple-weapon
+    rotationLimit: 45
+    rotate: true
+    x: 4
+    y: 3
+
+    reload: 11
+
+    shootSound: sap
+
+bullet: {
+    type: SapBulletType
+    knockback: -0.65
+    length: 110
+    width: 0.35
+
+    buildingDamageMultiplier: 0.75
+
+    sapStrength: 1.1
+    lifetime: 25
+    damage: 18
+
+    shootEffect: shootSmall
+    despawnEffect: none
+    hitColor: bf92f9
+    color: bf92f9
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 21
+}
+    }
+
+{
+    name: purple-missiles-mount
+    rotationLimit: 50
+    shootCone: 360
+    mirror: false
+    rotate: true
+    shootY: 1
+    shake: 9.5
+    x: 0
+    y: -7
+
+    velocityRnd: 0.45
+    inaccuracy: 30
+    reload: 600
+    recoil: 2
+    
+    shootSound: missile
+
+    shootStatusDuration: 140
+    shootStatus: slow
+shoot: {
+    shotDelay: 18
+    shots: 6
+}
+
+bullet: {
+    type: MissileBulletType
+    collidesGround: true
+    collidesTiles: false
+    keepVelocity: false
+    despawnShake: 8.5
+    shrinkX: 0.25
+    shrinkY: 0.5
+    drag: -0.003
+    height: 11
+    width: 11
+
+    buildingDamageMultiplier: 1.75
+
+    splashDamageRadius: 26
+    lightningDamage: 12.5
+    lightningLength: 7
+    collidesTeam: true
+    homingPower: 0.35
+    splashDamage: 75
+    homingRange: 25
+    lightning: 3
+    lifetime: 90
+    speed: 2.75
+    damage: 45
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    lightningColor: ffffff
+    frontColor: ffffff
+    trailColor: bf92f9
+    trailInterval: 12
+    backColor: bf92f9
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 27.5
+    }
+}
+    ]

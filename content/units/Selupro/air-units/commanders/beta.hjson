@@ -1,0 +1,57 @@
+research: core-foundation
+researchCostMultiplier: 0
+
+mineSpeed: 7.5
+mineTier: 2
+buildSpeed: 0.9
+speed: 4.8
+
+itemCapacity: 90
+health: 250
+armor: 1
+
+trailLength: 5.5
+
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 70
+
+weapons: [
+{
+name: beta-weapon
+
+    rotate: true
+    x: 3
+    y: 0.5
+
+    reload: 21
+    
+    ejectEffect: casing1
+
+shoot: {
+    shotDelay: 5
+    shots: 3
+}
+
+bullet: {
+    type: BasicBulletType
+    height: 9
+    width: 7
+    
+    buildingDamageMultiplier: 0.01
+
+    homingPower: 0.05
+    homingRange: 32
+    lifetime: 72.5
+    damage: 13.5
+    speed: 3.5
+    
+    smokeEffect: shootSmallSmoke
+    shootEffect: shootSmall
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 17.5
+}
+    }
+]

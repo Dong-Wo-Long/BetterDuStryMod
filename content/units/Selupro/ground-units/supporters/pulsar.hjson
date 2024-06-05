@@ -1,0 +1,79 @@
+research: nova
+
+stepShake: 0.6
+fogRadius: 18
+
+health: 420
+speed: 0.75
+
+lightColor: 98ffa9
+lightOpacity: 0.7
+lightRadius: 75
+
+trailLength: 9
+
+immunities: [ shocked ]
+
+abilities: [
+{
+    type: ShieldRegenFieldAbility 
+    reload: 180
+    amount: 40
+    range: 60
+    max: 240
+    }
+]
+
+weapons: [
+{
+    name: pulsar-weapon
+    recoil: 2.5
+    shootY: 2.5
+    shake: 2.2
+    x: 5
+    y: 0.5
+
+    inaccuracy: 15
+    reload: 32
+
+    shoot: {
+        shotDelay: 0.5
+        shots: 3
+    }
+
+    ejectEffect: none
+
+    shootSound: spark
+
+    bullet: {
+        type: LightningBulletType
+        lightningLengthRand: 14.5
+        lightningColor: 98ffa9
+        lightningLength: 14.5
+        hitColor: 98ffa9
+
+        healPercent: 4.5
+        damage: 24
+
+        shootEffect: shootHeal
+
+        lightningType: {
+            collidesTeam: true
+            hittable: false
+
+            statusDuration: 15
+            healPercent: 2.1
+            status: shocked
+            lifetime: 1
+
+            hitEffect: hitLancer
+            despawnEffect: none
+
+            lightColor: 98ffa9
+            lightOpacity: 0.7
+            lightRadius: 75
+            }
+        }
+    }
+]
+

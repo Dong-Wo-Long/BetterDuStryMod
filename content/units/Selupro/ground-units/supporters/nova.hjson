@@ -1,0 +1,56 @@
+research: ground-factory
+
+boostMultiplier: 2
+stepShake: 0.125
+fogRadius: 35
+
+health: 210
+speed: 0.65
+armor: 2
+
+lightColor: 98ffa9
+lightOpacity: 0.7
+lightRadius: 60
+
+trailLength: 8
+
+abilities: [
+{
+    type: RepairFieldAbility
+
+    reload: 180
+    amount: 45
+    range: 60
+    }
+]
+
+weapons: [
+{
+    name: nova-weapon
+
+    alternate: false
+    shootY: 2
+    recoil: 2
+    x: 4.5
+
+    reload: 45
+
+    ejectEffect: none
+
+    shootSound: lasershoot
+
+bullet: {
+    type: LaserBoltBulletType
+    collideTerrain: true
+    collidesTeam: true
+    speed: 3.85
+
+    healPercent: 5
+    lifetime: 68
+    damage: 32
+
+    frontColor: ffffff
+    backColor: 84f491
+}
+    }
+]

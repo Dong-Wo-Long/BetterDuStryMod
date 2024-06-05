@@ -1,0 +1,135 @@
+research: horizon
+
+circleTarget: true
+rotateSpeed: 1.9
+fogRadius: 32
+
+ammoType: blast-compound
+itemCapacity: 190
+health: 1450
+armor: 12
+
+trailLength: 11.5
+
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 72.5
+
+immunities: [ blasted ]
+
+targetFlags: [ launchPad, factory, storage, repair, unitAssembler, battery ]
+
+weapons: [
+{
+name: large-mm
+    rotate: true
+    shake: 1.5
+    x: 7
+    y: 0
+
+    velocityRnd: 0.35
+    inaccuracy: 9
+    reload: 320
+
+    shootSound: missile
+
+    shootStatusDuration: 90
+    shootStatus: slow
+shoot: {
+    shotDelay: 6
+    shots: 9
+}
+
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    despawnShake: 2.25
+    hitShake: 2.25
+    shrinkX: 0.25
+    shrinkY: 0.5
+    drag: -0.003
+    height: 8
+    width: 8
+
+    splashDamageRadius: 26
+    statusDuration: 90
+    splashDamage: 32
+    status: blasted
+    homingPower: 0
+    homingRange: 0
+    weaveScale: 6
+    lifetime: 75
+    weaveMag: 1
+    damage: 45
+    speed: 2.8
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    frontColor: ffa665
+    trailColor: d06b53
+    backColor: d06b53
+}
+    }
+
+{
+    name: hidden-bombing-mw
+
+    minShootVelocity: 0.75
+    ignoreRotation: true
+    controllable: false
+    layerOffset: -0.001
+    autoTarget: true
+    shake: 1.75
+    
+    baseRotation: -115
+    alternate: false
+    inaccuracy: 25
+    shootCone: 90
+    mirror: true
+    shootY: 1
+    x: 9
+    y: -4
+
+    velocityRnd: 0.5
+    reload: 75
+
+    ejectEffect: none
+
+    shootSound: none
+
+shoot: {
+    shotDelay: 18
+    shots: 5
+}
+
+bullet: {
+    type: BombBulletType
+    despawnShake: 1.5
+    hitShake: 1.5
+    height: 10
+    width: 10 
+
+    splashDamageRadius: 36
+    statusDuration: 300
+    splashDamage: 32
+    status: burning
+    lifetime: 90
+    speed: 2.75
+
+    hitEffect: flakExplosion
+    shootEffect: none
+    smokeEffect: none
+
+    trailInterval: 4.5
+    frontColor: ffa665
+    trailColor: d06b53
+    backColor: d06b53
+    trailLength: 5
+
+    lightColor: d06b53
+    lightOpacity: 0.7
+    lightRadius: 62.5
+    }
+}
+    ]

@@ -1,0 +1,41 @@
+research: ground-factory
+
+rotateSpeed: 11.5
+fogRadius: 26.5
+stepShake: 0.2
+
+itemCapacity: 45
+health: 240
+speed: 0.6
+armor: 3
+
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 55
+
+weapons: [
+    {
+    name: dagger-weapon
+    x: 4
+    y: 2
+
+    reload: 9
+
+    ejectEffect: casing1
+
+bullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    height: 9
+    width: 7
+
+    lifetime: 81
+    damage: 12.5
+    speed: 2.5
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 20
+    }
+}
+    ]

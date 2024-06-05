@@ -1,0 +1,105 @@
+research: mace
+
+forceMultiTarget: true
+targetAir: true
+stepShake: 3.25
+fogRadius: 47.5
+
+itemCapacity: 150
+health: 2250
+armor: 18
+
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 81.5
+
+immunities: [ blasted, burning ]
+
+weapons: [
+{
+name: fortress-weapon
+
+    shootCone: 30
+    recoil: 4
+    shake: 11
+    x: 9.5
+    y: 1
+
+    reload: 90
+
+    shootEffect: shootSmall
+    shootSound: artillery
+    ejectEffect: casing2
+
+bullet: {
+    type: ArtilleryBulletType
+    collidesTiles: true
+    collidesAir: false
+    despawnShake: 9
+    shrinkX: 0.3
+    shrinkY: 0.5
+    height: 20
+    width: 16
+
+    buildingDamageMultiplier: 1.25
+
+    splashDamageRadius: 26
+    splashDamage: 120
+    knockback: 4.45
+    lifetime: 152.5
+    speed: 2.4
+
+    hitEffect: blastExplosion
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 67.5
+
+    trailEffect: artilleryTrail
+    trailInterval: 9.5
+    trailColor: f9c27a
+    trailLength: 3
+    trailWidth: 1
+    trailSize: 4
+
+    frontColor: fff8e8
+    backColor: f9c27a
+}
+    }
+
+{
+name: mount-weapon
+
+    controllable: false
+    rotationLimit: 75
+    autoTarget: true
+    shootCone: 25
+    mirror: false
+    rotate: true
+    x: 6
+    y: -4
+
+    inaccuracy: 5
+    reload: 7.5
+    
+    ejectEffect: casing1
+    shootSound: shoot
+
+bullet: {
+    type: BasicBulletType
+    collidesAir: true
+    height: 9
+    width: 6
+
+    buildingDamageMultiplier: 0.01
+
+    lifetime: 50
+    damage: 9
+    speed: 5
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 21
+    }
+}
+    ]
