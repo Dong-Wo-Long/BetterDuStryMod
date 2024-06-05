@@ -5,7 +5,7 @@ phaseRangeBoost: -20
 phaseBoost: 5
 
 itemCapacity: 32
-healPercent: 3.2
+healPercent: 1.25
 reload: 150
 health: 320
 range: 140
