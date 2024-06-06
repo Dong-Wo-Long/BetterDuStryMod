@@ -1,1 +1,6 @@
 research: steam-generator
+
+powerProduction: 36
+liquidCapacity: 32
+itemDuration: 180
+itemCapacity: 75
