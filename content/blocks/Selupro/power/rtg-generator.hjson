@@ -1,7 +1,5 @@
 research: differential-generator
 
-buildCostMultiplier: 1.24627
-
 powerProduction: 8.75
 liquidCapacity: 32
 itemDuration: 450
