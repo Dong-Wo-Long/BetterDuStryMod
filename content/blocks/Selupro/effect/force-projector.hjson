@@ -12,9 +12,9 @@ cooldownLiquid: 1.32
 sides: 6
 
 liquidCapacity: 320
-shieldHealth: 1500
+shieldHealth: 15000
 itemCapacity: 250
-health: 1250
+health: 5000
 radius: 144
 armor: 32
 
