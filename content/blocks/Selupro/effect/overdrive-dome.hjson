@@ -10,7 +10,7 @@ range: 400
 armor: 5
 
 consumes: {
-    power: 41.666669
+    power: 53.333335
 }
 
 requirements: [
