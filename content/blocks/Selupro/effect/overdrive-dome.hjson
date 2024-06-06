@@ -6,7 +6,7 @@ useTime: 15
 itemCapacity: 75
 health: 1250
 reload: 60
-range: 400
+range: 256
 armor: 5
 
 consumes: {
