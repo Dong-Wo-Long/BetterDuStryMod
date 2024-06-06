@@ -17,11 +17,11 @@ cooldownLiquid: 1.15
 sides: 6
 
 liquidCapacity: 32
-shieldHealth: 750
+shieldHealth: 2500
 itemCapacity: 0
-health: 320
+health: 1250
 radius: 100
-armor: 12
+armor: 25
 
 consumes: {
     power: 8.333335
