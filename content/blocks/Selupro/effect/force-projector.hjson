@@ -19,7 +19,7 @@ radius: 144
 armor: 32
 
 consumes: {
-    power: 53.333335
+    power: 125
 }
 
 requirements: [
