@@ -1,1 +1,17 @@
 research: combustion-generator
+
+buildCostMultiplier: 3.52115
+
+powerProduction: 6
+liquidCapacity: 24
+itemDuration: 300
+itemCapacity: 32
+health: 525
+armor: 2
+
+requirements: [
+    copper/80
+    metaglass/24
+    graphite/32
+    silicon/25
+]

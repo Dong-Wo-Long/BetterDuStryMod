@@ -1,1 +1,24 @@
 research: differential-generator
+
+buildCostMultiplier: 1.24627
+
+powerProduction: 12.5
+liquidCapacity: 32
+itemDuration: 1920
+itemCapacity: 24
+health: 725
+armor: 5
+
+consumes: {
+liquid: {
+    liquid: water
+    amount: 0.25
+}
+    }
+
+requirements: [
+    lead/320
+    thorium/150
+    silicon/120
+    plastanium/90
+]
