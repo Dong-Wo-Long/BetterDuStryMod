@@ -1,12 +1,1 @@
 research: core-shard
-
-powerProduction: 1.5
-itemDuration: 450
-itemCapacity: 15
-health: 180
-armor: 2
-
-requirements: [
-    copper/32
-    lead/25
-]
