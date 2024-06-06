@@ -11,7 +11,7 @@ range: 1200
 armor: 32
 
 consumes: {
-    power: 300
+    power: 208.333335
 	liquids: [
 		cryofluid/1
 	]
