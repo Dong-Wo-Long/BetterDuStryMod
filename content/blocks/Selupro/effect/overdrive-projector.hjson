@@ -1,14 +1,14 @@
 research: surge-smelter
 
 speedBoostPhase: 0.25
-phaseRangeBoost: -100
+phaseRangeBoost: -40
 speedBoost: 1.5
 useTime: 90
 
 itemCapacity: 32
 health: 750
 reload: 90
-range: 200
+range: 140
 armor: 3
 
 consumes: {
