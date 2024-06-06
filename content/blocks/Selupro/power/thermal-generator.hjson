@@ -1,14 +1,1 @@
 research: steam-generator
-
-buildCostMultiplier: 1.75
-
-powerProduction: 4.583335
-health: 320
-armor: 5
-
-requirements: [
-    lead/45
-    metaglass/60
-    graphite/25
-    silicon/32
-]
