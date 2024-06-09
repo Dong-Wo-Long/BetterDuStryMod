@@ -20,9 +20,9 @@ immunities: [ shocked, wet, burning, overclock ]
 abilities: [
 {
     type: EnergyFieldAbility
-    sameTypeHealMult: 1.5
+    sameTypeHealMult: 0.75
     statusDuration: 750
-    healPercent: 50
+    healPercent: 3.2
     maxTargets: 32
     damage: 320
     reload: 720
@@ -39,7 +39,7 @@ abilities: [
     }
 {
     type: ShieldArcAbility
-    region: bsm-corvus-shield
+    region: enhancement-units-corvus-shield
     radius: 25
     angle: 120
     width: 8
