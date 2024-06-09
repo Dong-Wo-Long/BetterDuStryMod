@@ -13,10 +13,10 @@ maxAmmo: 32
 reload: 750
 range: 960
 
+shootSound: large-cannon-shot
 ammoUseEffect: casing3Double
 ammoEjectBack: 5
 ammoPerShot: 5
-
 shoot: {
     shotDelay: 24
     shots: 9
@@ -38,7 +38,9 @@ graphite: {
     lifetime: 80
     speed: 1.8
 
+    hitSound: large-cannon-hit
     shootEffect: shootBig
+    hitSoundVolume: 0.75
 
     lightColor: 95abd9
     lightOpacity: 0.7
@@ -112,6 +114,9 @@ silicon: {
     lifetime: 80
     speed: 2.25
 
+    hitSound: large-cannon-hit
+    hitSoundVolume: 0.75
+
     lightColor: 8e9097
     lightOpacity: 0.7
     lightRadius: 41.5
@@ -184,6 +189,9 @@ pyratite: {
     status: burning
     lifetime: 80
     speed: 2
+
+    hitSound: large-cannon-hit
+    hitSoundVolume: 0.75
 
     lightColor: ffaa5f
     lightOpacity: 0.7
@@ -278,14 +286,17 @@ blast-compound: {
 
     splashDamageRadius: 60
     splashDamage: 75
+    fragLifeMax: 1.5
+    fragLifeMin: 0.5
     status: blasted
+    fragBullets: 8
     knockback: 5
     lifetime: 80
     speed: 1.5
 
-    despawnEffect: flakExplosionBig
-    hitEffect: flakExplosionBig
+    hitSound: large-cannon-hit
     shootEffect: shootBig
+    hitSoundVolume: 0.75
 
     lightColor: ff795e
     lightOpacity: 0.7
@@ -318,6 +329,57 @@ hitEffect: {
     sparkRad: 41
     sparkLen: 18
     sparks: 15
+    }
+
+fragBullet: {
+    type: BasicBulletType
+    collidesAir: false
+    shrinkY: 1
+    height: 10
+    width: 4
+
+    buildingDamageMultiplier: 0.75
+    pierceDamageFactor: 0.75
+
+    splashDamageRadius: 26
+    statusDuration: 60
+    splashDamage: 17.5
+    status: blasted
+    lifetime: 12.5
+    damage: 21.5
+    speed: 3
+
+    lightColor: ff795e
+    lightOpacity: 0.7
+    lightRadius: 27.5
+
+    trailColor: c85c51
+    trailLength: 12.5
+    trailWidth: 1.75
+
+    frontColor: ff795e
+    backColor: c85c51
+
+hitEffect: {
+    type: MultiEffect
+
+effects: [
+{
+    effect: hitBulletSmall
+    colorTo: ff795e
+    lifetime: 20
+    sizeFrom: 3
+    sizeTo: 0
+    }
+{
+    effect: fireHit
+    colorTo: ff795e
+    lifetime: 20
+    sizeFrom: 1
+    sizeTo: 0
+    }
+]
+    }
 }
     }
 
@@ -339,6 +401,8 @@ plastanium: {
 
     despawnEffect: plasticExplosion
     hitEffect: plasticExplosion
+    hitSound: large-cannon-hit
+    hitSoundVolume: 0.75
 
     lightColor: edf3a9
     lightOpacity: 0.7
@@ -400,6 +464,9 @@ spore-pod: {
     lifetime: 80
     speed: 2.32
     damage: 0
+
+    hitSound: large-cannon-hit
+    hitSoundVolume: 0.75
 
     lightColor: 9e78dc
     lightOpacity: 0.7
