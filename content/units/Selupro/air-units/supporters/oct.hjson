@@ -25,9 +25,9 @@ lightRadius: 215
 abilities: [
 {
     type: EnergyFieldAbility
-    sameTypeHealMult: 1.25
+    sameTypeHealMult: 0.32
     statusDuration: 500
-    healPercent: 32
+    healPercent: 1.25
     maxTargets: 25
     damage: 181
     reload: 75
@@ -37,9 +37,9 @@ abilities: [
     }
 {
     type: ForceFieldAbility
-    cooldown: 1800
+    cooldown: 1920
     radius: 125
-    regen: 7.5
+    regen: 3.2
     sides: 8
     max: 32000
     }
@@ -47,7 +47,7 @@ abilities: [
 {
     type: RepairFieldAbility
     reload: 1800
-    amount: 1250
+    amount: 750
     range: 180
     }
 ]
