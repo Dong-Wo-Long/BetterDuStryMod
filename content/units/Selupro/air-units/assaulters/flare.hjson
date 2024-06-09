@@ -25,28 +25,26 @@ weapons: [
 
     reload: 5
 
+    ejectEffect: casing1
     shootSound: pew
     
-    ejectEffect: casing1
-        
 bullet: {
     type: BasicBulletType
     ammoMultiplier: 2
+    maxRange: 320
     height: 9
     width: 7
 
     lifetime: 52.5
     damage: 5.5
     speed: 3
-        
-    shootEffect: shootSmall
+    
     smokeEffect: shootSmallSmoke
-        
-    shootSound: pew
+    shootEffect: shootSmall
 
     lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 17.5
-}
     }
-]
+}
+    ]
