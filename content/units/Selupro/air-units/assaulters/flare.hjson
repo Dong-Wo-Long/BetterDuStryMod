@@ -7,7 +7,7 @@ fogRadius: 23.5
 
 health: 75
 accel: 2.1
-speed: 3
+speed: 3.2
 
 trailLength: 7.5
 
