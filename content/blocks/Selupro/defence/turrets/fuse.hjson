@@ -8,11 +8,11 @@ shake: 4
 buildCostMultiplier: 2.28
 coolantMultiplier: 1.8
 
-scaledHealth: 375
+health: 1250
 maxAmmo: 64
 reload: 48
 range: 100
-armor: 24
+armor: 15
 
 requirements: [
     graphite/320
