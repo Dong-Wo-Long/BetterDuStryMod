@@ -107,14 +107,14 @@ thorium: {
     reloadMultiplier: 0.5
     ammoMultiplier: 5
     
-    status: 20s-06-tier-1-strength-reduction
+    status: 20s-05-tier-2-strength-reduction
     splashDamageRadius: 72
     statusDuration: 180
     splashDamage: 96
     knockback: 3.2
     pierceCap: 25
     lifetime: 152
-    damage: 121
+    damage: 141
     speed: 2.5
 
     shootEffect: shootBig
@@ -287,7 +287,9 @@ titanium: {
     ammoMultiplier: 8
     rangeChange: 132
 
+    status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 64
+    statusDuration: 300
     splashDamage: 81
     pierceCap: 21
     lifetime: 160
