@@ -2,7 +2,7 @@ research: duo
 shootCone: 50
 recoil: 0.8
 
-liquidCapacity: 60
+liquidCapacity: 32
 inaccuracy: 5
 health: 320
 range: 200
