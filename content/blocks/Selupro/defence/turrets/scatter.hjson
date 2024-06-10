@@ -101,7 +101,7 @@ silicon: {
     splashDamage: 0
     pierceCap: 2
     lifetime: 75
-    damage: 12.5
+    damage: 17.5
     speed: 4.8
 
     hitEffect: hitBulletColor
