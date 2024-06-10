@@ -16,7 +16,7 @@ range: 340
 armor: 3
 
 consumes: {
-    power: 2.4
+    power: 5.333335
 }
 
 requirements: [
