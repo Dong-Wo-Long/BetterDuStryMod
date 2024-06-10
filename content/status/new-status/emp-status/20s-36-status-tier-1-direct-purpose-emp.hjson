@@ -1,7 +1,6 @@
 name: Tier 1 direct purpose EMP
 reloadMultiplier: 0.6
 speedMultiplier: 0.75
-show: false
 
 affinities: [ wet ]
 
