@@ -7,7 +7,7 @@ shootY: 3
 
 inaccuracy: 2
 maxAmmo: 32
-health: 350
+health: 360
 reload: 32
 armor: 2
 
