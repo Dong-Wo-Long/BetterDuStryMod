@@ -11,6 +11,7 @@ coolantMultiplier: 3.2
 health: 210
 reload: 32
 range: 144
+armor: 2
 
 shootEffect: lightningShoot
 shootSound: spark
