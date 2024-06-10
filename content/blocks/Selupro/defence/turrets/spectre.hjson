@@ -27,7 +27,7 @@ requirements: [
     surge-alloy/250
 ]
 
-shootSound: auto-cannon-shot
+shootSound: large-cannon-shot
 ammoUseEffect: casing3
 shoot: { 
     type: ShootAlternate
@@ -59,8 +59,8 @@ graphite: {
     damage: 75
     speed: 4.5
 
+    hitSound: large-cannon-hit
     shootEffect: shootBig
-    hitSound: explosion
 
     lightColor: 95abd9
     lightOpacity: 0.7
@@ -117,8 +117,8 @@ thorium: {
     damage: 121
     speed: 2.5
 
+    hitSound: large-cannon-hit
     shootEffect: shootBig
-    hitSound: explosion
 
     lightColor: f9a3c7
     lightOpacity: 0.7
@@ -177,8 +177,8 @@ pyratite: {
     damage: 41.5
     speed: 5
 
+    hitSound: large-cannon-hit
     shootEffect: shootBig
-    hitSound: explosion
 
     lightColor: ffaa5f
     lightOpacity: 0.7
@@ -237,8 +237,8 @@ blast-compound: {
     speed: 2.25
     damage: 96
 
+    hitSound: large-cannon-hit
     shootEffect: shootBig
-    hitSound: explosion
 
     lightColor: ff795e
     lightOpacity: 0.7
@@ -297,8 +297,8 @@ titanium: {
     damage: 96
     speed: 3.2
 
+    hitSound: large-cannon-hit
     shootEffect: shootBig
-    hitSound: explosion
 
     lightColor: a4b8fa
     lightOpacity: 0.7
