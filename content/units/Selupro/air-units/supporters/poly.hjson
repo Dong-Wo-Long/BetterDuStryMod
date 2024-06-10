@@ -32,47 +32,25 @@ abilities: [
 weapons: [
 {
     name: poly-weapon
-    
-    alternate: true
-    inaccuracy: 15
-    recoil: 2
+    type: RepairBeamWeapon
+    targetBuildings: true
+    controllable: true
+    targetUnits: true
+    autoTarget: false
+    widthSinMag: 0.1
+    beamWidth: 0.5
+    shootCone: 30
+    rotate: true
+    aimDst: 0
     x: 3.75
     y: -2.5
     
-    velocityRnd: 0.25
-    reload: 50
-    
-    shootSound: missile
-    
-    ejectEffect: none
+    fractionRepairSpeed: 0.01
+    repairSpeed: 0.25
+    reload: 32
 
 bullet: {
-    type: MissileBulletType
-    keepVelocity: false
-    collidesTeam: true
-
-    homingPower: 1
-    healPercent: 7.5
-    homingRange: 180
-    weaveScale: 4
-    lifetime: 60
-    weaveMag: 4
-    damage: 32
-    speed: 4.8
-    
-    despawnEffect: hitLaser
-    shootEffect: shootHeal
-    smokeEffect: hitLaser
-    frontColor: ffffff
-    hitEffect: hitLaser
-    hitSound: none
-
-    trailColor: 98ffa9
-    backColor: 98ffa9
-
-    lightColor: 98ffa9
-    lightOpacity: 0.7
-    lightRadius: 25
-}
+    maxRange: 90
     }
-]
+}
+    ]
