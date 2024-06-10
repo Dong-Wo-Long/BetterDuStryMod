@@ -13,7 +13,7 @@ coolantMultiplier: 2.4
 ammoPerShot: 96
 inaccuracy: 4.5
 maxAmmo: 720
-health: 900
+health: 1500
 reload: 750
 range: 340
 armor: 12
