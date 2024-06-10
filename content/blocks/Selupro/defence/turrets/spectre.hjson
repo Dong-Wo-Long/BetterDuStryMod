@@ -13,7 +13,7 @@ health: 3200
 maxAmmo: 75
 reload: 48
 range: 380
-armor: 15
+armor: 18
 
 consumes: {
     power: 21.35
