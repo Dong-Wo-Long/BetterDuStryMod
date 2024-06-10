@@ -1,3 +1,4 @@
 name: Tier 2 reverse assignment EMP
 reloadMultiplier: 2
 speedMultiplier: 2
+show: false
