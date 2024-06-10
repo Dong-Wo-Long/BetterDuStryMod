@@ -2,7 +2,6 @@ name: Tier 3 direct purpose EMP
 healthMultiplier: 0.65
 reloadMultiplier: 0.1
 speedMultiplier: 0.25
-show: false
 
 affinities: [ wet ]
 
