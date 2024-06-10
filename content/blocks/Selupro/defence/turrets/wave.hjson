@@ -21,7 +21,7 @@ water: {
     reloadMultiplier: 1.25
 
     statusDuration: 420
-    knockback: 1.4
+    knockback: 0.75
     lifetime: 50
     status: wet
     speed: 4.8
@@ -39,8 +39,8 @@ slag: {
     reloadMultiplier: 0.85
 
     statusDuration: 480
+    knockback: 0.32
     status: melting
-    knockback: 1
     lifetime: 50
     damage: 17.5
     speed: 3.5
@@ -60,7 +60,7 @@ cryofluid: {
 
     statusDuration: 540
     status: freezing
-    knockback: 1.8
+    knockback: 1.2
     lifetime: 51.5
     damage: 1.25
     speed: 5.25
@@ -78,7 +78,7 @@ oil: {
     layer: 98
 
     statusDuration: 900
-    knockback: 1.2
+    knockback: 0.5
     status: tarred
     lifetime: 55
     speed: 4
