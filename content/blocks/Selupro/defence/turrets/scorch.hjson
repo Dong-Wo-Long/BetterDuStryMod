@@ -9,7 +9,7 @@ buildCostMultiplier: 1.75
 coolantMultiplier: 20
 
 maxAmmo: 18
-health: 480
+health: 500
 reload: 9
 range: 60
 armor: 3
