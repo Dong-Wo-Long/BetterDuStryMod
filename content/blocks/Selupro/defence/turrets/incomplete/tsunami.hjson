@@ -33,7 +33,7 @@ water: {
 
     reloadMultiplier: 1.5
 
-    statusDuration: 420
+    statusDuration: 900
     knockback: 1
     lifetime: 75
     status: wet
@@ -52,7 +52,7 @@ slag: {
 
     reloadMultiplier: 0.75
 
-    statusDuration: 480
+    statusDuration: 1080
     status: melting
     knockback: 0.5
     lifetime: 70
@@ -72,7 +72,7 @@ cryofluid: {
 
     reloadMultiplier: 1.75
 
-    statusDuration: 540
+    statusDuration: 1440
     status: freezing
     knockback: 1.32
     lifetime: 75
@@ -91,7 +91,7 @@ oil: {
     drag: 0.01
     layer: 98
 
-    statusDuration: 900
+    statusDuration: 1920
     knockback: 0.75
     status: tarred
     lifetime: 75
