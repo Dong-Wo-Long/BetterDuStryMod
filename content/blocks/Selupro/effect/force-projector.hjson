@@ -4,7 +4,7 @@ ambientSoundVolume: 0.32
 buildCostMultiplier: 5.99049
 phaseShieldBoost: -6000
 phaseRadiusBoost: 112
-phaseUseTime: 150
+phaseUseTime: 180
 
 cooldownBrokenBase: 1.8
 cooldownNormal: 1.16
