@@ -9,11 +9,11 @@ shake: 1
 buildCostMultiplier: 2.4
 coolantMultiplier: 2.5
 
-scaledHealth: 360
 ammoEjectBack: 5
 inaccuracy: 7.5
 maxAmmo: 120
 reload: 24.5
+health: 500
 range: 384
 armor: 4
 
