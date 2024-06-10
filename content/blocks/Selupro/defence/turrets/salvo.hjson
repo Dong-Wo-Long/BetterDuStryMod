@@ -97,7 +97,7 @@ silicon: {
     ammoMultiplier: 24
 
     homingPower: 0.18
-    pierceCap: 3
+    pierceCap: 4
     lifetime: 80
     damage: 16.5
     speed: 4.8
@@ -161,6 +161,7 @@ pyratite: {
     splashDamageRadius: 20
     splashDamage: 14.5
     status: burning
+    pierceCap: 3
     lifetime: 84
     damage: 17.5
     speed: 4.25
