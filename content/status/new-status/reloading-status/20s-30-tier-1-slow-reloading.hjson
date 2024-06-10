@@ -1,2 +1,3 @@
 name: Tier 1 slow reloading
 reloadMultiplier: 0.75
+show: false
