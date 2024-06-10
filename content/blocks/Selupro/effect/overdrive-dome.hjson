@@ -1,7 +1,7 @@
 research: overdrive-projector
 
 speedBoost: 2
-useTime: 15
+useTime: 90
 
 itemCapacity: 75
 health: 1250
