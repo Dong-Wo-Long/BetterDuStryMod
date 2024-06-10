@@ -1,2 +1,3 @@
 name: Tier 1 damage reduction
 damageMultiplier: 0.75
+show: false
