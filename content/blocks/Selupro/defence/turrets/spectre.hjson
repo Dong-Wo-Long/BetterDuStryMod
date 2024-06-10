@@ -53,7 +53,7 @@ graphite: {
 
     splashDamageRadius: 60
     splashDamage: 64
-    knockback: 2.5
+    knockback: 2.1
     lifetime: 134
     pierceCap: 9
     damage: 75
@@ -111,9 +111,9 @@ thorium: {
     splashDamageRadius: 72
     statusDuration: 180
     splashDamage: 96
-    knockback: 3.2
     pierceCap: 25
     lifetime: 152
+    knockback: 3
     damage: 141
     speed: 2.5
 
@@ -171,7 +171,7 @@ pyratite: {
     statusDuration: 450
     splashDamage: 47.5
     status: burning
-    knockback: 1.8
+    knockback: 1.5
     pierceCap: 12
     lifetime: 141
     damage: 41.5
@@ -231,9 +231,9 @@ blast-compound: {
     statusDuration: 48
     splashDamage: 121
     status: blasted
+    knockback: 3.2
     pierceCap: 15
     lifetime: 171
-    knockback: 5
     speed: 2.25
     damage: 96
 
@@ -291,9 +291,9 @@ titanium: {
     splashDamageRadius: 64
     statusDuration: 300
     splashDamage: 81
+    knockback: 2.5
     pierceCap: 21
     lifetime: 160
-    knockback: 3
     damage: 96
     speed: 3.2
 
