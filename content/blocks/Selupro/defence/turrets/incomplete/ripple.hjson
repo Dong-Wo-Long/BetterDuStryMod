@@ -34,7 +34,7 @@ graphite: {
 
     splashDamageRadius: 40
     splashDamage: 72.5
-    knockback: 2.5
+    knockback: 1.8
     lifetime: 80
     speed: 1.8
 
@@ -290,7 +290,7 @@ blast-compound: {
     fragLifeMin: 0.5
     status: blasted
     fragBullets: 8
-    knockback: 5
+    knockback: 2.5
     lifetime: 80
     speed: 1.5
 
@@ -345,6 +345,7 @@ fragBullet: {
     statusDuration: 60
     splashDamage: 17.5
     status: blasted
+    knockback: 1.5
     lifetime: 12.5
     damage: 21.5
     speed: 3
@@ -395,7 +396,7 @@ plastanium: {
     splashDamageRadius: 36
     splashDamage: 45
     fragBullets: 10
-    knockback: 3
+    knockback: 2.1
     lifetime: 80
     speed: 1.75
 
@@ -425,7 +426,7 @@ fragBullet: {
 
     buildingDamageMultiplier: 0.25
     
-    knockback: 3.2
+    knockback: 1.25
     lifetime: 18
     damage: 32.5
 
@@ -513,6 +514,7 @@ fragBullet: {
     status: spore-slowed
     statusDuration: 450
     splashDamage: 0
+    knockback: 0.5
     lifetime: 21
     speed: 3.2
     damage: 0
