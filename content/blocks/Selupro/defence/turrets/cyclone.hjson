@@ -10,10 +10,10 @@ shootY: 10
 buildCostMultiplier: 3.2
 coolantMultiplier: 2.4
 
-scaledHealth: 360
 ammoPerShot: 96
 inaccuracy: 4.5
 maxAmmo: 720
+health: 1250
 reload: 750
 range: 340
 armor: 21
