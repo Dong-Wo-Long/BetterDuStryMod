@@ -47,7 +47,7 @@ graphite: {
 
     buildingDamageMultiplier: 0.85
     pierceDamageFactor: 7.5
-    reloadMultiplier: 2.25
+    reloadMultiplier: 1.5
     ammoMultiplier: 18
     rangeChange: 220
 
@@ -283,7 +283,7 @@ titanium: {
 
     buildingDamageMultiplier: 0.75
     pierceDamageFactor: 7.5
-    reloadMultiplier: 1.5
+    reloadMultiplier: 1.25
     ammoMultiplier: 8
     rangeChange: 132
 
