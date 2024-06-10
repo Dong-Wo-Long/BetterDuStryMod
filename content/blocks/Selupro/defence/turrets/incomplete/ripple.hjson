@@ -12,6 +12,7 @@ health: 1250
 maxAmmo: 32
 reload: 750
 range: 960
+armor: 9
 
 shootSound: large-cannon-shot
 ammoUseEffect: casing3Double
