@@ -35,7 +35,7 @@ graphite: {
 
     splashDamageRadius: 40
     splashDamage: 52.5
-    knockback: 5
+    knockback: 1.5
     lifetime: 80
     speed: 2
 
@@ -88,7 +88,7 @@ silicon: {
     splashDamage: 32.5
     homingPower: 0.25
     homingRange: 50
-    knockback: 2.5
+    knockback: 1
     lifetime: 80
     speed: 3.2
 
@@ -142,7 +142,7 @@ pyratite: {
     fragRandomSpread: 360
     statusDuration: 900
     splashDamage: 27.5
-    knockback: 1.75
+    knockback: 0.75
     status: burning
     fragBullets: 7
     fragLifeMin: 3
@@ -244,12 +244,12 @@ scrap: {
 
     splashDamageRadius: 12
     fragRandomSpread: 360
-    splashDamage: 21.5
+    splashDamage: 17.5
     fragLifeMax: 2.25
     fragLifeMin: 0.8
-    fragBullets: 5
+    knockback: 1.25
+    fragBullets: 8
     fragSpread: 32
-    knockback: 3.2
     lifetime: 80
     speed: 4.5
 
@@ -326,7 +326,7 @@ spore-pod: {
     status: spore-slowed
     statusDuration: 480
     splashDamage: 0
-    knockback: 1.25
+    knockback: 0.5
     lifetime: 80
     speed: 1.8
     damage: 0
