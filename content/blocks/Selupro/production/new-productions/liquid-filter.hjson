@@ -5,7 +5,7 @@ research: bridge-conduit
 category: liquid
 size: 1
 
-researchCostMultiplier: 0.75
+researchCostMultiplier: 0.25
 
 liquidCapacity: 5
 itemCapacity: 0
