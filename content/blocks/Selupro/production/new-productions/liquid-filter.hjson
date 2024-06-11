@@ -1,0 +1,54 @@
+type: GenericCrafter
+name: Liquid filter
+description: Recycles contaminated water into clean water
+category: liquid
+size: 1
+
+researchCostMultiplier: 0.75
+
+liquidCapacity: 5
+itemCapacity: 0
+craftTime: 90
+health: 81
+armor: 1
+
+outputLiquid: water/0.25
+craftEffect: none
+consumes: {
+    power: 0.75
+
+liquids: [
+    tainted-water-liquid/0.5
+]
+    }
+
+requirements: [
+    metaglass/32
+    titanium/25
+    ]
+
+drawer: {
+    type: DrawMulti
+
+drawers: [
+{
+    type: DrawRegion
+    suffix: -bottom
+    }
+
+{
+    type: DrawLiquidTile
+    drawLiquid: tainted-water-liquid
+    }
+
+{
+    type: DrawRegion
+    suffix: -rotator
+    rotateSpeed: 3.2
+    }
+
+{
+    type: DrawDefault
+    }
+]
+    }
