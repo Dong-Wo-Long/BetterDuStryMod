@@ -1,0 +1,9 @@
+research: water
+name: Tainted water
+effect: status-deceleration-tainted-liquid
+flammability: 0.75
+heatCapacity: 0.45
+temperature: 0.55
+boilPoint: 0.35
+viscosity: 0.6
+color: 9e78dc
