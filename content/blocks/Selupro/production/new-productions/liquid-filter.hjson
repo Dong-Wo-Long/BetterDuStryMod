@@ -1,6 +1,7 @@
 type: GenericCrafter
 name: Liquid filter
 description: "Recycles contaminated water into clean water."
+research: bridge-conduit
 category: liquid
 size: 1
 
