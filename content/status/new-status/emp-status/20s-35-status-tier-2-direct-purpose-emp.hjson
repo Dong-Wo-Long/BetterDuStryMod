@@ -1,6 +1,6 @@
 name: Tier 2 direct purpose EMP
 reloadMultiplier: 0.32
-healthMultiplier: 0.8
+healthMultiplier: 0.95
 speedMultiplier: 0.5
 
 affinities: [ wet ]
