@@ -18,9 +18,9 @@ immunities: [ burning, melting, electrified, overclock ]
 abilities: [
 {
     type: EnergyFieldAbility
-    sameTypeHealMult: 7.5
+    sameTypeHealMult: 5
     statusDuration: 750
-    healPercent: 12.5
+    healPercent: 7.5
     maxTargets: 50
     damage: 5000
     reload: 1920
