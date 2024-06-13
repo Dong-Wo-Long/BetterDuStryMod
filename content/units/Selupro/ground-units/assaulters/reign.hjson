@@ -14,7 +14,7 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 170
 
-immunities: [ burning, wet, blasted, shocked ]
+immunities: [ burning, melting, wet, blasted, shocked ]
 
 weapons: [
 {
