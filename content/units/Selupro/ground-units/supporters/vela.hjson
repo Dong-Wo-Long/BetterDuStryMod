@@ -15,7 +15,7 @@ lightRadius: 125
 
 trailLength: 15
 
-immunities: [ burning ]
+immunities: [ burning, melting ]
 
 weapons: [
 {
