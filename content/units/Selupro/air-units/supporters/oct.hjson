@@ -22,6 +22,8 @@ lightColor: 98ffa9
 lightOpacity: 0.7
 lightRadius: 215
 
+immunities: [ shocked, blasted, electrified, burning, melting ]
+
 abilities: [
 {
     type: EnergyFieldAbility
@@ -51,8 +53,6 @@ abilities: [
     range: 180
     }
 ]
-
-immunities: [ shocked, blasted, electrified, burning ]
 
 weapons: [
 {
