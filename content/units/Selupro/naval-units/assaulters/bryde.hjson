@@ -10,6 +10,8 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 90
 
+immunities: [ burning ]
+
 abilities: [
 {
     type: ShieldRegenFieldAbility
