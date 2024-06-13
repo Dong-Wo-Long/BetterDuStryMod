@@ -21,6 +21,8 @@ lightColor: 98ffa9
 lightOpacity: 0.7
 lightRadius: 75
 
+immunities: [ shocked, blasted, electrified, melting ]
+
 ammoType: {
     type: PowerAmmoType
     totalPower: 7500
@@ -42,8 +44,6 @@ abilities: [
     range: 60
     }
 ]
-
-immunities: [ shocked, blasted, electrified ]
 
 targetFlags: [ turret, repair, extinguisher, hasFogRadius, unitAssembler, unitCargoUnloadPoint, launchPad, reactor, generator, battery, factory, storage, drill, core ]
 
