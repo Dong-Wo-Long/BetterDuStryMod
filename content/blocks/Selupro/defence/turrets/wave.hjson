@@ -42,7 +42,7 @@ slag: {
     knockback: 0.32
     status: melting
     lifetime: 50
-    damage: 17.5
+    damage: 12.5
     speed: 3.5
 
     lightColor: ffa166
