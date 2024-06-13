@@ -13,7 +13,7 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 140
 
-immunities: [ burning, shocked ]
+immunities: [ burning, melting, shocked ]
 
 weapons: [
 {
