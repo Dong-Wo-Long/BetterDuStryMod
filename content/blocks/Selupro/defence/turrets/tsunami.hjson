@@ -31,7 +31,7 @@ water: {
     drag: 0.01
     layer: 98
 
-    reloadMultiplier: 1.5
+    reloadMultiplier: 1.25
 
     statusDuration: 900
     knockback: 1
@@ -50,13 +50,13 @@ slag: {
     orbSize: 4.1
     drag: 0.01
 
-    reloadMultiplier: 0.75
+    reloadMultiplier: 0.5
 
     statusDuration: 1080
     status: melting
     knockback: 0.5
     lifetime: 70
-    damage: 32.5
+    damage: 17.5
     speed: 3.75
 
     lightColor: ffa166
@@ -70,7 +70,7 @@ cryofluid: {
     orbSize: 3.75
     drag: 0.01
 
-    reloadMultiplier: 1.75
+    reloadMultiplier: 1.5
 
     statusDuration: 1440
     status: freezing
