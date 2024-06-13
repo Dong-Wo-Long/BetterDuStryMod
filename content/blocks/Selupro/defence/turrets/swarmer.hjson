@@ -34,7 +34,7 @@ parts: [
     color2: ffffff
     color1: f15454
     rotation: 45
-    radius: 9
+    radius: 15
     stroke: 2
     y: -3.75
     }
