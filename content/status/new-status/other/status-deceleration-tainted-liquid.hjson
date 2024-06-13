@@ -1,6 +1,0 @@
-name: Deceleration tainted liquid
-reloadMultiplier: 0.9
-speedMultiplier: 0.75
-
-effectChance: 0.05
-effect: sapped
