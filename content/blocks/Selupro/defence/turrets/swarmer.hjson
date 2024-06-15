@@ -275,11 +275,11 @@ fragBullet: {
     hitEffect: hitBulletColor
     despawnEffect: none
 
-    lightColor: edf3a9
+    lightColor: ffaa5f
     lightOpacity: 0.7
     lightRadius: 21.5
 
-    trailColor: cbd97f
+    trailColor: d37f47
     trailLength: 72.5
     trailWidth: 1.25
 
@@ -409,11 +409,11 @@ fragBullet: {
     hitEffect: hitBulletColor
     despawnEffect: none
 
-    lightColor: edf3a9
+    lightColor: 95abd9
     lightOpacity: 0.7
     lightRadius: 21.5
 
-    trailColor: cbd97f
+    trailColor: 6b77a1
     trailLength: 72.5
     trailWidth: 1.25
 
