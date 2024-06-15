@@ -405,14 +405,14 @@ fragBullet: {
     removeAfterPierce: false
     collidesGround: false
     shrinkY: 0.25
-    height: 9
-    width: 6
+    height: 12
+    width: 9
 
     pierceDamageFactor: 0.75
 
     pierceCap: 32
     lifetime: 25
-    damage: 42.5
+    damage: 50
     speed: 3.2
 
     hitEffect: hitBulletColor
@@ -424,7 +424,7 @@ fragBullet: {
 
     trailColor: cbd97f
     trailLength: 72.5
-    trailWidth: 1.25
+    trailWidth: 1.5
 
     frontColor: edf3a9
     backColor: cbd97f
