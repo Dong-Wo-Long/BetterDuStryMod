@@ -321,7 +321,7 @@ graphite: {
     splashDamage: 81
     homingRange: 240
     knockback: 0.8
-    pierceCap: 25
+    pierceCap: 32
     lifetime: 300
     damage: 96
     speed: 4
@@ -379,7 +379,7 @@ plastanium: {
     homingRange: 180
     fragBullets: 6
     knockback: 0.5
-    pierceCap: 24
+    pierceCap: 25
     lifetime: 316
     damage: 81
     speed: 3.8
