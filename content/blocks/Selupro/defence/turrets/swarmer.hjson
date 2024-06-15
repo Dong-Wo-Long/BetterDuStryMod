@@ -256,6 +256,36 @@ hitEffect: {
     sparkLen: 3
     sparks: 18
 }
+
+fragBullet: {
+    type: BasicBulletType
+    removeAfterPierce: false
+    collidesGround: false
+    shrinkY: 0.25
+    height: 9
+    width: 6
+
+    pierceDamageFactor: 0.75
+
+    pierceCap: 15
+    lifetime: 24
+    damage: 27.5
+    speed: 3.2
+
+    hitEffect: hitBulletColor
+    despawnEffect: none
+
+    lightColor: edf3a9
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    trailColor: cbd97f
+    trailLength: 72.5
+    trailWidth: 1.25
+
+    frontColor: ffaa5f
+    backColor: d37f47
+}
     }
 
 surge-alloy: {
@@ -281,7 +311,7 @@ surge-alloy: {
     knockback: 0.32
     pierceCap: 21
     lifetime: 288
-    lightning: 3
+    lightning: 4
     damage: 50
     speed: 5
 
@@ -319,6 +349,7 @@ graphite: {
     splashDamage: 32.5
     homingPower: 0.05
     homingRange: 240
+    fragBullets: 4
     knockback: 0.8
     pierceCap: 25
     lifetime: 300
@@ -358,6 +389,36 @@ hitEffect: {
     sparkRad: 30
     sparkLen: 2
     sparks: 15
+}
+
+fragBullet: {
+    type: BasicBulletType
+    removeAfterPierce: false
+    collidesGround: false
+    shrinkY: 0.25
+    height: 9
+    width: 6
+
+    pierceDamageFactor: 0.75
+
+    pierceCap: 21
+    lifetime: 21
+    damage: 27.5
+    speed: 3.32
+
+    hitEffect: hitBulletColor
+    despawnEffect: none
+
+    lightColor: edf3a9
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    trailColor: cbd97f
+    trailLength: 72.5
+    trailWidth: 1.25
+
+    frontColor: 95abd9
+    backColor: 6b77a1
 }
     }
 
@@ -408,6 +469,7 @@ fragBullet: {
     width: 6
 
     pierceDamageFactor: 0.75
+
     pierceCap: 15
     lifetime: 24
     damage: 32.5
