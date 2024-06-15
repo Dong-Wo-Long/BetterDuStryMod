@@ -317,7 +317,7 @@ titanium: {
     rangeChange: 240
 
     status: 20s-06-tier-1-strength-reduction
-    splashDamageRadius: 26
+    splashDamageRadius: 40
     statusDuration: 450
     homingPower: 0.05
     splashDamage: 75
@@ -349,16 +349,16 @@ hitEffect: {
 
     waveColor: a4b8fa
     waveStroke: 3.2
-    waveRad: 26
+    waveRad: 40
 
     smokeColor: 696969
     smokeSizeBase: 0
-    smokeSize: 9
-    smokes: 5
+    smokeSize: 18
+    smokes: 12
 
     sparkColor: a4b8fa
-    sparkStroke: 1.25
-    sparkRad: 18
+    sparkStroke: 1.5
+    sparkRad: 30
     sparkLen: 2
     sparks: 15
 }
@@ -375,7 +375,7 @@ plastanium: {
     ammoMultiplier: 12
     rangeChange: 80
 
-    splashDamageRadius: 36
+    splashDamageRadius: 26
     homingPower: 0.02
     splashDamage: 81
     homingRange: 180
