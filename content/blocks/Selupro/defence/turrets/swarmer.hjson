@@ -303,7 +303,7 @@ surge-alloy: {
     hitEffect: instBomb
 }
 
-graphite: {
+titanium: {
     type: MissileBulletType
     collidesGround: false
     shrinkY: 0
@@ -316,36 +316,38 @@ graphite: {
     ammoMultiplier: 18
     rangeChange: 240
 
+    status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 40
+    statusDuration: 450
     homingPower: 0.05
-    splashDamage: 32
+    splashDamage: 75
     homingRange: 240
     knockback: 0.8
     pierceCap: 32
     lifetime: 300
-    damage: 96
+    damage: 81
     speed: 4
 
     hitSoundVolume: 0.25
     hitSound: rocket-hit
 
-    lightColor: 95abd9
+    lightColor: a4b8fa
     lightOpacity: 0.7
     lightRadius: 34.5
 
-    trailColor: 6b77a1
+    trailColor: 919fe7
     trailLength: 64.5
     trailWidth: 1.5
 
-    frontColor: 95abd9
-    backColor: 6b77a1
+    frontColor: a4b8fa
+    backColor: 919fe7
 
 hitEffect: {
     type: ExplosionEffect
 
     lifetime: 32
 
-    waveColor: 95abd9
+    waveColor: a4b8fa
     waveStroke: 3.2
     waveRad: 36
 
@@ -354,7 +356,7 @@ hitEffect: {
     smokeSize: 12.5
     smokes: 7
 
-    sparkColor: 95abd9
+    sparkColor: a4b8fa
     sparkStroke: 1.25
     sparkRad: 30
     sparkLen: 2
@@ -375,13 +377,13 @@ plastanium: {
 
     splashDamageRadius: 36
     homingPower: 0.02
-    splashDamage: 75
+    splashDamage: 81
     homingRange: 180
     fragBullets: 6
     knockback: 0.5
     pierceCap: 50
     lifetime: 316
-    damage: 81
+    damage: 96
     speed: 3.8
     
     despawnEffect: plasticExplosion
@@ -412,7 +414,7 @@ fragBullet: {
 
     pierceCap: 32
     lifetime: 25
-    damage: 50
+    damage: 75
     speed: 3.2
 
     hitEffect: hitBulletColor
