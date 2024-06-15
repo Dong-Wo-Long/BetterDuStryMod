@@ -67,10 +67,10 @@ blast-compound: {
     width: 13
 
     pierceDamageFactor: 100
-    reloadMultiplier: 0.75
-    ammoMultiplier: 8
+    reloadMultiplier: 0.5
+    ammoMultiplier: 9
 
-    splashDamageRadius: 40
+    splashDamageRadius: 60
     statusDuration: 60
     homingPower: 0.01
     splashDamage: 96
@@ -78,7 +78,7 @@ blast-compound: {
     status: blasted
     knockback: 1.25
     fragBullets: 3
-    pierceCap: 32
+    pierceCap: 81
     lifetime: 275
     damage: 125
     speed: 3.5
@@ -104,18 +104,18 @@ hitEffect: {
 
     waveColor: ff795e
     waveStroke: 3.2
-    waveRad: 45
+    waveRad: 60
 
     smokeColor: 696969
     smokeSizeBase: 0
-    smokeSize: 12.5
-    smokes: 9
+    smokeSize: 21.5
+    smokes: 18
 
     sparkColor: ff795e
-    sparkStroke: 1.25
-    sparkRad: 32
+    sparkStroke: 2.5
+    sparkRad: 45
     sparkLen: 4
-    sparks: 15
+    sparks: 21
 }
 
 fragBullet: {
@@ -127,16 +127,16 @@ fragBullet: {
 
     pierceDamageFactor: 100
 
-    splashDamageRadius: 26
+    splashDamageRadius: 40
     statusDuration: 60
     homingPower: 0.08
-    splashDamage: 32
+    splashDamage: 45
     homingRange: 360
     status: blasted
     knockback: 0.8
-    pierceCap: 25
+    pierceCap: 75
     lifetime: 90
-    damage: 41.5
+    damage: 32.5
     speed: 3.8
 
     hitSoundVolume: 0.05
@@ -160,18 +160,18 @@ hitEffect: {
 
     waveColor: ff795e
     waveStroke: 1.6
-    waveRad: 26
+    waveRad: 40
 
     smokeColor: 696969
     smokeSizeBase: 0
-    smokeSize: 7.5
-    smokes: 5
+    smokeSize: 12.5
+    smokes: 7
 
     sparkColor: ff795e
-    sparkStroke: 0.8
-    sparkRad: 18
-    sparkLen: 2
-    sparks: 9
+    sparkStroke: 1.5
+    sparkRad: 30
+    sparkLen: 3
+    sparks: 12
 }
 
 despawnEffect: {
@@ -207,20 +207,20 @@ pyratite: {
 
     pierceDamageFactor: 100
     reloadMultiplier: 0.85
-    ammoMultiplier: 15
+    ammoMultiplier: 16
     rangeChange: 320
 
-    splashDamageRadius: 26
+    splashDamageRadius: 72
     statusDuration: 300
     homingPower: 0.02
-    splashDamage: 45
+    splashDamage: 64
     homingRange: 180
     knockback: 0.25
     status: burning
-    pierceCap: 18
+    pierceCap: 15
     lifetime: 302
     speed: 4.25
-    damage: 32
+    damage: 75
 
     hitSoundVolume: 0.25
     hitSound: rocket-hit
@@ -243,48 +243,18 @@ hitEffect: {
 
     waveColor: ffaa5f
     waveStroke: 3.2
-    waveRad: 26
+    waveRad: 60
 
     smokeColor: 696969
     smokeSizeBase: 0
-    smokeSize: 14.5
-    smokes: 5
+    smokeSize: 17.5
+    smokes: 12
 
     sparkColor: ffaa5f
-    sparkStroke: 1.5
-    sparkRad: 18
-    sparkLen: 3
-    sparks: 18
-}
-
-fragBullet: {
-    type: BasicBulletType
-    removeAfterPierce: false
-    collidesGround: false
-    shrinkY: 0.25
-    height: 9
-    width: 6
-
-    pierceDamageFactor: 0.75
-
-    pierceCap: 15
-    lifetime: 24
-    damage: 27.5
-    speed: 3.2
-
-    hitEffect: hitBulletColor
-    despawnEffect: none
-
-    lightColor: ffaa5f
-    lightOpacity: 0.7
-    lightRadius: 21.5
-
-    trailColor: d37f47
-    trailLength: 72.5
-    trailWidth: 1.25
-
-    frontColor: ffaa5f
-    backColor: d37f47
+    sparkStroke: 2.25
+    sparkRad: 45
+    sparkLen: 4
+    sparks: 25
 }
     }
 
@@ -297,7 +267,7 @@ surge-alloy: {
 
     pierceDamageFactor: 100
     reloadMultiplier: 1.75
-    ammoMultiplier: 5
+    ammoMultiplier: 6
     rangeChange: 480
 
     status: 20s-35-status-tier-2-direct-purpose-emp
@@ -341,19 +311,19 @@ graphite: {
     width: 10
 
     pierceDamageFactor: 100
+
     reloadMultiplier: 1.25
     ammoMultiplier: 18
     rangeChange: 240
 
-    splashDamageRadius: 36
-    splashDamage: 32.5
+    splashDamageRadius: 40
     homingPower: 0.05
+    splashDamage: 81
     homingRange: 240
-    fragBullets: 4
     knockback: 0.8
     pierceCap: 25
     lifetime: 300
-    damage: 42.5
+    damage: 96
     speed: 4
 
     hitSoundVolume: 0.25
@@ -390,36 +360,6 @@ hitEffect: {
     sparkLen: 2
     sparks: 15
 }
-
-fragBullet: {
-    type: BasicBulletType
-    removeAfterPierce: false
-    collidesGround: false
-    shrinkY: 0.25
-    height: 9
-    width: 6
-
-    pierceDamageFactor: 0.75
-
-    pierceCap: 21
-    lifetime: 21
-    damage: 27.5
-    speed: 3.32
-
-    hitEffect: hitBulletColor
-    despawnEffect: none
-
-    lightColor: 95abd9
-    lightOpacity: 0.7
-    lightRadius: 21.5
-
-    trailColor: 6b77a1
-    trailLength: 72.5
-    trailWidth: 1.25
-
-    frontColor: 95abd9
-    backColor: 6b77a1
-}
     }
 
 plastanium: { 
@@ -435,13 +375,13 @@ plastanium: {
 
     splashDamageRadius: 36
     homingPower: 0.02
-    splashDamage: 64
+    splashDamage: 75
     homingRange: 180
-    fragBullets: 8
+    fragBullets: 6
     knockback: 0.5
-    pierceCap: 18
+    pierceCap: 24
     lifetime: 316
-    damage: 75
+    damage: 81
     speed: 3.8
     
     despawnEffect: plasticExplosion
@@ -470,9 +410,9 @@ fragBullet: {
 
     pierceDamageFactor: 0.75
 
-    pierceCap: 15
+    pierceCap: 21
     lifetime: 24
-    damage: 32.5
+    damage: 42.5
     speed: 3.2
 
     hitEffect: hitBulletColor
