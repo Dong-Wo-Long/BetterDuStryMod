@@ -78,7 +78,7 @@ blast-compound: {
     status: blasted
     knockback: 1.25
     fragBullets: 3
-    pierceCap: 81
+    pierceCap: 50
     lifetime: 275
     damage: 125
     speed: 3.5
@@ -134,7 +134,7 @@ fragBullet: {
     homingRange: 360
     status: blasted
     knockback: 0.8
-    pierceCap: 75
+    pierceCap: 32
     lifetime: 90
     damage: 32.5
     speed: 3.8
@@ -318,12 +318,12 @@ graphite: {
 
     splashDamageRadius: 40
     homingPower: 0.05
-    splashDamage: 50
+    splashDamage: 32
     homingRange: 240
     knockback: 0.8
-    pierceCap: 25
+    pierceCap: 32
     lifetime: 300
-    damage: 75
+    damage: 96
     speed: 4
 
     hitSoundVolume: 0.25
@@ -379,7 +379,7 @@ plastanium: {
     homingRange: 180
     fragBullets: 6
     knockback: 0.5
-    pierceCap: 32
+    pierceCap: 50
     lifetime: 316
     damage: 81
     speed: 3.8
@@ -410,7 +410,7 @@ fragBullet: {
 
     pierceDamageFactor: 0.75
 
-    pierceCap: 21
+    pierceCap: 32
     lifetime: 25
     damage: 42.5
     speed: 3.2
