@@ -211,7 +211,7 @@ pyratite: {
     rangeChange: 320
 
     splashDamageRadius: 72
-    statusDuration: 300
+    statusDuration: 750
     homingPower: 0.02
     splashDamage: 64
     homingRange: 180
@@ -274,15 +274,15 @@ surge-alloy: {
     splashDamageRadius: 0
     lightningLength: 12.5
     lightningDamage: 25
-    statusDuration: 180
+    statusDuration: 300
     homingPower: 0.07
     homingRange: 360
     splashDamage: 0
     knockback: 0.32
-    pierceCap: 25
+    pierceCap: 15
     lifetime: 288
     lightning: 4
-    damage: 50
+    damage: 32
     speed: 5
 
     hitSoundVolume: 0.25
