@@ -15,7 +15,7 @@ lightColor: 98ffa9
 lightOpacity: 0.7
 lightRadius: 150
 
-immunities: [ shocked, wet, burning, melting, overclock ]
+immunities: [ shocked, wet, burning, melting, blasted, overclock ]
 
 abilities: [
 {
