@@ -15,7 +15,7 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 72.5
 
-immunities: [ blasted, burning ]
+immunities: [ blasted, wet ]
 
 targetFlags: [ launchPad, factory, storage, repair, unitAssembler, battery ]
 
