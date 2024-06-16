@@ -76,9 +76,8 @@ blast-compound: {
     splashDamage: 96
     homingRange: 180
     status: blasted
-    knockback: 1.25
-    fragBullets: 3
-    pierceCap: 50
+    knockback: 0.75
+    pierceCap: 96
     lifetime: 275
     damage: 125
     speed: 3.5
@@ -117,84 +116,6 @@ hitEffect: {
     sparkLen: 4
     sparks: 21
 }
-
-fragBullet: {
-    type: MissileBulletType
-    collidesGround: false
-    shrinkY: 0
-    height: 10
-    width: 7
-
-    pierceDamageFactor: 100
-
-    splashDamageRadius: 40
-    statusDuration: 60
-    homingPower: 0.08
-    splashDamage: 45
-    homingRange: 360
-    status: blasted
-    knockback: 0.8
-    pierceCap: 32
-    lifetime: 90
-    damage: 32.5
-    speed: 3.8
-
-    hitSoundVolume: 0.05
-    hitSound: rocket-hit
-
-    lightColor: ff795e
-    lightOpacity: 0.7
-    lightRadius: 21.5
-
-    trailColor: c85c51
-    trailLength: 121.5
-    trailWidth: 1.5
-
-    frontColor: ff795e
-    backColor: c85c51
-
-hitEffect: {
-    type: ExplosionEffect
-
-    lifetime: 25
-
-    waveColor: ff795e
-    waveStroke: 1.6
-    waveRad: 40
-
-    smokeColor: 696969
-    smokeSizeBase: 0
-    smokeSize: 12.5
-    smokes: 7
-
-    sparkColor: ff795e
-    sparkStroke: 1.5
-    sparkRad: 30
-    sparkLen: 3
-    sparks: 12
-}
-
-despawnEffect: {
-    type: ExplosionEffect
-
-    lifetime: 25
-
-    waveColor: ff795e
-    waveStroke: 1.6
-    waveRad: 26
-
-    smokeColor: 696969
-    smokeSizeBase: 0
-    smokeSize: 7.5
-    smokes: 5
-
-    sparkColor: ff795e
-    sparkStroke: 0.8
-    sparkRad: 18
-    sparkLen: 2
-    sparks: 9
-    }
-}
     }
 
 pyratite: {
@@ -215,7 +136,7 @@ pyratite: {
     homingPower: 0.02
     splashDamage: 64
     homingRange: 180
-    knockback: 0.25
+    knockback: 0.08
     status: burning
     pierceCap: 15
     lifetime: 302
@@ -278,7 +199,7 @@ surge-alloy: {
     homingPower: 0.07
     homingRange: 360
     splashDamage: 0
-    knockback: 0.32
+    knockback: 0.15
     pierceCap: 15
     lifetime: 288
     lightning: 4
@@ -322,7 +243,7 @@ titanium: {
     homingPower: 0.05
     splashDamage: 75
     homingRange: 240
-    knockback: 0.8
+    knockback: 0.5
     pierceCap: 32
     lifetime: 300
     damage: 81
@@ -379,8 +300,8 @@ plastanium: {
     homingPower: 0.02
     splashDamage: 81
     homingRange: 180
+    knockback: 0.25
     fragBullets: 6
-    knockback: 0.5
     pierceCap: 50
     lifetime: 316
     damage: 96
