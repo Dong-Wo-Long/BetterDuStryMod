@@ -66,20 +66,20 @@ blast-compound: {
     height: 15
     width: 13
 
-    pierceDamageFactor: 100
-    reloadMultiplier: 0.5
+    pierceDamageFactor: 0.65
+    reloadMultiplier: 0.75
     ammoMultiplier: 9
 
     splashDamageRadius: 60
     statusDuration: 60
+    splashDamage: 125
     homingPower: 0.01
-    splashDamage: 96
     homingRange: 180
     status: blasted
-    knockback: 0.75
+    knockback: 0.8
     pierceCap: 96
     lifetime: 275
-    damage: 125
+    damage: 150
     speed: 3.5
 
     hitSoundVolume: 0.25
