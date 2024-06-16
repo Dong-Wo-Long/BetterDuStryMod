@@ -72,14 +72,14 @@ blast-compound: {
 
     splashDamageRadius: 60
     statusDuration: 60
-    splashDamage: 125
     homingPower: 0.01
+    splashDamage: 96
     homingRange: 180
     status: blasted
     knockback: 0.8
-    pierceCap: 96
+    pierceCap: 81
     lifetime: 275
-    damage: 150
+    damage: 125
     speed: 3.5
 
     hitSoundVolume: 0.25
