@@ -1,5 +1,4 @@
 research: nova
-
 stepShake: 0.6
 fogRadius: 18
 
@@ -16,14 +15,14 @@ trailLength: 9
 immunities: [ shocked ]
 
 abilities: [
-{
+    {
     type: ShieldRegenFieldAbility 
-    reload: 180
-    amount: 40
+    reload: 300
+    amount: 50
     range: 60
-    max: 240
-    }
-]
+    max: 320
+}
+    ]
 
 weapons: [
 {
@@ -35,46 +34,51 @@ weapons: [
     y: 0.5
 
     inaccuracy: 15
-    reload: 32
-
-    shoot: {
-        shotDelay: 0.5
-        shots: 3
-    }
+    reload: 25
 
     ejectEffect: none
-
     shootSound: spark
+shoot: {
+    shotDelay: 0.5
+    shots: 3
+}
 
-    bullet: {
-        type: LightningBulletType
-        lightningLengthRand: 14.5
-        lightningColor: 98ffa9
-        lightningLength: 14.5
-        hitColor: 98ffa9
+bullet: {
+    type: LightningBulletType
+    hitSize: 3
+    height: 0
+    width: 0
 
-        healPercent: 4.5
-        damage: 24
+    lightningLengthRand: 15
+    lightningLength: 12.5
+    healAmount: 15
+    damage: 21.5
 
-        shootEffect: shootHeal
+    shootEffect: shootHeal
 
-        lightningType: {
-            collidesTeam: true
-            hittable: false
+    lightningColor: 98ffa9
+    hitColor: 98ffa9
 
-            statusDuration: 15
-            healPercent: 2.1
-            status: shocked
-            lifetime: 1
+lightningType: {
+    collidesTeam: true
+    hittable: false
+    hitSize: 3
+    height: 0
+    width: 0
 
-            hitEffect: hitLancer
-            despawnEffect: none
+    statusDuration: 30
+    healAmount: 7.5
+    status: shocked
+    lifetime: 1
 
-            lightColor: 98ffa9
-            lightOpacity: 0.7
-            lightRadius: 75
-            }
-        }
+    hitEffect: hitLancer
+    despawnEffect: none
+
+    lightColor: 98ffa9
+    lightOpacity: 0.7
+    lightRadius: 42.5
+}
     }
-]
+}
+    ]
 
