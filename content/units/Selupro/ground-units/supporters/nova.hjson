@@ -6,7 +6,7 @@ fogRadius: 35
 
 health: 210
 speed: 0.65
-armor: 2
+armor: 5
 
 lightColor: 98ffa9
 lightOpacity: 0.7
@@ -27,7 +27,6 @@ abilities: [
 weapons: [
 {
     name: nova-weapon
-
     alternate: false
     shootY: 2
     recoil: 2
@@ -35,18 +34,17 @@ weapons: [
 
     reload: 45
 
-    ejectEffect: none
-
     shootSound: lasershoot
+    ejectEffect: none
 
 bullet: {
     type: LaserBoltBulletType
     collideTerrain: true
     collidesTeam: true
-    speed: 3.85
 
     healAmount: 25
     lifetime: 68
+    speed: 3.85
     damage: 32
 
     frontColor: ffffff
