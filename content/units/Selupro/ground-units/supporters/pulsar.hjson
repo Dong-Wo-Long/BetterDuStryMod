@@ -5,6 +5,7 @@ fogRadius: 18
 
 health: 420
 speed: 0.75
+armor: 7
 
 lightColor: 98ffa9
 lightOpacity: 0.7
