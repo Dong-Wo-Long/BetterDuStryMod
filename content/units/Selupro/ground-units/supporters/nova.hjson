@@ -15,14 +15,14 @@ lightRadius: 60
 trailLength: 8
 
 abilities: [
-{
+    {
     type: RepairFieldAbility
 
     reload: 180
     amount: 45
     range: 60
-    }
-]
+}
+    ]
 
 weapons: [
 {
@@ -45,12 +45,12 @@ bullet: {
     collidesTeam: true
     speed: 3.85
 
-    healPercent: 5
+    healAmount: 25
     lifetime: 68
     damage: 32
 
     frontColor: ffffff
     backColor: 84f491
-}
     }
-]
+}
+    ]
