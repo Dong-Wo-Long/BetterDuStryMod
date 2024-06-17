@@ -4,7 +4,7 @@ boostMultiplier: 2
 stepShake: 0.125
 fogRadius: 35
 
-health: 210
+health: 180
 speed: 0.65
 armor: 5
 
