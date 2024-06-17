@@ -1,54 +1,83 @@
-research: ground-factory
+research: nova
+stepShake: 0.6
+fogRadius: 18
 
-boostMultiplier: 2
-stepShake: 0.125
-fogRadius: 35
-
-health: 210
-speed: 0.65
-armor: 5
+health: 420
+speed: 0.75
+armor: 9
 
 lightColor: 98ffa9
 lightOpacity: 0.7
-lightRadius: 60
+lightRadius: 75
 
-trailLength: 8
+trailLength: 9
+
+immunities: [ shocked ]
 
 abilities: [
     {
-    type: RepairFieldAbility
-
-    reload: 180
-    amount: 45
+    type: ShieldRegenFieldAbility 
+    reload: 300
+    amount: 50
     range: 60
+    max: 320
 }
     ]
 
 weapons: [
 {
-    name: nova-weapon
-    alternate: false
-    shootY: 2
-    recoil: 2
-    x: 4.5
+    name: pulsar-weapon
+    recoil: 2.5
+    shootY: 2.5
+    shake: 2.2
+    x: 5
+    y: 0.5
 
-    reload: 45
+    inaccuracy: 15
+    reload: 25
 
-    shootSound: lasershoot
     ejectEffect: none
+    shootSound: spark
+shoot: {
+    shotDelay: 0.5
+    shots: 3
+}
 
 bullet: {
-    type: LaserBoltBulletType
-    collideTerrain: true
+    type: LightningBulletType
+    hitSize: 3
+    height: 0
+    width: 0
+
+    lightningLengthRand: 15
+    lightningLength: 12.5
+    healAmount: 15
+    damage: 21.5
+
+    shootEffect: shootHeal
+
+    lightningColor: 98ffa9
+    hitColor: 98ffa9
+
+lightningType: {
     collidesTeam: true
+    hittable: false
+    hitSize: 3
+    height: 0
+    width: 0
 
-    healAmount: 25
-    lifetime: 68
-    speed: 3.85
-    damage: 32
+    statusDuration: 30
+    healAmount: 7.5
+    status: shocked
+    lifetime: 1
 
-    frontColor: ffffff
-    backColor: 84f491
+    hitEffect: hitLancer
+    despawnEffect: none
+
+    lightColor: 98ffa9
+    lightOpacity: 0.7
+    lightRadius: 42.5
+}
     }
 }
     ]
