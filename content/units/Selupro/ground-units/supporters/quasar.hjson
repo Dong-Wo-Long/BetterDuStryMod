@@ -6,7 +6,7 @@ fogRadius: 32.5
 
 itemCapacity: 140
 health: 2100
-armor: 15
+armor: 18
 
 lightColor: 98ffa9
 lightOpacity: 0.7
