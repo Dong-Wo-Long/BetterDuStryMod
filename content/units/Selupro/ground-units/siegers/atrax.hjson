@@ -3,6 +3,7 @@ research: crawler
 stepShake: 0.7
 fogRadius: 29
 health: 690
+armor: 15
 
 lightColor: 665c9f
 lightOpacity: 0.7
