@@ -17,7 +17,6 @@ trailLength: 8
 abilities: [
     {
     type: RepairFieldAbility
-
     reload: 180
     amount: 45
     range: 60
