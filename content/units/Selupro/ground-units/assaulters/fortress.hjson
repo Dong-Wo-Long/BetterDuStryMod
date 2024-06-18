@@ -72,6 +72,7 @@ bullet: {
 
     controllable: false
     rotationLimit: 75
+    rotateSpeed: 1.25
     autoTarget: true
     shootCone: 25
     mirror: false
