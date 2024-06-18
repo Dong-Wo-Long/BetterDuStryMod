@@ -28,7 +28,7 @@ name: fortress-weapon
 
     shootSound: artillery-shot
     shootEffect: shootSmall
-    ejectEffect: casing2
+    ejectEffect: casing3
 
 bullet: {
     type: ArtilleryBulletType
