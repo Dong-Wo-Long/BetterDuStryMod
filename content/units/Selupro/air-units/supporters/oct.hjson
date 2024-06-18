@@ -22,7 +22,7 @@ lightColor: 98ffa9
 lightOpacity: 0.7
 lightRadius: 215
 
-immunities: [ shocked, blasted, electrified, burning, melting ]
+immunities: [ electrified, melting, burning, blasted, shocked, tarred, wet ]
 
 abilities: [
 {
