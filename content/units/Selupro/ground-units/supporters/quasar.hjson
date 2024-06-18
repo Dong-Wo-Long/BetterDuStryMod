@@ -4,7 +4,7 @@ forceMultiTarget: true
 stepShake: 2.65
 fogRadius: 32.5
 
-itemCapacity: 140
+itemCapacity: 180
 health: 2100
 armor: 18
 
@@ -24,22 +24,28 @@ abilities: [
     regen: 0.3
     sides: 4
     max: 1200
-    }
-]
+}
+    ]
 
 weapons: [
 {
     name: quasar-weapon
     predictTarget: true
-    shootCone: 160
+    shootCone: 90
     shake: 11.5
     recoil: 4
     shootY: 4
     x: 6.5
 
-    reload: 55
+    reload: 150
 
-    shootSound: laser
+    chargeSound: laser-charge
+    shootSound: laser-shot
+shoot: {
+    firstShotDelay: 75
+    shotDelay: 5
+    shots: 3
+}
 
 bullet: {
     type: LaserBulletType
@@ -48,8 +54,8 @@ bullet: {
     recoil: 1
     width: 25
 
-    healPercent: 25
-    damage: 96
+    healAmount: 32
+    damage: 75
 
     colors: [ 84f491, 84f491, ffffff ]
 }
@@ -59,26 +65,23 @@ bullet: {
     name: hidden-pm-mount
     layerOffset: -0.001
     baseRotation: -115
-    alternate: false
     shootCone: 360
     rotate: false
     shootY: 5.25
+    recoil: -5
     shake: 5
     x: 5
     y: -1.5
 
     velocityRnd: 0.2
     inaccuracy: 30
-    reload: 275
-    recoil: -5
-    shake: 1
-
-shoot: { 
-    shotDelay: 6
-    shots: 2
-}
+    reload: 180
 
     shootSound: missile
+shoot: { 
+    shotDelay: 7.5
+    shots: 5
+}
 
 bullet: {
     type: MissileBulletType
@@ -95,15 +98,13 @@ bullet: {
     width: 9
 
     splashDamageRadius: 15
-    homingPower: 0.65
-    splashDamage: 45
-    homingRange: 45
-    healPercent: 7
-    weaveScale: 4
-    lifetime: 106
-    weaveMag: 2
+    homingPower: 0.21
+    splashDamage: 25
+    homingRange: 180
+    healAmount: 15
+    lifetime: 64
     damage: 32
-    speed: 2
+    speed: 4
 
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
