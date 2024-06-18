@@ -49,6 +49,7 @@ bullet: {
     speed: 2.4
 
     hitEffect: blastExplosion
+    hitSound: artillery-hit
 
     lightColor: fff8e8
     lightOpacity: 0.7
