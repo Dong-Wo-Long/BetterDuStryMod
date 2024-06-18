@@ -19,7 +19,8 @@ weapons: [
     x: 4
     y: 2
 
-    reload: 9
+    inaccuracy: 5
+    reload: 7.5
 
     ejectEffect: casing1
 
@@ -29,9 +30,9 @@ bullet: {
     height: 9
     width: 7
 
-    lifetime: 81
-    damage: 12.5
-    speed: 2.5
+    lifetime: 48.5
+    damage: 15
+    speed: 4
 
     lightColor: fff8e8
     lightOpacity: 0.7
