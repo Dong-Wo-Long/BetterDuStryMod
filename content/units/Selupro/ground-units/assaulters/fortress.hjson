@@ -26,8 +26,8 @@ name: fortress-weapon
 
     reload: 64
 
+    shootSound: artillery-shot
     shootEffect: shootSmall
-    shootSound: artillery
     ejectEffect: casing2
 
 bullet: {
