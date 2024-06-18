@@ -13,6 +13,8 @@ lightRadius: 52.5
 
 trailLength: 5.45
 
+immunities: [ tarred, wet ]
+
 ammoType: {
     type: PowerAmmoType
     totalPower: 15
