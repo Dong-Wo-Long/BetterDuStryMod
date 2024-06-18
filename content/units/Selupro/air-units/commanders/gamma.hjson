@@ -37,7 +37,6 @@ name: gamma-weapon
     reload: 23.5
     
     ejectEffect: casing1
-
 shoot: {
     shotDelay: 6
     shots: 5
@@ -62,6 +61,6 @@ bullet: {
     lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 17.5
-}
     }
-]
+}
+    ]
