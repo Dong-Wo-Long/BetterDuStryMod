@@ -14,7 +14,7 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 52
 
-immunities: [ blasted, burning ]
+immunities: [ blasted ]
 
 targetFlags: [ generator, unitAssembler, factory, storage, battery, drill ]
 
