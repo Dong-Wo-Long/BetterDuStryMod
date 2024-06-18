@@ -18,10 +18,9 @@ trailLength: 5.75
 abilities: [
 {
     type: ShieldRegenFieldAbility
-    range: 0
-
     reload: 75
     amount: 15
+    range: 0
     max: 90
     }
 ]
