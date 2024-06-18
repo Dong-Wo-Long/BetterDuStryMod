@@ -9,6 +9,8 @@ lightColor: 665c9f
 lightOpacity: 0.7
 lightRadius: 90
 
+immunities: [ melting, burning, sapped ]
+
 weapons: [
 {
     name: atrax-weapon
