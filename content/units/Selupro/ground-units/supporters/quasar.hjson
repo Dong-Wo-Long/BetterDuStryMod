@@ -103,7 +103,7 @@ bullet: {
     homingPower: 0.21
     splashDamage: 25
     homingRange: 180
-    healAmount: 15
+    healAmount: 18
     lifetime: 64
     damage: 32
     speed: 4
