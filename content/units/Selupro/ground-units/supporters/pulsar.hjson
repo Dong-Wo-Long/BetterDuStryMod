@@ -12,7 +12,7 @@ lightRadius: 75
 
 trailLength: 9
 
-immunities: [ shocked ]
+immunities: [ electrified, shocked ]
 
 abilities: [
     {
