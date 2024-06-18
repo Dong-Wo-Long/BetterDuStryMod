@@ -148,6 +148,28 @@ shoot: {
     shots: 9
     }
 
+parts: [
+{
+    type: FlarePart
+    color2: ffffff
+    color1: feb380
+    radius: 5.5
+    stroke: 1
+    x: 1
+    y: -0.5
+    }
+
+{
+    type: FlarePart
+    color2: ffffff
+    color1: feb380
+    radius: 5.5
+    stroke: 1
+    x: -1.5
+    y: -1.5
+    }
+]
+
 bullet: {
     type: MissileBulletType
     keepVelocity: false
