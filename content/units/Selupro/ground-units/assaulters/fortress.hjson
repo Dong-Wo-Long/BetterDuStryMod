@@ -81,7 +81,7 @@ bullet: {
 
     cooldownTime: 120
     inaccuracy: 5
-    reload: 90
+    reload: 81
 
     shootSound: heavy-autocannon-shot
     ejectEffect: casing2
