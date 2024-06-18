@@ -5,14 +5,13 @@ fogRadius: 10.5
 mineSpeed: 9
 mineTier: 2
 speed: 2.25
-
 health: 64
-
-trailLength: 5.45
 
 lightColor: 98ffa9
 lightOpacity: 0.7
 lightRadius: 52.5
+
+trailLength: 5.45
 
 ammoType: {
     type: PowerAmmoType
