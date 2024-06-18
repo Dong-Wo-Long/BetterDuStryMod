@@ -108,12 +108,12 @@ bullet: {
     height: 12
     width: 5
 
-    pierceDamageFactor: 0.75
+    pierceDamageFactor: 0.025
     ammoMultiplier: 5
 
-    lifetime: 34.5
-    pierceCap: 5
-    damage: 41.5
+    pierceCap: 15
+    lifetime: 64
+    damage: 74.5
     speed: 7.5
 
     lightColor: fff8e8
