@@ -1,9 +1,9 @@
 research: ground-factory
-
-boostMultiplier: 2
+predictTarget: false
 stepShake: 0.125
 fogRadius: 35
 
+boostMultiplier: 2
 health: 180
 speed: 0.65
 armor: 5
@@ -14,11 +14,10 @@ lightRadius: 60
 
 trailLength: 8
 
-immunities: [ electrified ]
-
 abilities: [
     {
     type: RepairFieldAbility
+
     reload: 180
     amount: 45
     range: 60
@@ -34,23 +33,52 @@ weapons: [
     recoil: 2
     x: 4.5
 
-    reload: 45
+    cooldownTime: 96
+    reload: 120
 
-    shootSound: lasershoot
+    chargeSound: blaster-charge
+    shootSound: blaster-shot
     ejectEffect: none
+shoot: {
+    firstShotDelay: 75
+    shotDelay: 0
+    shots: 1
+}
 
 bullet: {
     type: LaserBoltBulletType
+    parentizeEffects: true
     collideTerrain: true
+    pierceBuilding: true
     collidesTeam: true
-    speed: 3.85
 
-    healAmount: 25
+    pierceDamageFactor: 0.005
+
+    healAmount: 32
+    pierceCap: 5
     lifetime: 68
-    damage: 32
+    damage: 41.5
+    speed: 5
+
+    hitEffect: hitBulletColor
 
     frontColor: ffffff
     backColor: 84f491
+
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    offsetX: 2
+
+    sizeFrom: 7.5
+    sizeTo: 0
+
+    lifetime: 45
+
+    colorFrom: 84f491
+    colorTo: ffffff
+}
     }
 }
     ]
