@@ -12,7 +12,7 @@ lightRadius: 75
 
 trailLength: 9
 
-immunities: [ electrified, shocked ]
+immunities: [ shocked ]
 
 abilities: [
     {
@@ -34,24 +34,27 @@ weapons: [
     y: 0.5
 
     inaccuracy: 15
-    reload: 25
+    reload: 18
 
+    shootSound: electro-shotgun-shot
     ejectEffect: none
-    shootSound: spark
 shoot: {
-    shotDelay: 0.5
-    shots: 3
+    type: ShootSpread
+    spread: 3
+    shots: 5
 }
 
 bullet: {
     type: LightningBulletType
-    hitSize: 3
+    hitSize: 15
     height: 0
     width: 0
 
+    buildingDamageMultiplier: 0.5
+
     lightningLengthRand: 15
     lightningLength: 12.5
-    healAmount: 18
+    healAmount: 17.5
     damage: 21.5
 
     shootEffect: shootHeal
@@ -62,12 +65,12 @@ bullet: {
 lightningType: {
     collidesTeam: true
     hittable: false
-    hitSize: 3
+    hitSize: 15
     height: 0
     width: 0
 
     statusDuration: 30
-    healAmount: 12.5
+    healAmount: 7.5
     status: shocked
     lifetime: 1
 
@@ -81,4 +84,3 @@ lightningType: {
     }
 }
     ]
-
