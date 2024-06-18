@@ -16,6 +16,8 @@ trailLength: 12.5
 engineOffset: 7
 engineSize: 3.5
 
+immunities: [ electrified, shocked, burning ]
+
 abilities: [
     {
     type: ForceFieldAbility 
