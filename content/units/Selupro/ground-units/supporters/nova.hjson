@@ -1,5 +1,4 @@
 research: ground-factory
-predictTarget: false
 stepShake: 0.125
 fogRadius: 35
 
@@ -27,7 +26,7 @@ abilities: [
 weapons: [
 {
     name: nova-weapon
-
+    predictTarget: false
     alternate: false
     shootY: 2
     recoil: 2
