@@ -21,7 +21,7 @@ lightColor: 98ffa9
 lightOpacity: 0.7
 lightRadius: 75
 
-immunities: [ shocked, blasted, electrified, melting ]
+immunities: [ electrified, melting, blasted, shocked, tarred, wet ]
 
 ammoType: {
     type: PowerAmmoType
