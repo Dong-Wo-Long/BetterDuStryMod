@@ -11,7 +11,7 @@ lightColor: 665c9f
 lightOpacity: 0.7
 lightRadius: 150
 
-immunities: [ spore-slowed, burning, sapped ]
+immunities: [ spore-slowed, shocked, sapped ]
 
 abilities: [
 {
