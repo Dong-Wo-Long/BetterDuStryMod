@@ -2,7 +2,7 @@ research: mono
 
 itemCapacity: 32
 buildSpeed: 1.8
-fogRadius: 37.5
+fogRadius: 17.5
 mineSpeed: 3.2
 maxRange: 88
 mineTier: 1
