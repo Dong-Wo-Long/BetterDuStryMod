@@ -81,7 +81,7 @@ bullet: {
 
     shootSound: missile
 shoot: { 
-    shotDelay: 7.5
+    shotDelay: 9
     shots: 5
 }
 
