@@ -104,6 +104,7 @@ bullet: {
     type: BasicBulletType
     sprite: missile-large
     removeAfterPierce: false
+    pierceBuilding: true
     collideTerrain: true
     height: 12
     width: 5
