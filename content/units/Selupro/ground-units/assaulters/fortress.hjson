@@ -1,5 +1,4 @@
 research: mace
-
 forceMultiTarget: true
 targetAir: true
 stepShake: 3.25
@@ -7,7 +6,7 @@ fogRadius: 47.5
 
 itemCapacity: 150
 health: 2250
-armor: 21
+armor: 32
 
 lightColor: fff8e8
 lightOpacity: 0.7
@@ -68,7 +67,7 @@ bullet: {
     }
 
 {
-name: mount-weapon
+    name: fortress-machine-gun
 
     controllable: false
     rotationLimit: 75
@@ -76,30 +75,54 @@ name: mount-weapon
     shootCone: 25
     mirror: false
     rotate: true
-    x: 6
-    y: -4
+    shootY: 7.5
+    x: 5
+    y: -3
 
+    cooldownTime: 120
     inaccuracy: 5
-    reload: 7.5
-    
-    ejectEffect: casing1
-    shootSound: shoot
+    reload: 90
+
+    shootSound: heavy-autocannon-shot
+    ejectEffect: casing2
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl
+    progress: recoil
+    outline: false
+    mirror: false
+    moveY: -0.75
+    under: true
+    x: 0
+    y: 2
+}
+    ]
 
 bullet: {
     type: BasicBulletType
-    collidesAir: true
-    height: 9
-    width: 6
+    sprite: missile-large
+    removeAfterPierce: false
+    collideTerrain: true
+    height: 12
+    width: 5
 
-    buildingDamageMultiplier: 0.01
+    pierceDamageFactor: 0.75
+    ammoMultiplier: 5
 
-    lifetime: 50
-    damage: 9
-    speed: 5
+    lifetime: 34.5
+    pierceCap: 5
+    damage: 41.5
+    speed: 7.5
 
     lightColor: fff8e8
     lightOpacity: 0.7
-    lightRadius: 21
+    lightRadius: 20
+
+    trailColor: f9c27a
+    trailLength: 27.5
+    trailWidth: 1.5
     }
 }
     ]
