@@ -39,7 +39,7 @@ abilities: [
     }
 {
     type: ShieldArcAbility
-    region: enhancement-units-corvus-shield
+    region: bsm-corvus-shield
     radius: 25
     angle: 120
     width: 8
