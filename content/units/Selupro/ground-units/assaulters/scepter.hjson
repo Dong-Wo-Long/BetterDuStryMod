@@ -127,8 +127,10 @@ bullet: {
 
 {
     name: large-mm
+    controllable: false
     rotationLimit: 45
     rotateSpeed: 0.75
+    autoTarget: true
     shootCone: 90
     rotate: true
     shake: 7
