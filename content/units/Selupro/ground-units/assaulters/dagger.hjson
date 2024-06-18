@@ -34,8 +34,8 @@ weapons: [
     inaccuracy: 5
     reload: 7.5
 
+    soundShoot: submachine-gun-shot
     ejectEffect: casing1
-
 bullet: {
     type: BasicBulletType
     collideTerrain: true
