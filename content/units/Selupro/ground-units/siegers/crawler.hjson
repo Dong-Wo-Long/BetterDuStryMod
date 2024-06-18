@@ -9,7 +9,7 @@ lightOpacity: 0.7
 lightRadius: 47.5
 
 weapons: [
-    {
+{
     shootOnDeath: true
     shootCone: 160
     mirror: false
