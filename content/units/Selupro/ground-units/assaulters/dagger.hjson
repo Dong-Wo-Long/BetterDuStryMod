@@ -15,6 +15,17 @@ lightRadius: 55
 
 immunities: [ blasted ]
 
+abilities: [
+    {
+    type: ForceFieldAbility 
+    cooldown: 300
+    radius: 12
+    regen: 0.5
+    sides: 1
+    max: 50
+}
+    ]
+
 weapons: [
     {
     name: dagger-weapon
