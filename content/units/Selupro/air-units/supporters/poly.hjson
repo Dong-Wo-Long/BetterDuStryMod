@@ -10,11 +10,11 @@ health: 180
 speed: 3.25
 armor: 2
 
-trailLength: 6.25
-
 lightColor: 98ffa9
 lightOpacity: 0.7
 lightRadius: 62.5
+
+trailLength: 6.25
 
 ammoType: {
     type: PowerAmmoType
