@@ -1,5 +1,4 @@
 research: poly
-
 forceMultiTarget: true
 faceTarget: true
 
@@ -12,11 +11,13 @@ health: 750
 speed: 2.75
 armor: 4
 
-trailLength: 7.5
-
 lightColor: 98ffa9
 lightOpacity: 0.7
 lightRadius: 67.5
+
+trailLength: 7.5
+
+
 
 ammoType: {
     type: PowerAmmoType
