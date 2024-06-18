@@ -56,7 +56,7 @@ bullet: {
     recoil: 1
     width: 25
 
-    healAmount: 32
+    healAmount: 50
     damage: 75
 
     colors: [ 84f491, 84f491, ffffff ]
@@ -103,7 +103,7 @@ bullet: {
     homingPower: 0.21
     splashDamage: 25
     homingRange: 180
-    healAmount: 18
+    healAmount: 21
     lifetime: 64
     damage: 32
     speed: 4
