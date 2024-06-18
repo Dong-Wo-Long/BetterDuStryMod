@@ -77,7 +77,7 @@ bullet: {
     rotate: true
     shootY: 7.5
     x: 5
-    y: -3
+    y: -3.5
 
     cooldownTime: 120
     inaccuracy: 5
