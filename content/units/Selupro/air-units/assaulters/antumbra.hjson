@@ -19,7 +19,7 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 110
 
-immunities: [ burning, shocked, blasted ]
+immunities: [ burning, blasted, shocked, tarred, wet ]
 
 targetFlags: [ unitAssembler, unitCargoUnloadPoint, turret, reactor, generator, battery, core ]
 
