@@ -7,6 +7,8 @@ lightColor: 665c9f
 lightOpacity: 0.7
 lightRadius: 47.5
 
+immunities: [ sapped ]
+
 weapons: [
 {
     shootOnDeath: true
