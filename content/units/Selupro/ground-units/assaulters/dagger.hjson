@@ -17,11 +17,10 @@ immunities: [ blasted ]
 
 abilities: [
     {
-    type: ForceFieldAbility 
-    cooldown: 300
-    regen: 0.25
-    radius: 12
-    sides: 1
+    type: ShieldRegenFieldAbility
+    reload: 300
+    amount: 50
+    range: 0
     max: 50
 }
     ]
