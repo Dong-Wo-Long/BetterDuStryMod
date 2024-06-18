@@ -13,6 +13,8 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 55
 
+immunities: [ blasted ]
+
 weapons: [
     {
     name: dagger-weapon
