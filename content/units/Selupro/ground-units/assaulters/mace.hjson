@@ -3,10 +3,49 @@ research: dagger
 stepShake: 0.85
 fogRadius: 7.5
 
-itemCapacity: 70
-speed: 0.55
+itemCapacity: 32
+speed: 0.65
 armor: 15
 
 lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 67.5
+
+immunities: [ burning, blasted ]
+
+weapons: [
+{
+    name: mace-weapon
+    top: false
+    shootY: 2
+    recoil: 1
+
+    reload: 5
+    
+    ejectEffect: none
+    shootSound: flame
+
+bullet: {
+    type: BulletType
+    pierceBuilding: true
+    keepVelocity: false
+    hittable: false
+    pierce: true
+    hitSize: 7
+
+    buildingDamageMultiplier: 1.5
+    ammoMultiplier: 3
+
+    statusDuration: 300
+    status: burning
+    pierceCap: 5
+    lifetime: 19
+    damage: 12.5
+    speed: 3
+
+    shootEffect: shootSmallFlame
+    hitEffect: hitFlameSmall
+    despawnEffect: none
+    }
+}
+    ]
