@@ -24,7 +24,7 @@ name: fortress-weapon
     x: 9.5
     y: 1
 
-    reload: 90
+    reload: 75
 
     shootEffect: shootSmall
     shootSound: artillery
