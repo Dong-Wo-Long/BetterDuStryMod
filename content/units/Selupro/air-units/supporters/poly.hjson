@@ -4,6 +4,7 @@ itemCapacity: 32
 buildSpeed: 1.8
 fogRadius: 37.5
 mineSpeed: 3.2
+maxRange: 88
 mineTier: 1
 health: 180
 speed: 3.25
