@@ -34,7 +34,7 @@ weapons: [
     inaccuracy: 5
     reload: 7.5
 
-    shootSound: submachine-gun-shot
+    shootSound: kinetic-rifle-shot
     ejectEffect: casing1
 bullet: {
     type: BasicBulletType
