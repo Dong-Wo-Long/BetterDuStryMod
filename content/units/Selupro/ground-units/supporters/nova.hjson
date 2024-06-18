@@ -36,7 +36,7 @@ weapons: [
     reload: 120
 
     chargeSound: blaster-charge
-    shootSound: blaster-shot
+    shootSound: blaster-shot-1
     ejectEffect: none
 shoot: {
     firstShotDelay: 75
