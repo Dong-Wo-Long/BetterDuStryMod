@@ -80,7 +80,7 @@ bullet: {
     y: -3.5
 
     cooldownTime: 120
-    inaccuracy: 5
+    inaccuracy: 3
     reload: 81
 
     shootSound: heavy-autocannon-shot
