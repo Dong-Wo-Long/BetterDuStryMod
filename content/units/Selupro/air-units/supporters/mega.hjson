@@ -17,7 +17,7 @@ lightRadius: 67.5
 
 trailLength: 7.5
 
-
+immunities: [ electrified, shocked ]
 
 ammoType: {
     type: PowerAmmoType
