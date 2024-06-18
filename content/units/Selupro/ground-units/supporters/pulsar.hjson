@@ -51,7 +51,7 @@ bullet: {
 
     lightningLengthRand: 15
     lightningLength: 12.5
-    healAmount: 15
+    healAmount: 18
     damage: 21.5
 
     shootEffect: shootHeal
@@ -67,7 +67,7 @@ lightningType: {
     width: 0
 
     statusDuration: 30
-    healAmount: 7.5
+    healAmount: 12.5
     status: shocked
     lifetime: 1
 
