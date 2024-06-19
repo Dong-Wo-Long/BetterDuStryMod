@@ -52,11 +52,11 @@ graphite: {
     rangeChange: 220
 
     splashDamageRadius: 60
-    splashDamage: 64
+    splashDamage: 69
     knockback: 1.25
     pierceCap: 48
     lifetime: 134
-    damage: 75
+    damage: 96
     speed: 4.5
 
     hitSound: large-cannon-hit
@@ -114,7 +114,7 @@ thorium: {
     knockback: 1.8
     pierceCap: 81
     lifetime: 152
-    damage: 121
+    damage: 141
     speed: 2.5
 
     hitSound: large-cannon-hit
@@ -169,12 +169,12 @@ pyratite: {
 
     splashDamageRadius: 120
     statusDuration: 450
-    splashDamage: 47.5
+    splashDamage: 72.5
     knockback: 0.75
     status: burning
     pierceCap: 32
     lifetime: 141
-    damage: 41.5
+    damage: 81
     speed: 5
 
     hitSound: large-cannon-hit
@@ -229,13 +229,13 @@ blast-compound: {
 
     splashDamageRadius: 100
     statusDuration: 48
-    splashDamage: 121
+    splashDamage: 181
     status: blasted
     knockback: 2.1
     pierceCap: 96
     lifetime: 171
     speed: 2.25
-    damage: 96
+    damage: 121
 
     hitSound: large-cannon-hit
     shootEffect: shootBig
@@ -290,11 +290,11 @@ titanium: {
     status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 64
     statusDuration: 300
-    splashDamage: 81
+    splashDamage: 96
     knockback: 1.32
     pierceCap: 75
     lifetime: 160
-    damage: 96
+    damage: 121
     speed: 3.2
 
     hitSound: large-cannon-hit
