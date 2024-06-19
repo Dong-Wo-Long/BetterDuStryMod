@@ -11,7 +11,7 @@ buildCostMultiplier: 1.5
 inaccuracy: 9
 maxAmmo: 15
 health: 180
-reload: 180
+reload: 150
 range: 720
 armor: 1
 
@@ -36,6 +36,7 @@ graphite: {
     splashDamageRadius: 40
     splashDamage: 52.5
     knockback: 1.5
+    pierceCap: 8
     lifetime: 80
     speed: 2
 
@@ -88,6 +89,7 @@ silicon: {
     splashDamage: 32.5
     homingPower: 0.25
     homingRange: 50
+    pierceCap: 3
     knockback: 1
     lifetime: 80
     speed: 3.2
@@ -250,6 +252,7 @@ scrap: {
     knockback: 1.25
     fragBullets: 8
     fragSpread: 32
+    pierceCap: 5
     lifetime: 80
     speed: 4.5
 
