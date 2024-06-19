@@ -11,7 +11,7 @@ ammoType: plastanium
 itemCapacity: 2100
 health: 32000
 speed: 1.3
-armor: 64
+armor: 81
 
 trailLength: 19
 
