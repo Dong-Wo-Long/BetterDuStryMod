@@ -39,7 +39,8 @@ bullet: {
     buildingDamageMultiplier: 0.01
 
     lifetime: 67.5
-    damage: 11.5
+    pierceCap: 3
+    damage: 12.5
     speed: 3.2
 
     smokeEffect: shootSmallSmoke
