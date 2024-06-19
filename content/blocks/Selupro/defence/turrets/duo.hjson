@@ -8,7 +8,7 @@ shootY: 3
 inaccuracy: 2
 maxAmmo: 32
 health: 360
-reload: 32
+reload: 30
 armor: 2
 
 ammoUseEffect: casing1
@@ -25,6 +25,7 @@ copper: {
 
     ammoMultiplier: 6
 
+    pierceCap: 3
     lifetime: 48
     damage: 18
     speed: 3.2
@@ -46,6 +47,7 @@ graphite: {
     reloadMultiplier: 0.75
     ammoMultiplier: 3
 
+    pierceCap: 5
     lifetime: 64
     damage: 24.5
     speed: 2.75
@@ -72,6 +74,7 @@ silicon: {
 
     homingPower: 0.15
     lifetime: 42.5
+    pierceCap: 2
     damage: 12.5
     speed: 4.75
 
@@ -121,7 +124,7 @@ fragBullet: {
     height: 12
     width: 5
 
-    pierceCap: 2
+    pierceCap: 3
     lifetime: 6
     damage: 4.5
     speed: 4.5
