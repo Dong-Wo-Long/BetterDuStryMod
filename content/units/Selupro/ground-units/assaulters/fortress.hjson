@@ -4,7 +4,7 @@ targetAir: true
 stepShake: 3.25
 fogRadius: 47.5
 
-itemCapacity: 150
+itemCapacity: 96
 health: 2250
 armor: 32
 
