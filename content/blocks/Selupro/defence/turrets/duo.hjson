@@ -42,6 +42,7 @@ copper: {
 
 graphite: {
     type: BasicBulletType
+    pierce: true
     height: 12
     width: 9
 
