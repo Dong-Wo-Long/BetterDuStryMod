@@ -46,6 +46,7 @@ bullet: {
     splashDamage: 120
     knockback: 4.45
     lifetime: 152.5
+    pierceCap: 96
     speed: 2.4
 
     hitEffect: blastExplosion
@@ -111,10 +112,10 @@ bullet: {
     height: 12
     width: 5
 
-    pierceDamageFactor: 0.025
+    pierceDamageFactor: 0.005
     ammoMultiplier: 5
 
-    pierceCap: 15
+    pierceCap: 32
     lifetime: 64
     damage: 74.5
     speed: 7.5
