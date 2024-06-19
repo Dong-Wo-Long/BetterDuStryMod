@@ -11,7 +11,7 @@ health: 48000
 mineSpeed: 3
 mineTier: 5
 speed: 0.23
-armor: 121
+armor: 144
 
 lightColor: 98ffa9
 lightOpacity: 0.7
