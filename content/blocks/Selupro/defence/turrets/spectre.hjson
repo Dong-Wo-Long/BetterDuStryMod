@@ -7,7 +7,7 @@ recoil: 6
 
 buildCostMultiplier: 1.32
 
-ammoPerShot: 2
+ammoPerShot: 32
 inaccuracy: 0
 health: 3200
 maxAmmo: 75
