@@ -86,7 +86,7 @@ effects: [
     colorTo: a9d8ff
 }
 
-{
+    {
     type: ParticleEffect
     particles: 3
     lifetime: 20
