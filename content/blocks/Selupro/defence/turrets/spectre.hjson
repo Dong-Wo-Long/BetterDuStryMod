@@ -330,6 +330,87 @@ hitEffect: {
     sparkRad: 48
     sparkLen: 9
     sparks: 18
+}
+    }
+
+surge-alloy: {
+    type: BasicBulletType
+    pierceBuilding: true
+    hittable: false
+    hitSize: 5
+    height: 24
+    width: 16
+
+    buildingDamageMultiplier: 0.32
+    pierceDamageFactor: 100
+    reloadMultiplier: 0.75
+    ammoMultiplier: 12
+    rangeChange: 388
+
+    status: 20s-35-status-tier-2-direct-purpose-emp
+    splashDamageRadius: 144
+    lightningLength: 16
+    statusDuration: 540
+    lightningDamage: 5
+    splashDamage: 32
+    pierceCap: 25
+    lightning: 18
+    lifetime: 140
+    damage: 42.5
+    speed: 5.5
+
+    hitSound: large-cannon-hit
+    shootEffect: shootBig
+
+    lightColor: fcf387
+    lightOpacity: 0.7
+    lightRadius: 42.5
+
+    trailColor: e8d174
+    trailLength: 72.5
+    trailWidth: 3.25
+
+    frontColor: fcf387
+    backColor: e8d174
+
+hitEffect: {
+    type: MultiEffect
+
+effects: [
+{
+    type: WaveEffect
+    rotWithParent: false
+    followParent: false
+    sizeFrom: 0
+    sizeTo: 144
+
+    lifetime: 180
+
+    colorFrom: e8d174
+    colorTo: fcf387
+    }
+
+{
+    type: ExplosionEffect
+
+    lifetime: 180
+
+    waveColor: fcf387
+    waveStroke: 0
+    waveRad: 0
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 32
+    smokes: 16
+
+    sparkColor: fcf387
+    sparkStroke: 2.5
+    sparkRad: 125
+    sparkLen: 15
+    sparks: 48
+    }
+]
     }
 }
     }
