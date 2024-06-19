@@ -36,6 +36,7 @@ graphite: {
     splashDamageRadius: 40
     splashDamage: 72.5
     knockback: 1.8
+    pierceCap: 32
     lifetime: 80
     speed: 1.8
 
@@ -112,6 +113,7 @@ silicon: {
     homingPower: 0.12
     homingRange: 50
     knockback: 1.5
+    pierceCap: 25
     lifetime: 80
     speed: 2.25
 
@@ -188,6 +190,7 @@ pyratite: {
     splashDamage: 42.5
     knockback: 1.25
     status: burning
+    pierceCap: 21
     lifetime: 80
     speed: 2
 
@@ -237,6 +240,7 @@ fragBullet: {
 
     splashDamageRadius: 26
     splashDamage: 17.5
+    pierceCap: 18
     lifetime: 21
     damage: 14.5
     speed: 2.1
@@ -292,6 +296,7 @@ blast-compound: {
     status: blasted
     fragBullets: 8
     knockback: 2.5
+    pierceCap: 69
     lifetime: 80
     speed: 1.5
 
@@ -348,6 +353,7 @@ fragBullet: {
     status: blasted
     knockback: 1.5
     lifetime: 12.5
+    pierceCap: 45
     damage: 21.5
     speed: 3
 
@@ -398,6 +404,7 @@ plastanium: {
     splashDamage: 45
     fragBullets: 10
     knockback: 2.1
+    pierceCap: 41
     lifetime: 80
     speed: 1.75
 
@@ -428,6 +435,7 @@ fragBullet: {
     buildingDamageMultiplier: 0.25
     
     knockback: 1.25
+    pierceCap: 32
     lifetime: 18
     damage: 32.5
 
