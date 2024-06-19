@@ -45,6 +45,7 @@ bullet:{
     fragBullets: 9
     fragSpread: 45
     fragAngle: 30
+    pierceCap: 75
     lifetime: 1
     damage: 300
     speed: 0
@@ -58,7 +59,7 @@ fragBullet: {
     height: 12
     width: 5
 
-    pierceCap: 5
+    pierceCap: 15
     lifetime: 12
     damage: 24.5
     speed: 2.4
