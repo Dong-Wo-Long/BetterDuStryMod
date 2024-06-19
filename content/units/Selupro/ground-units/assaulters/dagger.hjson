@@ -42,7 +42,7 @@ bullet: {
     height: 9
     width: 7
 
-    lifetime: 48.5
+    lifetime: 49
     damage: 15
     speed: 4
 
