@@ -17,6 +17,8 @@ lightRadius: 60
 
 trailLength: 8
 
+immunities: [ electrified ]
+
 abilities: [
     {
     type: RepairFieldAbility
