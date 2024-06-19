@@ -8,7 +8,7 @@ shootY: 3
 inaccuracy: 2
 maxAmmo: 32
 health: 360
-reload: 30
+reload: 24
 armor: 2
 
 ammoUseEffect: casing1
