@@ -9,8 +9,8 @@ buildCostMultiplier: 1.32
 
 ammoPerShot: 32
 inaccuracy: 0
+maxAmmo: 1536
 health: 3200
-maxAmmo: 75
 reload: 48
 range: 380
 armor: 18
@@ -48,13 +48,13 @@ graphite: {
     buildingDamageMultiplier: 0.85
     pierceDamageFactor: 100
     reloadMultiplier: 1.5
-    ammoMultiplier: 18
+    ammoMultiplier: 32
     rangeChange: 220
 
     splashDamageRadius: 60
     splashDamage: 64
     knockback: 1.25
-    pierceCap: 32
+    pierceCap: 48
     lifetime: 134
     damage: 75
     speed: 4.5
@@ -105,7 +105,7 @@ thorium: {
 
     pierceDamageFactor: 100
     reloadMultiplier: 0.5
-    ammoMultiplier: 5
+    ammoMultiplier: 18
     
     status: 20s-05-tier-2-strength-reduction
     splashDamageRadius: 72
@@ -164,7 +164,7 @@ pyratite: {
     buildingDamageMultiplier: 0.5
     pierceDamageFactor: 100
     reloadMultiplier: 0.85
-    ammoMultiplier: 15
+    ammoMultiplier: 18
     rangeChange: 272
 
     splashDamageRadius: 120
@@ -172,7 +172,7 @@ pyratite: {
     splashDamage: 47.5
     knockback: 0.75
     status: burning
-    pierceCap: 25
+    pierceCap: 32
     lifetime: 141
     damage: 41.5
     speed: 5
@@ -224,7 +224,7 @@ blast-compound: {
     buildingDamageMultiplier: 1.5
     pierceDamageFactor: 100
     reloadMultiplier: 0.64
-    ammoMultiplier: 12
+    ammoMultiplier: 24
     rangeChange: 4
 
     splashDamageRadius: 100
@@ -284,7 +284,7 @@ titanium: {
     buildingDamageMultiplier: 0.75
     pierceDamageFactor: 100
     reloadMultiplier: 1.25
-    ammoMultiplier: 8
+    ammoMultiplier: 36
     rangeChange: 132
 
     status: 20s-06-tier-1-strength-reduction
