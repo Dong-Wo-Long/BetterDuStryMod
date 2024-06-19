@@ -18,8 +18,62 @@ immunities: [ burning, melting, wet, blasted, shocked ]
 
 weapons: [
 {
-    name: reign-weapon
+    name: selupro-machine-gun
+    rotationLimit: 90
+    baseRotation: 25
+    rotateSpeed: 1
+    rotate: true
+    shootY: 4
+    x: 6
+    y: 5
 
+    cooldownTime: 96
+    inaccuracy: 3
+    reload: 7.5
+
+    shootSound: machine-gun-shot
+    ejectEffect: casing1
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl
+    progress: recoil
+    outline: false
+    mirror: false
+    moveY: -0.75
+    under: true
+    x: 0
+    y: 1
+}
+    ]
+
+bullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    ammoMultiplier: 2
+    height: 8.5
+    width: 6.5
+
+    pierceDamageFactor: 0.0005
+
+    pierceCap: 8
+    lifetime: 64
+    damage: 41
+    speed: 7.5
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 20
+
+    trailColor: f9c27a
+    trailLength: 27.5
+    trailWidth: 1.25
+}
+    }
+
+{
+    name: reign-weapon
     shootCone: 45
     shootY: 11
     recoil: 5
@@ -27,15 +81,22 @@ weapons: [
     x: 21.5
     y: 1
 
-    reload: 7.5
+    inaccuracy: 5
+    reload: 640
 
+    chargeSound: heavy-minigun-charge
+    shootSound: heavy-minigun-shot
     ejectEffect: casing4
-    shootSound: bang
+shoot: {
+    firstShotDelay: 102
+    shotDelay: 5
+    shots: 96
+}
 
 bullet: {
     type: BasicBulletType
-    removeAfterPierce: false
     collideTerrain: true
+    pierceBuilding: true
     despawnShake: 5
     pierce: true
     hitShake: 5
@@ -43,19 +104,16 @@ bullet: {
     width: 14
 
     buildingDamageMultiplier: 0.32
-    pierceDamageFactor: 1.25
+    pierceDamageFactor: 0.025
 
     splashDamageRadius: 13
-    fragRandomSpread: 45
-    fragVelocityMin: 0.4
-    splashDamage: 325
-    fragBullets: 3
-    fragLifeMin: 0
+    splashDamage: 96
     lifetime: 20.5
-    pierceCap: 10
-    damage: 425
+    pierceCap: 81
+    damage: 121
     speed: 19
 
+    hitSound: heavy-minigun-hit
     hitEffect: blastExplosion
     shootEffect: shootBig
 
@@ -63,34 +121,9 @@ bullet: {
     lightOpacity: 0.7
     lightRadius: 52
 
-fragBullet: {
-    type: BasicBulletType
-    removeAfterPierce: false
-    collideTerrain: true
-    pierceBuilding: true
-    collidesAir: false
-    despawnShake: 1
-    pierce: true
-    hitShake: 1
-    height: 10
-    width: 10
-
-    buildingDamageMultiplier: 0.16
-    pierceDamageFactor: 0.75
-
-    splashDamageRadius: 26
-    splashDamage: 96
-    pierceCap: 3
-    lifetime: 20
-    damage: 181
-    speed: 5
-
-    hitEffect: flakExplosion
-
-    lightColor: fff8e8
-    lightOpacity: 0.7
-    lightRadius: 21
-    }
+    trailColor: f9c27a
+    trailLength: 72.5
+    trailWidth: 2.75
 }
     }
 
