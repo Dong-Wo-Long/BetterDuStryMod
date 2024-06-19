@@ -2,6 +2,10 @@ research: nova
 stepShake: 0.6
 fogRadius: 18
 
+itemCapacity: 48
+buildSpeed: 1.5
+mineSpeed: 3.2
+mineTier: 3
 health: 420
 speed: 0.75
 armor: 9
