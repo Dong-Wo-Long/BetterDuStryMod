@@ -4,7 +4,7 @@ forceMultiTarget: true
 stepShake: 2.65
 fogRadius: 32.5
 
-itemCapacity: 180
+itemCapacity: 96
 buildSpeed: 1.8
 mineSpeed: 7.5
 health: 2100
