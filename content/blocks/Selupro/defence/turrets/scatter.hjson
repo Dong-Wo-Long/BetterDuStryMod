@@ -38,6 +38,7 @@ scrap: {
     splashDamageRadius: 20
     splashDamage: 17.5
     lifetime: 67.5
+    pierceCap: 3
     damage: 14.5
     speed: 6
 
@@ -67,7 +68,7 @@ lead: {
 
     splashDamageRadius: 26
     splashDamage: 27.5
-    pierceCap: 4
+    pierceCap: 15
     lifetime: 81
     damage: 21.5
     speed: 3.75
@@ -99,7 +100,7 @@ silicon: {
     splashDamageRadius: 0
     homingPower: 0.15
     splashDamage: 0
-    pierceCap: 2
+    pierceCap: 5
     lifetime: 75
     damage: 17.5
     speed: 4.8
@@ -130,7 +131,7 @@ metaglass: {
     splashDamageRadius: 40
     splashDamage: 12.5
     fragBullets: 7
-    pierceCap: 3
+    pierceCap: 8
     lifetime: 70
     damage: 7.5
     speed: 5
@@ -156,6 +157,7 @@ fragBullet: {
     height: 12
     width: 5
 
+    pierceCap: 5
     lifetime: 20
     damage: 5
 
