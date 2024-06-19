@@ -43,6 +43,7 @@ copper: {
     width: 7
 
     buildingDamageMultiplier: 0.25
+    pierceDamageFactor: 100
     ammoMultiplier: 12
 
     pierceCap: 5
