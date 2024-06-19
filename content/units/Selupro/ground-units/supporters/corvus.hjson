@@ -4,7 +4,7 @@ legSplashRange: 26
 stepShake: 10.5
 fogRadius: 128
 
-itemCapacity: 2500
+itemCapacity: 1250
 rotateSpeed: 0.48
 buildSpeed: 5
 health: 48000
