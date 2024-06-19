@@ -55,6 +55,7 @@ slag: {
     statusDuration: 1080
     status: melting
     knockback: 0.5
+    pierceCap: 50
     lifetime: 70
     damage: 32.5
     speed: 3.75
@@ -75,6 +76,7 @@ cryofluid: {
     statusDuration: 1440
     status: freezing
     knockback: 1.32
+    pierceCap: 32
     lifetime: 75
     damage: 12.5
     speed: 5.5
