@@ -18,61 +18,6 @@ immunities: [ burning, melting, wet, blasted, shocked ]
 
 weapons: [
 {
-    name: selupro-machine-gun
-    rotationLimit: 90
-    baseRotation: 25
-    rotateSpeed: 1
-    rotate: true
-    shootY: 4
-    x: 6
-    y: 5
-
-    cooldownTime: 96
-    inaccuracy: 3
-    reload: 7.5
-
-    shootSound: machine-gun-shot
-    ejectEffect: casing1
-
-parts: [
-{
-    type: RegionPart
-    suffix: -brl
-    progress: recoil
-    outline: false
-    mirror: false
-    moveY: -0.75
-    under: true
-    x: 0
-    y: 1
-}
-    ]
-
-bullet: {
-    type: BasicBulletType
-    collideTerrain: true
-    ammoMultiplier: 2
-    height: 8.5
-    width: 6.5
-
-    pierceDamageFactor: 0.0005
-
-    pierceCap: 8
-    lifetime: 64
-    damage: 41
-    speed: 7.5
-
-    lightColor: fff8e8
-    lightOpacity: 0.7
-    lightRadius: 20
-
-    trailColor: f9c27a
-    trailLength: 27.5
-    trailWidth: 1.25
-}
-    }
-
-{
     name: reign-weapon
     shootCone: 45
     shootY: 11
