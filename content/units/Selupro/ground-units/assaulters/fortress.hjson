@@ -115,8 +115,8 @@ bullet: {
     pierceDamageFactor: 0.005
     ammoMultiplier: 5
 
-    lifetime: 64.5
     pierceCap: 32
+    lifetime: 65
     damage: 74.5
     speed: 7.5
 
