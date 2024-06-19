@@ -39,7 +39,7 @@ graphite: {
     rangeChange: 20
 
     knockback: 3.2
-    pierceCap: 12
+    pierceCap: 21
     lifetime: 18
     damage: 75
 
@@ -85,7 +85,7 @@ thorium: {
     status: 20s-05-tier-2-strength-reduction
     statusDuration: 108
     knockback: 7.5
-    pierceCap: 18
+    pierceCap: 25
     lifetime: 18
     damage: 241
 
@@ -111,7 +111,7 @@ pyratite: {
 
     statusDuration: 180
     status: burning
-    pierceCap: 3
+    pierceCap: 18
     lifetime: 24
     damage: 64
 
@@ -188,7 +188,7 @@ blast-compound: {
     statusDuration: 16
     status: blasted
     knockback: 12.5
-    pierceCap: 25
+    pierceCap: 32
     lifetime: 18
     damage: 181
 
