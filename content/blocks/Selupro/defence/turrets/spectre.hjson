@@ -164,7 +164,7 @@ pyratite: {
     buildingDamageMultiplier: 0.5
     pierceDamageFactor: 100
     reloadMultiplier: 0.85
-    ammoMultiplier: 18
+    ammoMultiplier: 24
     rangeChange: 272
 
     splashDamageRadius: 120
@@ -224,7 +224,7 @@ blast-compound: {
     buildingDamageMultiplier: 1.5
     pierceDamageFactor: 100
     reloadMultiplier: 0.64
-    ammoMultiplier: 24
+    ammoMultiplier: 15
     rangeChange: 4
 
     splashDamageRadius: 100
