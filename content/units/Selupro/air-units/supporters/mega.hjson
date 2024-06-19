@@ -3,9 +3,9 @@ forceMultiTarget: true
 faceTarget: true
 
 itemCapacity: 81
-buildSpeed: 0.8
+buildSpeed: 0.96
 fogRadius: 42.5
-mineSpeed: 1.8
+mineSpeed: 1.5
 mineTier: 2
 health: 750
 speed: 2.75
