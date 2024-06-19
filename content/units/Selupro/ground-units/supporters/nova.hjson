@@ -3,6 +3,10 @@ stepShake: 0.125
 fogRadius: 35
 
 boostMultiplier: 2
+itemCapacity: 32
+buildSpeed: 1.25
+mineSpeed: 5
+mineTier: 2
 health: 180
 speed: 0.65
 armor: 5
