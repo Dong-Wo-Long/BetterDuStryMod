@@ -4,7 +4,7 @@ rotateSpeed: 0.9
 stepShake: 7.5
 fogRadius: 30
 
-itemCapacity: 960
+itemCapacity: 1024
 buildSpeed: 2.5
 health: 32000
 mineSpeed: 9
