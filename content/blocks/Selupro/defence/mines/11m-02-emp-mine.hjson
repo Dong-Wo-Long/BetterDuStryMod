@@ -22,13 +22,13 @@ health: 75
 
 destroySound: emp-boom
 
-requirements:[
+requirements: [
     graphite/24
     silicon/32
     surge-alloy/15
 ]
 
-bullet:{
+bullet: {
     collidesTiles: false
     collidesAir: false
     absorbable: false
