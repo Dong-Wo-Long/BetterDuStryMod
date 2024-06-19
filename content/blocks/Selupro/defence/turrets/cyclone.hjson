@@ -60,7 +60,7 @@ metaglass: {
     splashDamageRadius: 40
     splashDamage: 5
     fragBullets: 4
-    pierceCap: 18
+    pierceCap: 21
     lifetime: 64
     damage: 7.5
     speed: 6
@@ -88,7 +88,7 @@ fragBullet: {
 
     buildingDamageMultiplier: 0.01
 
-    pierceCap: 3
+    pierceCap: 18
     lifetime: 20
     damage: 4.5
 
@@ -113,7 +113,7 @@ blast-compound: {
     width: 5.25
 
     buildingDamageMultiplier: 0.1
-    pierceDamageFactor: 1.25
+    pierceDamageFactor: 100
     reloadMultiplier: 0.75
     ammoMultiplier: 18
     rangeChange: 20
@@ -127,6 +127,7 @@ blast-compound: {
     status: blasted
     fragBullets: 3
     fragLifeMin: 0
+    pierceCap: 50
     damage: 47.5
     speed: 3.2
 
@@ -152,14 +153,14 @@ fragBullet: {
     width: 7.5
 
     buildingDamageMultiplier: 0.05
-    pierceDamageFactor: 0.75
+    pierceDamageFactor: 0.25
 
     splashDamageRadius: 26
     statusDuration: 60
     splashDamage: 27.5
     status: blasted
     lifetime: 33.5
-    pierceCap: 5
+    pierceCap: 32
     damage: 32.5
     speed: 3
 
@@ -191,7 +192,7 @@ plastanium: {
     splashDamage: 17.5
     fragBullets: 6
     lifetime: 66.5
-    pierceCap: 12
+    pierceCap: 18
     damage: 14.5
     speed: 5
     
@@ -218,7 +219,7 @@ fragBullet: {
 
     buildingDamageMultiplier: 0.18
 
-    pierceCap: 5
+    pierceCap: 15
     lifetime: 15
     damage: 12.5
 
@@ -321,7 +322,7 @@ pyratite: {
     statusDuration: 180
     splashDamage: 21.5
     status: burning
-    pierceCap: 3
+    pierceCap: 15
     lifetime: 90
     damage: 24.5
     speed: 4.1
@@ -372,8 +373,8 @@ scrap: {
     ammoMultiplier: 9
     rangeChange: 60
 
-    fragBullets: 12
-    pierceCap: 4
+    fragBullets: 8
+    pierceCap: 8
     lifetime: 66
     damage: 14.5
     speed: 6.75
@@ -399,7 +400,7 @@ fragBullet: {
     pierceDamageFactor: 0.5
 
     lifetime: 13.5
-    pierceCap: 3
+    pierceCap: 5
     damage: 12.5
     speed: 4.5
 
