@@ -14,6 +14,24 @@ lightRadius: 140
 
 immunities: [ burning, melting, shocked, blasted ]
 
+abilities: [
+    {
+    type: ShieldRegenFieldAbility
+    reload: 1440
+    amount: 5000
+    max: 15000
+    range: 0
+}
+
+    {
+    type: ShieldRegenFieldAbility
+    reload: 1440
+    amount: 250
+    range: 256
+    max: 250
+}
+    ]
+
 weapons: [
 {
     name: scepter-weapon
