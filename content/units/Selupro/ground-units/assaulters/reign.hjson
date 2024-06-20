@@ -201,16 +201,16 @@ bullet: {
     height: 33
     width: 14
 
-    buildingDamageMultiplier: 0.75
+    buildingDamageMultiplier: 0.25
     pierceDamageFactor: 0.025
 
     status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 13
     statusDuration: 300
-    splashDamage: 121
+    splashDamage: 181
+    pierceCap: 121
     lifetime: 20.5
-    pierceCap: 96
-    damage: 181
+    damage: 325
     speed: 19
 
     hitSound: heavy-minigun-hit
