@@ -22,8 +22,8 @@ immunities: [ electrified, melting, burning ]
 
 weapons: [
 {
-name: vela-weapon
-
+    name: vela-weapon
+    parentizeEffects: true
     continuous: true
     mirror: false
     shootY: 14
@@ -33,56 +33,36 @@ name: vela-weapon
     x: 0
     y: 0
 
-    cooldownTime: 200
-    reload: 155
+    cooldownTime: 700
+    reload: 750
 
-    shootStatusDuration: 180
-    shootStatus: slow
-
+    shootStatus: 20s-10-status-tier-3-motor-deceleration
+    chargeSound: large-beam-charge
+    shootSound: large-beam-shot-2
+    shootStatusDuration: 725
 shoot: {
-    firstShotDelay: 60
+    firstShotDelay: 155
     lifetime: 1
 }
-
-    chargeSound: lasercharge2
-    shootSound: beam
-
-    parentizeEffects: true
-
-effects: [
-{
-    type: ParticleEffect
-    region: vela-weapon-heat
-    sizeFrom: 50
-    ength: 0
-
-    lifetime: 30
-    particles: 1
-
-    colorFrom: ffb380
-    colorTo: ffb380
-    }
-]
 
 bullet: {
     type: ContinuousLaserBulletType
     collidesTeam: true
     despawnShake: 4.5
-    drawSize: 420
+    drawSize: 500
     hitShake: 4.5
-    length: 180
+    length: 320
     shake: 5.5
 
-    lifetime: 160
-    damage: 140
-
-    incendChance: 0.1
+    statusDuration: 300
+    incendChance: 0.5
+    status: melting
     incendSpread: 5
     incendAmount: 1
-
     healPercent: 5
+    lifetime: 525
+    damage: 196
 
-    chargeEffect: greenLaserChargeSmall
     despawnEffect: smokeCloud
     hitEffect: hitMeltHeal
     smokeEffect: none
@@ -90,29 +70,41 @@ bullet: {
     colors: [ 98ffa9, ffffff ]
     lightColor: 98ffa9
     lightOpacity: 0.7
+
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    offsetX: 3
+
+    lifetime: 155
+    sizeFrom: 32
+    sizeTo: 0
+
+    colorFrom: 84f491
+    colorTo: ffffff
+    }
 }
     }
 
 {
-name: repair-bwc-large-green
-
+    name: repair-bwc-large-green
     type: RepairBeamWeapon
     rotationLimit: 90
+    beamWidth: 0.8
     shootY: 6
     x: 5
     y: -2.5
 
-    repairSpeed: 1.4
-    beamWidth: 0.8
+    repairSpeed: 1.6
 
 bullet: {
-    maxRange: 120
+    maxRange: 192
 }
     }
 
 {
-name: plasma-gun
-
+    name: plasma-gun
     controllable: false
     layerOffset: -0.001
     rotationLimit: 25
@@ -189,8 +181,7 @@ chargeEffect: {
     }
 
 {
-name: plasma-cannon-mount
-
+    name: plasma-cannon-mount
     rotationLimit: 135
     baseRotation: -45
     rotateSpeed: 1.5
@@ -198,61 +189,71 @@ name: plasma-cannon-mount
     mirror: false
     rotate: true
     recoil: 3
-    shake: 21
+    shake: 15
     x: 11
     y: -8
 
     inaccuracy: 3
-    reload: 420
+    reload: 500
 
-    shootEffect: shootSmall
-    shootSound: artillery
-    ejectEffect: casing2
-
-    shootStatusDuration: 180
-    shootStatus: slow
+    chargeSound: short-target-locked
+    shootSound: heavy-artillery-shot
+    ejectEffect: casing3
 shoot: {
-    shotDelay: 32
-    shots: 3
+    firstShotDelay: 185
+    shotDelay: 9
+    shots: 7
 }
+
+parts: [
+    {
+    type: FlarePart
+    progress: recoil
+    color2: ffffff
+    color1: 98ffa9
+    rotation: 45
+    radius: 14.5
+    stroke: 1.5
+}
+    ]
 
 bullet: {
     type: EmpBulletType
-    sprite: mine-bullet
-    collidesAir: false
+    sprite: missile-large
     despawnShake: 12.5
+    collidesAir: false
     hitShake: 12.5
-    shrinkX: 0.5
     shrinkY: 0.25
-    height: 18
-    width: 18
+    height: 12
+    width: 9
 
     splashDamageRadius: 60
     statusDuration: 300
     status: electrified
-    splashDamage: 120
-    healPercent: 21
+    splashDamage: 125
+    healPercent: 1.25
     knockback: 0.8
-    lifetime: 210
-    damage: 140
-    speed: 1.25
+    lifetime: 232
+    damage: 150
+    speed: 2.5
 
+    hitSound: heavy-artillery-hit
     smokeEffect: shootBigSmoke2
-
-    hitSound: plasmaboom
-
-    trailEffect: hitSquaresColor
-    trailInterval: 5.45
-    trailColor: 84f491
-    trailLength: 7.25
-    trailWidth: 3.25
-
-    frontColor: ffffff
-    backColor: 84f491
+    shootEffect: shootBig
 
     lightColor: 84f491
     lightOpacity: 0.7
     lightRadius: 75
+
+    trailEffect: artilleryTrail
+    trailInterval: 7.5
+    trailColor: 84f491
+    trailLength: 3
+    trailWidth: 3
+    trailSize: 9
+
+    frontColor: ffffff
+    backColor: 84f491
 
 hitEffect: {
     type: ExplosionEffect
