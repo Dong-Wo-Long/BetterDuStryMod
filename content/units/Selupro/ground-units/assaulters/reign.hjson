@@ -107,7 +107,7 @@ bullet: {
     pierce: true
     hitSize: 7
 
-    buildingDamageMultiplier: 1.25
+    buildingDamageMultiplier: 1.32
     ammoMultiplier: 15
 
     statusDuration: 540
@@ -152,7 +152,7 @@ bullet: {
     pierce: true
     hitSize: 7
 
-    buildingDamageMultiplier: 1.25
+    buildingDamageMultiplier: 1.32
     ammoMultiplier: 15
 
     statusDuration: 540
@@ -201,7 +201,7 @@ bullet: {
     height: 33
     width: 14
 
-    buildingDamageMultiplier: 0.32
+    buildingDamageMultiplier: 0.75
     pierceDamageFactor: 0.025
 
     status: 20s-06-tier-1-strength-reduction
@@ -479,6 +479,8 @@ bullet: {
     hitShake: 5
     height: 14
     width: 6
+
+    buildingDamageMultiplier: 1.75
 
     splashDamageRadius: 60
     statusDuration: 180
