@@ -60,6 +60,8 @@ bullet: {
     height: 20
     width: 11
 
+    buildingDamageMultiplier: 1.5
+
     lightningColor: f3e979
     lightningDamage: 15
     lightningLength: 7
