@@ -200,6 +200,8 @@ bullet: {
     height: 9
     width: 9
 
+    buildingDamageMultiplier: 1.32
+
     splashDamageRadius: 26
     homingPower: 0.02
     splashDamage: 25
