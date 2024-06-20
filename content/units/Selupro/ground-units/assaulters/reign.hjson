@@ -161,50 +161,6 @@ bullet: {
     }
 
 {
-    name: repair-bwc-large-orange
-    type: RepairBeamWeapon
-    rotationLimit: 160
-    baseRotation: 45
-    rotateSpeed: 1.5
-    mirror: false
-    rotate: true
-    x: -11.5
-    y: 3.5
-
-    repairSpeed: 0.4
-    beamWidth: 0.6
-    shootY: 4.5
-
-laserColor: ffa665
-
-bullet: {
-    maxRange: 115
-}
-    }
-
-{
-    name: repair-bwc-large-orange
-    type: RepairBeamWeapon
-    rotationLimit: 160
-    baseRotation: 135
-    rotateSpeed: 1.5
-    mirror: false
-    rotate: true
-    x: -11.5
-    y: -5
-
-    repairSpeed: 0.4
-    beamWidth: 0.6
-    shootY: 4.5
-
-    laserColor: ffa665
-
-bullet: {
-    maxRange: 115
-}
-    }
-
-{
     name: reign-weapon
     shootCone: 45
     shootY: 11
@@ -213,6 +169,7 @@ bullet: {
     x: 21.5
     y: 1
 
+    cooldownTime: 600
     inaccuracy: 5
     reload: 640
 
@@ -259,6 +216,50 @@ bullet: {
     trailColor: f9c27a
     trailLength: 72.5
     trailWidth: 2.75
+}
+    }
+
+{
+    name: repair-bwc-large-orange
+    type: RepairBeamWeapon
+    rotationLimit: 160
+    baseRotation: 45
+    rotateSpeed: 1.5
+    mirror: false
+    rotate: true
+    x: -11.5
+    y: 3.5
+
+    repairSpeed: 0.4
+    beamWidth: 0.6
+    shootY: 4.5
+
+laserColor: ffa665
+
+bullet: {
+    maxRange: 115
+}
+    }
+
+{
+    name: repair-bwc-large-orange
+    type: RepairBeamWeapon
+    rotationLimit: 160
+    baseRotation: 135
+    rotateSpeed: 1.5
+    mirror: false
+    rotate: true
+    x: -11.5
+    y: -5
+
+    repairSpeed: 0.4
+    beamWidth: 0.6
+    shootY: 4.5
+
+    laserColor: ffa665
+
+bullet: {
+    maxRange: 115
 }
     }
 
