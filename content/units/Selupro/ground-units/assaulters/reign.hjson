@@ -36,6 +36,14 @@ abilities: [
     max: 15000
     range: 0
 }
+
+    {
+    type: ShieldRegenFieldAbility
+    reload: 1920
+    amount: 500
+    range: 400
+    max: 500
+}
     ]
 
 weapons: [
