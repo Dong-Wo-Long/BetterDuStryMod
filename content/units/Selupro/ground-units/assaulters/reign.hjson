@@ -207,10 +207,10 @@ bullet: {
     status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 13
     statusDuration: 300
-    splashDamage: 96
+    splashDamage: 121
     lifetime: 20.5
-    pierceCap: 81
-    damage: 121
+    pierceCap: 96
+    damage: 181
     speed: 19
 
     hitSound: heavy-minigun-hit
