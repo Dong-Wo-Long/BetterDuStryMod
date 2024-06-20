@@ -17,9 +17,9 @@ immunities: [ burning, melting, shocked, blasted ]
 abilities: [
     {
     type: ShieldRegenFieldAbility
-    reload: 1440
-    amount: 5000
-    max: 15000
+    amount: 1000
+    reload: 960
+    max: 5000
     range: 0
 }
 
