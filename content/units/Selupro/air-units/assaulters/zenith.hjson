@@ -169,7 +169,6 @@ bullet: {
     lifetime: 90
     speed: 2.75
 
-    hitEffect: flakExplosion
     shootEffect: none
     smokeEffect: none
 
@@ -182,6 +181,30 @@ bullet: {
     lightColor: d06b53
     lightOpacity: 0.7
     lightRadius: 62.5
+
+    frontColor: ffaa5f
+    backColor: d37f47
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: ffaa5f
+    waveStroke: 3.2
+    waveRad: 48
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 14.5
+    smokes: 7
+
+    sparkColor: ffaa5f
+    sparkStroke: 1.8
+    sparkRad: 27.5
+    sparkLen: 3
+    sparks: 9
+}
     }
 }
     ]
