@@ -7,6 +7,7 @@ fogRadius: 19.5
 ammoType: pyratite
 health: 360
 speed: 2.5
+armor: 5
 
 trailLength: 9.5
 
@@ -42,7 +43,7 @@ bullet: {
     height: 14
     width: 14
 
-    splashDamageRadius: 36.5
+    splashDamageRadius: 40
     statusDuration: 180
     splashDamage: 41.5
     status: burning
