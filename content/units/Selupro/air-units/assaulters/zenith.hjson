@@ -71,7 +71,7 @@ bullet: {
     shrinkX: 0.25
     shrinkY: 0.5
     drag: -0.003
-    height: 8
+    height: 12
     width: 8
 
     splashDamageRadius: 26
