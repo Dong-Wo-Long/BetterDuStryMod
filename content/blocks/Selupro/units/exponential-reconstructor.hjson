@@ -1,7 +1,7 @@
-liquidCapacity: 72500
-constructTime: 27000
-itemCapacity: 125000
+liquidCapacity: 32500
+constructTime: 5400
+itemCapacity: 81000
 
 consumes: {
-    power: 250
+    power: 160
 }
