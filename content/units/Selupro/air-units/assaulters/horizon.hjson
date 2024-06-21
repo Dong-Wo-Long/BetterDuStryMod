@@ -62,7 +62,7 @@ hitEffect: {
 
     lifetime: 32
 
-    waveColor: 95abd9
+    waveColor: ffaa5f
     waveStroke: 3.2
     waveRad: 48
 
@@ -71,7 +71,7 @@ hitEffect: {
     smokeSize: 14.5
     smokes: 7
 
-    sparkColor: 95abd9
+    sparkColor: ffaa5f
     sparkStroke: 1.8
     sparkRad: 27.5
     sparkLen: 3
