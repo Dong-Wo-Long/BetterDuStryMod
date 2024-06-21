@@ -33,7 +33,9 @@ name: large-mm
 
     shootSound: missile
 
+    chargeSound: short-target-locked
     shootStatusDuration: 90
+    shootSound: rocket-shot
     shootStatus: slow
 shoot: {
     shotDelay: 6
