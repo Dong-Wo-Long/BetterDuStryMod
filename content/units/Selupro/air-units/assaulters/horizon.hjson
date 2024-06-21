@@ -1,10 +1,9 @@
 research: flare
-faceTarget: false
-rotateSpeed: 7.5
 faceTarget: true
-fogRadius: 19.5
+fogRadius: 21.5
 
 ammoType: pyratite
+rotateSpeed: 7.5
 health: 360
 speed: 2.5
 armor: 5
