@@ -75,7 +75,7 @@ chargeEffect: {
     type: WaveEffect
     rotWithParent: true
     followParent: true
-    offsetX: 3
+    offsetX: 1.25
 
     lifetime: 155
     sizeFrom: 32
