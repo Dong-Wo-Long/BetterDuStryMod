@@ -49,6 +49,7 @@ bullet: {
     lifetime: 90
     damage: 42.5
 
+    hitSound: artillery-hit
     shootEffect: none
     smokeEffect: none
 
