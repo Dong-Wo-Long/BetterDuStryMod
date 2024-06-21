@@ -1,1 +1,7 @@
 research: ground-factory
+
+itemCapacity: 810
+
+consumes: {
+    power: 12.5
+}
