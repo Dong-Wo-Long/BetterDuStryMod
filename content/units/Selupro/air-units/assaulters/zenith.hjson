@@ -21,7 +21,7 @@ targetFlags: [ launchPad, factory, storage, repair, unitAssembler, battery ]
 
 weapons: [
 {
-name: large-mm
+    name: large-mm
     rotate: true
     shake: 1.5
     x: 7
@@ -162,9 +162,9 @@ bullet: {
     height: 10
     width: 10 
 
-    splashDamageRadius: 36
-    statusDuration: 300
-    splashDamage: 32
+    splashDamageRadius: 40
+    statusDuration: 450
+    splashDamage: 96
     status: burning
     lifetime: 90
     speed: 2.75
@@ -172,15 +172,13 @@ bullet: {
     shootEffect: none
     smokeEffect: none
 
-    trailInterval: 4.5
-    frontColor: ffa665
-    trailColor: d06b53
-    backColor: d06b53
-    trailLength: 5
-
     lightColor: d06b53
     lightOpacity: 0.7
     lightRadius: 62.5
+
+    trailInterval: 4.5
+    trailColor: d06b53
+    trailLength: 5
 
     frontColor: ffaa5f
     backColor: d37f47
