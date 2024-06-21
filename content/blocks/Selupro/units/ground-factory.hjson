@@ -1,1 +1,6 @@
+liquidCapacity: 500
+itemCapacity: 750
 
+consumes: {
+    power: 6
+}
