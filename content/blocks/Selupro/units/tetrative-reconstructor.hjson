@@ -1,5 +1,6 @@
 liquidCapacity: 96000
 constructTime: 54.000
+itemCapacity: 180000
 
 consumes: {
     power: 400
