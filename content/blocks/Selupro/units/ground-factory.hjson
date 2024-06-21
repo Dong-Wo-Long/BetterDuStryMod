@@ -1,5 +1,4 @@
-liquidCapacity: 500
-itemCapacity: 750
+itemCapacity: 500
 
 consumes: {
     power: 6
