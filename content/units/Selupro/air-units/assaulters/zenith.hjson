@@ -157,10 +157,11 @@ shoot: {
 
 bullet: {
     type: BombBulletType
+    sprite: missile-large
     despawnShake: 1.5
     hitShake: 1.5
-    height: 12
-    width: 12
+    height: 10
+    width: 10
 
     splashDamageRadius: 40
     statusDuration: 450
