@@ -1,6 +1,6 @@
 research: air-factory
 circleTarget: true
-faceTarget: false
+faceTarget: true
 fogRadius: 23.5
 
 strafePenalty: 0
