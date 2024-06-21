@@ -1,51 +1,96 @@
-research: air-factory
+research: flare
+faceTarget: true
+fogRadius: 21.5
 
-circleTarget: true
-faceTarget: false
-rotateSpeed: 12
-fogRadius: 23.5
+ammoType: pyratite
+rotateSpeed: 7.5
+health: 360
+speed: 2.5
+armor: 5
 
-health: 96
-accel: 2.1
-speed: 3.5
-armor: 3
-
-trailLength: 7.5
+trailLength: 9.5
 
 lightColor: fff8e8
 lightOpacity: 0.7
-lightRadius: 45
+lightRadius: 52
 
-targetFlags: [ generator, reactor, battery, extinguisher, drill, repair ]
+immunities: [ blasted ]
+
+targetFlags: [ generator, unitAssembler, factory, storage, battery, drill ]
+
+parts: [
+{
+    type: FlarePart
+    color2: ffffff
+    color1: feb380
+    radius: 12.5
+    layer: 116
+    stroke: 2
+    y: -1
+}
+    ]
 
 weapons: [
 {
-    shootCone: 15
-    x: 2
+    minShootVelocity: 0.75
+    ignoreRotation: true
+    shootCone: 360
+    shootY: 0
+    x: 0
     y: 0
 
-    reload: 5
+    reload: 16
 
-    shootSound: machine-gun-shot
-    ejectEffect: casing1
-    
+    ejectEffect: none
+    shootSound: none
+
 bullet: {
-    type: BasicBulletType
-    ammoMultiplier: 2
-    maxRange: 332
-    height: 9
-    width: 7
+    type: BombBulletType
+    despawnShake: 3.25
+    hitShake: 3.25
+    maxRange: 90
+    height: 14
+    width: 14
 
-    lifetime: 64
-    damage: 12.5
-    speed: 3
-    
-    smokeEffect: shootSmallSmoke
-    shootEffect: shootSmall
+    splashDamageRadius: 40
+    statusDuration: 300
+    splashDamage: 47.5
+    status: burning
+    pierceCap: 32
+    lifetime: 90
+    damage: 42.5
+
+    hitSound: artillery-hit
+    shootEffect: none
+    smokeEffect: none
 
     lightColor: fff8e8
     lightOpacity: 0.7
-    lightRadius: 17.5
+    lightRadius: 45
+
+    frontColor: ffaa5f
+    backColor: d37f47
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: ffaa5f
+    waveStroke: 3.2
+    waveRad: 48
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 14.5
+    smokes: 7
+
+    sparkColor: ffaa5f
+    sparkStroke: 1.8
+    sparkRad: 27.5
+    sparkLen: 3
+    sparks: 9
+}
     }
 }
     ]
