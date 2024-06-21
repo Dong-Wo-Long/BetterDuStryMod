@@ -23,7 +23,7 @@ weapons: [
     layerOffset: -0.001
     shootCone: 24
     x: 3.75
-    y: 2.5
+    y: 2.25
 
     reload: 5
 
