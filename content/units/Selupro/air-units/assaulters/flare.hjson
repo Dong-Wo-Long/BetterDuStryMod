@@ -18,11 +18,12 @@ lightRadius: 45
 targetFlags: [ generator, reactor, battery, extinguisher, drill, repair ]
 
 weapons: [
-{
+{   
+    name: mount-weapon
+    layerOffset: -0.001
     shootCone: 24
-    recoil: 0
-    x: 2
-    y: 0
+    x: 3.75
+    y: 2.5
 
     reload: 5
 
