@@ -32,11 +32,11 @@ weapons: [
 bullet: {
     type: BasicBulletType
     ammoMultiplier: 2
-    maxRange: 320
+    maxRange: 332
     height: 9
     width: 7
 
-    lifetime: 52.5
+    lifetime: 64
     damage: 7.5
     speed: 3
     
