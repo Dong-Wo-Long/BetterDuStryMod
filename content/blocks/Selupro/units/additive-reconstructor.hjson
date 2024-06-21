@@ -1,1 +1,7 @@
+constructTime: 2880
+itemCapacity: 5000
+
+consumes: {
+    power: 32.6666667
+}
 
