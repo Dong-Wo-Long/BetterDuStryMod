@@ -5,9 +5,10 @@ faceTarget: false
 rotateSpeed: 12
 fogRadius: 23.5
 
-health: 75
+health: 96
 accel: 2.1
 speed: 3.5
+armor: 3
 
 trailLength: 7.5
 
