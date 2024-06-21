@@ -78,9 +78,9 @@ bullet: {
     width: 8
 
     splashDamageRadius: 40
-    statusDuration: 180
+    statusDuration: 60
     splashDamage: 32
-    status: burning
+    status: blasted
     homingPower: 0
     homingRange: 0
     weaveScale: 6
