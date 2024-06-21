@@ -3,5 +3,5 @@ constructTime: 5400
 itemCapacity: 81000
 
 consumes: {
-    power: 160
+    power: 54.1666666667
 }
