@@ -1,6 +1,8 @@
 liquidCapacity: 32500
 constructTime: 5400
 itemCapacity: 81000
+health: 18000
+armor: 15
 
 consumes: {
     power: 160
