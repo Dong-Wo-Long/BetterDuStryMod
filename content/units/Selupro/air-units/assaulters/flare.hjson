@@ -5,8 +5,8 @@ fogRadius: 23.5
 
 strafePenalty: 0
 rotateSpeed: 9
-accel: 0.015
-drag: 0.025
+accel: 0.025
+drag: 0.015
 health: 96
 speed: 5
 armor: 3
