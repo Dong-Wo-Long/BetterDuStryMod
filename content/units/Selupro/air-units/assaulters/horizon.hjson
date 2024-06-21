@@ -1,5 +1,5 @@
 research: flare
-
+faceTarget: false
 rotateSpeed: 7.5
 faceTarget: true
 fogRadius: 19.5
