@@ -2,7 +2,7 @@ research: ground-factory
 
 itemCapacity: 810
 health: 960
-armor: 8
+armor: 7
 
 consumes: {
     power: 12.5
