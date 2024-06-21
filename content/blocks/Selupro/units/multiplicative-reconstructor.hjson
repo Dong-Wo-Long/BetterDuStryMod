@@ -1,5 +1,5 @@
 liquidCapacity: 32500
-constructTime: 10800
+constructTime: 5400
 itemCapacity: 81000
 
 consumes: {
