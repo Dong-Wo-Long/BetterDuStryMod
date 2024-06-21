@@ -1,7 +1,6 @@
 research: ground-factory
 
-liquidCapacity: 500
-itemCapacity: 750
+itemCapacity: 360
 
 consumes: {
     power: 4
