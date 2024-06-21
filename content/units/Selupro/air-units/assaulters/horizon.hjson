@@ -6,7 +6,7 @@ ammoType: pyratite
 rotateSpeed: 7
 health: 360
 speed: 2.5
-armor: 5
+armor: 9
 
 trailLength: 9.5
 
