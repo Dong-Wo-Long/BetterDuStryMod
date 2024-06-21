@@ -28,9 +28,7 @@ weapons: [
     x: 0
     y: 0
 
-    shootStatusDuration: 7.5
-    shootStatus: slow
-    reload: 14.5
+    reload: 16
 
     ejectEffect: none
     shootSound: none
