@@ -1,96 +1,52 @@
-research: flare
-faceTarget: true
-fogRadius: 21.5
+research: air-factory
+circleTarget: true
+faceTarget: false
+rotateSpeed: 12
+fogRadius: 23.5
 
-ammoType: pyratite
-rotateSpeed: 7.5
-health: 360
-speed: 2.5
-armor: 5
+health: 96
+accel: 2.1
+speed: 3.5
+armor: 3
 
-trailLength: 9.5
+trailLength: 7.5
 
 lightColor: fff8e8
 lightOpacity: 0.7
-lightRadius: 52
+lightRadius: 45
 
-immunities: [ blasted ]
-
-targetFlags: [ generator, unitAssembler, factory, storage, battery, drill ]
-
-parts: [
-{
-    type: FlarePart
-    color2: ffffff
-    color1: feb380
-    radius: 12.5
-    layer: 116
-    stroke: 2
-    y: -1
-}
-    ]
+targetFlags: [ generator, reactor, battery, extinguisher, drill, repair ]
 
 weapons: [
 {
-    minShootVelocity: 0.75
-    ignoreRotation: true
-    shootCone: 360
-    shootY: 0
-    x: 0
+    shootCone: 24
+    recoil: 0
+    x: 2
     y: 0
 
-    reload: 16
+    reload: 5
 
-    ejectEffect: none
-    shootSound: none
-
+    shootSound: machine-gun-shot
+    ejectEffect: casing1
+    
 bullet: {
-    type: BombBulletType
-    despawnShake: 3.25
-    hitShake: 3.25
-    maxRange: 90
-    height: 14
-    width: 14
+    type: BasicBulletType
+    maxRange: 332
+    height: 9
+    width: 7
 
-    splashDamageRadius: 40
-    statusDuration: 300
-    splashDamage: 47.5
-    status: burning
-    pierceCap: 32
-    lifetime: 90
-    damage: 42.5
+    ammoMultiplier: 5
 
-    hitSound: artillery-hit
-    shootEffect: none
-    smokeEffect: none
+    lifetime: 64
+    damage: 12.5
+    speed: 3
+    
+    smokeEffect: shootSmallSmoke
+    shootEffect: shootSmall
 
     lightColor: fff8e8
     lightOpacity: 0.7
-    lightRadius: 45
-
-    frontColor: ffaa5f
-    backColor: d37f47
-
-hitEffect: {
-    type: ExplosionEffect
-
-    lifetime: 32
-
-    waveColor: ffaa5f
-    waveStroke: 3.2
-    waveRad: 48
-
-    smokeColor: 696969
-    smokeSizeBase: 0
-    smokeSize: 14.5
-    smokes: 7
-
-    sparkColor: ffaa5f
-    sparkStroke: 1.8
-    sparkRad: 27.5
-    sparkLen: 3
-    sparks: 9
-}
+    lightRadius: 17.5
     }
 }
     ]
