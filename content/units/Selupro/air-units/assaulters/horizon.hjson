@@ -3,7 +3,7 @@ faceTarget: true
 fogRadius: 21.5
 
 ammoType: pyratite
-rotateSpeed: 7.5
+rotateSpeed: 3
 health: 360
 speed: 2.5
 armor: 5
