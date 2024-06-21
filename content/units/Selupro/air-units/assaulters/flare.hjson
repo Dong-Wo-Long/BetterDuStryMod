@@ -1,5 +1,4 @@
 research: air-factory
-rotateMoveFirst: true
 omniMovement: false
 circleTarget: true
 rotateSpeed: 12
