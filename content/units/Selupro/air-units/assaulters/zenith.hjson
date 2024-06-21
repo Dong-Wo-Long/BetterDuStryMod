@@ -29,15 +29,16 @@ name: large-mm
 
     velocityRnd: 0.35
     inaccuracy: 9
-    reload: 320
+    reload: 360
 
     shootSound: missile
 
+    shootStatus: 20s-12-status-tier-1-motor-deceleration
     chargeSound: short-target-locked
-    shootStatusDuration: 90
+    shootStatusDuration: 260
     shootSound: rocket-shot
-    shootStatus: slow
 shoot: {
+    firstShotDelay: 185
     shotDelay: 6
     shots: 9
     }
@@ -76,7 +77,7 @@ bullet: {
     height: 12
     width: 8
 
-    splashDamageRadius: 26
+    splashDamageRadius: 40
     statusDuration: 90
     splashDamage: 32
     status: blasted
