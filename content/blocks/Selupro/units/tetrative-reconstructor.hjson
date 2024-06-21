@@ -1,2 +1,6 @@
 liquidCapacity: 96000
 constructTime: 54.000
+
+consumes: {
+    power: 400
+}
