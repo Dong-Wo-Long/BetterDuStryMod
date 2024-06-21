@@ -57,6 +57,9 @@ bullet: {
     lightOpacity: 0.7
     lightRadius: 45
 
+    frontColor: ffaa5f
+    backColor: d37f47
+
 hitEffect: {
     type: ExplosionEffect
 
