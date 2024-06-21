@@ -78,24 +78,49 @@ bullet: {
     width: 8
 
     splashDamageRadius: 40
-    statusDuration: 90
+    statusDuration: 180
     splashDamage: 32
-    status: blasted
+    status: burning
     homingPower: 0
     homingRange: 0
     weaveScale: 6
     lifetime: 75
     weaveMag: 1
-    damage: 45
+    damage: 48
     speed: 2.8
 
-    despawnEffect: blastExplosion
-    hitEffect: blastExplosion
+    lightColor: d06b53
+    lightOpacity: 0.7
+    lightRadius: 72.5
 
-    trailColor: e58956
+    trailColor: d37f47
     trailLength: 72.5
     trailInterval: 8
     trailWidth: 1.5
+
+    frontColor: ffaa5f
+    backColor: d37f47
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: ffaa5f
+    waveStroke: 3.2
+    waveRad: 48
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 14.5
+    smokes: 7
+
+    sparkColor: ffaa5f
+    sparkStroke: 1.8
+    sparkRad: 27.5
+    sparkLen: 3
+    sparks: 9
+    }
 }
     }
 
