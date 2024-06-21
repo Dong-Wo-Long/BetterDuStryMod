@@ -1,5 +1,5 @@
 research: air-factory
-circleTarget: true
+circleTarget: false
 faceTarget: false
 fogRadius: 23.5
 
