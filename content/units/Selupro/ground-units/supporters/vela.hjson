@@ -104,79 +104,27 @@ bullet: {
     }
 
 {
-    name: plasma-gun
+    name: large-plasma-gun
+    type: RepairBeamWeapon
+    targetBuildings: true
     controllable: false
     layerOffset: -0.001
-    rotationLimit: 25
-    rotateSpeed: 0.8
+    autoTarget: false
+    widthSinMag: 0.1
     autoTarget: true
     alternate: false
-    shootCone: 360
+    beamWidth: 1.15
     mirror: true
-    rotate: true
-    recoil: 2
-    shake: 7
-    x: 14.5
-    y: 3.75
-
-    inaccuracy: 1.75
-    reload: 180
-
-shoot: {
-    firstShotDelay: 45
-    shotDelay: 15
-    shots: 3
-}
-
-    ejectEffect: casing1
-    shootSound: laser
+    aimDst: 0
+    x: 14
+    y: 4
+    
+    fractionRepairSpeed: 0.05
+    repairSpeed: 1.25
+    reload: 24
 
 bullet: {
-    type: LaserBoltType
-    collideTerrain: true
-    despawnShake: 5
-    hitShake: 5
-    height: 9
-    width: 5
-
-    splashDamageRadius: 20
-    homingPower: 0.6
-    splashDamage: 48
-    homingRange: 50
-    healPercent: 9
-    weaveScale: 5
-    lifetime: 40
-    weaveMag: 3
-    damage: 96
-    speed: 4
-
-    trailColor: 84f491
-    trailLength: 5.25
-    trailWidth: 1.75
-
-    frontColor: ffffff
-    backColor: 84f491
-
-    lightColor: 84f491
-    lightOpacity: 0.7
-    lightRadius: 25
-
-    despawnEffect: blastExplosion
-    hitEffect: blastExplosion
-    parentizeEffects: true
-
-chargeEffect: {
-    type: WaveEffect
-    rotWithParent: true
-    followParent: true
-    sizeFrom: 7.5
-    sizeTo: 0
-
-    lifetime: 45
-
-    colorFrom: 84f491
-    colorTo: ffffff
-    }
+    maxRange: 90
 }
     }
 
