@@ -26,8 +26,8 @@ weapons: [
 
     reload: 5
 
+    shootSound: machine-gun-shot
     ejectEffect: casing1
-    shootSound: pew
     
 bullet: {
     type: BasicBulletType
