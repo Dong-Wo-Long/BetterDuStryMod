@@ -144,7 +144,7 @@ hitEffect: {
     y: -4
 
     velocityRnd: 0.5
-    reload: 75
+    reload: 125
 
     ejectEffect: none
 
@@ -159,8 +159,8 @@ bullet: {
     type: BombBulletType
     despawnShake: 1.5
     hitShake: 1.5
-    height: 10
-    width: 10 
+    height: 12
+    width: 12
 
     splashDamageRadius: 40
     statusDuration: 450
