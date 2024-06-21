@@ -1,7 +1,6 @@
 research: air-factory
-rotateMoveFirst: true
 circleTarget: true
-faceTarget: true
+faceTarget: false
 rotateSpeed: 12
 fogRadius: 23.5
 
