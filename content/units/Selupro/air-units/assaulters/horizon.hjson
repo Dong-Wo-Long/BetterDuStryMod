@@ -44,19 +44,40 @@ bullet: {
     width: 14
 
     splashDamageRadius: 40
-    statusDuration: 180
-    splashDamage: 41.5
+    statusDuration: 300
+    splashDamage: 47.5
     status: burning
+    pierceCap: 32
     lifetime: 90
-    damage: 32.5
+    damage: 42.5
 
-    hitEffect: flakExplosion
     shootEffect: none
     smokeEffect: none
 
     lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 45
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: 95abd9
+    waveStroke: 3.2
+    waveRad: 48
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 14.5
+    smokes: 7
+
+    sparkColor: 95abd9
+    sparkStroke: 1.8
+    sparkRad: 27.5
+    sparkLen: 3
+    sparks: 9
 }
     }
-]
+}
+    ]
