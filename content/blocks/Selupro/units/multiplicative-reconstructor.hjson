@@ -1,1 +1,7 @@
+liquidCapacity: 32500
+constructTime: 10800
+itemCapacity: 81000
 
+consumes: {
+    power: 160
+}
