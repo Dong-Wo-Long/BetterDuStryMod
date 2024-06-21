@@ -1,11 +1,13 @@
 research: air-factory
 circleTarget: true
 faceTarget: false
-rotateSpeed: 12
 fogRadius: 23.5
 
+strafePenalty: 0
+rotateSpeed: 2
+accel: 0.01
 health: 96
-accel: 2.1
+drag: 0.01
 speed: 5
 armor: 3
 
