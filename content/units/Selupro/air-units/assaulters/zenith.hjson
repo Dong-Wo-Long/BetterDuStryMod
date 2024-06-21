@@ -88,9 +88,6 @@ bullet: {
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
 
-    frontColor: ffa665
-    backColor: d06b53
-
     trailColor: e58956
     trailLength: 72.5
     trailInterval: 8
