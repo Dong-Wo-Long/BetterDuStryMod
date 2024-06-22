@@ -5,7 +5,7 @@ phaseRangeBoost: -40
 speedBoost: 1.5
 useTime: 180
 
-itemCapacity: 32
+itemCapacity: 50
 health: 750
 reload: 90
 range: 140
