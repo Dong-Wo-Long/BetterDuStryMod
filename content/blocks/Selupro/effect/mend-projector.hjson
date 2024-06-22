@@ -4,12 +4,12 @@ buildCostMultiplier: 1.265
 phaseRangeBoost: -20
 phaseBoost: 5
 
-healPercent: 0.75
-itemCapacity: 32
-reload: 150
+healPercent: 1.75
+itemCapacity: 36
+reload: 300
 health: 320
-range: 140
-armor: 3
+range: 40
+armor: 5
 
 consumes: {
     power: 5.333335
