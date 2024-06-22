@@ -9,7 +9,7 @@ itemCapacity: 50
 health: 750
 reload: 90
 range: 140
-armor: 3
+armor: 5
 
 consumes: {
     power: 12
