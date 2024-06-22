@@ -2,8 +2,8 @@ research: thorium-wall
 
 buildCostMultiplier: 10.47
 
-health: 4320
-armor: 13
+health: 6000
+armor: 24
 
 destroyBullet: {
     instantDisappear: true
