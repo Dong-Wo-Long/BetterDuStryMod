@@ -2,8 +2,8 @@ research: titanium-wall-large
 
 buildCostMultiplier: 10.95
 
-health: 1080
-armor: 5
+health: 1500
+armor: 8
 
 destroyBullet: {
     instantDisappear: true
