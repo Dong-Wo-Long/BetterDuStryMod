@@ -3,8 +3,8 @@ research: surge-wall-large
 buildCostMultiplier: 4.41
 
 chanceDeflect: 100
-health: 1250
-armor: 8
+health: 1360
+armor: 16
 
 requirements: [
     thorium/12
