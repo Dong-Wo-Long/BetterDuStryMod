@@ -6,8 +6,8 @@ buildCostMultiplier: 9
 lightningChance: 0.15
 lightningDamage: 12
 lightningLength: 18
-health: 1240
-armor: 2
+health: 1800
+armor: 3
 
 requirements: [
     surge-alloy/6
