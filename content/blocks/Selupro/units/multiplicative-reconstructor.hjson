@@ -6,4 +6,7 @@ armor: 12
 
 consumes: {
     power: 54.1666666667
-}
+liquids: [
+    water/1.5
+]
+    }
