@@ -4,6 +4,8 @@ fogRadius: 21.5
 
 ammoType: pyratite
 rotateSpeed: 7
+accel: 0.0125
+drag: 0.0125
 health: 360
 speed: 2.5
 armor: 9
