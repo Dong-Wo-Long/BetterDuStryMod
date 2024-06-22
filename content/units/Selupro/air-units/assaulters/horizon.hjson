@@ -1,5 +1,5 @@
 research: flare
-faceTarget: true
+faceTarget: false
 fogRadius: 21.5
 
 ammoType: pyratite
