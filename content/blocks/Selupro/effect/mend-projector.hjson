@@ -1,7 +1,7 @@
 research: mender
 
 buildCostMultiplier: 1.265
-phaseRangeBoost: -20
+phaseRangeBoost: -14.4
 phaseBoost: 5
 
 healPercent: 1.75
