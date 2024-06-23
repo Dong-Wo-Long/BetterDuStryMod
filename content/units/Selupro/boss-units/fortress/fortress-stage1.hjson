@@ -165,6 +165,7 @@ hitEffect: {
 
 {
     name: fortress-autocannon
+    parentizeEffects: true
     controllable: false
     rotationLimit: 75
     rotateSpeed: 1.25
@@ -218,7 +219,6 @@ bullet: {
     type: BasicBulletType
     sprite: missile-large
     removeAfterPierce: false
-    parentizeEffects: true
     pierceBuilding: true
     collideTerrain: true
     height: 12
