@@ -23,6 +23,16 @@ deathSound: medium-explosion-1
 
 immunities: [ blasted, burning, melting, shocked, freezing ]
 
+parts: [
+    {
+    type: FlarePart
+    color2: ffffff
+    color1: feb380
+    radius: 16
+    stroke: 2
+}
+    ]
+
 abilities: [
     {
     type: SpawnDeathAbility
