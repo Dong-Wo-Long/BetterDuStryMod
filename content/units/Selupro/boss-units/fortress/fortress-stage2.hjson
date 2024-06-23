@@ -99,8 +99,8 @@ bullet: {
     x: 9.5
     y: 1
 
-    cooldownTime: 81
-    reload: 75
+    cooldownTime: 75
+    reload: 64
 
     shootSound: artillery-shot
     shootEffect: shootSmall
