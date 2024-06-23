@@ -255,7 +255,7 @@ chargeEffect: {
     sizeFrom: 9
     sizeTo: 0
 
-    lifetime: 45
+    lifetime: 105
 
     colorFrom: a4b8fa
     colorTo: d1efff
