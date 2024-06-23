@@ -126,26 +126,26 @@ bullet: {
 
     hitSound: artillery-hit
 
-    lightColor: 95abd9
+        lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 72.5
 
     trailEffect: artilleryTrail
     trailInterval: 9.5
-    trailColor: 6b77a1
+    trailColor: f9c27a
     trailLength: 3
     trailWidth: 1
     trailSize: 4
 
-    frontColor: 95abd9
-    backColor: 6b77a1
+    frontColor: fff8e8
+    backColor: f9c27a
 
 hitEffect: {
     type: ExplosionEffect
 
-    lifetime: 32
+    lifetime: 45
 
-    waveColor: 95abd9
+    waveColor: fff8e8
     waveStroke: 3.2
     waveRad: 48
 
@@ -154,7 +154,7 @@ hitEffect: {
     smokeSize: 14.5
     smokes: 7
 
-    sparkColor: 95abd9
+    sparkColor: fff8e8
     sparkStroke: 1.8
     sparkRad: 27.5
     sparkLen: 3
