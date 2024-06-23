@@ -12,7 +12,7 @@ hitSize: 13
 itemCapacity: 96
 rotateSpeed: 3
 health: 1250
-speed: 0.45
+speed: 0.43
 armor: 24
 
 lightColor: fff8e8
