@@ -181,14 +181,14 @@ hitEffect: {
 
     cooldownTime: 150
     inaccuracy: 3
-    reload: 125
+    reload: 180
 
+    chargeSound: anti-material-rifle-charge
     shootSound: anti-material-rifle-shot
-    chargeSound: laser-charge
     ejectEffect: casing2
     ejectEffect: none
 shoot: {
-    firstShotDelay: 75
+    firstShotDelay: 135
     shotDelay: 0
     shots: 1
 }
