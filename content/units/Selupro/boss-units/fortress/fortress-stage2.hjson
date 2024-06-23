@@ -91,6 +91,7 @@ bullet: {
 
 {
     name: fortress-weapon-boss
+    alternate: false
     shootCone: 30
     top: false
     recoil: 4
