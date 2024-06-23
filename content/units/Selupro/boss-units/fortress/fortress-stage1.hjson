@@ -165,7 +165,6 @@ hitEffect: {
 
 {
     name: fortress-autocannon
-    parentizeEffects: true
     controllable: false
     rotationLimit: 75
     rotateSpeed: 1.25
