@@ -95,6 +95,7 @@ bullet: {
     y: 1
 
     cooldownTime: 210
+    velocityRnd: 0.15
     inaccuracy: 7
     reload: 180
 
