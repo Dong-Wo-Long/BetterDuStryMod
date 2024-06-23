@@ -235,6 +235,8 @@ bullet: {
     damage: 96
     speed: 7.5
 
+    hitEffect: hitBulletColor
+
     lightColor: d1efff
     lightOpacity: 0.7
     lightRadius: 20
