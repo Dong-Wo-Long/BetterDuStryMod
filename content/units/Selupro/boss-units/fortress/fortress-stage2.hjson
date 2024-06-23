@@ -100,7 +100,7 @@ bullet: {
     y: 1
 
     cooldownTime: 75
-    reload: 64
+    reload: 50
 
     shootSound: artillery-shot
     shootEffect: shootSmall
