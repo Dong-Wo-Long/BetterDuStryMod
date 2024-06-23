@@ -23,6 +23,16 @@ deathSound: gun-destruction
 
 immunities: [ blasted, burning, melting, shocked, freezing ]
 
+parts: [
+    {
+    type: FlarePart
+    color2: ffffff
+    color1: feb380
+    radius: 16
+    stroke: 2
+}
+    ]
+
 abilities: [
     {
     type: SpawnDeathAbility
@@ -116,26 +126,26 @@ bullet: {
 
     hitSound: artillery-hit
 
-    lightColor: 95abd9
+    lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 72.5
 
     trailEffect: artilleryTrail
     trailInterval: 9.5
-    trailColor: 6b77a1
+    trailColor: f9c27a
     trailLength: 3
     trailWidth: 1
     trailSize: 4
 
-    frontColor: 95abd9
-    backColor: 6b77a1
+    frontColor: fff8e8
+    backColor: f9c27a
 
 hitEffect: {
     type: ExplosionEffect
 
-    lifetime: 32
+    lifetime: 45
 
-    waveColor: 95abd9
+    waveColor: fff8e8
     waveStroke: 3.2
     waveRad: 48
 
@@ -144,7 +154,7 @@ hitEffect: {
     smokeSize: 14.5
     smokes: 7
 
-    sparkColor: 95abd9
+    sparkColor: fff8e8
     sparkStroke: 1.8
     sparkRad: 27.5
     sparkLen: 3
@@ -155,6 +165,7 @@ hitEffect: {
 
 {
     name: fortress-autocannon
+    parentizeEffects: true
     controllable: false
     rotationLimit: 75
     rotateSpeed: 1.25
@@ -170,12 +181,28 @@ hitEffect: {
 
     cooldownTime: 150
     inaccuracy: 3
-    reload: 96
+    reload: 125
 
-    shootSound: heavy-autocannon-shot
+    shootSound: anti-material-rifle-shot
+    chargeSound: laser-charge
     ejectEffect: casing2
+    ejectEffect: none
+shoot: {
+    firstShotDelay: 75
+    shotDelay: 0
+    shots: 1
+}
 
 parts: [
+{
+    type: FlarePart
+    color2: ffffff
+    color1: feb380
+    radius: 9
+    stroke: 1.5
+    y: -3.5
+    }
+
 {
     type: RegionPart
     suffix: -brl
@@ -192,6 +219,7 @@ bullet: {
     type: BasicBulletType
     sprite: missile-large
     removeAfterPierce: false
+    parentizeEffects: true
     pierceBuilding: true
     collideTerrain: true
     height: 12
@@ -200,21 +228,38 @@ bullet: {
     pierceDamageFactor: 0.025
     ammoMultiplier: 5
 
-    pierceCap: 32
+    status: 20s-36-status-tier-1-direct-purpose-emp
+    statusDuration: 450
+    pierceCap: 45
     lifetime: 80
     damage: 96
     speed: 7.5
 
-    lightColor: 95abd9
+    lightColor: d1efff
     lightOpacity: 0.7
     lightRadius: 20
 
-    trailColor: 6b77a1
+    trailColor: a4b8fa
     trailLength: 32.5
     trailWidth: 1.5
 
-    frontColor: 95abd9
-    backColor: 6b77a1
+    frontColor: d1efff
+    backColor: a4b8fa
+
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    offsetX: 3
+
+    sizeFrom: 7.5
+    sizeTo: 0
+
+    lifetime: 45
+
+    colorFrom: a4b8fa
+    colorTo: d1efff
+}
     }
 }
     ]
