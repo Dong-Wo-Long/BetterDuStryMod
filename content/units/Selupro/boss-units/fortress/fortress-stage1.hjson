@@ -252,7 +252,7 @@ chargeEffect: {
     followParent: true
     offsetX: 2.75
 
-    sizeFrom: 7.5
+    sizeFrom: 9
     sizeTo: 0
 
     lifetime: 45
