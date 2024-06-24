@@ -20,6 +20,8 @@ lightOpacity: 0.7
 lightRadius: 96.5
 
 deathSound: medium-explosion-1
+loopSound: boss-asterion
+loopSoundVolume: 1
 
 immunities: [ blasted, burning, melting, shocked, freezing ]
 
