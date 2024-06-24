@@ -232,6 +232,7 @@ bullet: {
 {
     name: bzw-destroyed
     aiControllable: false
+    alwaysShooting: true
     controllable: false
     layerOffset: -0.001
     baseRotation: 132
