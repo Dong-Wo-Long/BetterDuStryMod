@@ -16,6 +16,8 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 52
 
+deathSound: air-crush
+
 immunities: [ blasted ]
 
 targetFlags: [ generator, unitAssembler, factory, storage, battery, drill ]
