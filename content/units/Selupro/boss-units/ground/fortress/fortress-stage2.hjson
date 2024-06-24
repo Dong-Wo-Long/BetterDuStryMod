@@ -216,6 +216,143 @@ bullet: {
     lightColor: feb380
     lightOpacity: 0
     lightRadius: 0
+}
+    }
+
+{
+    name: fortress-emp-weapon
+    parentizeEffects: true
+    controllable: false
+    autoTarget: true
+    shootCone: 360
+    mirror: false
+    shake: 7
+    x: -5
+    y: -3.5
+
+    inaccuracy: 45
+    reload: 360
+
+    chargeSound: emp-charge
+    shootSound: emp-wave
+shoot: {
+    firstShotDelay: 177
+    shots: 1
+    }
+
+parts: [
+    {
+    type: FlarePart
+    color2: ffffff
+    color1: a4b8fa
+    radius: 5.5
+    stroke: 1
+    x: 1
+    y: -1.5
+}
+
+    {
+    type: FlarePart
+    color2: ffffff
+    color1: a4b8fa
+    radius: 5.5
+    stroke: 1
+    x: -1.5
+    y: -0.5
+}
+    ]
+
+bullet: {
+    type: BasicBulletType
+    parentizeEffects: true
+    keepVelocity: false
+    despawnShake: 5
+    hitShake: 5
+    shrinkY: 0
+    height: 0
+    width: 0
+
+    status: 20s-35-status-tier-2-direct-purpose-emp
+    splashDamageRadius: 192
+    statusDuration: 300
+    splashDamage: 300
+    pierceCap: 120
+    maxRange: 240
+    lifetime: 0
+    damage: 0
+    speed: 0
+
+    hitEffect: none
+    hitSound: none
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 50
+
+    trailColor: a4b8fa
+    trailInterval: 15
+    trailLength: 169
+    trailWidth: 1.75
+
+    lightningColor: d1efff
+    frontColor: d1efff
+    backColor: a4b8fa
+
+despawnEffect: {
+    type: MultiEffect
+effects: [
+{
+    type: ExplosionEffect
+
+    lifetime: 48
+
+    waveColor: d1efff
+    waveStroke: 0
+    waveRad: 0
+
+    smokeColor: 8ca9e8
+    smokeSizeBase: 0
+    smokeSize: 0
+    smokes: 0
+
+    sparkColor: d1efff
+    sparkStroke: 1.5
+    sparkRad: 180
+    sparkLen: 8
+    sparks: 24
+    }
+
+{
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    offsetX: 0
+
+    sizeFrom: 0
+    sizeTo: 192
+
+    lifetime: 48
+
+    colorFrom: a4b8fa
+    colorTo: d1efff
+    }
+]
+    }
+
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    offsetX: 0
+
+    sizeFrom: 12.5
+    sizeTo: 0
+
+    lifetime: 175
+
+    colorFrom: a4b8fa
+    colorTo: d1efff
+}
     }
 }
     ]
