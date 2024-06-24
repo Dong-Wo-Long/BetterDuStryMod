@@ -225,14 +225,14 @@ bullet: {
     height: 14
     width: 6
 
-    pierceDamageFactor: 0.025
+    pierceDamageFactor: 0.05
     ammoMultiplier: 5
 
     status: 20s-36-status-tier-1-direct-purpose-emp
     statusDuration: 450
+    pierceCap: 180
     lifetime: 67.5
-    pierceCap: 45
-    damage: 180
+    damage: 320
     speed: 9
 
     hitEffect: hitBulletColor
@@ -242,7 +242,7 @@ bullet: {
     lightRadius: 20
 
     trailColor: a4b8fa
-    trailLength: 32.5
+    trailLength: 47.5
     trailWidth: 1.5
 
     frontColor: d1efff
