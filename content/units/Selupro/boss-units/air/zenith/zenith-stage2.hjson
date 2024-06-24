@@ -1,5 +1,5 @@
 type: flying
-name: ZMP St1
+name: ZMP St2
 forceMultiTarget: false
 circleTarget: true
 createWreck: false
