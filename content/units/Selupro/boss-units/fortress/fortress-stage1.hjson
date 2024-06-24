@@ -230,10 +230,10 @@ bullet: {
 
     status: 20s-36-status-tier-1-direct-purpose-emp
     statusDuration: 450
+    lifetime: 52.25
     pierceCap: 180
-    lifetime: 67.5
     damage: 320
-    speed: 9
+    speed: 12.5
 
     hitEffect: hitBulletColor
 
