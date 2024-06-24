@@ -4,6 +4,7 @@ faceTarget: false
 fogRadius: 23.5
 
 strafePenalty: 0
+itemCapacity: 24
 rotateSpeed: 9
 accel: 0.025
 drag: 0.015
