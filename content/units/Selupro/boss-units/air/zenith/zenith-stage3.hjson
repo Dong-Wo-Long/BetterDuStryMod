@@ -258,10 +258,30 @@ bullet: {
     damage: 0
     speed: 1
 
-    despawnEffect: none
     smokeEffect: none
     shootEffect: none
     hitEffect: none
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 60
+
+    waveColor: ffaa5f
+    waveStroke: 0
+    waveRad: 0
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 3.2
+    smokes: 4
+
+    sparkColor: ffaa5f
+    sparkStroke: 3.2
+    sparkRad: 21
+    sparkLen: 5
+    sparks: 11
+}
     }
 }
     ]
