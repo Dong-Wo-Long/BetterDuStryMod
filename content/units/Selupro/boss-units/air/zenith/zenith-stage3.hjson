@@ -244,9 +244,7 @@ bullet: {
     x: -9
     y: -4
 
-    cooldownTime: 150
-    inaccuracy: 3
-    reload: 60
+    reload: 10
 
     shootSound: none
 
@@ -257,7 +255,7 @@ bullet: {
 
     lifetime: 10
     damage: 0
-    speed: 1
+    speed: 0
 
     smokeEffect: none
     shootEffect: none
@@ -266,7 +264,7 @@ bullet: {
 despawnEffect: {
     type: ExplosionEffect
 
-    lifetime: 60
+    lifetime: 10
 
     waveColor: ffaa5f
     waveStroke: 0
@@ -279,9 +277,9 @@ despawnEffect: {
 
     sparkColor: ffaa5f
     sparkStroke: 3.2
-    sparkRad: 21
-    sparkLen: 5
-    sparks: 11
+    sparkRad: 9
+    sparkLen: 4
+    sparks: 8
 }
     }
 }
