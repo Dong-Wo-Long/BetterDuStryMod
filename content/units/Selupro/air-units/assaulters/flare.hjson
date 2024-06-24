@@ -17,6 +17,8 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 45
 
+deathSound: small-air-crush
+
 targetFlags: [ generator, reactor, battery, extinguisher, drill, repair ]
 
 weapons: [
