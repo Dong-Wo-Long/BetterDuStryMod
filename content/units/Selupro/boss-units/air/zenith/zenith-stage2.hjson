@@ -5,6 +5,7 @@ circleTarget: true
 createWreck: false
 lowAltitude: true
 fogRadius: 45
+hidden: true
 flying: true
 hitSize: 20
 
