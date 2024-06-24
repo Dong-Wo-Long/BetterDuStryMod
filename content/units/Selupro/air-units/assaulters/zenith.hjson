@@ -1,11 +1,10 @@
 research: horizon
-
 circleTarget: true
 rotateSpeed: 1.9
 fogRadius: 32
 
 ammoType: blast-compound
-itemCapacity: 190
+itemCapacity: 180
 health: 1450
 armor: 21
 
