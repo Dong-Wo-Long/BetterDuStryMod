@@ -52,7 +52,8 @@ bullet: {
     homingRange: 41.5
     homingPower: 0.11
     lifetime: 76.5
-    damage: 15
+    pierceCap: 8
+    damage: 21.5
     speed: 3.7
 
     smokeEffect: shootSmallSmoke
