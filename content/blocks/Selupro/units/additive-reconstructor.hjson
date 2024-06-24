@@ -4,6 +4,6 @@ health: 1800
 armor: 9
 
 consumes: {
-    power: 32.6666667
+    power: 12.5
 }
 
