@@ -25,7 +25,6 @@ name: alpha-weapon
     reload: 25
 
     ejectEffect: casing1
-
 shoot: {
     shotDelay: 7
     shots: 3
@@ -40,7 +39,7 @@ bullet: {
 
     lifetime: 67.5
     pierceCap: 3
-    damage: 12.5
+    damage: 15
     speed: 3.2
 
     smokeEffect: shootSmallSmoke
