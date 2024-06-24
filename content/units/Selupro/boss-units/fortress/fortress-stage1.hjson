@@ -221,18 +221,19 @@ bullet: {
     removeAfterPierce: false
     pierceBuilding: true
     collideTerrain: true
-    height: 12
-    width: 5
+    absorbable: false
+    height: 14
+    width: 6
 
     pierceDamageFactor: 0.025
     ammoMultiplier: 5
 
     status: 20s-36-status-tier-1-direct-purpose-emp
     statusDuration: 450
+    lifetime: 67.5
     pierceCap: 45
-    lifetime: 80
-    damage: 96
-    speed: 7.5
+    damage: 180
+    speed: 9
 
     hitEffect: hitBulletColor
 
