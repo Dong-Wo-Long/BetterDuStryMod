@@ -232,7 +232,6 @@ bullet: {
 {
     name: bzw-destroyed
     aiControllable: false
-    alwaysShooting: true
     controllable: false
     layerOffset: -0.001
     baseRotation: 132
@@ -241,47 +240,46 @@ bullet: {
     mirror: false
     rotate: true
     shootY: 7.5
-    recoil: 0
     x: -9
     y: -4
 
-    reload: 5
+    cooldownTime: 150
+    inaccuracy: 3
+    reload: 96
 
     shootSound: none
 
 bullet: {
-    type: BasicBulletType
+    type: BombBulletType
+    sprite: missile-large
+    despawnShake: 0
+    shrinkX: 0
+    shrinkY: 0
     height: 0
     width: 0
 
+    splashDamageRadius: 0
+    splashDamage: 0
     lifetime: 0
-    damage: 0
     speed: 0
 
-    smokeEffect: none
     shootEffect: none
+    smokeEffect: none
     hitEffect: none
+    hitSound: none
 
-despawnEffect: {
-    type: ExplosionEffect
+    trailColor: feb380
+    frontColor: ffffff
+    backColor: feb380
 
-    lifetime: 5
+    trailInterp: slope
+    trailEffect: none
+    trailLength: 0
+    trailWidth: 0
 
-    waveColor: ffaa5f
-    waveStroke: 0
-    waveRad: 0
-
-    smokeColor: 696969
-    smokeSizeBase: 0
-    smokeSize: 3.2
-    smokes: 3
-
-    sparkColor: ffaa5f
-    sparkStroke: 1.25
-    sparkRad: 3
-    sparkLen: 1.5
-    sparks: 8
-}
+    lightColor: feb380
+    lightOpacity: 0
+    lightRadius: 0
     }
 }
     ]
