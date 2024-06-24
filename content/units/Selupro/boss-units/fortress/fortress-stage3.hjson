@@ -1,6 +1,6 @@
 type: mech
 name: FMD St3
-forceMultiTarget: true
+forceMultiTarget: false
 mechFrontSway: 0.55
 targetAir: false
 stepShake: 3.25
@@ -86,7 +86,7 @@ bullet: {
 
 {
     name: fortress-weapon-boss
-    shootCone: 30
+    shootCone: 180
     mirror: false
     top: false
     recoil: 4
