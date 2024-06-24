@@ -5,5 +5,5 @@ health: 500
 armor: 3
 
 consumes: {
-    power: 4
+    power: 3
 }
