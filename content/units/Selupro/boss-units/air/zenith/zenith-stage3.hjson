@@ -241,10 +241,11 @@ bullet: {
     mirror: false
     rotate: true
     shootY: 7.5
+    recoil: 0
     x: -9
     y: -4
 
-    reload: 10
+    reload: 5
 
     shootSound: none
 
@@ -264,7 +265,7 @@ bullet: {
 despawnEffect: {
     type: ExplosionEffect
 
-    lifetime: 10
+    lifetime: 5
 
     waveColor: ffaa5f
     waveStroke: 0
@@ -273,12 +274,12 @@ despawnEffect: {
     smokeColor: 696969
     smokeSizeBase: 0
     smokeSize: 3.2
-    smokes: 4
+    smokes: 3
 
     sparkColor: ffaa5f
-    sparkStroke: 3.2
-    sparkRad: 9
-    sparkLen: 4
+    sparkStroke: 1.25
+    sparkRad: 3
+    sparkLen: 1.5
     sparks: 8
 }
     }
