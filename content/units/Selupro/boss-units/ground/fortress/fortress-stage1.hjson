@@ -167,8 +167,8 @@ hitEffect: {
 
 {
     name: fortress-emp-weapon
-    aiControllable: false
     parentizeEffects: true
+    aiControllable: false
     controllable: false
     autoTarget: false
     shootCone: 360
