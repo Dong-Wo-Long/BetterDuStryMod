@@ -16,8 +16,8 @@ rotateSpeed: 1.5
 health: 1500
 accel: 0.032
 drag: 0.025
-speed: 0.8
 armor: 24
+speed: 1
 
 engineOffset: 12
 trailLength: 15
