@@ -90,9 +90,9 @@ bullet: {
     status: melting
     incendSpread: 5
     incendAmount: 1
-    healPercent: 5
+    healPercent: 0.25
     lifetime: 525
-    damage: 196
+    damage: 81
 
     despawnEffect: smokeCloud
     hitEffect: hitMeltHeal
