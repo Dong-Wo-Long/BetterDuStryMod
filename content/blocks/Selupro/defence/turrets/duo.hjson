@@ -184,9 +184,9 @@ pyratite: {
     splashDamage: 5
     status: burning
     pierceCap: 2
-    lifetime: 44
+    lifetime: 56
     damage: 14.5
-    speed: 5.25
+    speed: 4
 
     lightColor: ffaa5f
     lightOpacity: 0.7
