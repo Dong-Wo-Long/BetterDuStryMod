@@ -205,7 +205,7 @@ bullet: {
     pierceDamageFactor: 0.025
 
     status: 20s-06-tier-1-strength-reduction
-    splashDamageRadius: 12
+    splashDamageRadius: 26
     statusDuration: 300
     splashDamage: 181
     lifetime: 20.5
