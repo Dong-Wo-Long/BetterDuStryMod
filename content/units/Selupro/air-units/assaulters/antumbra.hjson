@@ -476,7 +476,7 @@ bullet: {
     trailInterval: 12.5
     trailInterp: slope
     trailColor: a4b8fa
-    trailLength: 320
+    trailLength: 180
     trailWidth: 5
     trailSize: 3
 
