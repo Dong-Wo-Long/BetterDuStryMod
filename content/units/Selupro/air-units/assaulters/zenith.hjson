@@ -123,32 +123,29 @@ hitEffect: {
     }
 
 {
-    name: hidden-bombing-mw
-
+    name: bombing-zenith-weapon
     minShootVelocity: 0.75
-    ignoreRotation: true
     controllable: false
     layerOffset: -0.001
-    autoTarget: true
-    shake: 1.75
-    
     baseRotation: -115
+    autoTarget: true
     alternate: false
-    inaccuracy: 25
-    shootCone: 90
+    shootCone: 360
     mirror: true
+    shake: 1.75
     shootY: 1
     x: 9
     y: -4
 
-    velocityRnd: 0.5
-    reload: 125
+    reload: 360
 
-    ejectEffect: none
-
-    shootSound: none
-
+    shootStatus: 20s-12-status-tier-1-motor-deceleration
+    chargeSound: charging-power
+    shootStatusDuration: 340
+    shootSound: rocket-fire
+    ejectEffect: casing3
 shoot: {
+    firstShotDelay: 117
     shotDelay: 18
     shots: 5
 }
@@ -161,6 +158,8 @@ bullet: {
     height: 10
     width: 10
 
+    buildingDamageMultiplier: 1.25
+
     splashDamageRadius: 40
     statusDuration: 450
     splashDamage: 96
@@ -168,8 +167,9 @@ bullet: {
     lifetime: 90
     speed: 2.75
 
-    shootEffect: none
-    smokeEffect: none
+    smokeEffect: shootSmallSmoke
+    shootEffect: shootSmallColor
+    hitSound: rocket-explosion
 
     lightColor: d06b53
     lightOpacity: 0.7
