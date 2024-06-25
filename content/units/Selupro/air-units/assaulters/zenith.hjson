@@ -123,7 +123,7 @@ hitEffect: {
     }
 
 {
-    name: bombing-zenith-weapon
+    name: hidden-bombing-mw
     minShootVelocity: 0.75
     controllable: false
     layerOffset: -0.001
