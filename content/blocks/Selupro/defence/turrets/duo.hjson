@@ -26,7 +26,7 @@ copper: {
     pierceDamageFactor: 0.000005
     ammoMultiplier: 6
 
-    pierceCap: 3
+    pierceCap: 5
     lifetime: 48
     damage: 18
     speed: 3.2
@@ -45,11 +45,12 @@ graphite: {
     height: 12
     width: 9
 
+    buildingDamageMultiplier: 1.25
     pierceDamageFactor: 0.0000025
     reloadMultiplier: 0.75
     ammoMultiplier: 3
 
-    pierceCap: 5
+    pierceCap: 7
     lifetime: 64
     damage: 24.5
     speed: 2.75
@@ -71,13 +72,14 @@ silicon: {
     height: 9
     width: 7
 
+    buildingDamageMultiplier: 0.75
     pierceDamageFactor: 0.000008
     reloadMultiplier: 2.25
     ammoMultiplier: 9
 
     homingPower: 0.15
     lifetime: 42.5
-    pierceCap: 2
+    pierceCap: 3
     damage: 12.5
     speed: 4.75
 
@@ -98,8 +100,8 @@ scrap: {
     height: 8
     width: 6
 
+    buildingDamageMultiplier: 0.85
     reloadMultiplier: 0.6
-    ammoMultiplier: 1
 
     fragRandomSpread: 360
     fragLifeMax: 2.1
@@ -163,6 +165,59 @@ despawnEffect: {
     sparkLen: 0
     sparks: 0
 }
+    }
+}
+
+pyratite: {
+    type: BasicBulletType
+    makeFire: true
+    height: 12
+    width: 6
+
+    buildingDamageMultiplier: 0.01
+    pierceDamageFactor: 0.00025
+    reloadMultiplier: 0.85
+    ammoMultiplier: 4
+
+    splashDamageRadius: 12
+    statusDuration: 300
+    splashDamage: 5
+    status: burning
+    pierceCap: 2
+    lifetime: 44
+    damage: 14.5
+    speed: 5.25
+
+    lightColor: ffaa5f
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    trailColor: d37f47
+    trailLength: 32.5
+    trailWidth: 1.35
+
+    frontColor: ffaa5f
+    backColor: d37f47
+
+hitEffect: {
+    type: MultiEffect
+
+effects: [
+{
+    effect: hitBulletSmall
+    colorTo: ffaa5f
+    lifetime: 20
+    sizeFrom: 3
+    sizeTo: 0
+    }
+{
+    effect: fireHit
+    colorTo: ffaa5f
+    lifetime: 20
+    sizeFrom: 1
+    sizeTo: 0
+    }
+]
     }
 }
     }
