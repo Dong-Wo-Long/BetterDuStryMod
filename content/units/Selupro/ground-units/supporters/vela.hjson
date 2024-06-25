@@ -86,11 +86,11 @@ bullet: {
     shake: 5.5
 
     statusDuration: 300
-    incendChance: 0.5
+    incendChance: 0.8
+    healPercent: 0.25
     status: melting
     incendSpread: 5
-    incendAmount: 1
-    healPercent: 0.25
+    incendAmount: 3
     lifetime: 525
     damage: 81
 
