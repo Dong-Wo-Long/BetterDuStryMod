@@ -20,7 +20,7 @@ weapons: [
     x: 2.75
     y: 1
     
-    reload: 9
+    reload: 7.5
 
     ejectEffect: casing1
 
