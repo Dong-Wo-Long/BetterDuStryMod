@@ -6,7 +6,7 @@ mineSpeed: 4.75
 buildSpeed: 1
 mineTier: 2
 health: 250
-speed: 4.8
+speed: 4.5
 armor: 5
 
 trailLength: 5.5
