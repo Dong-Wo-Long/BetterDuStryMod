@@ -26,7 +26,6 @@ name: beta-weapon
     reload: 21
     
     ejectEffect: casing1
-
 shoot: {
     shotDelay: 5
     shots: 3
@@ -39,7 +38,7 @@ bullet: {
     
     buildingDamageMultiplier: 0.01
 
-    homingPower: 0.05
+    homingPower: 0.08
     homingRange: 32
     lifetime: 72.5
     pierceCap: 5
