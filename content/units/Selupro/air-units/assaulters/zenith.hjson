@@ -6,7 +6,7 @@ ammoType: blast-compound
 itemCapacity: 96
 rotateSpeed: 1.5
 health: 1450
-accel: 0.015
+accel: 0.005
 drag: 0.015
 speed: 2.4
 armor: 21
