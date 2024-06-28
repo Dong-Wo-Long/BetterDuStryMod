@@ -28,11 +28,10 @@ abilities: [
 weapons: [
 {
     name: gamma-weapon
-    alternate: false
     x: 1
     y: 2
     
-    reload: 9
+    reload: 5
     
     ejectEffect: casing1
 
@@ -45,10 +44,10 @@ bullet: {
 
     homingPower: 0.125
     homingRange: 90
-    lifetime: 76.5
+    lifetime: 104.5
     pierceCap: 15
     damage: 21.5
-    speed: 3.7
+    speed: 3.75
 
     smokeEffect: shootSmallSmoke
     shootEffect: shootSmall
