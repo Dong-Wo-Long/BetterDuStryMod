@@ -464,7 +464,7 @@ bullet: {
     splashDamage: 180
     fragBullets: 1
     knockback: -15
-    pierceCap: 125
+    pierceCap: 196
     lifetime: 196
     lightning: 9
     damage: 360
