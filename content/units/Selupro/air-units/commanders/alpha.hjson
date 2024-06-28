@@ -31,7 +31,7 @@ bullet: {
     
     buildingDamageMultiplier: 0.01
 
-    lifetime: 67.5
+    lifetime: 81.5
     pierceCap: 8
     damage: 15
     speed: 3.2
