@@ -1,6 +1,6 @@
 research: zenith
 circleTarget: true
-fogRadius: 36
+fogRadius: 48
 
 crashDamageMultiplier: 7.5
 
@@ -12,11 +12,11 @@ health: 32000
 speed: 1.3
 armor: 81
 
-trailLength: 19
-
 lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 110
+
+trailLength: 19
 
 immunities: [ burning, blasted, shocked, tarred, wet ]
 
