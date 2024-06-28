@@ -355,15 +355,6 @@ parts: [
     x: 0.5
     y: -0.5
 }
-
-    {
-    type: FlarePart
-    color2: ffffff
-    color1: feb380
-    radius: 5.5
-    stroke: 1.5
-    y: 2.5
-}
     ]
 
 bullet: {
