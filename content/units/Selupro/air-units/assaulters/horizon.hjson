@@ -16,7 +16,7 @@ lightRadius: 52
 
 trailLength: 9.5
 
-deathSound: air-crush
+deathSound: medium-air-crush
 
 immunities: [ blasted ]
 
