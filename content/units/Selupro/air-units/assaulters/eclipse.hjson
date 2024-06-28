@@ -13,11 +13,11 @@ health: 48000
 speed: 0.7
 armor: 144
 
-trailLength: 46
-
 lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 145
+
+trailLength: 46
 
 immunities: [ melting, burning, blasted, shocked, tarred, wet ]
 
