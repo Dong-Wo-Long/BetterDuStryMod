@@ -60,7 +60,7 @@ parts: [
     type: FlarePart
     color2: ffffff
     color1: feb380
-    radius: 18
+    radius: 15
     stroke: 2
     y: -0.5
 }
@@ -94,7 +94,7 @@ parts: [
     type: FlarePart
     color2: ffffff
     color1: feb380
-    radius: 16
+    radius: 24
     stroke: 2
     y: -0.5
 }
