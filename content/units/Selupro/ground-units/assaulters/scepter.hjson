@@ -93,8 +93,9 @@ bullet: {
 
     buildingDamageMultiplier: 1.5
 
-    lightningColor: f3e979
+    status: 20s-06-tier-1-strength-reduction
     lightningDamage: 24
+    statusDuration: 300
     lightningLength: 7
     pierceCap: 18
     lightning: 4
@@ -108,6 +109,7 @@ bullet: {
     lightOpacity: 0.7
     lightRadius: 37.5
 
+    lightningColor: f3e979
     frontColor: ffffff
     backColor: f3e979
 }
