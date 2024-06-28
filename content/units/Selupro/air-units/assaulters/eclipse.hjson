@@ -7,7 +7,7 @@ fogRadius: 41.5
 
 crashDamageMultiplier: 7.5
 
-itemCapacity: 4500
+itemCapacity: 24000
 ammoType: thorium
 health: 48000
 speed: 0.7
