@@ -2,7 +2,7 @@ research: air-factory
 fogRadius: 10.5
 
 itemCapacity: 48
-mineSpeed: 9
+mineSpeed: 5
 mineTier: 2
 speed: 2.25
 health: 64
