@@ -76,6 +76,7 @@ bullet: {
     hitShake: 2.25
     shrinkX: 0.25
     shrinkY: 0.5
+    pierce: true
     drag: -0.003
     height: 12
     width: 8
@@ -160,6 +161,7 @@ bullet: {
     despawnShake: 3.2
     hitShake: 3.2
     maxRange: 250
+    pierce: true
     height: 10
     width: 10
 
