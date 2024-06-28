@@ -7,7 +7,7 @@ mineSpeed: 5
 mineTier: 2
 health: 320
 speed: 5.25
-armor: 2
+armor: 8
 
 lightColor: fff8e8
 lightOpacity: 0.7
