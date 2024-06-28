@@ -452,6 +452,7 @@ bullet: {
     statusDuration: 540
     lightningDamage: 5
     splashDamage: 180
+    fragBullets: 1
     knockback: -15
     pierceCap: 125
     lifetime: 196
