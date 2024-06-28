@@ -20,6 +20,10 @@ lightRadius: 110
 
 trailLength: 19
 
+deathSound: large-air-crush
+loopSound: air-engine
+loopSoundVolume: 0.5
+
 immunities: [ burning, blasted, shocked, tarred, wet ]
 
 targetFlags: [ unitAssembler, unitCargoUnloadPoint, turret, reactor, generator, battery, core ]
