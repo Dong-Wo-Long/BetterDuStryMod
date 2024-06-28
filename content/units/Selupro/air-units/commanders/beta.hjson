@@ -2,8 +2,8 @@ research: core-foundation
 researchCostMultiplier: 0
 
 itemCapacity: 48
-mineSpeed: 4.75
-buildSpeed: 1
+buildSpeed: 1.25
+mineSpeed: 7.5
 mineTier: 2
 health: 250
 speed: 4.75
