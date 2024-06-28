@@ -20,8 +20,8 @@ lightRadius: 110
 
 trailLength: 19
 
-deathSound: large-air-crush
 loopSoundVolume: 0.32
+deathSound: air-crush
 loopSound: air-engine
 
 immunities: [ burning, blasted, shocked, tarred, wet ]
