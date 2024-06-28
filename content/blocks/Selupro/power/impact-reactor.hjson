@@ -1,1 +1,7 @@
 research: differential-generator
+ambientSoundVolume: 0.25
+
+powerProduction: 160
+liquidCapacity: 180
+itemDuration: 180
+itemCapacity: 96
