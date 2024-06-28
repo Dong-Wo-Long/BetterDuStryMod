@@ -27,20 +27,14 @@ abilities: [
 
 weapons: [
 {
-name: gamma-weapon
-
+    name: gamma-weapon
     alternate: false
-    inaccuracy: 5
     x: 1
     y: 2
     
-    reload: 23.5
+    reload: 9
     
     ejectEffect: casing1
-shoot: {
-    shotDelay: 6
-    shots: 5
-}
 
 bullet: {
     type: BasicBulletType
