@@ -159,7 +159,7 @@ bullet: {
     sprite: missile-large
     despawnShake: 3.2
     hitShake: 3.2
-    maxRange: 180
+    maxRange: 250
     height: 10
     width: 10
 
