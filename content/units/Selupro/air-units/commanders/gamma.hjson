@@ -49,8 +49,8 @@ bullet: {
     
     buildingDamageMultiplier: 0.01
 
-    homingRange: 41.5
-    homingPower: 0.11
+    homingPower: 0.125
+    homingRange: 90
     lifetime: 76.5
     pierceCap: 8
     damage: 21.5
