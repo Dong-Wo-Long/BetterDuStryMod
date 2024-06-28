@@ -4,10 +4,11 @@ fogRadius: 32
 
 ammoType: blast-compound
 itemCapacity: 96
-rotateSpeed: 1.8
+rotateSpeed: 1.5
 health: 1450
 accel: 0.015
 drag: 0.015
+speed: 1.8
 armor: 21
 
 trailLength: 11.5
