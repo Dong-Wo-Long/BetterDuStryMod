@@ -1,5 +1,4 @@
 research: quad
-
 fallSpeed: 0.0012
 faceTarget: true
 fogRadius: 55
@@ -9,7 +8,7 @@ crashDamageMultiplier: 12.5
 itemCapacity: 18000
 itemOffsetY: -4.5
 rotateSpeed: 0.25
-buildSpeed: 1.5
+buildSpeed: 1.25
 health: 48000
 mineSpeed: 5
 mineTier: 4
