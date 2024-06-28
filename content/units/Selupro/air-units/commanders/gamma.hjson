@@ -2,7 +2,7 @@ research: core-nucleus
 researchCostMultiplier: 0
 
 itemCapacity: 75
-buildSpeed: 1.25
+buildSpeed: 1.5
 mineSpeed: 5
 mineTier: 2
 health: 320
