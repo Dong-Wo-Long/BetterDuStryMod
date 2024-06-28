@@ -325,13 +325,12 @@ plastanium: {
 
 fragBullet: {
     type: BasicBulletType
-    removeAfterPierce: false
     collidesGround: false
     shrinkY: 0.25
     height: 12
     width: 9
 
-    pierceDamageFactor: 0.75
+    pierceDamageFactor: 0.025
 
     pierceCap: 32
     lifetime: 25
