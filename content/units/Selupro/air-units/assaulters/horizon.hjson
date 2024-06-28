@@ -10,11 +10,11 @@ health: 360
 speed: 2.5
 armor: 9
 
-trailLength: 9.5
-
 lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 52
+
+trailLength: 9.5
 
 deathSound: air-crush
 
