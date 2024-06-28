@@ -152,7 +152,7 @@ hitEffect: {
 shoot: {
     firstShotDelay: 117
     shotDelay: 18
-    shots: 5
+    shots: 7
 }
 
 bullet: {
