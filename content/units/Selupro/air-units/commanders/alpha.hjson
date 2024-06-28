@@ -2,7 +2,7 @@ research: core-shard
 researchCostMultiplier: 0
 
 itemCapacity: 32
-buildSpeed: 0.75
+buildSpeed: 1
 mineSpeed: 5
 health: 180
 speed: 4.5
