@@ -139,6 +139,7 @@ bullet: {
     type: BasicBulletType
     collideTerrain: true
     keepVelocity: false
+    pierce: true
     height: 9
     width: 7
 
@@ -184,6 +185,7 @@ bullet: {
     type: BasicBulletType
     collideTerrain: true
     keepVelocity: false
+    pierce: true
     height: 9
     width: 7
 
@@ -258,6 +260,7 @@ bullet: {
     hitShake: 3.2
     shrinkX: 0.25
     shrinkY: 0.5
+    pierce: true
     drag: -0.003
     height: 12
     width: 8
@@ -453,6 +456,7 @@ bullet: {
     despawnShake: 7.5
     hitShake: 7.5
     shrinkY: 0.5
+    pierce: true
     height: 18
     width: 12
 
