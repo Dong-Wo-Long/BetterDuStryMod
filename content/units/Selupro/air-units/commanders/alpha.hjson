@@ -31,10 +31,10 @@ bullet: {
     
     buildingDamageMultiplier: 0.01
 
-    lifetime: 81.5
+    lifetime: 80.5
     pierceCap: 8
+    speed: 3.25
     damage: 15
-    speed: 3.2
 
     smokeEffect: shootSmallSmoke
     shootEffect: shootSmall
@@ -42,6 +42,6 @@ bullet: {
     lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 17.5
-}
     }
-]
+}
+    ]
