@@ -94,10 +94,10 @@ bullet: {
     buildingDamageMultiplier: 1.5
 
     lightningColor: f3e979
-    lightningDamage: 15
+    lightningDamage: 24
     lightningLength: 7
     pierceCap: 18
-    lightning: 3
+    lightning: 4
     lifetime: 38
     damage: 96
     speed: 7
