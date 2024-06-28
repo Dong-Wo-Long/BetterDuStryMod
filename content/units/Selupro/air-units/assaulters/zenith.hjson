@@ -6,6 +6,8 @@ ammoType: blast-compound
 itemCapacity: 96
 rotateSpeed: 1.8
 health: 1450
+accel: 0.015
+drag: 0.015
 armor: 21
 
 trailLength: 11.5
