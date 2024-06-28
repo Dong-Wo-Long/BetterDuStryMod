@@ -41,6 +41,7 @@ bullet: {
     despawnShake: 3.25
     hitShake: 3.25
     maxRange: 128
+    pierce: true
     height: 14
     width: 14
 
