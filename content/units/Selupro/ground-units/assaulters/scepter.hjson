@@ -92,12 +92,13 @@ bullet: {
     width: 11
 
     buildingDamageMultiplier: 1.5
+    pierceDamageFactor: 0.25
 
     status: 20s-06-tier-1-strength-reduction
     lightningDamage: 24
     statusDuration: 300
     lightningLength: 7
-    pierceCap: 18
+    pierceCap: 81
     lightning: 4
     lifetime: 38
     damage: 96
