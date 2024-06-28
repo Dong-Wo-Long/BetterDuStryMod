@@ -158,6 +158,7 @@ bullet: {
     sprite: missile-large
     despawnShake: 1.5
     hitShake: 1.5
+    maxRange: 180
     height: 10
     width: 10
 
@@ -169,7 +170,6 @@ bullet: {
     status: burning
     lifetime: 90
     speed: 2.75
-    maxRange: 180
 
     smokeEffect: shootSmallSmoke
     shootEffect: shootSmallColor
