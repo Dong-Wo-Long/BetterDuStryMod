@@ -15,7 +15,7 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 72.5
 
-trailLength: 11.5
+trailLength: 12.5
 
 deathSound: helicopter-crush
 
