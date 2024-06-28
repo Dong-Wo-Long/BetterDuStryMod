@@ -1,5 +1,4 @@
 research: mega
-
 fallSpeed: 0.0025
 faceTarget: true
 fogRadius: 64
@@ -7,8 +6,7 @@ fogRadius: 64
 crashDamageMultiplier: 5
 
 itemCapacity: 800
-buildSpeed: 1.75
-fogRadius: 62.5
+buildSpeed: 1.5
 mineSpeed: 7.5
 health: 24000
 mineTier: 3
