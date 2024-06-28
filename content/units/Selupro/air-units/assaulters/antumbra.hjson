@@ -448,7 +448,7 @@ bullet: {
 
     status: 20s-35-status-tier-2-direct-purpose-emp
     splashDamageRadius: 60
-    lightningLength: 12.5
+    lightningLength: 7.5
     statusDuration: 540
     lightningDamage: 5
     splashDamage: 180
@@ -467,7 +467,7 @@ bullet: {
     trailInterval: 12.5
     trailInterp: slope
     trailColor: a4b8fa
-    trailLength: 180
+    trailLength: 81
     trailWidth: 5
     trailSize: 3
 
