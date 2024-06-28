@@ -169,6 +169,7 @@ bullet: {
     status: burning
     lifetime: 90
     speed: 2.75
+    maxRange: 180
 
     smokeEffect: shootSmallSmoke
     shootEffect: shootSmallColor
