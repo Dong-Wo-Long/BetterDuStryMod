@@ -17,13 +17,12 @@ lightRadius: 70
 
 weapons: [
 {
-name: beta-weapon
-
+    name: beta-weapon
     rotate: true
     x: 3
     y: 0.5
 
-    reload: 21
+    reload: 18
     
     ejectEffect: casing1
 shoot: {
