@@ -18,6 +18,8 @@ lightRadius: 72.5
 trailLength: 12.5
 
 deathSound: helicopter-crush
+loopSoundVolume: 0.05
+loopSound: air-engine
 
 immunities: [ blasted, shocked ]
 
