@@ -41,6 +41,7 @@ bullet: {
     width: 6.5
     
     buildingDamageMultiplier: 0.01
+    pierceDamageFactor: 0.0125
 
     homingPower: 0.125
     homingRange: 90
