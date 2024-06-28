@@ -318,20 +318,20 @@ hitEffect: {
     x: 10
     y: -3.25
 
-    cooldownTime: 420
+    cooldownTime: 200
     velocityRnd: 0.15
     inaccuracy: 7
-    reload: 480
+    reload: 240
 
     shootStatus: 20s-11-status-tier-2-motor-deceleration
     chargeSound: heavy-minigun-charge
     shootSound: heavy-minigun-shot
-    shootStatusDuration: 440
+    shootStatusDuration: 360
     ejectEffect: casing3
 shoot: {
     firstShotDelay: 102
     shotDelay: 5
-    shots: 96
+    shots: 48
 }
 
 parts: [ 
