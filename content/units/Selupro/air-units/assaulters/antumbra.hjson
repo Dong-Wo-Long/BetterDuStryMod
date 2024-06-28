@@ -143,10 +143,10 @@ bullet: {
     width: 7
 
     buildingDamageMultiplier: 0.85
-    pierceDamageFactor: 0.025
+    pierceDamageFactor: 0.0225
 
+    lifetime: 39.75
     pierceCap: 25
-    lifetime: 52
     damage: 32
     speed: 5
 
@@ -190,8 +190,8 @@ bullet: {
     buildingDamageMultiplier: 0.75
     pierceDamageFactor: 0.025
 
+    lifetime: 39.75
     pierceCap: 32
-    lifetime: 52
     damage: 48
     speed: 5
 
