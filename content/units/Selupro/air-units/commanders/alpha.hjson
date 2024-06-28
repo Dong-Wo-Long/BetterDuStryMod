@@ -3,7 +3,7 @@ researchCostMultiplier: 0
 
 itemCapacity: 32
 buildSpeed: 0.75
-mineSpeed: 1.5
+mineSpeed: 4.25
 health: 180
 speed: 4.1
 armor: 3
