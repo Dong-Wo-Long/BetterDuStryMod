@@ -6,7 +6,7 @@ buildSpeed: 1.25
 mineSpeed: 5
 mineTier: 2
 health: 320
-speed: 5.25
+speed: 5
 armor: 8
 
 lightColor: fff8e8
