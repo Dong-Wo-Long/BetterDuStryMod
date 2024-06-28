@@ -1,11 +1,12 @@
 research: core-shard
 researchCostMultiplier: 0
 
-itemCapacity: 75
+itemCapacity: 32
 buildSpeed: 0.75
 mineSpeed: 5
-health: 170
+health: 150
 speed: 4.1
+armor: 3
 
 trailLength: 5.2
 
@@ -15,20 +16,13 @@ lightRadius: 60
 
 weapons: [
 {
-name: alpha-weapon
-    
-    alternate: false
-    inaccuracy: 7
+    name: alpha-weapon
     x: 2.75
     y: 1
     
-    reload: 25
+    reload: 12.5
 
     ejectEffect: casing1
-shoot: {
-    shotDelay: 7
-    shots: 3
-}
 
 bullet: {
     type: BasicBulletType
