@@ -23,21 +23,21 @@ immunities: [ burning, blasted, shocked, tarred, wet ]
 targetFlags: [ unitAssembler, unitCargoUnloadPoint, turret, reactor, generator, battery, core ]
 
 abilities: [
-{
+    {
     type: ShieldRegenFieldAbility
     reload: 1920
     amount: 3600
     max: 18000
     range: 0
-    }
-{
+}
+    {
     type: ShieldRegenFieldAbility
     reload: 960
     amount: 160
     range: 256
     max: 960
-    }
-]
+}
+    ]
 
 weapons: [
 {
@@ -138,7 +138,7 @@ bullet: {
 
     buildingDamageMultiplier: 0.75
 
-    lifetime: 103.5
+    lifetime: 78.5
     pierceCap: 32
     damage: 48
     speed: 5
@@ -182,7 +182,7 @@ bullet: {
 
     buildingDamageMultiplier: 0.85
 
-    lifetime: 103.5
+    lifetime: 78.25
     pierceCap: 25
     damage: 32
     speed: 5
@@ -374,7 +374,7 @@ bullet: {
     splashDamageRadius: 12
     statusDuration: 180
     splashDamage: 64
-    lifetime: 21.5
+    lifetime: 21.25
     pierceCap: 50
     damage: 75
     speed: 16
