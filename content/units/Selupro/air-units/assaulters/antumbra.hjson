@@ -454,10 +454,9 @@ bullet: {
     splashDamage: 180
     knockback: -15
     pierceCap: 125
-    lifetime: 360
+    lifetime: 196
     lightning: 9
     damage: 360
-    drag: 0.005
     speed: 1
 
     lightColor: d1efff
