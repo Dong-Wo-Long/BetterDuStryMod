@@ -318,10 +318,10 @@ hitEffect: {
     x: 10
     y: -3.25
 
-    cooldownTime: 300
+    cooldownTime: 260
     velocityRnd: 0.15
     inaccuracy: 7
-    reload: 320
+    reload: 290
 
     shootStatus: 20s-11-status-tier-2-motor-deceleration
     chargeSound: heavy-minigun-charge
