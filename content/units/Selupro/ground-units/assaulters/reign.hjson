@@ -307,12 +307,13 @@ bullet: {
     type: BasicBulletType
     collideTerrain: true
     ammoMultiplier: 2
+    pierce: true
     height: 8.5
     width: 6.5
 
-    pierceDamageFactor: 0.0005
+    pierceDamageFactor: 0.025
 
-    pierceCap: 8
+    pierceCap: 32
     lifetime: 64
     damage: 41
     speed: 7.5
@@ -380,6 +381,7 @@ bullet: {
     collidesGround: false
     keepVelocity: false
     despawnShake: 4
+    pierce: true
     hitShake: 4
     shrinkY: 0
     height: 9
@@ -477,6 +479,7 @@ bullet: {
     collidesAir: false
     despawnShake: 5
     shrinkY: 0.25
+    pierce: true
     hitShake: 5
     height: 14
     width: 6
