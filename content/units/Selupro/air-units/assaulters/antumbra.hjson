@@ -462,6 +462,8 @@ bullet: {
     damage: 360
     speed: 1
 
+    hitSound: rocket-explosion
+
     lightColor: d1efff
     lightOpacity: 0.7
     lightRadius: 67.5
