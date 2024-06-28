@@ -27,7 +27,7 @@ weapons: [
 {
     name: large-mm
     rotate: true
-    shake: 1.5
+    shake: 1.8
     x: 7
     y: 0
 
@@ -156,8 +156,8 @@ shoot: {
 bullet: {
     type: BombBulletType
     sprite: missile-large
-    despawnShake: 1.5
-    hitShake: 1.5
+    despawnShake: 3.2
+    hitShake: 3.2
     maxRange: 180
     height: 10
     width: 10
