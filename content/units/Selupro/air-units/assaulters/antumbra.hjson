@@ -166,7 +166,7 @@ bullet: {
     x: 7.5
     y: 16.5
 
-    velocityRnd: 0.07
+    velocityRnd: 0.05
     inaccuracy: 5
     reload: 4.5
 
@@ -319,6 +319,7 @@ hitEffect: {
     y: -3.25
 
     cooldownTime: 420
+    velocityRnd: 0.15
     inaccuracy: 7
     reload: 480
 
