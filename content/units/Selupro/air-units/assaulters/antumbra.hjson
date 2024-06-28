@@ -412,8 +412,8 @@ bullet: {
     parentizeEffects: true
     controllable: false
     baseRotation: -195
-    rotationLimit: 90
-    rotateSpeed: 0.75
+    rotationLimit: 135
+    rotateSpeed: 0.25
     autoTarget: true
     shootCone: 30
     rotate: true
