@@ -94,7 +94,7 @@ parts: [
     type: FlarePart
     color2: ffffff
     color1: feb380
-    radius: 12.5
+    radius: 16
     stroke: 2
     y: -0.5
 }
