@@ -394,7 +394,7 @@ bullet: {
     }
 
 {
-    name: large-artillery
+    name: large-emp-artillery
     parentizeEffects: true
     controllable: false
     baseRotation: -195
