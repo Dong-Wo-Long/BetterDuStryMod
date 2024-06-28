@@ -11,11 +11,11 @@ drag: 0.015
 speed: 2.4
 armor: 21
 
-trailLength: 11.5
-
 lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 72.5
+
+trailLength: 11.5
 
 deathSound: helicopter-crush
 
