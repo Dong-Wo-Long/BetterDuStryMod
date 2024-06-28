@@ -46,7 +46,7 @@ bullet: {
     homingPower: 0.125
     homingRange: 90
     lifetime: 76.5
-    pierceCap: 8
+    pierceCap: 15
     damage: 21.5
     speed: 3.7
 
