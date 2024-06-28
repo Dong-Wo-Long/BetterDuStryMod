@@ -262,7 +262,7 @@ bullet: {
     homingRange: 0
     weaveScale: 6
     pierceCap: 96
-    lifetime: 141
+    lifetime: 148
     weaveMag: 1
     damage: 180
     speed: 3
