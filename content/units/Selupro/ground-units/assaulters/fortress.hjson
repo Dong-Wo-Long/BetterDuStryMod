@@ -16,8 +16,7 @@ immunities: [ blasted, burning, melting ]
 
 weapons: [
 {
-name: fortress-weapon
-
+    name: fortress-weapon
     shootCone: 30
     recoil: 4
     shake: 11
@@ -37,6 +36,7 @@ bullet: {
     despawnShake: 9
     shrinkX: 0.3
     shrinkY: 0.5
+    pierce: true
     height: 20
     width: 16
 
@@ -70,7 +70,6 @@ bullet: {
 
 {
     name: fortress-machine-gun
-
     controllable: false
     rotationLimit: 75
     rotateSpeed: 1.25
@@ -106,18 +105,18 @@ parts: [
 bullet: {
     type: BasicBulletType
     sprite: missile-large
-    removeAfterPierce: false
     pierceBuilding: true
     collideTerrain: true
+    pierce: true
     height: 12
     width: 5
 
     pierceDamageFactor: 0.005
     ammoMultiplier: 5
 
-    pierceCap: 32
+    pierceCap: 48
     lifetime: 65
-    damage: 74.5
+    damage: 75
     speed: 7.5
 
     lightColor: fff8e8
