@@ -256,15 +256,15 @@ bullet: {
 
     splashDamageRadius: 40
     statusDuration: 60
-    splashDamage: 125
+    splashDamage: 96
     status: blasted
     homingPower: 0
     homingRange: 0
     weaveScale: 6
-    pierceCap: 96
+    pierceCap: 81
     lifetime: 148
     weaveMag: 1
-    damage: 180
+    damage: 125
     speed: 3
 
     lightColor: d06b53
@@ -368,16 +368,16 @@ bullet: {
     height: 15
     width: 9
 
-    buildingDamageMultiplier: 0.5
+    buildingDamageMultiplier: 0.75
     pierceDamageFactor: 0.05
 
     status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 12
     statusDuration: 180
-    splashDamage: 64
+    splashDamage: 81
     lifetime: 21.25
-    pierceCap: 50
-    damage: 75
+    pierceCap: 75
+    damage: 96
     speed: 16
 
     hitSound: heavy-minigun-hit
