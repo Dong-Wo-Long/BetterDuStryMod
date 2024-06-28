@@ -1,11 +1,11 @@
 research: poly
 forceMultiTarget: true
 faceTarget: true
+fogRadius: 42.5
 
 itemCapacity: 81
-buildSpeed: 0.75
-fogRadius: 42.5
-mineSpeed: 1.5
+buildSpeed: 1
+mineSpeed: 1
 mineTier: 2
 health: 750
 speed: 2.75
