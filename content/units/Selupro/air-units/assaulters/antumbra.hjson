@@ -47,16 +47,171 @@ abilities: [
 
 weapons: [
 {
+    parentizeEffects: true
+    controllable: false
+    autoTarget: true
+    shootCone: 135
+    mirror: false
+    x: 0
+    y: 24
+
+    velocityRnd: 0.5
+    inaccuracy: 32
+    reload: 1440
+
+    shootStatus: 20s-11-status-tier-2-motor-deceleration
+    shootSound: loudly-blaster-shot-1
+    chargeSound: charging-weapon
+    shootStatusDuration: 750
+shoot: {
+    type: ShootSpread
+    firstShotDelay: 475
+    shotDelay: 24
+    spread: 1.5
+    shots: 9
+    }
+
+bullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    parentizeEffects: true
+    keepVelocity: false
+    collidesAir: false
+    despawnShake: 5
+    maxRange: 360
+    shrinkX: 0.25
+    shrinkY: 0.25
+    pierce: true
+    hitShake: 5
+    height: 15
+    width: 15
+
+    buildingDamageMultiplier: 1.75
+
+    status: 20s-05-tier-2-strength-reduction
+    splashDamageRadius: 40
+    statusDuration: 180
+    splashDamage: 81
+    pierceCap: 75
+    lifetime: 360
+    drag: 0.0125
+    speed: 2.75
+    damage: 96
+
+    hitSound: bomb-hit
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 72.5
+
+    trailEffect: artilleryTrail
+    trailInterval: 12.5
+    trailColor: feb380
+    trailLength: 1.5
+    trailWidth: 1.5
+
+    frontColor: ffffff
+    backColor: feb380
+
+shootEffect: {
+    type: WaveEffect
+    lifetime: 48
+    sizeFrom: 0
+    sizeTo: 32
+
+    colorFrom: feb380
+    colorTo: ffffff
+    }
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 48
+
+    waveColor: ffaa5f
+    waveStroke: 3.2
+    waveRad: 48
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 14.5
+    smokes: 7
+
+    sparkColor: ffaa5f
+    sparkStroke: 1.8
+    sparkRad: 27.5
+    sparkLen: 3
+    sparks: 9
+    }
+
+chargeEffect: {
+    type: MultiEffect
+effects: [
+{
+    type: WaveEffect
+    rotWithParent: true
+    lifetime: 465
+    sizeFrom: 24
+    sizeTo: 0
+
+    colorFrom: feb380
+    colorTo: ffffff
+    }
+
+{
+    type: ParticleEffect
+    rotWithParent: true
+    lifetime: 465
+    particles: 1
+    cone: 360
+
+    baseLength: 0
+    length: 0
+
+    sizeFrom: 0
+    sizeTo: 9
+
+    strokeFrom: 0.8
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+    }
+
+{
+    type: ParticleEffect
+    rotWithParent: true
+    particles: 24
+    lifetime: 460
+    line: true
+    cone: 360
+
+    baseRotation: 0
+    baseLength: 18
+    length: -18
+
+    strokeFrom: 1.5
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+    }
+]
+    }
+}
+    }
+
+{
     name: orange-bsw
     type: PointDefenseWeapon
-    rotationLimit: 130
+    rotationLimit: 180
     mirror: false
     shadow: 9
     x: 0
     y: 5
 
-    targetSwitchInterval: 15
-    targetInterval: 10
+    targetSwitchInterval: 12.5
+    targetInterval: 7.5
     reload: 2.5
 
     shootSound: lasershoot
@@ -66,144 +221,126 @@ parts: [
     type: FlarePart
     color2: ffffff
     color1: feb380
-    radius: 15
+    radius: 7.5
     stroke: 2
     y: -0.5
 }
     ]
 
+
 bullet: {
-    maxRange: 120
-    damage: 32
+    maxRange: 180
+    damage: 48
 
     shootEffect: sparkShoot
     hitEffect: pointHit
 }
     }
+
 {
-    name: orange-bsw
-    type: PointDefenseWeapon
-    rotationLimit: 210
-    mirror: false
-    shadow: 9
-    x: 0
-    y: -7
+    name: large-mm
+    rotationLimit: 60
+    baseRotation: 24
+    shootCone: 180
+    rotate: true
+    shake: 5
+    x: 14
+    y: 18
 
-    targetSwitchInterval: 15
-    targetInterval: 10
-    reload: 5
+    velocityRnd: 0.32
+    inaccuracy: 9
+    reload: 320
 
-    shootSound: lasershoot
+    chargeSound: short-target-locked
+    shootSound: rocket-shot
+shoot: {
+    firstShotDelay: 185
+    shotDelay: 6
+    shots: 9
+    }
 
 parts: [
     {
     type: FlarePart
     color2: ffffff
     color1: feb380
-    radius: 24
-    stroke: 2
+    radius: 5.5
+    stroke: 1
+    x: 1
     y: -0.5
+}
+
+    {
+    type: FlarePart
+    color2: ffffff
+    color1: feb380
+    radius: 5.5
+    stroke: 1
+    x: -1.5
+    y: -1.5
 }
     ]
 
 bullet: {
-    maxRange: 150
-    damage: 48
-
-    shootEffect: sparkShoot
-    hitEffect: pointHit
-}
-    }
-
-{
-    name: mount-weapon
-    controllable: false
-    layerOffset: -0.001
-    rotationLimit: 45
-    baseRotation: 7.5
-    autoTarget: true
-    alternate: false
-    rotate: true
-    shake: 1.1
-    x: 7.5
-    y: 16.5
-
-    velocityRnd: 0.05
-    inaccuracy: 5
-    reload: 4.5
-
-    shootSound: machine-gun-shot
-    ejectEffect: casing1
-
-bullet: {
-    type: BasicBulletType
-    collideTerrain: true
+    type: MissileBulletType
     keepVelocity: false
+    despawnShake: 3.2
+    hitShake: 3.2
+    shrinkX: 0.25
+    shrinkY: 0.5
     pierce: true
-    height: 9
-    width: 7
+    drag: -0.003
+    height: 12
+    width: 8
 
-    buildingDamageMultiplier: 0.85
-    pierceDamageFactor: 0.0225
+    pierceDamageFactor: 100
 
-    lifetime: 39.75
-    pierceCap: 25
-    damage: 32
-    speed: 5
+    splashDamageRadius: 40
+    statusDuration: 60
+    splashDamage: 81
+    status: blasted
+    homingPower: 0
+    homingRange: 0
+    weaveScale: 6
+    pierceCap: 75
+    lifetime: 148
+    weaveMag: 1
+    damage: 121
+    speed: 3
 
-    lightColor: fff8e8
+    lightColor: d06b53
     lightOpacity: 0.7
-    lightRadius: 21
+    lightRadius: 72.5
 
-    trailColor: f9c27a
-    trailLength: 27.5
+    trailInterp: slope
+    trailColor: d37f47
+    trailLength: 42.5
+    trailInterval: 8
     trailWidth: 1.5
-}
+
+    frontColor: ffaa5f
+    backColor: d37f47
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 32
+
+    waveColor: ffaa5f
+    waveStroke: 3.2
+    waveRad: 45
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 14.5
+    smokes: 9
+
+    sparkColor: ffaa5f
+    sparkStroke: 1.5
+    sparkRad: 32.5
+    sparkLen: 9
+    sparks: 15
     }
-
-{
-    name: mount-weapon
-    controllable: false
-    layerOffset: -0.001
-    rotationLimit: 30
-    baseRotation: 7.5
-    autoTarget: true
-    alternate: false
-    inaccuracy: 5
-    rotate: true
-    shake: 1.1
-    x: 2.5
-    y: 18.5
-
-    velocityRnd: 0.07
-    reload: 3.5
-
-    shootSound: machine-gun-shot
-    ejectEffect: casing1
-
-bullet: {
-    type: BasicBulletType
-    collideTerrain: true
-    keepVelocity: false
-    pierce: true
-    height: 9
-    width: 7
-
-    buildingDamageMultiplier: 0.75
-    pierceDamageFactor: 0.025
-
-    lifetime: 39.75
-    pierceCap: 32
-    damage: 48
-    speed: 5
-
-    lightColor: fff8e8
-    lightOpacity: 0.7
-    lightRadius: 21
-
-    trailColor: f9c27a
-    trailLength: 27.5
-    trailWidth: 1.5
 }
     }
 
@@ -215,15 +352,13 @@ bullet: {
     rotate: true
     shake: 5
     x: 20
-    y: 3
+    y: 6
 
     velocityRnd: 0.32
     inaccuracy: 9
     reload: 360
 
-    shootStatus: 20s-12-status-tier-1-motor-deceleration
     chargeSound: short-target-locked
-    shootStatusDuration: 260
     shootSound: rocket-shot
 shoot: {
     firstShotDelay: 185
@@ -319,24 +454,24 @@ hitEffect: {
 {
     name: large-caliber-minigun
     predictTarget: false
-    rotationLimit: 45
-    baseRotation: 15
+    rotationLimit: 24
+    baseRotation: 7.5
+    rotateSpeed: 0.5
     alternate: false
-    rotateSpeed: 2
     inaccuracy: 11
     rotate: true
-    shootY: 10
+    shootY: -2
     shadow: 8
     shake: 5
     x: 10
-    y: -3.25
+    y: 1
 
     cooldownTime: 380
     velocityRnd: 0.15
     inaccuracy: 7
     reload: 420
 
-    shootStatus: 20s-11-status-tier-2-motor-deceleration
+    shootStatus: 20s-12-status-tier-1-motor-deceleration
     chargeSound: heavy-minigun-charge
     shootSound: heavy-minigun-shot
     shootStatusDuration: 640
@@ -347,27 +482,14 @@ shoot: {
     shots: 96
 }
 
-parts: [ 
-   { 
-    type: RegionPart
-    suffix: -glow 
-    blending: additive
-    progress: heat
-    outline: false 
-    mirror: false
-
-    colorTo: ffa665
-    color: d06b53
-}
-
+parts: [
     {
     type: FlarePart
     color2: ffffff
     color1: feb380
     radius: 12.5
     stroke: 1.5
-    x: 0.5
-    y: -0.5
+    y: -8
 }
     ]
 
@@ -466,8 +588,7 @@ bullet: {
     statusDuration: 540
     lightningDamage: 5
     splashDamage: 180
-    fragBullets: 1
-    knockback: -15
+    knockback: -24
     pierceCap: 196
     lifetime: 196
     lightning: 9
@@ -482,10 +603,9 @@ bullet: {
 
     trailEffect: artilleryTrail
     trailInterval: 12.5
-    trailInterp: slope
     trailColor: a4b8fa
     trailLength: 81
-    trailWidth: 5
+    trailWidth: 3
     trailSize: 3
 
     lightningColor: d1efff
@@ -526,7 +646,43 @@ chargeEffect: {
 
     colorFrom: a4b8fa
     colorTo: d1efff
+    }
 }
+    }
+
+{
+    name: large-orange-bsw
+    type: PointDefenseWeapon
+    rotateSpeed: 9
+    mirror: false
+    rotate: true
+    shadow: 9
+    x: 0
+    y: -7
+
+    targetSwitchInterval: 5
+    targetInterval: 5
+    reload: 5
+
+    shootSound: lasershoot
+
+parts: [
+    {
+    type: FlarePart
+    color2: ffffff
+    color1: feb380
+    radius: 15
+    stroke: 2
+    y: -0.5
+}
+    ]
+
+bullet: {
+    maxRange: 240
+    damage: 96
+
+    shootEffect: sparkShoot
+    hitEffect: pointHit
     }
 }
     ]
