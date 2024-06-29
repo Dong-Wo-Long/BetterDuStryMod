@@ -99,10 +99,10 @@ bullet: {
     lightningDamage: 24
     statusDuration: 300
     lightningLength: 7
-    pierceCap: 81
+    pierceCap: 96
     lightning: 4
     lifetime: 38
-    damage: 96
+    damage: 121
     speed: 7
 
     shootEffect: shootBig
