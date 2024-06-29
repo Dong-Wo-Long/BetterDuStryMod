@@ -85,14 +85,14 @@ bullet: {
     length: 320
     shake: 5.5
 
-    statusDuration: 300
-    incendChance: 0.8
+    statusDuration: 450
+    incendChance: 1.5
     healPercent: 0.25
+    incendSpread: 7
+    incendAmount: 5
     status: melting
-    incendSpread: 5
-    incendAmount: 3
     lifetime: 525
-    damage: 81
+    damage: 121
 
     despawnEffect: smokeCloud
     hitEffect: hitMeltHeal
