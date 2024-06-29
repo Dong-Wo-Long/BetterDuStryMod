@@ -144,7 +144,7 @@ bullet: {
     widthSinMag: 0.1
     autoTarget: true
     alternate: false
-    beamWidth: 1.15
+    beamWidth: 1
     mirror: true
     aimDst: 0
     x: 14
