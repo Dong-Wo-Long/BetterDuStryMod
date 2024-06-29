@@ -80,7 +80,6 @@ bullet: {
     type: ContinuousLaserBulletType
     collidesTeam: true
     despawnShake: 4.5
-    absorbable: true
     drawSize: 500
     hitShake: 4.5
     length: 320
