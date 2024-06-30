@@ -50,7 +50,7 @@ weapons: [
     parentizeEffects: true
     controllable: false
     autoTarget: true
-    shootCone: 135
+    shootCone: 96
     mirror: false
     x: 0
     y: 24
@@ -205,7 +205,7 @@ effects: [
 {
     name: orange-bsw
     type: PointDefenseWeapon
-    rotationLimit: 180
+    rotationLimit: 215
     mirror: false
     shadow: 9
     x: 0
@@ -242,7 +242,7 @@ bullet: {
     name: large-mm
     rotationLimit: 60
     baseRotation: 24
-    shootCone: 180
+    shootCone: 45
     rotate: true
     shake: 5
     x: 14
@@ -349,7 +349,7 @@ hitEffect: {
     name: large-mm
     rotationLimit: 60
     baseRotation: 15
-    shootCone: 180
+    shootCone: 45
     rotate: true
     shake: 5
     x: 20
@@ -538,7 +538,7 @@ bullet: {
     rotationLimit: 135
     rotateSpeed: 0.25
     autoTarget: true
-    shootCone: 30
+    shootCone: 15
     rotate: true
     shadow: 17.5
     shake: 9
