@@ -77,6 +77,7 @@ bullet: {
     parentizeEffects: true
     keepVelocity: false
     collidesAir: false
+    absorbable: false
     despawnShake: 5
     maxRange: 360
     shrinkX: 0.25
