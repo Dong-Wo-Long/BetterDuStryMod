@@ -1,14 +1,12 @@
 research: antumbra
-
 circleTarget: true
-fallSpeed: 0.0021
-rotateSpeed: 0.8
-fogRadius: 41.5
+fogRadius: 55
 
 crashDamageMultiplier: 7.5
 
 itemCapacity: 24000
-ammoType: thorium
+rotateSpeed: 0.75
+fallSpeed: 0.0018
 health: 48000
 speed: 0.7
 armor: 144
