@@ -6,7 +6,7 @@ crashDamageMultiplier: 7.5
 
 ammoType: plastanium
 itemCapacity: 18000
-fallSpeed: 0.0027
+fallSpeed: 0.0025
 rotateSpeed: 0.9
 health: 32000
 accel: 0.0025
