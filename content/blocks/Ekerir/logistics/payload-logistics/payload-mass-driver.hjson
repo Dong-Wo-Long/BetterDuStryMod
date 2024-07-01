@@ -1,1 +1,10 @@
-research: reinforced-payload-router
+research: {
+    parent: reinforced-payload-router
+
+objectives: [
+{
+    type: OnSector
+    preset: split
+    }
+]
+    }
