@@ -79,6 +79,7 @@ bullet: {
     collidesAir: false
     absorbable: false
     despawnShake: 5
+    scaleLife: true
     maxRange: 360
     shrinkX: 0.25
     shrinkY: 0.25
@@ -94,7 +95,7 @@ bullet: {
     statusDuration: 180
     splashDamage: 81
     pierceCap: 75
-    lifetime: 360
+    lifetime: 420
     drag: 0.0125
     speed: 2.75
     damage: 96
@@ -286,6 +287,7 @@ bullet: {
     type: MissileBulletType
     keepVelocity: false
     despawnShake: 3.2
+    scaleLife: true
     hitShake: 3.2
     shrinkX: 0.25
     shrinkY: 0.5
@@ -393,6 +395,7 @@ bullet: {
     type: MissileBulletType
     keepVelocity: false
     despawnShake: 3.2
+    scaleLife: true
     hitShake: 3.2
     shrinkX: 0.25
     shrinkY: 0.5
@@ -499,6 +502,7 @@ bullet: {
     keepVelocity: false
     collidesAir: false
     despawnShake: 7
+    scaleLife: true
     pierce: true
     hitShake: 7
     height: 15
