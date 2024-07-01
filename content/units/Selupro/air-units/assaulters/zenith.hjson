@@ -73,6 +73,7 @@ bullet: {
     type: MissileBulletType
     keepVelocity: false
     despawnShake: 2.25
+    scaleLife: true
     hitShake: 2.25
     shrinkX: 0.25
     shrinkY: 0.5
