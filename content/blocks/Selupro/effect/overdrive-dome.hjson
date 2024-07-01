@@ -1,12 +1,12 @@
 research: overdrive-projector
 
 speedBoost: 2
-useTime: 90
+useTime: 180
 
 itemCapacity: 75
 health: 1250
 reload: 60
-range: 256
+range: 400
 armor: 8
 
 consumes: {
