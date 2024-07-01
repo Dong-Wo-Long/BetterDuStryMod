@@ -58,8 +58,7 @@ abilities: [
 
 weapons: [
 {
-name: mount-weapon
-
+    name: mount-weapon
     predictTarget: false
     controllable: false
     layerOffset: -0.001
@@ -85,6 +84,7 @@ bullet: {
     type: BasicBulletType
     collideTerrain: true
     keepVelocity: false
+    scaleLife: true
     height: 9
     width: 7
 
@@ -101,8 +101,7 @@ bullet: {
     }
 
 {
-name: large-caliber-minigun
-
+    name: large-caliber-minigun
     predictTarget: false
     layerOffset: -0.001
     rotationLimit: 7.5
@@ -130,6 +129,7 @@ bullet: {
     keepVelocity: false
     collidesAir: false
     despawnShake: 5
+    scaleLife: true
     pierceCap: 7
     pierce: true
     hitShake: 5
@@ -154,8 +154,7 @@ bullet: {
     }
 
 {
-name: orange-bsw
-    
+    name: orange-bsw
     type: PointDefenseWeapon
     targetSwitchInterval: 15
     targetInterval: 10
@@ -179,8 +178,7 @@ bullet: {
 }
     }
 {
-name: orange-bsw
-    
+    name: orange-bsw
     type: PointDefenseWeapon
     targetSwitchInterval: 15
     targetInterval: 10
@@ -205,8 +203,7 @@ bullet: {
     }
 
 {
-name: large-mm
-
+    name: large-mm
     rotationLimit: 15
     baseRotation: 30
     alternate: false
@@ -234,6 +231,7 @@ bullet: {
     collideTerrain: true
     keepVelocity: false
     despawnShake: 7
+    scaleLife: true
     shrinkX: 0.25
     shrinkY: 0.5
     drag: -0.003
@@ -266,8 +264,7 @@ bullet: {
 }
     }
 {
-name: large-mm
-
+    name: large-mm
     rotationLimit: 15
     baseRotation: 30
     alternate: false
@@ -295,6 +292,7 @@ bullet: {
     collideTerrain: true
     keepVelocity: false
     despawnShake: 7
+    scaleLife: true
     shrinkX: 0.25
     shrinkY: 0.5
     drag: -0.003
@@ -327,8 +325,7 @@ bullet: {
 }
     }
 {
-name: large-mm
-
+    name: large-mm
     controllable: false
     rotationLimit: 45
     baseRotation: -30
@@ -358,6 +355,7 @@ bullet: {
     collidesGround: false
     keepVelocity: false
     despawnShake: 7
+    scaleLife: true
     shrinkX: 0.25
     shrinkY: 0.5
     drag: -0.003
@@ -390,8 +388,7 @@ bullet: {
     }
 
 {
-name: large-artillery
-
+    name: large-artillery
     controllable: false
     rotationLimit: 100
     baseRotation: -135
@@ -490,8 +487,7 @@ fragBullet: {
     }
 
 {
-name: large-laser-mount
-    
+    name: large-laser-mount
     predictTarget: false
     rotationLimit: 15
     baseRotation: 15
