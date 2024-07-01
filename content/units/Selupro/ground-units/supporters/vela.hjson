@@ -203,7 +203,7 @@ bullet: {
     collidesAir: false
     scaleLife: true
     hitShake: 12.5
-    shrinkY: 0.25
+    shrinkY: 0.6
     height: 12
     width: 9
 
