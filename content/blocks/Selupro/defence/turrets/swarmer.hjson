@@ -62,6 +62,7 @@ ammoTypes: {
 blast-compound: {
     type: MissileBulletType
     collidesGround: false
+    scaleLife: true
     shrinkY: 0
     height: 15
     width: 13
@@ -121,6 +122,7 @@ hitEffect: {
 pyratite: {
     type: MissileBulletType
     collidesGround: false
+    scaleLife: true
     makeFire: true
     shrinkY: 0
     height: 15
@@ -182,6 +184,7 @@ hitEffect: {
 surge-alloy: {
     type: MissileBulletType
     collidesGround: false
+    scaleLife: true
     shrinkY: 0
     height: 11
     width: 9
@@ -227,6 +230,7 @@ surge-alloy: {
 titanium: {
     type: MissileBulletType
     collidesGround: false
+    scaleLife: true
     shrinkY: 0
     height: 12
     width: 10
@@ -288,6 +292,7 @@ hitEffect: {
 plastanium: { 
     type: MissileBulletType
     collidesGround: false
+    scaleLife: true
     shrinkY: 0
     height: 13
     width: 11
