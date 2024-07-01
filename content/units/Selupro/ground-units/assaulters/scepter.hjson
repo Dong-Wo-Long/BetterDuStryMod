@@ -87,6 +87,7 @@ bullet: {
     type: BasicBulletType
     collideTerrain: true
     despawnShake: 7.5
+    scaleLife: true
     hitShake: 7.5
     pierce: true
     height: 20
@@ -135,6 +136,7 @@ shoot: {
 
 bullet: {
     type: BasicBulletType
+    scaleLife: true
     height: 9
     width: 7
 
@@ -167,6 +169,7 @@ shoot: {
 
 bullet: {
     type: BasicBulletType
+    scaleLife: true
     height: 9
     width: 7
 
@@ -231,6 +234,7 @@ bullet: {
     type: MissileBulletType
     keepVelocity: false
     despawnShake: 4
+    scaleLife: true
     drag: -0.003
     hitShake: 4
     shrinkY: 0
