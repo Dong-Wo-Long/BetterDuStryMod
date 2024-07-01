@@ -13,5 +13,5 @@ range: 100
 armor: 3
 
 consumes: {
-    power: 0.533333333
+    power: 0.8
 }
