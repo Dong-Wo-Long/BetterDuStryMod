@@ -70,8 +70,7 @@ abilities: [
 
 weapons: [
 {
-name: large-plasma-gun
-    
+    name: large-plasma-gun
     type: PointDefenseWeapon
     targetSwitchInterval: 18
     targetInterval: 15
@@ -337,6 +336,7 @@ bullet: {
     collideTerrain: true
     collidesAir: false
     despawnShake: 3.2
+    scaleLife: true
     hitShake: 3.2
     height: 30
     width: 9
@@ -442,6 +442,7 @@ bullet: {
     collideTerrain: true
     collidesAir: false
     despawnShake: 3.2
+    scaleLife: true
     hitShake: 3.2
     height: 30
     width: 9
@@ -550,6 +551,7 @@ bullet: {
     type: MissileBulletType
     keepVelocity: false
     despawnShake: 11
+    scaleLife: true
     hitShake: 11
     shrinkX: 0.3
     shrinkY: 0.6
@@ -672,6 +674,7 @@ bullet: {
     type: FlakBulletType
     collidesGround: false
     despawnShake: 3.2
+    scaleLife: true
     hitShake: 3.2
     hitSize: 3
     height: 15
