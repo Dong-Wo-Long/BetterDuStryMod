@@ -47,6 +47,7 @@ water: {
 slag: {
     type: LiquidBulletType
     liquid: slag
+    scaleLife: true
     orbSize: 4.1
     drag: 0.01
 
@@ -68,6 +69,7 @@ slag: {
 cryofluid: {
     type: LiquidBulletType
     liquid: cryofluid
+    scaleLife: true
     orbSize: 3.75
     drag: 0.01
 
