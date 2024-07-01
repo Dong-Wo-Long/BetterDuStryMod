@@ -37,6 +37,7 @@ weapons: [
 
 bullet: {
     type: BasicBulletType
+    scaleLife: true
     height: 11
     width: 6.5
     
