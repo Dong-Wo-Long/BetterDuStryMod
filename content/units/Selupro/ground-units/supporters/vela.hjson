@@ -201,6 +201,7 @@ bullet: {
     sprite: missile-large
     despawnShake: 12.5
     collidesAir: false
+    scaleLife: true
     hitShake: 12.5
     shrinkY: 0.25
     height: 12
