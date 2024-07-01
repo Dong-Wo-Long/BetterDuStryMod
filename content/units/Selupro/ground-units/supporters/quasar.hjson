@@ -95,6 +95,7 @@ bullet: {
     collidesTeam: true
     collidesAir: false
     despawnShake: 3
+    scaleLife: true
     shrinkX: 0.25
     shrinkY: 0.5
     drag: -0.003
