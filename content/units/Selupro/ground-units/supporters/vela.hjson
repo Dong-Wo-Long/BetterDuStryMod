@@ -343,6 +343,7 @@ bullet: {
     type: FlakBulletType
     collidesGround: false
     despawnShake: 3.2
+    scaleLife: true
     hitShake: 3.2
     hitSize: 3
     height: 15
