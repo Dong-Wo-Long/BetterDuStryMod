@@ -1,7 +1,6 @@
 type: PayloadConveyor
 name: Small reinforced payload conveyor
 description: Designed for faster and more compact transportation of units and objects.
-research: core-bastion
 canOverdrive: false
 category: units
 size: 2
@@ -15,3 +14,14 @@ requirements: [
   silicon/5
   tungsten/8
 ]
+
+research: {
+    parent: core-bastion
+
+objectives: [
+{
+    type: OnSector
+    preset: aegis
+    }
+]
+    }
