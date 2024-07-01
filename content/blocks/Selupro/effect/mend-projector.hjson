@@ -2,10 +2,10 @@ research: mender
 
 buildCostMultiplier: 1.265
 phaseRangeBoost: -14.4
-phaseBoost: 1.25
+phaseBoost: 5
 
-healPercent: 7.25
 itemCapacity: 36
+healPercent: 5
 reload: 300
 health: 320
 range: 40
