@@ -352,11 +352,11 @@ surge-alloy: {
     lightningLength: 16
     statusDuration: 540
     lightningDamage: 5
-    splashDamage: 32
+    splashDamage: 48
     pierceCap: 25
     lightning: 18
     lifetime: 140
-    damage: 42.5
+    damage: 75
     speed: 5.5
 
     hitSound: large-cannon-hit
