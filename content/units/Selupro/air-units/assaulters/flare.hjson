@@ -37,6 +37,7 @@ weapons: [
     
 bullet: {
     type: BasicBulletType
+    scaleLife: true
     maxRange: 332
     height: 9
     width: 7
