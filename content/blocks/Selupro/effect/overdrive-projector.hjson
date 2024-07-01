@@ -3,7 +3,7 @@ research: surge-smelter
 speedBoostPhase: 0.25
 phaseRangeBoost: -40
 speedBoost: 1.5
-useTime: 180
+useTime: 300
 
 itemCapacity: 50
 health: 750
