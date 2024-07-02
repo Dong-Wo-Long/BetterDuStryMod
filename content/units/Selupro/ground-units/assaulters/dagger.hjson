@@ -39,7 +39,6 @@ weapons: [
 bullet: {
     type: BasicBulletType
     collideTerrain: true
-    scaleLife: true
     height: 9
     width: 7
 
