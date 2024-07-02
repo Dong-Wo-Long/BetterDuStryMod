@@ -196,7 +196,6 @@ bullet: {
     collideTerrain: true
     pierceBuilding: true
     despawnShake: 5
-    scaleLife: true
     hittable: false
     pierce: true
     hitShake: 5
@@ -308,7 +307,6 @@ bullet: {
     type: BasicBulletType
     collideTerrain: true
     ammoMultiplier: 2
-    scaleLife: true
     pierce: true
     height: 8.5
     width: 6.5
