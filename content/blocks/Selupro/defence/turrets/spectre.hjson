@@ -356,7 +356,7 @@ surge-alloy: {
     status: 20s-35-status-tier-2-direct-purpose-emp
     splashDamageRadius: 144
     lightningLength: 16
-    statusDuration: 540
+    statusDuration: 750
     lightningDamage: 5
     splashDamage: 48
     pierceCap: 25
