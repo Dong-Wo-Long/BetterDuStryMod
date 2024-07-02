@@ -399,11 +399,11 @@ effects: [
 {
     type: ExplosionEffect
 
-    lifetime: 180
+    lifetime: 60
 
     waveColor: fcf387
-    waveStroke: 0
-    waveRad: 0
+    waveStroke: 1.25
+    waveRad: 144
 
     smokeColor: 696969
     smokeSizeBase: 0
@@ -412,9 +412,9 @@ effects: [
 
     sparkColor: fcf387
     sparkStroke: 2.5
-    sparkRad: 125
-    sparkLen: 15
-    sparks: 48
+    sparkRad: 75
+    sparkLen: 16
+    sparks: 32
     }
 ]
     }
