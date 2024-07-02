@@ -502,7 +502,6 @@ bullet: {
     keepVelocity: false
     collidesAir: false
     despawnShake: 7
-    scaleLife: true
     pierce: true
     hitShake: 7
     height: 15
