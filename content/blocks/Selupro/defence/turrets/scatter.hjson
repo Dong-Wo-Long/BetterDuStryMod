@@ -29,6 +29,7 @@ ammoTypes: {
 scrap: {
     type: FlakBulletType
     collidesGround: false
+    scaleLife: true
     height: 8
     width: 6
 
@@ -60,6 +61,7 @@ scrap: {
 lead: {
     type: FlakBulletType
     collidesGround: false
+    scaleLife: true
     height: 8
     width: 6
 
@@ -123,6 +125,7 @@ silicon: {
 metaglass: {
     type: FlakBulletType
     collidesGround: false
+    scaleLife: true
     height: 8
     width: 6
 
@@ -173,6 +176,6 @@ fragBullet: {
 
     frontColor: ffffff
     backColor: ebeef5
-}
     }
 }
+    }
