@@ -56,7 +56,6 @@ bullet: {
     collideTerrain: true
     pierceBuilding: true
     collidesTeam: true
-    scaleLife: true
 
     pierceDamageFactor: 0.005
 
