@@ -182,19 +182,7 @@ shoot: {
     firstShotDelay: 185
     shotDelay: 9
     shots: 8
-}
-
-parts: [
-    {
-    type: FlarePart
-    progress: recoil
-    color2: ffffff
-    color1: 98ffa9
-    rotation: 45
-    radius: 14.5
-    stroke: 1.5
-}
-    ]
+    }
 
 bullet: {
     type: EmpBulletType
