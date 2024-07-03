@@ -1,5 +1,5 @@
 research: ground-factory
-stepShake: 0.125
+stepShake: 0.08
 fogRadius: 35
 
 boostMultiplier: 2
