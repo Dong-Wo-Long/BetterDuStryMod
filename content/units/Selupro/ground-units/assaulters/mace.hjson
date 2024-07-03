@@ -3,7 +3,7 @@ stepShake: 0.6
 fogRadius: 7.5
 
 itemCapacity: 32
-rotateSpeed: 2.5
+rotateSpeed: 4
 speed: 0.64
 armor: 15
 
