@@ -1,6 +1,6 @@
 research: ground-factory
 targetAir: false
-stepShake: 0.05
+stepShake: 0.048
 fogRadius: 5
 
 rotateSpeed: 7.5
