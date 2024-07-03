@@ -218,18 +218,6 @@ effects: [
 
     shootSound: lasershoot
 
-parts: [
-    {
-    type: FlarePart
-    color2: ffffff
-    color1: feb380
-    radius: 7.5
-    stroke: 2
-    y: -0.5
-}
-    ]
-
-
 bullet: {
     maxRange: 180
     damage: 48
@@ -260,28 +248,6 @@ shoot: {
     shotDelay: 6
     shots: 9
     }
-
-parts: [
-    {
-    type: FlarePart
-    color2: ffffff
-    color1: feb380
-    radius: 5.5
-    stroke: 1
-    x: 1
-    y: -0.5
-}
-
-    {
-    type: FlarePart
-    color2: ffffff
-    color1: feb380
-    radius: 5.5
-    stroke: 1
-    x: -1.5
-    y: -1.5
-}
-    ]
 
 bullet: {
     type: MissileBulletType
@@ -368,28 +334,6 @@ shoot: {
     shotDelay: 6
     shots: 9
     }
-
-parts: [
-    {
-    type: FlarePart
-    color2: ffffff
-    color1: feb380
-    radius: 5.5
-    stroke: 1
-    x: 1
-    y: -0.5
-}
-
-    {
-    type: FlarePart
-    color2: ffffff
-    color1: feb380
-    radius: 5.5
-    stroke: 1
-    x: -1.5
-    y: -1.5
-}
-    ]
 
 bullet: {
     type: MissileBulletType
@@ -484,18 +428,7 @@ shoot: {
     firstShotDelay: 102
     shotDelay: 5
     shots: 96
-}
-
-parts: [
-    {
-    type: FlarePart
-    color2: ffffff
-    color1: feb380
-    radius: 12.5
-    stroke: 1.5
-    y: -8
-}
-    ]
+    }
 
 bullet: {
     type: BasicBulletType
@@ -560,17 +493,7 @@ shoot: {
     firstShotDelay: 117
     shotDelay: 60
     shots: 3
-}
-
-parts: [
-    {
-    type: FlarePart
-    color2: ffffff
-    color1: a4b8fa
-    radius: 12
-    stroke: 1.5
-}
-    ]
+    }
     
 bullet: {
     type: ArtilleryBulletType
@@ -669,17 +592,6 @@ chargeEffect: {
     reload: 5
 
     shootSound: lasershoot
-
-parts: [
-    {
-    type: FlarePart
-    color2: ffffff
-    color1: feb380
-    radius: 15
-    stroke: 2
-    y: -0.5
-}
-    ]
 
 bullet: {
     maxRange: 240
