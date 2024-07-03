@@ -17,16 +17,6 @@ lightRadius: 170
 
 immunities: [ overclock, burning, melting, wet, blasted, shocked ]
 
-parts: [
-    {
-    type: FlarePart
-    color2: ffffff
-    color1: feb380
-    radius: 32
-    stroke: 3
-    }
-]
-
 abilities: [
     {
     type: ShieldRegenFieldAbility
@@ -353,28 +343,6 @@ shoot: {
     shots: 9
     }
 
-parts: [
-    {
-    type: FlarePart
-    color2: ffffff
-    color1: a4b8fa
-    radius: 5.5
-    stroke: 1
-    x: 1
-    y: -0.5
-}
-
-    {
-    type: FlarePart
-    color2: ffffff
-    color1: a4b8fa
-    radius: 5.5
-    stroke: 1
-    x: -1.5
-    y: -1.5
-}
-    ]
-
 bullet: {
     type: MissileBulletType
     collidesGround: false
@@ -461,16 +429,6 @@ shoot: {
     shotDelay: 15
     shots: 5
     }
-
-parts: [
-    {
-    type: FlarePart
-    color2: ffffff
-    color1: feb380
-    radius: 12
-    stroke: 1.5
-}
-    ]
 
 bullet: {
     type: ArtilleryBulletType
