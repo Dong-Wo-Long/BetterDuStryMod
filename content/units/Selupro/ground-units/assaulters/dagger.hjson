@@ -1,9 +1,8 @@
 research: ground-factory
-
-rotateSpeed: 11.5
 fogRadius: 26.5
 stepShake: 0.2
 
+rotateSpeed: 12.5
 itemCapacity: 24
 health: 210
 speed: 0.6
