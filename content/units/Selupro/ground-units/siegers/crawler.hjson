@@ -2,6 +2,9 @@ research: ground-factory
 targetAir: false
 stepShake: 0.05
 fogRadius: 5
+
+rotateSpeed: 7.5
+speed: 1.25
 range: 32
 
 lightColor: 665c9f
