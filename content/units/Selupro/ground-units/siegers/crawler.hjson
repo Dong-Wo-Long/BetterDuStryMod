@@ -36,7 +36,7 @@ bullet: {
     hittable: false
     collides: false
 
-    buildingDamageMultiplier: 1.45
+    buildingDamageMultiplier: 2.5
 
     splashDamageRadius: 60
     rangeOverride: 15
