@@ -3,7 +3,7 @@ forceMultiTarget: true
 fogRadius: 52.5
 stepShake: 14.5
 
-itemCapacity: 18000
+itemCapacity: 48000
 rotateSpeed: 0.75
 health: 75000
 speed: 0.21
