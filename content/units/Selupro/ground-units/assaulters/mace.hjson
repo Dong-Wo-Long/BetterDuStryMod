@@ -3,7 +3,8 @@ stepShake: 0.85
 fogRadius: 7.5
 
 itemCapacity: 32
-speed: 0.65
+rotateSpeed: 2.5
+speed: 0.64
 armor: 15
 
 lightColor: fff8e8
