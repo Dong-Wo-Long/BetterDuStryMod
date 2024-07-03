@@ -1,5 +1,5 @@
 research: dagger
-stepShake: 0.85
+stepShake: 0.6
 fogRadius: 7.5
 
 itemCapacity: 32
