@@ -3,7 +3,7 @@ research: copper-wall-large
 buildCostMultiplier: 2.7277
 phaseRangeBoost: 60
 phaseBoost: 0.5
-useTime: 450
+useTime: 300
 
 healPercent: 0.05
 itemCapacity: 18
