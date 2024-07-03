@@ -2,7 +2,7 @@ research: ground-factory
 targetAir: false
 stepShake: 0.05
 fogRadius: 5
-range: 25
+range: 32
 
 lightColor: 665c9f
 lightOpacity: 0.7
@@ -18,7 +18,7 @@ weapons: [
     shootY: 0
     x: 0
 
-    reload: 90
+    reload: 45
 
     chargeSound: crawler-boom
     ejectEffect: none
@@ -39,7 +39,7 @@ bullet: {
     buildingDamageMultiplier: 2.5
 
     splashDamageRadius: 60
-    rangeOverride: 15
+    rangeOverride: 16
     splashDamage: 360
     speed: 0
 
