@@ -28,13 +28,13 @@ ammoTypes: {
 		height: 48
 		width: 16
 
-		buildingDamageMultiplier: 0
+		buildingDamageMultiplier: 0.0001
 
 		splashDamageRadius: 80
 		lightningDamage: 96
 		lightningLength: 5
 		lightning: 10
-		damage: 1350
+		damage: 3350
 		splashDamage: 320
 		lifetime: 15
 		speed: 64
