@@ -27,6 +27,9 @@ abilities: [
 weapons: [
     {
     name: dagger-weapon
+    rotationLimit: 25
+    shootCone: 90
+    rotate: true
     x: 4
     y: 2
 
