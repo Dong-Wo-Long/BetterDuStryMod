@@ -36,7 +36,7 @@ weapons: [
     rotationLimit: 15
     shootCone: 30
     rotate: true
-    recoil: 2.5
+    recoil: 3.25
     shootY: 7
     shake: 9
     x: 9.5
