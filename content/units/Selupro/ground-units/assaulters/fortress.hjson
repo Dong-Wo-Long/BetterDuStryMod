@@ -105,11 +105,13 @@ bullet: {
     inaccuracy: 3
     reload: 120
 
-    shootSound: machine-gun-shot
+    chargeSound: turret-target-lock
+    shootSound: turret-shot
     ejectEffect: casing2
 shoot: {
-    shotDelay: 5
-    shots: 15
+    firstShotDelay: 64
+    shotDelay: 6
+    shots: 7
     }
 
 parts: [
