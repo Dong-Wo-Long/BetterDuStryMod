@@ -15,12 +15,30 @@ lightRadius: 81.5
 
 immunities: [ blasted, burning, melting ]
 
+abilities: [
+    {
+    type: ShieldArcAbility
+    region: bsm-fortress-shield
+    radius: 24
+    angle: 48
+    width: 5
+    y: -9
+
+    cooldown: 1080
+    regen: 4.5
+    max: 5000
+}
+    ]
+
 weapons: [
 {
     name: fortress-weapon
+    rotationLimit: 15
     shootCone: 30
-    recoil: 4
-    shake: 11
+    rotate: true
+    recoil: 2.5
+    shootY: 7
+    shake: 9
     x: 9.5
     y: 1
 
@@ -82,12 +100,17 @@ bullet: {
     x: 5
     y: -3.5
 
-    cooldownTime: 120
+    cooldownTime: 150
+    velocityRnd: 0.24
     inaccuracy: 3
-    reload: 81
+    reload: 120
 
-    shootSound: heavy-autocannon-shot
+    shootSound: machine-gun-shot
     ejectEffect: casing2
+shoot: {
+    shotDelay: 5
+    shots: 15
+    }
 
 parts: [
 {
@@ -105,7 +128,6 @@ parts: [
 
 bullet: {
     type: BasicBulletType
-    sprite: missile-large
     pierceBuilding: true
     collideTerrain: true
     scaleLife: true
@@ -114,11 +136,11 @@ bullet: {
     width: 5
 
     pierceDamageFactor: 0.005
-    ammoMultiplier: 5
+    ammoMultiplier: 24
 
-    pierceCap: 48
+    pierceCap: 18
     lifetime: 65
-    damage: 75
+    damage: 21.5
     speed: 7.5
 
     lightColor: fff8e8
