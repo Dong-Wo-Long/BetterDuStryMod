@@ -16,6 +16,9 @@ immunities: [ burning, blasted ]
 weapons: [
 {
     name: mace-weapon
+    rotationLimit: 15
+    shootCone: 90
+    rotate: true
     top: false
     shootY: 2
     recoil: 1
