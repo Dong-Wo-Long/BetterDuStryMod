@@ -46,7 +46,7 @@ weapons: [
 
     shootSound: artillery-shot
     shootEffect: shootSmall
-    ejectEffect: casing3
+    ejectEffect: casing4
 
 bullet: {
     type: ArtilleryBulletType
