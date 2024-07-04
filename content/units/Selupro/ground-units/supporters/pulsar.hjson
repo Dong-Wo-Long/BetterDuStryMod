@@ -31,6 +31,9 @@ abilities: [
 weapons: [
 {
     name: pulsar-weapon
+    rotationLimit: 15
+    shootCone: 90
+    rotate: true
     recoil: 2.5
     shootY: 2.5
     shake: 2.2
