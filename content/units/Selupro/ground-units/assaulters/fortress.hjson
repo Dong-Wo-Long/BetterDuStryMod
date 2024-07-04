@@ -6,7 +6,7 @@ fogRadius: 47.5
 
 itemCapacity: 81
 rotateSpeed: 2
-health: 2250
+health: 5000
 armor: 32
 
 lightColor: fff8e8
@@ -26,7 +26,7 @@ abilities: [
 
     cooldown: 1080
     regen: 4.5
-    max: 1250
+    max: 2500
 }
     ]
 
