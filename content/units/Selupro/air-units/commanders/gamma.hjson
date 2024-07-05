@@ -35,7 +35,7 @@ weapons: [
     
     reload: 5
 
-    shootSound: turret-shot
+    shootSound: machine-gun-shot
     ejectEffect: casing1
 
 bullet: {
