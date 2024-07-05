@@ -45,6 +45,8 @@ bullet: {
     height: 9
     width: 9
 
+    buildingDamageMultiplier: 1.25
+
     status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 40
     statusDuration: 180
