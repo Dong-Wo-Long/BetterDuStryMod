@@ -2,6 +2,7 @@ research: crawler
 stepShake: 0.7
 fogRadius: 29
 
+rotateSpeed: 2
 health: 960
 armor: 15
 
