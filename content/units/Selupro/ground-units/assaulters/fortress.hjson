@@ -92,7 +92,7 @@ bullet: {
     name: fortress-machine-gun
     controllable: false
     rotationLimit: 75
-    rotateSpeed: 1.25
+    rotateSpeed: 0.8
     autoTarget: true
     shootCone: 25
     mirror: false
