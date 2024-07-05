@@ -42,8 +42,8 @@ bullet: {
     buildingDamageMultiplier: 2.5
 
     splashDamageRadius: 60
-    rangeOverride: 16
     splashDamage: 360
+    rangeOverride: 8
     speed: 0
 
     hitEffect: pulverize
