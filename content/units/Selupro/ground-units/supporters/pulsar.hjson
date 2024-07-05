@@ -24,7 +24,7 @@ abilities: [
     reload: 300
     amount: 50
     range: 60
-    max: 320
+    max: 180
 }
     ]
 
