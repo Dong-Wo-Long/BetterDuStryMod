@@ -183,7 +183,7 @@ bullet: {
 
     trailColor: f9c27a
     trailLength: 27.5
-    trailWidth: 1.5
+    trailWidth: 1
     }
 }
     ]
