@@ -17,6 +17,7 @@ weapons: [
 {
     name: mace-weapon
     rotationLimit: 15
+    rotateSpeed: 2
     shootCone: 90
     rotate: true
     top: false
