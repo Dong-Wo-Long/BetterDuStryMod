@@ -88,6 +88,8 @@ bullet: {
     height: 11
     width: 11
 
+    buildingDamageMultiplier: 1.25
+
     splashDamageRadius: 40
     lightningDamage: 12.5
     lightningLength: 5
