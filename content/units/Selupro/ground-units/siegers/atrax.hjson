@@ -43,7 +43,7 @@ bullet: {
     status: melting
     knockback: 0.5
     lifetime: 96
-    damage: 21.5
+    damage: 17.5
     drag: 0.009
     speed: 2.5
 
