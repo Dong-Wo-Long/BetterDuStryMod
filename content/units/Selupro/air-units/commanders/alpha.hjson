@@ -8,11 +8,13 @@ health: 180
 speed: 4.5
 armor: 3
 
-trailLength: 5.2
-
 lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 60
+
+trailLength: 5.2
+
+deathSound: small-air-crush
 
 weapons: [
 {
