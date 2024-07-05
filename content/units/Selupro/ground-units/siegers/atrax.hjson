@@ -63,7 +63,7 @@ bullet: {
     x: 4.15
     y: -5
 
-    velocityRnd: 0.45
+    velocityRnd: 0.125
     reload: 360
 
     shootStatus: 20s-12-status-tier-1-motor-deceleration
