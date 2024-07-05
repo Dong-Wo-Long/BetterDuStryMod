@@ -1,4 +1,5 @@
 research: dagger
+targetAir: false
 fogRadius: 12.5
 stepShake: 0.6
 
