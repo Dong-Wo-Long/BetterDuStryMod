@@ -16,9 +16,7 @@ immunities: [ melting, burning, sapped ]
 weapons: [
 {
     name: atrax-weapon
-    controllable: false
     rotationLimit: 15
-    autoTarget: true
     rotate: true
     shootY: 3
     recoil: 1
@@ -56,6 +54,8 @@ bullet: {
 
 {
     name: purple-missiles
+    controllable: false
+    autoTarget: true
     mirror: false
     recoil: 2
     shootY: 1
