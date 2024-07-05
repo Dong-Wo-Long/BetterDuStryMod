@@ -28,6 +28,7 @@ weapons: [
     {
     name: dagger-weapon
     rotationLimit: 25
+    rotateSpeed: 3
     shootCone: 90
     rotate: true
     x: 4
