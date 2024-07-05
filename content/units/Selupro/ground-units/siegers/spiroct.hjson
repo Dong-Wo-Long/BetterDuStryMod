@@ -127,7 +127,6 @@ bullet: {
     splashDamageRadius: 40
     lightningDamage: 9
     lightningLength: 7
-    collidesTeam: true
     homingPower: 0.35
     splashDamage: 81
     homingRange: 25
