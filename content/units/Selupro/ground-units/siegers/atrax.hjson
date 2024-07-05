@@ -1,4 +1,5 @@
 research: crawler
+targetAir: false
 stepShake: 0.7
 fogRadius: 29
 
