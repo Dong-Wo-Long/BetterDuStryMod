@@ -34,6 +34,7 @@ weapons: [
 {
     name: fortress-weapon
     rotationLimit: 15
+    rotateSpeed: 1.25
     shootCone: 30
     rotate: true
     recoil: 3.25
