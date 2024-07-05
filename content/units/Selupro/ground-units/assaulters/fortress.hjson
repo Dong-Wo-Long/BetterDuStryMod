@@ -165,7 +165,6 @@ parts: [
 bullet: {
     type: BasicBulletType
     pierceBuilding: true
-    collideTerrain: true
     pierce: true
     height: 12
     width: 5
