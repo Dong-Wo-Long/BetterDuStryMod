@@ -22,7 +22,7 @@ abilities: [
     {
     type: ShieldRegenFieldAbility 
     reload: 300
-    amount: 50
+    amount: 60
     range: 60
     max: 180
 }
