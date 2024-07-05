@@ -146,7 +146,7 @@ bullet: {
     x: 2
     y: -4.5
 
-    repairSpeed: 0.15
+    repairSpeed: 0.25
     beamWidth: 0.6
 
 bullet: {
