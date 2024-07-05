@@ -21,9 +21,9 @@ abilities: [
     {
     type: ShieldArcAbility
     region: bsm-fortress-shield
-    radius: 24
-    angle: 48
-    width: 5
+    radius: 32
+    angle: 110
+    width: 3
     y: -9
 
     cooldown: 1080
