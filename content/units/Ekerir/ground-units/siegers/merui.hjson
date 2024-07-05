@@ -17,8 +17,8 @@ weapons: [
     x: 0
     y: 1
 
+    cooldownTime: 150
     velocityRnd: 0.32
-    cooldownTime: 90
     inaccuracy: 9
     reload: 180
 
