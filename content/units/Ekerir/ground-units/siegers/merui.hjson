@@ -3,8 +3,8 @@ stepShake: 0.18
 hovering: true
 
 rotateSpeed: 3
-health: 360
 speed: 0.66669
+health: 360
 armor: 5
 
 weapons: [
