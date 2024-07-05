@@ -1,5 +1,4 @@
 research: pulsar
-
 forceMultiTarget: true
 stepShake: 2.65
 fogRadius: 32.5
@@ -25,10 +24,10 @@ abilities: [
     {
     type: ForceFieldAbility 
     cooldown: 720
-    radius: 70
-    regen: 0.3
+    radius: 72
+    regen: 2.5
+    max: 2500
     sides: 4
-    max: 1200
 }
     ]
 
@@ -36,11 +35,14 @@ weapons: [
 {
     name: quasar-weapon
     predictTarget: true
+    rotationLimit: 18
+    rotateSpeed: 0.75
     shootCone: 90
-    shake: 11.5
+    rotate: true
     recoil: 4
     shootY: 4
-    x: 6.5
+    shake: 9
+    x: 7.5
 
     reload: 150
 
@@ -50,15 +52,18 @@ shoot: {
     firstShotDelay: 75
     shotDelay: 5
     shots: 3
-}
+    }
 
 bullet: {
     type: LaserBulletType
     collidesTeam: true
+    collidesAir: false
     length: 150
     recoil: 1
     width: 25
 
+    statusDuration: 300
+    status: melting
     healAmount: 50
     damage: 75
 
@@ -84,16 +89,14 @@ bullet: {
 
     shootSound: missile
 shoot: { 
-    shotDelay: 9
-    shots: 5
-}
+    shotDelay: 15
+    shots: 3
+    }
 
 bullet: {
     type: MissileBulletType
-    collideTerrain: true
     keepVelocity: false
     collidesTeam: true
-    collidesAir: false
     despawnShake: 3
     scaleLife: true
     shrinkX: 0.25
@@ -104,12 +107,14 @@ bullet: {
     width: 9
 
     splashDamageRadius: 15
+    statusDuration: 180
+    status: electrified
     homingPower: 0.21
-    splashDamage: 25
+    splashDamage: 32
     homingRange: 180
     healAmount: 21
     lifetime: 64
-    damage: 32
+    damage: 48
     speed: 4
 
     despawnEffect: blastExplosion
