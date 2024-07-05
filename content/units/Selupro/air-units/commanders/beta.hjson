@@ -1,4 +1,5 @@
 research: core-foundation
+
 researchCostMultiplier: 0
 
 itemCapacity: 48
@@ -9,11 +10,13 @@ health: 250
 speed: 4.75
 armor: 5
 
-trailLength: 5.5
-
 lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 70
+
+trailLength: 5.5
+
+deathSound: small-air-crush
 
 weapons: [
 {
