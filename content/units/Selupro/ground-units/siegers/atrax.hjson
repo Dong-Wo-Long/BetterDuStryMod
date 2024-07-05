@@ -1,8 +1,8 @@
 research: crawler
-
 stepShake: 0.7
 fogRadius: 29
-health: 690
+
+health: 960
 armor: 15
 
 lightColor: 665c9f
@@ -14,27 +14,31 @@ immunities: [ melting, burning, sapped ]
 weapons: [
 {
     name: atrax-weapon
+    rotationLimit: 15
+    rotate: true
     shootY: 3
-    reload: 9
     recoil: 1
     x: 7
     y: 0
 
-    ejectEffect: none
+    inaccuracy: 5
+    reload: 1.8
 
+    ejectEffect: none
     shootSound: flame
 
 bullet: { 
     type: LiquidBulletType
+    liquid: slag
     collideTerrain: true
     collidesAir: false
-    liquid: slag
+    scaleLife: true
 
-    buildingDamageMultiplier: 1.32
+    buildingDamageMultiplier: 2
 
-    knockback: 3.2
-    lifetime: 57
-    damage: 27.5
+    knockback: 0.5
+    lifetime: 96
+    damage: 21.5
     drag: 0.009
     speed: 2.5
 
@@ -49,24 +53,22 @@ bullet: {
 {
     name: purple-missiles
     mirror: false
+    recoil: 2
     shootY: 1
-    shake: 7.5
+    shake: 5
     x: 4.15
     y: -5
 
     velocityRnd: 0.45
-    inaccuracy: 15
-    reload: 300
-    recoil: 2
-    
-    shootSound: missile
+    reload: 360
 
-    shootStatusDuration: 120
-    shootStatus: slow
+    shootStatus: 20s-12-status-tier-1-motor-deceleration
+    shootStatusDuration: 180
+    shootSound: rocket-shot
 shoot: {
-    shotDelay: 24
+    shotDelay: 32
     shots: 3
-}
+    }
 
 bullet: {
     type: MissileBulletType
@@ -75,38 +77,61 @@ bullet: {
     keepVelocity: false
     collidesAir: false
     despawnShake: 7.5
+    scaleLife: true
     shrinkX: 0.25
     shrinkY: 0.5
     drag: -0.003
     height: 11
     width: 11
 
-    buildingDamageMultiplier: 0.25
-
-    splashDamageRadius: 26
+    splashDamageRadius: 40
+    lightningDamage: 12.5
     lightningLength: 5
-    lightningDamage: 9
-    homingPower: 0.11
-    splashDamage: 45
-    homingRange: 32
+    splashDamage: 32
+    homingPower: 0
+    homingRange: 0
     lightning: 3
     lifetime: 80
-    damage: 32
+    damage: 48
     speed: 2.5
 
-    despawnEffect: blastExplosion
-    hitEffect: blastExplosion
-
-    lightningColor: ffffff
-    trailColor: bf92f9
-    trailInterval: 12
+    despawnEffect: none
 
     lightColor: bf92f9
     lightOpacity: 0.7
     lightRadius: 23.5
 
+    trailEffect: artilleryTrail
+    trailInterval: 12.5
+    trailInterp: slope
+    trailColor: bf92f9
+    trailLength: 48
+    trailWidth: 2
+    trailSize: 2
+
     frontColor: ffffff
     backColor: bf92f9
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 48
+
+    waveColor: bf92f9
+    waveStroke: 3.2
+    waveRad: 48
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 14.5
+    smokes: 7
+
+    sparkColor: bf92f9
+    sparkStroke: 1.8
+    sparkRad: 27.5
+    sparkLen: 3
+    sparks: 9
+}
     }
 }
     ]
