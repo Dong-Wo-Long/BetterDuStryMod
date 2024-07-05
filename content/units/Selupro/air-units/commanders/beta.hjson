@@ -23,7 +23,8 @@ weapons: [
     y: 0.5
 
     reload: 18
-    
+
+    shootSound: machine-gun-shot
     ejectEffect: casing1
 shoot: {
     shotDelay: 5
