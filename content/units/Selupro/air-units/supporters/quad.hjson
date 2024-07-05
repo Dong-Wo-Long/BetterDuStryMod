@@ -67,7 +67,6 @@ bullet: {
     collidesAir: false
     sprite: large-bomb
     despawnShake: 11
-    collides: false
     shootCone: 180
     maxRange: 625
     hitShake: 11
