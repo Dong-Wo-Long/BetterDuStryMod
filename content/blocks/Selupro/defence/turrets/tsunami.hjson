@@ -27,6 +27,7 @@ ammoTypes: {
 water: {
     type: LiquidBulletType
     liquid: water
+    scaleLife: true
     orbSize: 4.5
     drag: 0.01
     layer: 98
@@ -91,6 +92,7 @@ cryofluid: {
 oil: {
     type: LiquidBulletType
     liquid: oil
+    scaleLife: true
     orbSize: 4.5
     drag: 0.01
     layer: 98
