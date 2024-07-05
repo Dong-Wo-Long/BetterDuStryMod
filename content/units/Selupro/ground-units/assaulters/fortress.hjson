@@ -93,7 +93,7 @@ bullet: {
     height: 20
     width: 16
 
-    buildingDamageMultiplier: 1.25
+    buildingDamageMultiplier: 1.5
 
     splashDamageRadius: 26
     splashDamage: 120
