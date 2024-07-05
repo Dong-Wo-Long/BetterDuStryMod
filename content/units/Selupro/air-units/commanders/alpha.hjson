@@ -12,7 +12,7 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 60
 
-trailLength: 5.2
+trailLength: 5.25
 
 deathSound: small-air-crush
 
