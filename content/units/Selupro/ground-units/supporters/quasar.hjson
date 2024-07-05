@@ -107,7 +107,7 @@ bullet: {
     height: 9
     width: 9
 
-    splashDamageRadius: 15
+    splashDamageRadius: 26
     statusDuration: 180
     status: electrified
     homingPower: 0.21
