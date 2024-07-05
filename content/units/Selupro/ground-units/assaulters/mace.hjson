@@ -33,6 +33,7 @@ bullet: {
     type: BulletType
     pierceBuilding: true
     keepVelocity: false
+    collidesAir: false
     hittable: false
     pierce: true
     hitSize: 7
