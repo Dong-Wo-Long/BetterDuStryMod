@@ -62,14 +62,14 @@ bullet: {
 
     splashDamageRadius: 40
     statusDuration: 60
-    splashDamage: 32
+    splashDamage: 48
     status: blasted
     homingPower: 0
     homingRange: 0
     weaveScale: 6
     lifetime: 75
     weaveMag: 1
-    damage: 48
+    damage: 81
     speed: 2.8
 
     lightColor: d06b53
