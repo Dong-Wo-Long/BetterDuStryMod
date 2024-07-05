@@ -19,6 +19,8 @@ trailLength: 12.5
 engineOffset: 7
 engineSize: 3.5
 
+deathSound: mech-destroyed
+
 immunities: [ electrified, shocked ]
 
 abilities: [
