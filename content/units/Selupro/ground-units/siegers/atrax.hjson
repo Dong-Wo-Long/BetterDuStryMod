@@ -39,6 +39,8 @@ bullet: {
 
     buildingDamageMultiplier: 2
 
+    statusDuration: 450
+    status: melting
     knockback: 0.5
     lifetime: 96
     damage: 21.5
