@@ -135,7 +135,6 @@ bullet: {
     scaleLife: true
     shrinkX: 0.25
     shrinkY: 0.5
-    drag: -0.003
     hitShake: 3
     height: 9
     width: 9
@@ -149,6 +148,7 @@ bullet: {
     healAmount: 21
     lifetime: 64
     damage: 48
+    drag: 0.01
     speed: 4
 
     despawnEffect: blastExplosion
