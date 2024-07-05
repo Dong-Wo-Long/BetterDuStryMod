@@ -88,7 +88,6 @@ bullet: {
     scaleLife: true
     shrinkX: 0.25
     shrinkY: 0.5
-    drag: -0.003
     height: 11
     width: 11
 
