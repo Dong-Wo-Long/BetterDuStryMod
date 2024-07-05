@@ -34,6 +34,7 @@ weapons: [
     name: nova-weapon
     predictTarget: false
     rotationLimit: 15
+    rotateSpeed: 2.5
     alternate: false
     shootCone: 90
     rotate: true
