@@ -45,7 +45,7 @@ bullet: {
     status: burning
     pierceCap: 24
     lifetime: 19
-    damage: 36
+    damage: 42.5
     speed: 3
 
     shootEffect: shootSmallFlame
