@@ -32,6 +32,7 @@ weapons: [
 {
     name: pulsar-weapon
     rotationLimit: 15
+    rotateSpeed: 1.8
     shootCone: 90
     rotate: true
     recoil: 2.5
