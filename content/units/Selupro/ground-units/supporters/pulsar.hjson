@@ -54,6 +54,7 @@ shoot: {
 
 bullet: {
     type: LightningBulletType
+    collidesAir: false
     hitSize: 15
     height: 0
     width: 0
@@ -72,6 +73,7 @@ bullet: {
 
 lightningType: {
     collidesTeam: true
+    collidesAir: false
     hittable: false
     hitSize: 15
     height: 0
