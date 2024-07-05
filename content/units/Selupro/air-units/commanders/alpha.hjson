@@ -24,7 +24,7 @@ weapons: [
     
     reload: 7.5
 
-    shootSound: submachine-gun-shot
+    shootSound: machine-gun-shot
     ejectEffect: casing1
 
 bullet: {
