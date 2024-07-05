@@ -1,0 +1,112 @@
+targetAir: false
+stepShake: 0.18
+hovering: true
+
+rotateSpeed: 3
+health: 360
+speed: 0.72
+armor: 5
+
+weapons: [
+{
+    name: merui-weapon
+    parentizeEffects: true
+    showStatSprite: false
+    mirror: false
+    shootY: 4
+    x: 0
+    y: 1
+
+    velocityRnd: 0.32
+    cooldownTime: 90
+    inaccuracy: 9
+    reload: 180
+
+    chargeSound: blaster-charge
+    shootSound: blaster-shot-2
+shoot: {
+    type: ShootSpread
+    firstShotDelay: 75
+    shotDelay: 12.5
+    spread: 4.5
+    shots: 3
+    }
+
+bullet: {
+    type: ArtilleryBulletType
+    collidesTiles: true
+    keepVelocity: false
+    collidesAir: false
+    despawnShake: 3
+    shrinkX: 0.6
+    shrinkY: 0.2
+    pierce: true
+    recoil: 0.5
+    height: 9
+    width: 9
+
+    status: 20s-06-tier-1-strength-reduction
+    splashDamageRadius: 40
+    statusDuration: 180
+    splashDamage: 81
+    knockback: 0.8
+    lifetime: 194
+    speed: 2.5
+
+    trailInterp: slope
+    trailColor: 8ca9e8
+    trailEffect: none
+    trailLength: 75
+    trailWidth: 2.5
+
+    frontColor: ffffff
+    backColor: 8ca9e8
+    hitColor: 8ca9e8
+
+shootEffect: {
+    type: WaveEffect
+    lifetime: 24
+    sizeFrom: 0
+    sizeTo: 18
+
+    colorFrom: 8ca9e8
+    colorTo: ffffff
+    }
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 48
+
+    waveColor: 8ca9e8
+    waveStroke: 3.2
+    waveRad: 48
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 14.5
+    smokes: 7
+
+    sparkColor: 8ca9e8
+    sparkStroke: 1.8
+    sparkRad: 27.5
+    sparkLen: 3
+    sparks: 9
+}
+
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+
+    sizeFrom: 7.5
+    sizeTo: 0
+
+    lifetime: 60
+
+    colorFrom: 8ca9e8
+    colorTo: ffffff
+}
+    }
+}
+    ]
