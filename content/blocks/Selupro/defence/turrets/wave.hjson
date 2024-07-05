@@ -45,7 +45,7 @@ slag: {
     status: melting
     pierceCap: 32
     lifetime: 50
-    damage: 15
+    damage: 21.5
     speed: 3.5
 
     lightColor: ffa166
@@ -67,8 +67,8 @@ cryofluid: {
     knockback: 1.2
     lifetime: 51.5
     pierceCap: 25
-    damage: 1.25
     speed: 5.25
+    damage: 5
 
     lightColor: c0ecff
     lightOpacity: 0.7
