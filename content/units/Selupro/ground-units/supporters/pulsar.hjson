@@ -63,7 +63,7 @@ bullet: {
     lightningLengthRand: 15
     lightningLength: 12.5
     healAmount: 17.5
-    damage: 21.5
+    damage: 24
 
     shootEffect: shootHeal
 
