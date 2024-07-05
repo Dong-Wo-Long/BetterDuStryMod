@@ -96,7 +96,9 @@ bullet: {
 
     buildingDamageMultiplier: 1.5
 
+    status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 26
+    statusDuration: 300
     splashDamage: 120
     knockback: 4.45
     lifetime: 152.5
