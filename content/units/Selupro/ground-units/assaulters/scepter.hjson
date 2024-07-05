@@ -77,7 +77,7 @@ bullet: {
     reload: 32
 
     shootSound: heavy-autocannon-shot
-    ejectEffect: casing3
+    ejectEffect: casing4
 shoot: {
     shotDelay: 5
     shots: 5
