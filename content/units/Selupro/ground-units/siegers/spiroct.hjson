@@ -1,9 +1,9 @@
 research: atrax
-
 fogRadius: 36.5
 stepShake: 1.7
 
 itemCapacity: 130
+rotateSpeed: 1.25
 health: 1800
 armor: 21
 
@@ -21,34 +21,35 @@ weapons: [
     x: 4
     y: 3
 
-    reload: 11
+    reload: 9
 
     shootSound: sap
 
 bullet: {
     type: SapBulletType
-    knockback: -0.65
-    length: 180
+    length: 150
     width: 0.3
 
     buildingDamageMultiplier: 0.5
 
     sapStrength: 1.1
+    knockback: -0.75
     lifetime: 25
     damage: 48
 
+    despawnEffect: shootSmall
     shootEffect: shootSmall
-    despawnEffect: none
-    hitColor: bf92f9
-    color: bf92f9
 
     lightColor: bf92f9
     lightOpacity: 0.7
     lightRadius: 21
+
+    hitColor: bf92f9
+    color: bf92f9
 }
     }
 
-    {
+{
     name: spiroct-weapon
     rotationLimit: 45
     rotate: true
@@ -57,35 +58,31 @@ bullet: {
     x: 8.5
     y: -1.5
 
-    reload: 15
-
-    ejectEffect: none
+    reload: 12.5
 
     shootSound: sap
 
 bullet: {
     type: SapBulletType
-    knockback: -1.24
-    length: 90
+    length: 60
     width: 0.5
 
     buildingDamageMultiplier: 0.25
 
     sapStrength: 1.7
+    knockback: -0.5
     lifetime: 35
     damage: 69
 
+    despawnEffect: shootSmall
     shootEffect: shootSmall
-    despawnEffect: none
-    hitColor: bf92f9
-    color: bf92f9
-
-    hitColor: bf92f9
-    color: bf92f9
 
     lightColor: bf92f9
     lightOpacity: 0.7
     lightRadius: 18
+
+    hitColor: bf92f9
+    color: bf92f9
 }
     }
 
@@ -102,56 +99,82 @@ bullet: {
 
     velocityRnd: 0.45
     inaccuracy: 30
-    reload: 600
+    reload: 450
     recoil: 2
     
     shootSound: missile
 
-    shootStatusDuration: 140
-    shootStatus: slow
+    shootStatus: 20s-12-status-tier-1-motor-deceleration
+    shootStatusDuration: 180
 shoot: {
-    shotDelay: 18
-    shots: 6
+    shotDelay: 12
+    shots: 9
 }
 
 bullet: {
     type: MissileBulletType
-    collidesGround: true
     collidesTiles: false
     keepVelocity: false
     despawnShake: 8.5
+    scaleLife: true
     shrinkX: 0.25
     shrinkY: 0.5
-    drag: -0.003
     height: 11
     width: 11
 
     buildingDamageMultiplier: 1.75
 
-    splashDamageRadius: 26
-    lightningDamage: 12.5
+    splashDamageRadius: 40
+    lightningDamage: 9
     lightningLength: 7
     collidesTeam: true
     homingPower: 0.35
     splashDamage: 81
     homingRange: 25
-    lightning: 3
+    lightning: 4
     lifetime: 90
     speed: 2.75
     damage: 96
+    drag: 0.01
 
-    despawnEffect: blastExplosion
-    hitEffect: blastExplosion
-
-    lightningColor: ffffff
-    frontColor: ffffff
-    trailColor: bf92f9
-    trailInterval: 12
-    backColor: bf92f9
+    despawnEffect: none
 
     lightColor: bf92f9
     lightOpacity: 0.7
-    lightRadius: 27.5
+    lightRadius: 32.5
+
+    trailEffect: artilleryTrail
+    trailInterp: slope
+    trailColor: bf92f9
+    trailInterval: 15
+    trailLength: 48
+    trailWidth: 2
+    trailSize: 2
+
+    lightningColor: ffffff
+    frontColor: ffffff
+    backColor: bf92f9
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 48
+
+    waveColor: bf92f9
+    waveStroke: 3.2
+    waveRad: 48
+
+    smokeColor: 696969
+    smokeSizeBase: 0
+    smokeSize: 14.5
+    smokes: 7
+
+    sparkColor: bf92f9
+    sparkStroke: 1.8
+    sparkRad: 27.5
+    sparkLen: 3
+    sparks: 9
+}
     }
 }
     ]
