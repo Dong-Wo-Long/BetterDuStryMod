@@ -79,9 +79,9 @@ lightningType: {
     height: 0
     width: 0
 
-    statusDuration: 30
+    status: 20s-36-status-tier-1-direct-purpose-emp
+    statusDuration: 180
     healAmount: 7.5
-    status: shocked
     lifetime: 1
 
     hitEffect: hitLancer
