@@ -37,7 +37,7 @@ bullet: {
     pierce: true
     hitSize: 7
 
-    buildingDamageMultiplier: 1.5
+    buildingDamageMultiplier: 1.25
     ammoMultiplier: 3
 
     statusDuration: 300
