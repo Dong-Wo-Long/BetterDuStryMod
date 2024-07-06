@@ -34,7 +34,7 @@ abilities: [
 
     {
     type: StatusFieldAbility
-    effect: overclock
+    effect: 20s-07-tier-1-strength-improvement
     duration: 450
     reload: 1440
     range: 144
