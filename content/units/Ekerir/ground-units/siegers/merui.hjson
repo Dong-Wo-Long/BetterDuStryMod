@@ -22,8 +22,10 @@ weapons: [
     inaccuracy: 9
     reload: 180
 
+    shootStatus: 20s-12-status-tier-1-motor-deceleration
     chargeSound: blaster-charge
     shootSound: blaster-shot-2
+    shootStatusDuration: 128
 shoot: {
     type: ShootSpread
     firstShotDelay: 75
