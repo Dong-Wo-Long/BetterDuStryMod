@@ -56,6 +56,7 @@ bullet: {
     speed: 2.5
 
     despawnEffect: none
+    hitSound: bomb-hit
 
     trailInterp: slope
     trailColor: 8ca9e8
