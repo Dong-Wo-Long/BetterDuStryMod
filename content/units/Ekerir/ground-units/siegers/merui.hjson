@@ -55,6 +55,8 @@ bullet: {
     lifetime: 194
     speed: 2.5
 
+    despawnEffect: none
+
     trailInterp: slope
     trailColor: 8ca9e8
     trailEffect: none
