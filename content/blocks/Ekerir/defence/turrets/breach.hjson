@@ -1,4 +1,4 @@
-shootSound: plasma-shot
+shootSound: plasma-shot-1
 
 shoot: {
     type: ShootSpread
