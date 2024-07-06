@@ -7,6 +7,10 @@ speed: 0.66669
 health: 360
 armor: 5
 
+lightColor: 8ca9e8
+lightOpacity: 0.7
+lightRadius: 64.5
+
 weapons: [
 {
     name: merui-weapon
@@ -59,6 +63,10 @@ bullet: {
 
     despawnEffect: none
     hitSound: bomb-hit
+
+    lightColor: 8ca9e8
+    lightOpacity: 0.7
+    lightRadius: 52.5
 
     trailInterp: slope
     trailColor: 8ca9e8
