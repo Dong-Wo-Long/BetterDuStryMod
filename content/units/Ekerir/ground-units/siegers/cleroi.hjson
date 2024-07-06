@@ -186,7 +186,7 @@ bullet: {
 
     splashDamageRadius: 26
     splashDamage: 96
-    lifetime: 96
+    lifetime: 88
     damage: 121
     drag: 0.01
     speed: 4.5
