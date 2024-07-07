@@ -1,5 +1,4 @@
 research: quasar
-
 rotateSpeed: 0.9
 stepShake: 7.5
 fogRadius: 30
@@ -38,6 +37,7 @@ weapons: [
 
 bullet: {
     type: BasicBulletType
+    maxRange: 580
     height: 0
     width: 0
 
