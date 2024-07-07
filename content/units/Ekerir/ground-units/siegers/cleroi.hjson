@@ -152,6 +152,7 @@ bullet: {
 
 {
     name: plasma-weapon
+    alwaysShootWhenMoving: true
     parentizeEffects: true
     layerOffset: -0.002
     alternate: false
