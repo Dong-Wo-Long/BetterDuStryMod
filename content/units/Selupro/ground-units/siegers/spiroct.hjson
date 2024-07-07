@@ -16,6 +16,7 @@ immunities: [ spore-slowed, sapped ]
 weapons: [
 {
     name: mount-purple-weapon
+    alwaysShootWhenMoving: true
     rotationLimit: 45
     rotate: true
     x: 4
@@ -51,6 +52,7 @@ bullet: {
 
 {
     name: spiroct-weapon
+    alwaysShootWhenMoving: true
     rotationLimit: 45
     rotate: true
     recoil: 2
