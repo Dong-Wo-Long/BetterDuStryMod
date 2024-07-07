@@ -12,7 +12,7 @@ lightRadius: 75
 
 weapons: [
 {
-name: ekerir-machine-gun
+name: blaster-gun
 
     rotateSpeed: 1.75
     shootCone: 90
@@ -30,25 +30,9 @@ name: ekerir-machine-gun
     shootSound: machine-gun
     ejectEffect: casing1
 shoot: {
-    type: ShootSpread
     shotDelay: 7.5
-    spread: 1
-    shots: 9
+    shots: 3
 }
-
-parts: [
-{
-    type: RegionPart
-    suffix: -brl
-    progress: recoil
-    outline: false
-    mirror: false
-    moveY: -0.75
-    under: true
-    x: 0
-    y: 1
-}
-    ]
 
 bullet: {
     type: BasicBulletType
@@ -80,6 +64,6 @@ bullet: {
     lightColor: ffffff
     lightOpacity: 0.7
     lightRadius: 24.5
-}
     }
-]
+}
+    ]
