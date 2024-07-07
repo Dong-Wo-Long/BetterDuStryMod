@@ -96,7 +96,7 @@ bullet: {
 
 {
     name: corvus-weapon
-    inaccuracy: 0
+    shootCone: 60
     mirror: false
     shootY: 5
     shake: 45
