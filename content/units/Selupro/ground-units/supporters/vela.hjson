@@ -54,6 +54,7 @@ bullet: {
 
 {
     name: vela-weapon
+    alwaysShootWhenMoving: true
     parentizeEffects: true
     continuous: true
     mirror: false
@@ -161,6 +162,7 @@ bullet: {
 
 {
     name: plasma-cannon-mount
+    alwaysShootWhenMoving: true
     rotationLimit: 135
     baseRotation: -45
     rotateSpeed: 1.5
@@ -248,7 +250,6 @@ hitEffect: {
 
 {
     name: double-machine-gun
-
     controllable: false
     rotationLimit: 180
     baseRotation: 45
