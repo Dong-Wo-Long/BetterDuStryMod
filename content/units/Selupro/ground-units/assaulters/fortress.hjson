@@ -59,7 +59,7 @@ weapons: [
 
 bullet: {
     type: BasicBulletType
-    maxRange: 900
+    maxRange: 1500
     height: 0
     width: 0
 
