@@ -41,6 +41,7 @@ abilities: [
 weapons: [
 {
     parentizeEffects: true
+    useAttackRange: false
     controllable: false
     autoTarget: true
     shootCone: 360
