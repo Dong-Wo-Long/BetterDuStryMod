@@ -35,6 +35,7 @@ abilities: [
 weapons: [
 {
     minShootVelocity: 0.01
+    useAttackRange: false
     alwaysShooting: true
     display: false
     mirror: false
