@@ -56,8 +56,10 @@ bullet: {
     name: vela-weapon
     alwaysShootWhenMoving: true
     parentizeEffects: true
+    rotationLimit: 0.25
     continuous: true
     mirror: false
+    rotate: true
     shootY: 14
     top: false
     recoil: 0
