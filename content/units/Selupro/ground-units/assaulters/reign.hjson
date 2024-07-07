@@ -38,7 +38,6 @@ abilities: [
 weapons: [
 {
     minShootVelocity: 0.01
-    useAttackRange: false
     alwaysShooting: true
     display: false
     mirror: false
@@ -54,6 +53,7 @@ weapons: [
 
 bullet: {
     type: BasicBulletType
+    maxRange: 652
     height: 0
     width: 0
 
@@ -70,7 +70,6 @@ bullet: {
 
 {
     name: hidden-bombing-mw
-    useAttackRange: false
     controllable: false
     layerOffset: -0.001
     rotationLimit: 30
@@ -95,6 +94,7 @@ bullet: {
     keepVelocity: false
     collidesAir: false
     hittable: false
+    maxRange: 652
     pierce: true
     hitSize: 7
 
@@ -116,7 +116,6 @@ bullet: {
 
 {
     name: hidden-bombing-mw
-    useAttackRange: false
     controllable: false
     layerOffset: -0.001
     rotationLimit: 30
@@ -141,6 +140,7 @@ bullet: {
     keepVelocity: false
     collidesAir: false
     hittable: false
+    maxRange: 652
     pierce: true
     hitSize: 7
 
