@@ -1,5 +1,6 @@
 rotateMoveFirst: true
 omniMovement: false
+hovering: true
 
 rotateSpeed: 5
 health: 750
@@ -12,41 +13,37 @@ lightRadius: 75
 
 weapons: [
 {
-name: blaster-gun
-
-    rotateSpeed: 1.75
-    shootCone: 90
-    mirror: false
-    rotate: true
+    name: blaster-gun
+    baseRotation: -35
+    shootCone: 360
     recoil: 0.15
-    top: false
-    x: 0
+    top: true
+    x: 4
     y: -2
 
-    cooldownTime: 210
     inaccuracy: 3
-    reload: 150
+    reload: 48
 
-    shootSound: machine-gun
-    ejectEffect: casing1
+    shootSound: plasma-shot-1
 shoot: {
     shotDelay: 7.5
     shots: 3
-}
+    }
 
 bullet: {
     type: BasicBulletType
-    removeAfterPierce: false
     collideTerrain: true
     height: 12
     width: 7
 
-    pierceDamageFactor: 0.9
+    pierceDamageFactor: 0.025
 
+    homingPower: 0.15
+    homingRange: 180
+    lifetime: 52.5
     pierceCap: 3
-    lifetime: 54
-    damage: 24.5
-    speed: 4.8
+    damage: 48
+    speed: 5
 
     despawnEffect: hitBulletColor
     smokeEffect: shootBigSmoke
