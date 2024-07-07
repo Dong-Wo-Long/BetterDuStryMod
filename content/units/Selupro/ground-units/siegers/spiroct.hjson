@@ -90,7 +90,9 @@ bullet: {
 
 {
     name: purple-missiles-mount
+    controllable: false
     rotationLimit: 50
+    autoTarget: true
     shootCone: 360
     mirror: false
     rotate: true
@@ -129,11 +131,11 @@ bullet: {
     splashDamageRadius: 40
     lightningDamage: 9
     lightningLength: 7
-    homingPower: 0.35
+    homingPower: 0.06
     splashDamage: 81
-    homingRange: 25
+    homingRange: 360
+    lifetime: 180
     lightning: 4
-    lifetime: 90
     speed: 2.75
     damage: 96
     drag: 0.01
