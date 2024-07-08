@@ -1,5 +1,5 @@
 itemCapacity: 15000
-health: 50000
+health: 75000
 armor: 7
 
 requirements: [
