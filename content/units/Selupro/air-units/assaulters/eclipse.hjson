@@ -1,4 +1,5 @@
 research: antumbra
+alwaysShootWhenMoving: true
 circleTarget: true
 fogRadius: 55
 
