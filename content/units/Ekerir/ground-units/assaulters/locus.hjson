@@ -10,7 +10,7 @@ lightColor: feb380
 lightOpacity: 0.7
 lightRadius: 75
 
-immunities: [ burning ]
+immunities: [ burning, melting, blasted ]
 
 weapons: [
 {
