@@ -1,3 +1,4 @@
+alwaysShootWhenMoving: true
 legSplashDamage: 96
 legSplashRange: 12
 targetAir: false
@@ -41,7 +42,6 @@ abilities: [
 weapons: [
 {
     parentizeEffects: true
-    useAttackRange: false
     controllable: false
     autoTarget: true
     shootCone: 360
@@ -67,16 +67,14 @@ bullet: {
     splashDamagePierce: true
     pierceBuilding: true
     collidesTiles: false
+    rangeOverride: 196
     collidesTeam: true
     despawnShake: 9
     hittable: false
     collides: true
-    maxRange: 60
     hitShake: 9
     height: 1
     width: 1
-
-    buildingDamageMultiplier: 0.75
 
     status: 20s-35-status-tier-2-direct-purpose-emp
     splashDamageRadius: 72
