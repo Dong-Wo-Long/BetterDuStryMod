@@ -1,16 +1,16 @@
 targetAir: false
 fogRadius: 32.5
-rotateSpeed: 3
-speed: 0.45
 
+rotateSpeed: 3
 health: 810
+speed: 0.45
 armor: 12
 
 lightColor: feb380
 lightOpacity: 0.7
 lightRadius: 62.5
 
-immunities: [ burning ]
+immunities: [ burning, blasted ]
 
 weapons: [
 {
