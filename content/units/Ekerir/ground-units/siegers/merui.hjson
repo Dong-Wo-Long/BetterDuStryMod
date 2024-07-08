@@ -2,6 +2,7 @@ alwaysShootWhenMoving: true
 targetAir: false
 stepShake: 0.18
 hovering: true
+fogRadius: 48
 
 rotateSpeed: 3
 speed: 0.66669
@@ -60,7 +61,7 @@ bullet: {
     statusDuration: 180
     splashDamage: 81
     knockback: 0.8
-    lifetime: 194
+    lifetime: 207
     speed: 2.5
 
     despawnEffect: none
