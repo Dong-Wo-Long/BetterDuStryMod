@@ -1,4 +1,5 @@
 research: atrax
+alwaysShootWhenMoving: true
 fogRadius: 36.5
 stepShake: 1.7
 
@@ -16,7 +17,6 @@ immunities: [ spore-slowed, sapped ]
 weapons: [
 {
     name: mount-purple-weapon
-    alwaysShootWhenMoving: true
     rotationLimit: 45
     rotate: true
     x: 4
@@ -52,7 +52,6 @@ bullet: {
 
 {
     name: spiroct-weapon
-    alwaysShootWhenMoving: true
     rotationLimit: 45
     rotate: true
     recoil: 2
@@ -96,6 +95,7 @@ bullet: {
     shootCone: 360
     mirror: false
     rotate: true
+    recoil: 2
     shootY: 1
     shake: 9.5
     x: 0
@@ -104,12 +104,10 @@ bullet: {
     velocityRnd: 0.45
     inaccuracy: 30
     reload: 450
-    recoil: 2
-    
-    shootSound: missile
 
     shootStatus: 20s-12-status-tier-1-motor-deceleration
     shootStatusDuration: 180
+    shootSound: missile
 shoot: {
     shotDelay: 12
     shots: 9
