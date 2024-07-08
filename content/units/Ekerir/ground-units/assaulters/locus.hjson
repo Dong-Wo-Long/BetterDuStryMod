@@ -1,3 +1,4 @@
+alwaysShootWhenMoving: true
 rotateSpeed: 1.6
 fogRadius: 52.5
 
