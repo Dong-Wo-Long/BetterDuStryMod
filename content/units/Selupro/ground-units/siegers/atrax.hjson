@@ -1,4 +1,5 @@
 research: crawler
+alwaysShootWhenMoving: true
 targetAir: false
 stepShake: 0.7
 fogRadius: 29
@@ -17,7 +18,6 @@ immunities: [ melting, burning, sapped ]
 weapons: [
 {
     name: atrax-weapon
-    alwaysShootWhenMoving: true
     rotationLimit: 15
     rotateSpeed: 2.75
     rotate: true
