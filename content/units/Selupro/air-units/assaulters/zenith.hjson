@@ -1,4 +1,5 @@
 research: horizon
+alwaysShootWhenMoving: true
 circleTarget: true
 fogRadius: 32
 
@@ -28,7 +29,6 @@ targetFlags: [ launchPad, factory, storage, repair, unitAssembler, battery ]
 weapons: [
 {
     name: large-mm
-    alwaysShootWhenMoving: true
     rotate: true
     shake: 1.8
     x: 7
