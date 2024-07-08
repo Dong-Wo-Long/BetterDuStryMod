@@ -47,15 +47,15 @@ bullet: {
     collideTerrain: true
     soundPitchMax: 0.45
     collidesAir: false
-    despawnShake: 3.2
-    hitShake: 3.2
+    despawnShake: 4.5
+    hitShake: 4.5
     hitSize: 4
     height: 7
     width: 5
 
     splashDamageRadius: 26
     splashDamage: 45
-    lifetime: 78
+    lifetime: 82
     damage: 32
     speed: 3.2
 
