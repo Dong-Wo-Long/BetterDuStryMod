@@ -97,6 +97,8 @@ bullet: {
     recoil: 1
     width: 25
 
+    buildingDamageMultiplier: 1.75
+
     statusDuration: 300
     status: melting
     healAmount: 50
