@@ -1,4 +1,5 @@
 research: zenith
+alwaysShootWhenMoving: true
 circleTarget: true
 fogRadius: 48
 
