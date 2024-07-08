@@ -1,3 +1,4 @@
+alwaysShootWhenMoving: true
 targetAir: false
 stepShake: 0.18
 hovering: true
