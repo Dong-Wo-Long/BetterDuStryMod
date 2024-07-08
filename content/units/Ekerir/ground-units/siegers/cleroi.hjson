@@ -3,6 +3,7 @@ legSplashDamage: 96
 legSplashRange: 12
 targetAir: false
 hovering: true
+fogRadius: 28
 stepShake: 1
 
 rotateSpeed: 2.5
