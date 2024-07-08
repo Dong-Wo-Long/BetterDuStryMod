@@ -1,4 +1,5 @@
 research: vela
+alwaysShootWhenMoving: true
 legSplashDamage: 320
 legSplashRange: 26
 stepShake: 10.5
