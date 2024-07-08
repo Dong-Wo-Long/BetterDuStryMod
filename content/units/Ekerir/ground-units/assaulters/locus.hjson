@@ -1,7 +1,7 @@
 alwaysShootWhenMoving: true
-rotateSpeed: 1.6
 fogRadius: 52.5
 
+rotateSpeed: 1.6
 health: 1800
 speed: 0.415
 armor: 21
