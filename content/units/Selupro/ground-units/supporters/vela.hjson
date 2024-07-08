@@ -1,9 +1,10 @@
 research: quasar
-rotateSpeed: 0.9
+alwaysShootWhenMoving: true
 stepShake: 7.5
 fogRadius: 30
 
 itemCapacity: 960
+rotateSpeed: 0.9
 buildSpeed: 0.96
 mineSpeed: 1.5
 health: 32000
@@ -54,7 +55,6 @@ bullet: {
 
 {
     name: vela-weapon
-    alwaysShootWhenMoving: true
     parentizeEffects: true
     rotationLimit: 0.25
     continuous: true
@@ -164,7 +164,6 @@ bullet: {
 
 {
     name: plasma-cannon-mount
-    alwaysShootWhenMoving: true
     rotationLimit: 135
     baseRotation: -45
     rotateSpeed: 1.5
