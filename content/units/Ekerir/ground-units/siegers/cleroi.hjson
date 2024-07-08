@@ -67,7 +67,7 @@ bullet: {
     splashDamagePierce: true
     pierceBuilding: true
     collidesTiles: false
-    rangeOverride: 196
+    rangeOverride: 220
     collidesTeam: true
     despawnShake: 9
     hittable: false
