@@ -2,9 +2,8 @@ research: naval-factory
 
 rotateSpeed: 3.2
 fogRadius: 35
-speed: 1.25
-
 health: 750
+speed: 1.25
 armor: 5
 
 lightColor: fff8e8
