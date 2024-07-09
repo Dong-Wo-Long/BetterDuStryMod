@@ -94,7 +94,6 @@ bullet: {
     keepVelocity: false
     collidesAir: false
     hittable: false
-    maxRange: 652
     pierce: true
     hitSize: 7
 
@@ -140,7 +139,6 @@ bullet: {
     keepVelocity: false
     collidesAir: false
     hittable: false
-    maxRange: 652
     pierce: true
     hitSize: 7
 
@@ -197,7 +195,7 @@ bullet: {
     buildingDamageMultiplier: 0.25
     pierceDamageFactor: 0.025
 
-    status: 20s-06-tier-1-strength-reduction
+    status: 20s-05-tier-2-strength-reduction
     splashDamageRadius: 26
     statusDuration: 300
     splashDamage: 181
