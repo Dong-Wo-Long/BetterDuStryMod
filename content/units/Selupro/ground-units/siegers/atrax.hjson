@@ -44,7 +44,7 @@ bullet: {
     statusDuration: 450
     status: melting
     knockback: 0.5
-    lifetime: 81
+    lifetime: 69
     damage: 17.5
     drag: 0.009
     speed: 2.5
