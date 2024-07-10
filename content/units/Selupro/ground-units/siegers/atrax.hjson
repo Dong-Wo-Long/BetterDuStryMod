@@ -98,13 +98,13 @@ bullet: {
     lightningDamage: 12.5
     lightningLength: 5
     splashDamage: 32
-    homingPower: 0
-    homingRange: 0
+    homingPower: 0.1
+    homingRange: 180
     lifetime: 100
     lightning: 3
-    drag: 0.005
     damage: 48
     speed: 2.5
+    drag: 0.01
 
     despawnEffect: none
 
