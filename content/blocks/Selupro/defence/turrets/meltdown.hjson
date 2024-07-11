@@ -11,8 +11,10 @@ coolantMultiplier: 4
 
 shootDuration: 475
 cooldownTime: 750
+health: 8100
 reload: 1000
 range: 648
+armor: 24
 
 loopSoundVolume: 2
 shootSound: none
