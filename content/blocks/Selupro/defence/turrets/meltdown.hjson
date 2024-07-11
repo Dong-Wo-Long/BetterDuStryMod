@@ -1,6 +1,7 @@
 research: scorch
 moveWhileCharging: false
 firingMoveFract: 0.18
+predictTarget: false
 rotateSpeed: 0.24
 shootCone: 1
 shootY: 5
