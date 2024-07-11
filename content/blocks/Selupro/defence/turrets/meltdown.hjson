@@ -58,7 +58,7 @@ shootType: {
     despawnShake: 18
     drawSize: 360
     hitShake: 18
-    length: 970
+    length: 768
     width: 24
 
     ammoMultiplier: 1
