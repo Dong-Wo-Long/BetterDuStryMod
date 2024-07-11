@@ -7,6 +7,7 @@ shootY: 5
 recoil: 4
 shake: 2
 
+buildCostMultiplier: 0.3246169
 coolantMultiplier: 4
 
 shootDuration: 475
