@@ -63,7 +63,7 @@ shootType: {
 
     ammoMultiplier: 1
 
-    statusDuration: 1920
+    statusDuration: 1440
     incendChance: 0.64
     incendSpread: 15
     incendAmount: 8
