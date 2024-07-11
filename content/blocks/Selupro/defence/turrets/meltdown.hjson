@@ -17,7 +17,7 @@ reload: 1000
 range: 648
 armor: 24
 
-loopSoundVolume: 2
+loopSoundVolume: 3
 shootSound: none
 
 consumes: {
