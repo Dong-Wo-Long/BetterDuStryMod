@@ -86,6 +86,7 @@ bullet: {
     type: BasicBulletType
     sprite: large-orb
     pierceBuilding: true
+    keepVelocity: false
     collidesAir: false
     despawnShake: 6
     hittable: false
