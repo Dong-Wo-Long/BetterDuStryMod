@@ -28,7 +28,7 @@ weapons: [
 bullet: {
     type: SapBulletType
     length: 128
-    width: 0.4
+    width: 0.5
 
     buildingDamageMultiplier: 0.75
 
