@@ -72,7 +72,7 @@ bullet: {
 
     velocityRnd: 0.24
     inaccuracy: 9
-    reload: 360
+    reload: 210
 
     shootStatus: 20s-12-status-tier-1-motor-deceleration
     shootStatusDuration: 180
@@ -94,8 +94,6 @@ bullet: {
     shrinkY: 0.5
     height: 11
     width: 11
-
-    buildingDamageMultiplier: 1.25
 
     splashDamageRadius: 40
     lightningDamage: 12.5
