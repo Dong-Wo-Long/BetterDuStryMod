@@ -15,6 +15,35 @@ lightRadius: 90
 
 immunities: [ melting, burning, sapped ]
 
+abilities: [
+    {
+    type: ShieldArcAbility
+    region: bsm-atrax-shield-right
+    angleOffset: -75
+    radius: 10
+    angle: 64
+    width: 3
+    y: -1
+
+    cooldown: 300
+    regen: 3
+    max: 180
+}
+    {
+    type: ShieldArcAbility
+    region: bsm-atrax-shield-left
+    angleOffset: 75
+    radius: 10
+    angle: 64
+    width: 3
+    y: -1
+
+    cooldown: 300
+    regen: 3
+    max: 180
+}
+    ]
+
 weapons: [
 {
     name: atrax-weapon
