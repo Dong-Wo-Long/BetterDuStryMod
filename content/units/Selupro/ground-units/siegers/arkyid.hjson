@@ -369,9 +369,9 @@ bullet: {
 
     buildingDamageMultiplier: 0.85
 
-    sapStrength: 1
+    sapStrength: 0.35
     lifetime: 30
-    damage: 12.5
+    damage: 32
 
     shootEffect: shootSmall
     despawnEffect: none
@@ -394,7 +394,7 @@ bullet: {
     x: 9
     y: 4
 
-    reload: 14
+    reload: 48
 
     shootSound: sap
 bullet: {
@@ -406,7 +406,7 @@ bullet: {
 
     buildingDamageMultiplier: 0.7
 
-    sapStrength: 0.85
+    sapStrength: 0.25
     lifetime: 30
     damage: 15
 
@@ -443,9 +443,9 @@ bullet: {
 
     buildingDamageMultiplier: 0.55
 
-    sapStrength: 0.65
+    sapStrength: 0.15
     lifetime: 30
-    damage: 17.5
+    damage: 69
 
     shootEffect: shootSmall
     despawnEffect: none
