@@ -14,6 +14,28 @@ lightRadius: 120
 
 immunities: [ spore-slowed, sapped ]
 
+abilities: [
+    {
+    type: ShieldArcAbility
+    radius: 14
+    angle: 160
+    width: 3
+    y: -1
+
+    cooldown: 900
+    regen: 3.25
+    max: 2500
+}
+
+    {
+    type: SuppressionFieldAbility
+    orbRadius: 5
+    layer: 75
+    x: 0
+    y: -7
+}
+    ]
+
 weapons: [
 {
     name: mount-purple-weapon
