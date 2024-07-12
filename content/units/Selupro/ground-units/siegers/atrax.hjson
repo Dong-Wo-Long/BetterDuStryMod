@@ -18,6 +18,7 @@ immunities: [ melting, burning, sapped ]
 weapons: [
 {
     name: atrax-weapon
+    useAttackRange: false
     rotationLimit: 15
     rotateSpeed: 2.75
     rotate: true
@@ -61,6 +62,7 @@ bullet: {
     name: purple-missiles
     controllable: false
     autoTarget: true
+    shootCone: 120
     mirror: false
     recoil: 2
     shootY: 1
@@ -69,14 +71,15 @@ bullet: {
     y: -5
 
     velocityRnd: 0.125
+    inaccuracy: 9
     reload: 360
 
     shootStatus: 20s-12-status-tier-1-motor-deceleration
     shootStatusDuration: 180
     shootSound: rocket-shot
 shoot: {
-    shotDelay: 32
-    shots: 3
+    shotDelay: 24
+    shots: 5
     }
 
 bullet: {
@@ -100,7 +103,7 @@ bullet: {
     splashDamage: 32
     homingPower: 0.1
     homingRange: 180
-    lifetime: 120
+    lifetime: 155
     lightning: 3
     damage: 48
     speed: 2.5
