@@ -101,13 +101,18 @@ bullet: {
 
     velocityRnd: 0.24
     inaccuracy: 9
-    reload: 210
+    reload: 275
 
     shootStatus: 20s-12-status-tier-1-motor-deceleration
-    shootStatusDuration: 90
+    chargeSound: short-target-locked
+    shootStatusDuration: 250
     shootSound: rocket-shot
 shoot: {
+    type: ShootAlternate
+    firstShotDelay: 185
     shotDelay: 9
+    spread: 1.8
+    barrels: 2
     shots: 6
     }
 
