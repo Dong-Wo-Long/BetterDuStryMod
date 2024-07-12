@@ -125,13 +125,15 @@ bullet: {
 
     velocityRnd: 0.45
     inaccuracy: 30
-    reload: 280
+    reload: 360
 
     shootStatus: 20s-12-status-tier-1-motor-deceleration
-    shootStatusDuration: 180
-    shootSound: missile
+    chargeSound: short-target-locked
+    shootStatusDuration: 320
+    shootSound: rocket-shot
 shoot: {
     type: ShootAlternate
+    firstShotDelay: 185
     shotDelay: 12
     spread: 1.8
     barrels: 2
