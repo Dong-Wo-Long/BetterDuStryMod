@@ -44,9 +44,9 @@ bullet: {
     statusDuration: 450
     status: melting
     knockback: 0.5
-    lifetime: 69
-    damage: 17.5
-    drag: 0.009
+    lifetime: 64
+    damage: 18
+    drag: 0.01
     speed: 2.5
 
     shootEffect: shootSmall
@@ -100,7 +100,7 @@ bullet: {
     splashDamage: 32
     homingPower: 0.1
     homingRange: 180
-    lifetime: 100
+    lifetime: 110
     lightning: 3
     damage: 48
     speed: 2.5
