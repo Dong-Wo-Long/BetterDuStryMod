@@ -40,6 +40,7 @@ abilities: [
     {
     type: SuppressionFieldAbility
     orbRadius: 9
+    reload: 81
     range: 256
     layer: 75
     x: 0
