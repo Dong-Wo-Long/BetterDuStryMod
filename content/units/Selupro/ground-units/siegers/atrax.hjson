@@ -100,7 +100,7 @@ bullet: {
     splashDamage: 32
     homingPower: 0.1
     homingRange: 180
-    lifetime: 110
+    lifetime: 120
     lightning: 3
     damage: 48
     speed: 2.5
