@@ -27,7 +27,7 @@ weapons: [
     y: 0
 
     inaccuracy: 5
-    reload: 1.8
+    reload: 2.4
 
     ejectEffect: none
     shootSound: flame
@@ -46,8 +46,8 @@ bullet: {
     knockback: 0.5
     lifetime: 64
     damage: 18
-    drag: 0.01
     speed: 2.5
+    drag: 0.01
 
     shootEffect: shootSmall
 
