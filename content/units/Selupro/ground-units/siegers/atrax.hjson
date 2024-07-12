@@ -79,7 +79,7 @@ bullet: {
     shootSound: rocket-shot
 shoot: {
     shotDelay: 9
-    shots: 5
+    shots: 6
     }
 
 bullet: {
