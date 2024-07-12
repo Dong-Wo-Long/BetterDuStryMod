@@ -31,6 +31,7 @@ abilities: [
     {
     type: SuppressionFieldAbility
     orbRadius: 5
+    range: 192
     layer: 75
     x: 0
     y: -7
