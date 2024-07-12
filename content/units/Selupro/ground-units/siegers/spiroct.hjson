@@ -25,21 +25,21 @@ weapons: [
     reload: 9
 
     shootSound: sap
-
 bullet: {
     type: SapBulletType
-    length: 150
-    width: 0.3
+    length: 128
+    width: 0.4
 
-    buildingDamageMultiplier: 0.5
+    buildingDamageMultiplier: 0.75
 
+    statusDuration: 180
     sapStrength: 1.1
     knockback: -0.75
     lifetime: 25
     damage: 48
 
-    despawnEffect: shootSmall
     shootEffect: shootSmall
+    despawnEffect: none
 
     lightColor: bf92f9
     lightOpacity: 0.7
@@ -62,21 +62,21 @@ bullet: {
     reload: 12.5
 
     shootSound: sap
-
 bullet: {
     type: SapBulletType
-    length: 60
-    width: 0.5
+    length: 80
+    width: 0.6
 
-    buildingDamageMultiplier: 0.25
+    buildingDamageMultiplier: 0.5
 
+    statusDuration: 300
     sapStrength: 1.7
     knockback: -0.5
     lifetime: 35
     damage: 69
 
-    despawnEffect: shootSmall
     shootEffect: shootSmall
+    despawnEffect: none
 
     lightColor: bf92f9
     lightOpacity: 0.7
@@ -97,45 +97,48 @@ bullet: {
     rotate: true
     recoil: 2
     shootY: 1
-    shake: 9.5
+    shake: 5
     x: 0
     y: -7
 
     velocityRnd: 0.45
     inaccuracy: 30
-    reload: 450
+    reload: 280
 
     shootStatus: 20s-12-status-tier-1-motor-deceleration
     shootStatusDuration: 180
     shootSound: missile
 shoot: {
+    type: ShootAlternate
     shotDelay: 12
+    spread: 1.8
+    barrels: 2
     shots: 9
-}
+    }
 
 bullet: {
     type: MissileBulletType
-    collidesTiles: false
+    collidesGround: false
     keepVelocity: false
-    despawnShake: 8.5
+    despawnShake: 5
     scaleLife: true
     shrinkX: 0.25
     shrinkY: 0.5
     height: 11
     width: 11
 
-    buildingDamageMultiplier: 1.75
-
+    status: 20s-36-status-tier-1-direct-purpose-emp
     splashDamageRadius: 40
+    statusDuration: 180
     lightningDamage: 9
     lightningLength: 7
-    homingPower: 0.06
-    splashDamage: 81
+    homingPower: 0.18
+    splashDamage: 75
     homingRange: 360
-    lifetime: 180
+    lifetime: 250
     lightning: 4
-    speed: 2.75
-    damage: 96
+    speed: 3.25
+    damage: 81
     drag: 0.01
 
     despawnEffect: none
