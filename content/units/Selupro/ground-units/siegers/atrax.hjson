@@ -75,7 +75,7 @@ bullet: {
     reload: 210
 
     shootStatus: 20s-12-status-tier-1-motor-deceleration
-    shootStatusDuration: 180
+    shootStatusDuration: 90
     shootSound: rocket-shot
 shoot: {
     shotDelay: 9
