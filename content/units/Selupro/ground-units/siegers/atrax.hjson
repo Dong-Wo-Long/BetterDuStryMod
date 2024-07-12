@@ -78,7 +78,7 @@ bullet: {
     shootStatusDuration: 180
     shootSound: rocket-shot
 shoot: {
-    shotDelay: 24
+    shotDelay: 9
     shots: 5
     }
 
