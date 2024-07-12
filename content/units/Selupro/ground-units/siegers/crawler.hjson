@@ -35,6 +35,7 @@ bullet: {
     instantDisappear: true
     collidesTiles: false
     collidesAir: false
+    rangeOverride: 46
     killShooter: true
     hittable: false
     collides: false
@@ -42,8 +43,9 @@ bullet: {
     buildingDamageMultiplier: 2.5
 
     splashDamageRadius: 60
+    statusDuration: 90
     splashDamage: 360
-    rangeOverride: 8
+    status: blasted
     speed: 0
 
     hitEffect: pulverize
