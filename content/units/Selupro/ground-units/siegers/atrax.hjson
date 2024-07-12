@@ -1,6 +1,6 @@
 research: crawler
 alwaysShootWhenMoving: true
-targetAir: false
+targetAir: true
 stepShake: 0.7
 fogRadius: 29
 
@@ -118,10 +118,7 @@ shoot: {
 
 bullet: {
     type: MissileBulletType
-    collidesGround: true
-    collidesTiles: false
     keepVelocity: false
-    collidesAir: false
     despawnShake: 7.5
     scaleLife: true
     shrinkX: 0.25
