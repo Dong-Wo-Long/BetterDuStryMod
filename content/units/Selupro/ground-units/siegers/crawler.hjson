@@ -15,11 +15,11 @@ immunities: [ sapped ]
 
 weapons: [
 {
-    shootOnDeath: true
-    shootCone: 120
+    shootCone: 180
     mirror: false
     shootY: 0
     x: 0
+    y: 0
 
     reload: 45
 
@@ -29,7 +29,7 @@ weapons: [
 shoot: {
     firstShotDelay: 15
     shots: 1
-}
+    }
 
 bullet: {
     instantDisappear: true
