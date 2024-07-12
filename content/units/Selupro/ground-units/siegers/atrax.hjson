@@ -70,7 +70,7 @@ bullet: {
     x: 4.15
     y: -5
 
-    velocityRnd: 0.125
+    velocityRnd: 0.24
     inaccuracy: 9
     reload: 360
 
