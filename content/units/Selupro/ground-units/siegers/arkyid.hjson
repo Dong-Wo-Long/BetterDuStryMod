@@ -397,7 +397,7 @@ hitEffect: {
     }
 
 {
-    name: large-purple-mount
+    name: large-purple-cannon
     rotationLimit: 32
     rotateSpeed: 0.45
     shootCone: 215
