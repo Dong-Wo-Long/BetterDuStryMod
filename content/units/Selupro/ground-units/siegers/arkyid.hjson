@@ -248,7 +248,7 @@ bullet: {
 
     sapStrength: 0.25
     lifetime: 30
-    damage: 15
+    damage: 48
 
     shootEffect: shootSmall
     despawnEffect: none
