@@ -83,14 +83,14 @@ bullet: {
     hittable: false
     hitSize: 6
 
-    buildingDamageMultiplier: 1.25
+    buildingDamageMultiplier: 1.5
     ammoMultiplier: 18
 
     statusDuration: 300
     status: burning
     pierceCap: 12
     lifetime: 24
-    damage: 42.5
+    damage: 52.5
     speed: 3
 
     despawnEffect: none
