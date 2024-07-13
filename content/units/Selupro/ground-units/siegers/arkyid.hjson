@@ -411,7 +411,6 @@ hitEffect: {
 
     cooldownTime: 360
     velocityRnd: 0.24
-    inaccuracy: 15
     reload: 360
 
     shootStatus: 20s-11-status-tier-2-motor-deceleration
@@ -419,10 +418,7 @@ hitEffect: {
     shootSound: rocket-fire
     ejectEffect: casing3
 shoot: {
-    type: ShootAlternate
     shotDelay: 12
-    spread: 1.8
-    barrels: 2
     shots: 6
 }
 
