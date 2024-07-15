@@ -213,7 +213,7 @@ bullet: {
     lightRadius: 52
 
     trailColor: f9c27a
-    trailLength: 72.5
+    trailLength: 3.25
     trailWidth: 2.75
 }
     }
@@ -313,7 +313,7 @@ bullet: {
     lightRadius: 20
 
     trailColor: f9c27a
-    trailLength: 27.5
+    trailLength: 4.5
     trailWidth: 1.25
 }
     }
