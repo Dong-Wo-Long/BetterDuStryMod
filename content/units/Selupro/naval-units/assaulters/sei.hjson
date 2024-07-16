@@ -3,7 +3,7 @@ faceTarget: false
 
 rotateSpeed: 1
 health: 75000
-speed: 0.58
+speed: 0.5
 armor: 81
 
 immunities: [ burning, melting, blasted ]
