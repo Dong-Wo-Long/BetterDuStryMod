@@ -10,7 +10,7 @@ immunities: [ burning, melting, blasted ]
 
 weapons: [
     {
-    type: large-missile-launcher
+    name: large-missile-launcher
     rotateSpeed: 4
     mirror: false
     rotate: true
@@ -64,7 +64,7 @@ bullet: {
     }
 
 {
-    type: large-bullet-mount
+    name: large-bullet-mount
     rotateSpeed: 4
     rotate: true
     shadow: 12
