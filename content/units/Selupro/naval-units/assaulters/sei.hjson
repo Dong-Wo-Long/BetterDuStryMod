@@ -1,3 +1,100 @@
 research: bryde
+faceTarget: false
+
+rotateSpeed: 1
+health: 81000
+speed: 0.58
+armor: 81
 
 immunities: [ burning, melting, blasted ]
+
+weapons: [
+    {
+    type: large-missile-launcher
+    rotateSpeed: 4
+    mirror: false
+    rotate: true
+    shootY: 4.5
+    shadow: 20
+    recoil: 4
+    shake: 1
+    x: 0
+    y: 0
+
+    velocityRnd: 0.5
+    inaccuracy: 7
+    reload: 48
+
+    shootSound: missile
+    ejectEffect: none
+shoot: {
+    type: ShootAlternate
+    shotDelay: 1.5
+    barrels: 3
+    spread: 4
+    shots: 9
+    }
+
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    weaveScale: 8
+    weaveMag: 2
+    shrinkX: 0
+    shrinkY: 0
+    height: 8
+    width: 8
+
+    splashDamageRadius: 40
+    homingPower: 0.12
+    splashDamage: 69
+    homingRange: 80
+    lifetime: 130
+    drag: -0.003
+    damage: 96
+    speed: 3
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+
+    trailColor: f9c27a
+    frontColor: fff8e8
+    backColor: f9c27a
+}
+    }
+
+{
+    type: large-bullet-mount
+    rotateSpeed: 4
+    rotate: true
+    shadow: 12
+    recoil: 3
+    shootY: 7
+    shake: 2
+    x: 17.5
+    y: -16.5
+
+    cooldownTime: 90
+    inaccuracy: 1
+    reload: 24
+
+    ejectEffect: casing3
+    shootSound: shootBig
+shoot: {
+    shotDelay: 5
+    shots: 5
+    }
+
+bullet: {
+    type: BasicBulletType
+    height: 19
+    width: 13
+
+    lifetime: 48
+    damage: 81
+    speed: 5
+
+    shootEffect: shootBig
+    }
+}
+    ]
