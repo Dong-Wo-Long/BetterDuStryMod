@@ -2,7 +2,7 @@ faceTarget: false
 research: minke
 
 rotateSpeed: 1.25
-health: 7500
+health: 5000
 speed: 0.64
 armor: 18
 
