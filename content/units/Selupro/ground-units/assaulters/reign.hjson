@@ -329,8 +329,7 @@ bullet: {
     damage: 64
     speed: 3
 
-    hitSoundVolume: 0.25
-    hitSound: rocket-hit
+    hitSound: rocket-explosion
     despawnEffect: none
 
     lightColor: ffd2ae
