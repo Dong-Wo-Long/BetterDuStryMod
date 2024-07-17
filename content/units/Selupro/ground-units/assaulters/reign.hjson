@@ -50,7 +50,6 @@ weapons: [
     reload: 81
 
     shootSound: large-mech-footsteps
-
 bullet: {
     type: BasicBulletType
     maxRange: 652
@@ -87,7 +86,6 @@ bullet: {
 
     ejectEffect: none
     shootSound: flame
-
 bullet: {
     type: BulletType
     pierceBuilding: true
@@ -132,7 +130,6 @@ bullet: {
 
     ejectEffect: none
     shootSound: flame
-
 bullet: {
     type: BulletType
     pierceBuilding: true
