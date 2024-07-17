@@ -2,6 +2,7 @@ research: scepter
 forceMultiTarget: true
 fogRadius: 52.5
 stepShake: 14.5
+range: 600
 
 itemCapacity: 96000
 rotateSpeed: 0.75
@@ -305,7 +306,6 @@ bullet: {
     type: MissileBulletType
     keepVelocity: false
     despawnShake: 3
-    maxRange: 600
     shrinkX: 0.25
     shrinkY: 0.5
     hitShake: 3
@@ -351,7 +351,7 @@ shootEffect: {
 
     smokeColor: 454545
     smokeSizeBase: 0
-    smokeSize: 3.25
+    smokeSize: 5
     smokes: 7
 
     sparkColor: ffd2ae
@@ -363,7 +363,7 @@ shootEffect: {
 
 hitEffect: {
     type: ExplosionEffect
-    lifetime: 180
+    lifetime: 96
 
     waveColor: ffd2ae
     waveStroke: 3.2
