@@ -305,6 +305,7 @@ parts: [
 bullet: {
     type: MissileBulletType
     keepVelocity: false
+    rangeOverride: 180
     despawnShake: 3
     shrinkX: 0.25
     shrinkY: 0.5
