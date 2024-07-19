@@ -9,7 +9,7 @@ itemCapacity: 256000
 rotateSpeed: 0.48
 buildSpeed: 1.75
 mineSpeed: 1.25
-health: 48000
+health: 75000
 mineTier: 5
 speed: 0.23
 armor: 144
