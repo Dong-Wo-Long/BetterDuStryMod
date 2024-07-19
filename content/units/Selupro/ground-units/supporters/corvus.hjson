@@ -21,7 +21,7 @@ lightRadius: 150
 immunities: [ shocked, wet, burning, melting, blasted, overclock ]
 
 abilities: [
-{
+    {
     type: EnergyFieldAbility
     sameTypeHealMult: 0.75
     statusDuration: 750
@@ -32,15 +32,8 @@ abilities: [
     range: 260
     x: 0
     y: -7.5
-    }
-{
-    type: StatusFieldAbility
-    effect: overclock
-    duration: 540
-    reload: 1080
-    range: 360
-    }
-{
+}
+    {
     type: ShieldArcAbility
     region: bsm-corvus-shield
     radius: 25
@@ -51,23 +44,26 @@ abilities: [
     cooldown: 1290
     regen: 3.2
     max: 25000
-    }
-{
+}
+    {
     type: ShieldRegenFieldAbility
-    range: 0
-
     amount: 2500
     reload: 900
     max: 32000
-    }
-{
-    type: RepairFieldAbility
-
-    reload: 300
-    amount: 500
     range: 0
-    }
-]
+}
+    {
+    type: StatusFieldAbility
+    effect: overclock
+    duration: 540
+    reload: 1080
+    range: 360
+}
+    {
+    type: RegenAbility
+    amount: 1.06669
+}
+    ]
 
 weapons: [
 {
