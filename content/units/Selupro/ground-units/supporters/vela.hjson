@@ -20,6 +20,7 @@ trailLength: 15
 
 immunities: [ electrified, melting, burning ]
 
+abilities: [
     {
     type: RegenAbility
     amount: 0.3
