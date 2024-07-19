@@ -4,8 +4,8 @@ rotateSpeed: 0.45
 stepShake: 5.75
 fogRadius: 96
 
-itemCapacity: 900
-health: 32000
+itemCapacity: 81000
+health: 96000
 armor: 96
 
 lightColor: 665c9f
@@ -16,7 +16,7 @@ lightRadius: 230
 immunities: [ spore-slowed, blasted, shocked, sapped ]
 
 abilities: [
-{
+    {
     type: ShieldArcAbility
     region: bsm-toxopid-shield-right
     angleOffset: -55
@@ -28,8 +28,8 @@ abilities: [
     cooldown: 900
     regen: 2.5
     max: 8100
-    }
-{
+}
+    {
     type: ShieldArcAbility
     region: bsm-toxopid-shield-left
     angleOffset: 55
@@ -41,8 +41,12 @@ abilities: [
     cooldown: 900
     regen: 2.5
     max: 8100
-    }
-]
+}
+    {
+    type: RegenAbility
+    amount: 0.5425
+}
+    ]
 
 weapons: [
 {
