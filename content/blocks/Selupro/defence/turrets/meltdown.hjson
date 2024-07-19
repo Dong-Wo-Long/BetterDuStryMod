@@ -22,7 +22,7 @@ loopSoundVolume: 3
 shootSound: none
 
 consumes: {
-    power: 800
+    power: 1600
     }
 
 requirements: [
