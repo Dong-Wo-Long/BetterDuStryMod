@@ -10,6 +10,7 @@ armor: 9
 
 lightColor: fff8e8
 lightOpacity: 0.7
+healColor: b0bac0
 lightRadius: 55
 
 immunities: [ blasted ]
@@ -21,6 +22,10 @@ abilities: [
     amount: 50
     range: 0
     max: 50
+}
+    {
+    type: RegenAbility
+    amount: 0.03
 }
     ]
 
