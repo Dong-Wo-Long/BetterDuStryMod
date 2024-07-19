@@ -26,13 +26,16 @@ abilities: [
     max: 18000
     range: 0
 }
-
     {
     type: ShieldRegenFieldAbility
     reload: 1920
     amount: 500
     range: 400
     max: 500
+}
+    {
+    type: RegenAbility
+    amount: 1
 }
     ]
 
