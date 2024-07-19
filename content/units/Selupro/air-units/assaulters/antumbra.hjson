@@ -13,7 +13,7 @@ health: 81000
 accel: 0.0025
 drag: 0.0025
 speed: 1.3
-armor: 81
+armor: 69
 
 lightColor: fff8e8
 lightOpacity: 0.7
