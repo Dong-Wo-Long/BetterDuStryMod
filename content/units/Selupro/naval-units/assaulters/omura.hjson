@@ -3,6 +3,6 @@ research: sei
 rotateSpeed: 1
 health: 128000
 speed: 0.4
-armor: 81
+armor: 96
 
 immunities: [ burning, melting, shocked, blasted ]
