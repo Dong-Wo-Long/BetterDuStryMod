@@ -10,8 +10,8 @@ laserColor2: 5757c1
 
 laserRange: 9
 maxNodes: 7
-health: 180
-armor: 15
+health: 360
+armor: 18
 
 requirements: [
     lead/12
