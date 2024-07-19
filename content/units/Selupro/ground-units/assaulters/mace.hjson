@@ -11,8 +11,16 @@ armor: 15
 lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 67.5
+healColor: b0bac0
 
 immunities: [ burning, blasted ]
+
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.04
+}
+    ]
 
 weapons: [
 {
