@@ -10,7 +10,7 @@ itemOffsetY: -4.5
 rotateSpeed: 0.25
 buildSpeed: 0.81
 mineSpeed: 15
-health: 75000
+health: 48000
 mineTier: 4
 speed: 0.32
 armor: 81
