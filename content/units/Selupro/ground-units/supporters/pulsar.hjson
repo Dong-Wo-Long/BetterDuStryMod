@@ -27,6 +27,11 @@ abilities: [
     range: 60
     max: 180
 }
+
+    {
+    type: RegenAbility
+    amount: 0.05
+}
     ]
 
 weapons: [
