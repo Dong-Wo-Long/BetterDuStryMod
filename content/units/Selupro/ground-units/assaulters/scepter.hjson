@@ -10,6 +10,7 @@ armor: 75
 
 lightColor: fff8e8
 lightOpacity: 0.7
+healColor: b0bac0
 lightRadius: 140
 
 immunities: [ burning, melting, shocked, blasted ]
@@ -22,13 +23,16 @@ abilities: [
     max: 5000
     range: 0
 }
-
     {
     type: ShieldRegenFieldAbility
     reload: 1440
     amount: 250
     range: 256
     max: 250
+}
+    {
+    type: RegenAbility
+    amount: 0.75
 }
     ]
 
