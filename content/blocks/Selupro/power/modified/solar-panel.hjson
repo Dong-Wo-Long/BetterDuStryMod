@@ -1,7 +1,7 @@
 research: combustion-generator
 
 powerProduction: 0.4
-health: 75
+health: 81
 
 requirements: [
     lead/15
