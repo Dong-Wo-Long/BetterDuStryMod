@@ -17,6 +17,10 @@ immunities: [ sapped ]
 
 abilities: [
     {
+    type: ArmorPlateAbility
+    healthMultiplier: 128
+}
+    {
     type: RegenAbility
     amount: 0.04
 }
