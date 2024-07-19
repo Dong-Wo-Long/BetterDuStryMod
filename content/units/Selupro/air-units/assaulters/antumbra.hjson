@@ -9,7 +9,7 @@ ammoType: plastanium
 itemCapacity: 18000
 fallSpeed: 0.0025
 rotateSpeed: 0.9
-health: 32000
+health: 81000
 accel: 0.0025
 drag: 0.0025
 speed: 1.3
