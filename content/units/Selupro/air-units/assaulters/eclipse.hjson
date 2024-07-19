@@ -10,7 +10,7 @@ rotateSpeed: 0.55
 fallSpeed: 0.0018
 health: 121000
 speed: 0.7
-armor: 144
+armor: 141
 
 lightColor: fff8e8
 lightOpacity: 0.7
