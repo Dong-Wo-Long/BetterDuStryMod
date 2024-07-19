@@ -13,10 +13,18 @@ armor: 32
 lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 81.5
+healColor: b0bac0
 
 deathSound: mech-destroyed
 
 immunities: [ blasted, burning, melting ]
+
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.2084
+}
+    ]
 
 abilities: [
     {
