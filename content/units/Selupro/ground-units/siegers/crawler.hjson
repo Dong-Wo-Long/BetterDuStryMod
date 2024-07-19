@@ -11,6 +11,7 @@ range: 32
 lightColor: 665c9f
 lightOpacity: 0.7
 lightRadius: 47.5
+healColor: bf92f9
 
 immunities: [ sapped ]
 
