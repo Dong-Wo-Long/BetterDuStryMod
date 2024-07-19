@@ -20,6 +20,12 @@ trailLength: 15
 
 immunities: [ electrified, melting, burning ]
 
+    {
+    type: RegenAbility
+    amount: 0.3
+}
+    ]
+
 weapons: [
 {
     minShootVelocity: 0.01
