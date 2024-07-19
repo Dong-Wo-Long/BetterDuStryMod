@@ -8,7 +8,7 @@ crashDamageMultiplier: 7.5
 itemCapacity: 24000
 rotateSpeed: 0.55
 fallSpeed: 0.0018
-health: 48000
+health: 121000
 speed: 0.7
 armor: 144
 
