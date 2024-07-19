@@ -8,7 +8,7 @@ crashDamageMultiplier: 5
 itemCapacity: 180000
 buildSpeed: 1.5
 mineSpeed: 7.5
-health: 48000
+health: 32000
 mineTier: 3
 speed: 1.1
 armor: 49
