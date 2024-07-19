@@ -5,9 +5,9 @@ armor: 7
 powerProduction: 25
 
 requirements: [
-    lead/9600
-    metaglass/3250
-    titanium/7500
-    thorium/5000
-    silicon/8100
+    lead/18000
+    metaglass/7500
+    titanium/12500
+    thorium/8100
+    silicon/9600
 ]
