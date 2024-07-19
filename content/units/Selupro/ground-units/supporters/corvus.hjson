@@ -150,8 +150,8 @@ bullet: {
     statusDuration: 1920
     healPercent: 100
     status: melting
+    damage: 10000
     lifetime: 90
-    damage: 7500
 
     lightningLengthRand: 25
     lightningAngleRand: 50
