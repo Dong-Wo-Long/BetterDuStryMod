@@ -23,7 +23,7 @@ immunities: [ electrified, melting, burning ]
 abilities: [
     {
     type: RegenAbility
-    amount: 0.3
+    amount: 0.708339
 }
     ]
 
