@@ -4,9 +4,9 @@ faceTarget: false
 
 buildSpeed: 4.5
 rotateSpeed: 1
-health: 32000
+health: 75000
 speed: 0.45
-armor: 81
+armor: 49
 
 ammoType: {
     type: PowerAmmoType
