@@ -3,9 +3,9 @@ alwaysShootWhenMoving: true
 fogRadius: 84.5
 stepShake: 2.35
 
-itemCapacity: 180
+itemCapacity: 24000
 rotateSpeed: 1.8
-health: 24000
+health: 48000
 speed: 0.6
 armor: 75
 
@@ -44,13 +44,9 @@ abilities: [
     x: 0
     y: -9
 }
-
     {
-    type: StatusFieldAbility
-    effect: 20s-25-status-tier-1-auto-repair
-    duration: 180
-    reload: 900
-    range: 192
+    type: RegenAbility
+    amount: 0.3
 }
     ]
 
