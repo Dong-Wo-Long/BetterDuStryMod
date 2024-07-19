@@ -42,6 +42,10 @@ abilities: [
     regen: 3
     max: 180
 }
+    {
+    type: RegenAbility
+    amount: 0.03
+}
     ]
 
 weapons: [
