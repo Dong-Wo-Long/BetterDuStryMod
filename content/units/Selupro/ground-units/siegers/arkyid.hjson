@@ -28,7 +28,6 @@ abilities: [
     regen: 2.4
     max: 18000
 }
-
     {
     type: ShieldRegenFieldAbility
     amount: 2000
@@ -36,7 +35,6 @@ abilities: [
     max: 6000
     range: 0
 }
-
     {
     type: SuppressionFieldAbility
     orbRadius: 9
@@ -161,8 +159,6 @@ shoot: {
 
 bullet: {
     type: BasicBulletType
-    collideTerrain: true
-    collidesAir: false
     height: 14
     width: 8
 
