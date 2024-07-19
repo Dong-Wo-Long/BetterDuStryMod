@@ -17,6 +17,10 @@ immunities: [ burning, blasted ]
 
 abilities: [
     {
+    type: ArmorPlateAbility
+    healthMultiplier: 0.18
+}
+    {
     type: RegenAbility
     amount: 0.04
 }
