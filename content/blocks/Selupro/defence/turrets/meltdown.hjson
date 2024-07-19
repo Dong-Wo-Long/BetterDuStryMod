@@ -22,7 +22,7 @@ loopSoundVolume: 3
 shootSound: none
 
 consumes: {
-    power: 400
+    power: 800
     }
 
 requirements: [
@@ -69,7 +69,7 @@ shootType: {
     incendAmount: 8
     status: melting
     lifetime: 48
-    damage: 256
+    damage: 325
 
 chargeEffect: {
     type: MultiEffect
