@@ -69,7 +69,7 @@ shootType: {
     incendAmount: 8
     status: melting
     lifetime: 48
-    damage: 325
+    damage: 425
 
 chargeEffect: {
     type: MultiEffect
