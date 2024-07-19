@@ -16,6 +16,7 @@ armor: 144
 
 lightColor: 98ffa9
 lightOpacity: 0.7
+healColor: 84f491
 lightRadius: 150
 
 immunities: [ shocked, wet, burning, melting, blasted, overclock ]
