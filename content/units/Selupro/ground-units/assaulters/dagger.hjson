@@ -24,6 +24,10 @@ abilities: [
     max: 50
 }
     {
+    type: ArmorPlateAbility
+    healthMultiplier: 0.8
+}
+    {
     type: RegenAbility
     amount: 0.03
 }
