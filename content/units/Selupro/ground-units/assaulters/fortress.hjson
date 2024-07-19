@@ -21,13 +21,6 @@ immunities: [ blasted, burning, melting ]
 
 abilities: [
     {
-    type: RegenAbility
-    amount: 0.2084
-}
-    ]
-
-abilities: [
-    {
     type: ShieldArcAbility
     region: bsm-fortress-shield
     radius: 32
@@ -39,13 +32,13 @@ abilities: [
     regen: 4.5
     max: 1500
 }
-
     {
-    type: StatusFieldAbility
-    effect: 20s-07-tier-1-strength-improvement
-    duration: 450
-    reload: 1440
-    range: 144
+    type: ArmorPlateAbility
+    healthMultiplier: 0.25
+}
+    {
+    type: RegenAbility
+    amount: 0.2084
 }
     ]
 
