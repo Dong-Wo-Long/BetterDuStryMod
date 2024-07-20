@@ -38,7 +38,7 @@ coal: {
     pierceCap: 15
     lifetime: 16
     speed: 2.75
-    damage: 48
+    damage: 32
 
     shootEffect: shootSmallFlame
     hitEffect: hitFlameSmall
@@ -59,7 +59,7 @@ pyratite: {
     statusDuration: 600
     status: burning
     lifetime: 36
-    damage: 81
+    damage: 72.5
     speed: 3
 
     despawnEffect: none
