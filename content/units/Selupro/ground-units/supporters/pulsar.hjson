@@ -28,7 +28,6 @@ abilities: [
     range: 60
     max: 180
 }
-
     {
     type: RegenAbility
     amount: 0.04
