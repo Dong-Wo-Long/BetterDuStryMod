@@ -3,7 +3,7 @@ alwaysShootWhenMoving: true
 stepShake: 7.5
 fogRadius: 30
 
-itemCapacity: 24000
+itemCapacity: 6900
 rotateSpeed: 0.9
 buildSpeed: 0.96
 mineSpeed: 1.5
