@@ -5,14 +5,14 @@ legSplashRange: 26
 stepShake: 10.5
 fogRadius: 128
 
-itemCapacity: 960
-rotateSpeed: 0.9
-buildSpeed: 0.96
-mineSpeed: 1.5
-health: 32000
-mineTier: 4
-speed: 0.32
-armor: 69
+itemCapacity: 1250
+rotateSpeed: 0.48
+buildSpeed: 1.75
+mineSpeed: 1.25
+health: 48000
+mineTier: 5
+speed: 0.23
+armor: 144
 
 lightColor: 98ffa9
 lightOpacity: 0.7
@@ -147,8 +147,8 @@ bullet: {
     statusDuration: 1920
     healPercent: 100
     status: melting
-    damage: 10000
     lifetime: 90
+    damage: 7500
 
     lightningLengthRand: 25
     lightningAngleRand: 50
