@@ -107,7 +107,7 @@ bullet: {
     statusDuration: 300
     status: melting
     healAmount: 50
-    damage: 75
+    damage: 81
 
     colors: [ 84f491, 84f491, ffffff ]
 }
