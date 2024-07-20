@@ -4,7 +4,7 @@ fogRadius: 52.5
 stepShake: 14.5
 range: 600
 
-itemCapacity: 96000
+itemCapacity: 24000
 rotateSpeed: 0.75
 health: 128000
 speed: 0.21
