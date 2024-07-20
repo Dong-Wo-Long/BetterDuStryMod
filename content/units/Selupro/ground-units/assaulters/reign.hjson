@@ -173,10 +173,10 @@ bullet: {
     x: 21.5
     y: 1
 
-    cooldownTime: 900
+    cooldownTime: 600
     velocityRnd: 0.18
-    inaccuracy: 9
-    reload: 960
+    inaccuracy: 5
+    reload: 640
 
     chargeSound: heavy-minigun-charge
     shootSound: heavy-minigun-shot
@@ -184,7 +184,7 @@ bullet: {
 shoot: {
     firstShotDelay: 102
     shotDelay: 5
-    shots: 181
+    shots: 96
     }
 
 bullet: {
@@ -198,16 +198,14 @@ bullet: {
     height: 33
     width: 14
 
-    buildingDamageMultiplier: 0.5
+    buildingDamageMultiplier: 0.25
     pierceDamageFactor: 0.015
 
-    status: 20s-06-tier-1-strength-reduction
     splashDamageRadius: 26
-    statusDuration: 540
     splashDamage: 181
     lifetime: 20.5
     pierceCap: 96
-    damage: 256
+    damage: 325
     speed: 19
 
     hitSound: heavy-minigun-hit
