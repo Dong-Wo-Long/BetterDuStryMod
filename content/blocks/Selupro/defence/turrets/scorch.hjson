@@ -77,7 +77,7 @@ shootEffect: {
     lightRadius: 12.5
 
     colorFrom: ffb855
-    colorTo: db661c
+    colorTo: 696969
 
     sizeInterp: pow3In
     interp: pow5Out
@@ -136,7 +136,7 @@ shootEffect: {
     lightRadius: 7.5
 
     colorFrom: 9e78dc
-    colorTo: 7457ce
+    colorTo: 696969
 
     sizeInterp: pow3In
     interp: pow5Out
