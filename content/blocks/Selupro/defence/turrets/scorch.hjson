@@ -43,7 +43,7 @@ coal: {
     shootEffect: shootSmallFlame
     hitEffect: hitFlameSmall
     despawnEffect: none
-}
+    }
 
 pyratite: {
     type: BulletType
@@ -161,6 +161,6 @@ hitEffect: {
     sparkRad: 4.5
     sparkLen: 1.5
     sparks: 3
-}
     }
 }
+    }
