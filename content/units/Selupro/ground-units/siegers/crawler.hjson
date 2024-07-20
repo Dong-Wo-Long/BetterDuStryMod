@@ -6,7 +6,7 @@ fogRadius: 5
 itemCapacity: 18
 rotateSpeed: 7.5
 speed: 1.2
-range: 32
+range: 40
 
 lightColor: 665c9f
 lightOpacity: 0.7
