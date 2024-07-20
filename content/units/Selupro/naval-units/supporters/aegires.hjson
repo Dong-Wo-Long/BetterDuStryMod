@@ -4,7 +4,7 @@ faceTarget: false
 
 buildSpeed: 4.5
 rotateSpeed: 1
-health: 75000
+health: 48000
 speed: 0.45
 armor: 49
 
