@@ -52,14 +52,14 @@ pyratite: {
     pierce: true
     hitSize: 7
 
-    reloadMultiplier: 0.75
+    reloadMultiplier: 0.85
     ammoMultiplier: 12
     rangeChange: 40
 
     statusDuration: 600
     status: burning
     lifetime: 36
-    damage: 72.5
+    damage: 54.5
     speed: 3
 
     despawnEffect: none
