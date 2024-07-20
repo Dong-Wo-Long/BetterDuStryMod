@@ -24,7 +24,7 @@ abilities: [
     type: ShieldRegenFieldAbility
     reload: 1440
     amount: 5000
-    max: 18000
+    max: 15000
     range: 0
 }
     {
