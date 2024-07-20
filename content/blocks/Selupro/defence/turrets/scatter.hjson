@@ -94,7 +94,7 @@ lead: {
     reloadMultiplier: 0.5
     ammoMultiplier: 6
 
-    splashDamageRadius: 26
+    splashDamageRadius: 40
     splashDamage: 27.5
     pierceCap: 15
     lifetime: 81
@@ -157,7 +157,7 @@ metaglass: {
 
     ammoMultiplier: 12
 
-    splashDamageRadius: 40
+    splashDamageRadius: 26
     splashDamage: 12.5
     fragBullets: 7
     pierceCap: 8
