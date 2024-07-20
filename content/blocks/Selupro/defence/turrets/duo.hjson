@@ -106,7 +106,7 @@ scrap: {
     fragRandomSpread: 360
     fragLifeMax: 2.1
     fragLifeMin: 0.8
-    fragBullets: 2
+    fragBullets: 3
     fragSpread: 45
     lifetime: 48
     damage: 7.5
