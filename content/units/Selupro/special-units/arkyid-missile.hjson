@@ -69,9 +69,9 @@ bullet: {
     status: 20s-35-status-tier-2-direct-purpose-emp
     splashDamageRadius: 60
     lightningLength: 12.5
-    lightningDamage: 15
+    lightningDamage: 18
     statusDuration: 300
-    splashDamage: 181
+    splashDamage: 256
     lightning: 4
 
     hitSound: rocket-explosion
