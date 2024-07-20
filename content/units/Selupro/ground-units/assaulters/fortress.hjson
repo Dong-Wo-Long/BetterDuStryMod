@@ -92,7 +92,6 @@ bullet: {
     shootSound: artillery-shot
     shootEffect: shootSmall
     ejectEffect: casing4
-
 bullet: {
     type: ArtilleryBulletType
     collidesTiles: true
@@ -111,8 +110,8 @@ bullet: {
     statusDuration: 300
     splashDamage: 120
     knockback: 4.45
-    lifetime: 152.5
     pierceCap: 96
+    lifetime: 163
     speed: 2.4
 
     hitEffect: blastExplosion
@@ -186,7 +185,7 @@ bullet: {
     ammoMultiplier: 24
 
     pierceCap: 18
-    lifetime: 52
+    lifetime: 48
     damage: 21.5
     speed: 7.5
 
@@ -195,7 +194,7 @@ bullet: {
     lightRadius: 20
 
     trailColor: f9c27a
-    trailLength: 27.5
+    trailLength: 7.5
     trailWidth: 1
     }
 }
