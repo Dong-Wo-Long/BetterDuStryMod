@@ -21,11 +21,6 @@ lightRadius: 75
 
 immunities: [ electrified, melting, blasted, shocked, tarred, wet ]
 
-ammoType: {
-    type: PowerAmmoType
-    totalPower: 7500
-}
-
 abilities: [
 {
     type: ShieldRegenFieldAbility
