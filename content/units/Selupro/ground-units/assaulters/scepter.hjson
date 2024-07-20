@@ -3,7 +3,7 @@ rotateSpeed: 1.32
 stepShake: 8.75
 fogRadius: 34.5
 
-itemCapacity: 18000
+itemCapacity: 9600
 health: 48000
 speed: 0.35
 armor: 96
