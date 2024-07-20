@@ -92,7 +92,7 @@ hitEffect: {
     waveStroke: 1.5
     waveRad: 4.5
 
-    smokeColor: 454545
+    smokeColor: 696969
     smokeSizeBase: 0
     smokeSize: 2.5
     smokes: 5
@@ -151,7 +151,7 @@ hitEffect: {
     waveStroke: 1.5
     waveRad: 3
 
-    smokeColor: 9e78dc
+    smokeColor: 696969
     smokeSizeBase: 0
     smokeSize: 2.5
     smokes: 3
