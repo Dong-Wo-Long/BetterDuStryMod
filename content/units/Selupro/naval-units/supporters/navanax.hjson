@@ -2,8 +2,8 @@ research: aegires
 
 buildSpeed: 4.5
 rotateSpeed: 1
-health: 75000
+health: 69000
 speed: 0.3
-armor: 81
+armor: 121
 
 immunities: [ burning, blasted, melting, shocked, electrified ]
