@@ -3,11 +3,11 @@ alwaysShootWhenMoving: true
 fogRadius: 84.5
 stepShake: 2.35
 
-itemCapacity: 9600
+itemCapacity: 180
 rotateSpeed: 1.8
-health: 48000
+health: 24000
 speed: 0.6
-armor: 41
+armor: 75
 
 lightColor: 665c9f
 lightOpacity: 0.7
