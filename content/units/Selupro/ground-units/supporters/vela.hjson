@@ -3,11 +3,11 @@ alwaysShootWhenMoving: true
 stepShake: 7.5
 fogRadius: 30
 
-itemCapacity: 6900
+itemCapacity: 960
 rotateSpeed: 0.9
 buildSpeed: 0.96
 mineSpeed: 1.5
-health: 69000
+health: 32000
 mineTier: 4
 speed: 0.32
 armor: 69
@@ -43,7 +43,6 @@ weapons: [
     reload: 90
 
     shootSound: mech-footsteps
-
 bullet: {
     type: BasicBulletType
     maxRange: 580
