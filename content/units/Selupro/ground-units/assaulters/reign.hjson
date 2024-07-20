@@ -4,11 +4,11 @@ fogRadius: 52.5
 stepShake: 14.5
 range: 600
 
-itemCapacity: 24000
+itemCapacity: 18000
 rotateSpeed: 0.75
-health: 128000
+health: 75000
 speed: 0.21
-armor: 144
+armor: 196
 
 deathSound: large-mech-destroyed
 
