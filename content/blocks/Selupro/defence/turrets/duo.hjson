@@ -109,7 +109,7 @@ scrap: {
     fragBullets: 3
     fragSpread: 45
     lifetime: 48
-    damage: 7.5
+    damage: 9
     speed: 5
 
     lightColor: e0b28d
@@ -131,7 +131,7 @@ fragBullet: {
 
     pierceCap: 3
     lifetime: 6
-    damage: 4.5
+    damage: 4.8
     speed: 4.5
 
     lightColor: e0b28d
