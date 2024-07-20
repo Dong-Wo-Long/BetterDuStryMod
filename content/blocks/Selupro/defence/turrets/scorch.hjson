@@ -76,7 +76,7 @@ shootEffect: {
     lightOpacity: 0.7
     lightRadius: 12.5
 
-    colorFrom: ffb855
+    colorFrom: feb380
     colorTo: 696969
 
     sizeInterp: pow3In
@@ -88,7 +88,7 @@ hitEffect: {
 
     lifetime: 15
 
-    waveColor: db661c
+    waveColor: feb380
     waveStroke: 1.5
     waveRad: 4.5
 
@@ -97,7 +97,7 @@ hitEffect: {
     smokeSize: 2.5
     smokes: 5
 
-    sparkColor: db661c
+    sparkColor: feb380
     sparkStroke: 1.25
     sparkRad: 4.5
     sparkLen: 1.5
@@ -147,16 +147,16 @@ hitEffect: {
 
     lifetime: 15
 
-    waveColor: 7457ce
+    waveColor: 9e78dc
     waveStroke: 1.5
     waveRad: 3
 
-    smokeColor: 7457ce
+    smokeColor: 9e78dc
     smokeSizeBase: 0
     smokeSize: 2.5
     smokes: 3
 
-    sparkColor: 7457ce
+    sparkColor: 9e78dc
     sparkStroke: 1.25
     sparkRad: 4.5
     sparkLen: 1.5
