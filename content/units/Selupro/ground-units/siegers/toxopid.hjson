@@ -43,6 +43,15 @@ abilities: [
     max: 8100
 }
     {
+    type: SuppressionFieldAbility
+    orbRadius: 14
+    reload: 60
+    range: 384
+    layer: 75
+    x: 0
+    y: -15
+}
+    {
     type: RegenAbility
     amount: 0.5425
 }
