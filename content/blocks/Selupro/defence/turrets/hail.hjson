@@ -196,7 +196,7 @@ fragBullet: {
     splashDamageRadius: 26
     splashDamage: 14.5
     lifetime: 12
-    damage: 7.5
+    damage: 9
 
     lightColor: ffaa5f
     lightOpacity: 0.7
@@ -246,7 +246,7 @@ scrap: {
 
     splashDamageRadius: 12
     fragRandomSpread: 360
-    splashDamage: 17.5
+    splashDamage: 21.5
     fragLifeMax: 2.25
     fragLifeMin: 0.8
     knockback: 1.25
@@ -277,7 +277,7 @@ fragBullet: {
     buildingDamageMultiplier: 0.75
 
     pierceCap: 3
-    damage: 12.5
+    damage: 17.5
     lifetime: 8
     speed: 4.5
 
@@ -364,6 +364,6 @@ despawnEffect: {
     sparkRad: 0
     sparkLen: 0
     sparks: 0
-}
     }
 }
+    }
