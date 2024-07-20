@@ -3,7 +3,7 @@ alwaysShootWhenMoving: true
 circleTarget: true
 fogRadius: 55
 
-crashDamageMultiplier: 7.5
+crashDamageMultiplier: 9
 
 itemCapacity: 24000
 rotateSpeed: 0.55
