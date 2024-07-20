@@ -5,10 +5,10 @@ fogRadius: 64
 
 crashDamageMultiplier: 5
 
-itemCapacity: 24000
+itemCapacity: 800
 buildSpeed: 1.5
 mineSpeed: 7.5
-health: 32000
+health: 24000
 mineTier: 3
 speed: 1.1
 armor: 49
