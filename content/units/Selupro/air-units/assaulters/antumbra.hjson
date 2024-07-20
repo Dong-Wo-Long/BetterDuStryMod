@@ -3,7 +3,7 @@ alwaysShootWhenMoving: true
 circleTarget: true
 fogRadius: 48
 
-crashDamageMultiplier: 7.5
+crashDamageMultiplier: 6
 
 ammoType: plastanium
 itemCapacity: 18000
