@@ -13,7 +13,7 @@ coolantMultiplier: 4
 
 shootDuration: 475
 cooldownTime: 750
-health: 8100
+health: 9600
 reload: 1000
 range: 648
 armor: 24
@@ -69,7 +69,7 @@ shootType: {
     incendAmount: 8
     status: melting
     lifetime: 48
-    damage: 666
+    damage: 325
 
 chargeEffect: {
     type: MultiEffect
