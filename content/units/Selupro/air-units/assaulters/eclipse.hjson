@@ -5,7 +5,7 @@ fogRadius: 55
 
 crashDamageMultiplier: 7.5
 
-itemCapacity: 81000
+itemCapacity: 32000
 rotateSpeed: 0.55
 fallSpeed: 0.0018
 health: 96000
