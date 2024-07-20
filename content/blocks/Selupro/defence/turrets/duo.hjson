@@ -36,7 +36,7 @@ copper: {
     lightRadius: 24.5
 
     trailColor: f9c27a
-    trailLength: 24.5
+    trailLength: 7.5
     trailWidth: 1.5
     }
 
@@ -60,7 +60,7 @@ graphite: {
     lightRadius: 27.5
 
     trailColor: 6b77a1
-    trailLength: 24.5
+    trailLength: 7.5
     trailWidth: 2.1
 
     frontColor: 95abd9
@@ -88,7 +88,7 @@ silicon: {
     lightRadius: 21
 
     trailColor: 767a84
-    trailLength: 24.5
+    trailLength: 7.5
     trailWidth: 1.5
 
     frontColor: 8e9097
@@ -117,7 +117,7 @@ scrap: {
     lightRadius: 18
 
     trailColor: 9b928b
-    trailLength: 24.5
+    trailLength: 7.5
     trailWidth: 1
 
     frontColor: e0b28d
@@ -193,7 +193,7 @@ pyratite: {
     lightRadius: 32.5
 
     trailColor: d37f47
-    trailLength: 32.5
+    trailLength: 9.5
     trailWidth: 1.35
 
     frontColor: ffaa5f
