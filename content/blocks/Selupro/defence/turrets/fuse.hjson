@@ -103,11 +103,11 @@ pyratite: {
     type: ShrapnelBulletType
     collidesAir: false
     pierce: false
-    length: 140
+    length: 205
 
     reloadMultiplier: 0.85
     ammoMultiplier: 8
-    rangeChange: 44
+    rangeChange: 100
 
     statusDuration: 180
     status: burning
