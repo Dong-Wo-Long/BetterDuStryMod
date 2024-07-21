@@ -125,14 +125,14 @@ thorium: {
 
     buildingDamageMultiplier: 0.75
     pierceDamageFactor: 100
-    reloadMultiplier: 0.25
+    reloadMultiplier: 0.5
     ammoMultiplier: 4
 
     splashDamageRadius: 26
-    splashDamage: 24.5
+    splashDamage: 27.5
     pierceCap: 15
     lifetime: 84
-    damage: 41.5
+    damage: 42.5
     speed: 3.25
 
     despawnEffect: flakExplosion
