@@ -76,7 +76,7 @@ smokeEffect: {
     lightOpacity: 0.7
     lightRadius: 12.5
 
-    colorFrom: 696969
+    colorFrom: d37f47
     colorTo: 454545
 
     sizeInterp: pow3In
@@ -154,7 +154,7 @@ smokeEffect: {
     lightOpacity: 0.7
     lightRadius: 12.5
 
-    colorFrom: 696969
+    colorFrom: 7457ce
     colorTo: 454545
 
     sizeInterp: pow3In
