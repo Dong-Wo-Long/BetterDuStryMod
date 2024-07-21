@@ -8,15 +8,15 @@ fogRadius: 47.5
 hasPower: true
 size: 1
 
+bulletDamage: 2.5
 shootLength: 4.5
-bulletDamage: 5
-reload: 4.5
+reload: 4.8
 health: 210
 range: 340
 armor: 3
 
 consumes: {
-    power: 5.333335
+    power: 5.416669
 }
 
 requirements: [
