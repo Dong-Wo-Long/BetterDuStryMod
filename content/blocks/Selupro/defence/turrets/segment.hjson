@@ -6,10 +6,10 @@ shootCone: 18
 
 coolantMultiplier: 5
 
-bulletDamage: 15
 shootLength: 7.5
+bulletDamage: 5
 reload: 1.25
-health: 320
+health: 360
 range: 256
 armor: 8
 
