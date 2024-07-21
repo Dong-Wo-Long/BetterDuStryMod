@@ -12,7 +12,7 @@ reload: 3
 armor: 15
 
 consumes: {
-    power: 12.5
+    power: 12.08334
 }
 
 shootEffect: shootLiquid
