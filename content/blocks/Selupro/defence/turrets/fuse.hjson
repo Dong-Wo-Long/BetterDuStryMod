@@ -109,7 +109,7 @@ pyratite: {
     ammoMultiplier: 8
     rangeChange: 100
 
-    statusDuration: 180
+    statusDuration: 540
     status: burning
     pierceCap: 18
     lifetime: 24
