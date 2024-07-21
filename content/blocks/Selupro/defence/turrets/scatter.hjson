@@ -130,7 +130,7 @@ silicon: {
     splashDamage: 0
     pierceCap: 5
     lifetime: 75
-    damage: 17.5
+    damage: 18.5
     speed: 4.8
 
     hitEffect: hitBulletColor
@@ -158,11 +158,11 @@ metaglass: {
     ammoMultiplier: 12
 
     splashDamageRadius: 26
-    splashDamage: 12.5
+    splashDamage: 9
     fragBullets: 7
     pierceCap: 8
     lifetime: 70
-    damage: 7.5
+    damage: 15
     speed: 5
 
     hitEffect: flakExplosion
@@ -188,7 +188,7 @@ fragBullet: {
 
     pierceCap: 5
     lifetime: 20
-    damage: 5
+    damage: 7.5
 
     despawnEffect: none
 
