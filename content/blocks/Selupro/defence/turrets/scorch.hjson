@@ -147,7 +147,7 @@ smokeEffect: {
     lifetime: 48
     sizeFrom: 2
     sizeTo: 0.25
-    length: 110
+    length: 75
     cone: 7
 
     lightColor: 696969
