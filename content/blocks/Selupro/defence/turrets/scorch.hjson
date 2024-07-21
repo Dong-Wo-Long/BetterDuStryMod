@@ -65,8 +65,8 @@ pyratite: {
     despawnEffect: none
 
 smokeEffect: {
-    particles: 9
-    lifetime: 81
+    particles: 6
+    lifetime: 60
     sizeFrom: 2
     sizeTo: 0.25
     length: 110
@@ -143,8 +143,8 @@ spore-pod: {
     despawnEffect: none
 
 smokeEffect: {
-    particles: 9
-    lifetime: 81
+    particles: 4
+    lifetime: 48
     sizeFrom: 2
     sizeTo: 0.25
     length: 110
