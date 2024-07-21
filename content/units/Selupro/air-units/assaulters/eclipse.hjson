@@ -37,23 +37,23 @@ abilities: [
 
     cooldown: 900
     regen: 3.2
-    max: 12500
+    max: 18000
     }
 {
     type: ShieldRegenFieldAbility
     range: 0
 
     reload: 1050
-    amount: 3200
-    max: 24500
+    amount: 4000
+    max: 24000
     }
 {
     type: ShieldRegenFieldAbility
     range: 500
 
     reload: 1050
-    amount: 320
-    max: 1250
+    amount: 500
+    max: 1500
     }
 ]
 
