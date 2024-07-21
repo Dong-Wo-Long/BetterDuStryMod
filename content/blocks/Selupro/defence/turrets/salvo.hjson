@@ -132,7 +132,7 @@ thorium: {
     splashDamage: 27.5
     pierceCap: 15
     lifetime: 84
-    damage: 42.5
+    damage: 48.5
     speed: 3.25
 
     despawnEffect: flakExplosion
