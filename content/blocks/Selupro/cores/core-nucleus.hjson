@@ -1,3 +1,5 @@
+absorbLasers: true
+
 itemCapacity: 50000
 health: 50000
 armor: 7
