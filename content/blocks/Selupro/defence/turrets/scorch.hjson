@@ -52,7 +52,7 @@ pyratite: {
     pierce: true
     hitSize: 7
 
-    reloadMultiplier: 0.9
+    reloadMultiplier: 0.95
     ammoMultiplier: 12
     rangeChange: 40
 
