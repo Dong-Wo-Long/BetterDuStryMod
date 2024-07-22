@@ -3,6 +3,7 @@ research: overdrive-projector
 speedBoost: 2
 useTime: 180
 
+liquidCapacity: 180
 itemCapacity: 96
 health: 1250
 reload: 60
