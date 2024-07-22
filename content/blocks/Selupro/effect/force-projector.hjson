@@ -11,7 +11,7 @@ cooldownNormal: 1.16
 cooldownLiquid: 1.32
 sides: 6
 
-liquidCapacity: 320
+liquidCapacity: 360
 shieldHealth: 15000
 itemCapacity: 250
 health: 5000
