@@ -102,7 +102,7 @@ fragBullet: {
     backColor: ebeef5
 
     trailColor: ebeef5
-    trailLength: 12.5
+    trailLength: 5
     trailWidth: 1
 }
     }
@@ -269,7 +269,7 @@ surge-alloy: {
     lightRadius: 27.5
 
     trailColor: e8d174
-    trailLength: 12.5
+    trailLength: 7.5
     trailWidth: 0.75
 
     frontColor: fcf387
