@@ -72,12 +72,12 @@ metaglass: {
     lightOpacity: 0.7
     lightRadius: 24.5
 
+    trailColor: ebeef5
+    trailLength: 7.5
+    trailWidth: 0.75
+
     frontColor: ffffff
     backColor: ebeef5
-
-    trailColor: ebeef5
-    trailLength: 32.5
-    trailWidth: 0.75
 
 fragBullet: {
     type: BasicBulletType
@@ -140,7 +140,7 @@ blast-compound: {
     lightRadius: 32.5
 
     trailColor: c85c51
-    trailLength: 32.5
+    trailLength: 12.5
     trailWidth: 1
 
     frontColor: ff795e
@@ -204,12 +204,12 @@ plastanium: {
     lightOpacity: 0.7
     lightRadius: 24.5
 
+    trailColor: cbd97f
+    trailLength: 12.5
+    trailWidth: 1
+
     frontColor: edf3a9
     backColor: cbd97f
-
-    trailColor: cbd97f
-    trailLength: 32.5
-    trailWidth: 1
 
 fragBullet: {
     type: BasicBulletType
@@ -269,7 +269,7 @@ surge-alloy: {
     lightRadius: 27.5
 
     trailColor: e8d174
-    trailLength: 41.5
+    trailLength: 12.5
     trailWidth: 0.75
 
     frontColor: fcf387
@@ -299,13 +299,13 @@ silicon: {
     lightOpacity: 0.7
     lightRadius: 21.5
 
+    trailColor: 767a84
+    trailLength: 7.5
+    trailWidth: 1.25
+
     frontColor: 8e9097
     backColor: 767a84
-
-    trailColor: 767a84
-    trailLength: 32.5
-    trailWidth: 1.25
-}
+    }
 
 pyratite: {
     type: BasicBulletType
@@ -333,34 +333,34 @@ pyratite: {
     lightOpacity: 0.7
     lightRadius: 32.5
 
+    trailColor: d37f47
+    trailLength: 12.5
+    trailWidth: 1.75
+
     frontColor: ffaa5f
     backColor: d37f47
-
-    trailColor: d37f47
-    trailLength: 32.5
-    trailWidth: 1.75
 
 hitEffect: {
     type: MultiEffect
 
 effects: [
-{
+    {
     effect: hitBulletSmall
     colorTo: ffaa5f
     lifetime: 20
     sizeFrom: 3
     sizeTo: 0
-    }
-{
+}
+    {
     effect: fireHit
     colorTo: ffaa5f
     lifetime: 20
     sizeFrom: 1
     sizeTo: 0
-    }
-]
-    }
 }
+    ]
+}
+    }
 
 scrap: {
     type: BasicBulletType
@@ -384,7 +384,7 @@ scrap: {
     lightRadius: 21.5
 
     trailColor: 9b928b
-    trailLength: 34.5
+    trailLength: 12.5
     trailWidth: 1.32
 
     frontColor: e0b28d
