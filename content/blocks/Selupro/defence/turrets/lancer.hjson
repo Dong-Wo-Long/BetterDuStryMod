@@ -45,7 +45,7 @@ shootType: {
     ammoMultiplier: 1
 
     status: 20s-35-status-tier-2-direct-purpose-emp
-    statusDuration: 192
+    statusDuration: 540
     pierceCap: 24
     lifetime: 32
     damage: 481
