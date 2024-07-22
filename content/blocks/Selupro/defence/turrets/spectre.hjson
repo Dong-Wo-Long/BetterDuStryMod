@@ -112,11 +112,11 @@ thorium: {
     status: 20s-05-tier-2-strength-reduction
     splashDamageRadius: 72
     statusDuration: 180
-    splashDamage: 81
+    splashDamage: 96
     knockback: 1.8
     pierceCap: 75
     lifetime: 152
-    damage: 121
+    damage: 169
     speed: 2.5
 
     hitSound: large-cannon-hit
