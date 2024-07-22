@@ -68,7 +68,7 @@ graphite: {
     lightRadius: 41.5
 
     trailColor: 6b77a1
-    trailLength: 42.5
+    trailLength: 12.5
     trailWidth: 2.9
 
     frontColor: 95abd9
@@ -124,7 +124,7 @@ thorium: {
 
     lightColor: f9a3c7
     lightOpacity: 0.7
-    lightRadius: 41.5
+    lightRadius: 14.5
 
     trailColor: cb8ebf
     trailLength: 52.5
@@ -188,7 +188,7 @@ pyratite: {
     lightRadius: 52.5
 
     trailColor: d37f47
-    trailLength: 41.5
+    trailLength: 12.5
     trailWidth: 3.65
 
     frontColor: ffaa5f
@@ -246,7 +246,7 @@ blast-compound: {
 
     lightColor: ff795e
     lightOpacity: 0.7
-    lightRadius: 47.5
+    lightRadius: 14.5
 
     trailColor: c85c51
     trailLength: 52.5
@@ -310,7 +310,7 @@ titanium: {
     lightRadius: 45
 
     trailColor: 919fe7
-    trailLength: 42.5
+    trailLength: 12.5
     trailWidth: 3
 
     frontColor: a4b8fa
@@ -370,7 +370,7 @@ surge-alloy: {
 
     lightColor: fcf387
     lightOpacity: 0.7
-    lightRadius: 42.5
+    lightRadius: 12.5
 
     trailColor: e8d174
     trailLength: 72.5
