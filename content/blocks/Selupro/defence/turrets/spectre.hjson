@@ -233,13 +233,13 @@ blast-compound: {
 
     splashDamageRadius: 100
     statusDuration: 48
-    splashDamage: 181
+    splashDamage: 169
     status: blasted
     knockback: 2.1
     pierceCap: 96
     lifetime: 171
+    damage: 196
     speed: 2.25
-    damage: 121
 
     hitSound: large-cannon-hit
     shootEffect: shootBig
