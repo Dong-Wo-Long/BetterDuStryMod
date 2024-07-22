@@ -148,12 +148,12 @@ blast-compound: {
 
 fragBullet: {
     type: BasicBulletType
-    height: 12.5
     shrinkY: 1
-    width: 7.5
+    height: 12.5
+    width: 3.25
 
     buildingDamageMultiplier: 0.05
-    pierceDamageFactor: 0.25
+    pierceDamageFactor: 100
 
     splashDamageRadius: 26
     statusDuration: 60
@@ -173,7 +173,7 @@ fragBullet: {
 
     trailColor: c85c51
     trailLength: 3.5
-    trailWidth: 1.75
+    trailWidth: 0.7
 
     frontColor: ff795e
     backColor: c85c51
@@ -245,6 +245,7 @@ surge-alloy: {
     width: 4.5
 
     buildingDamageMultiplier: 0.15
+    pierceDamageFactor: 100
     reloadMultiplier: 2.25
     ammoMultiplier: 12
     rangeChange: 172
