@@ -2,8 +2,6 @@ itemCapacity: 50000
 health: 50000
 armor: 7
 
-powerProduction: 25
-
 requirements: [
     lead/18000
     metaglass/7500
