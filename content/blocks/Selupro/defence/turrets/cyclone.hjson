@@ -172,7 +172,7 @@ fragBullet: {
     lightRadius: 27.5
 
     trailColor: c85c51
-    trailLength: 12.5
+    trailLength: 3.5
     trailWidth: 1.75
 
     frontColor: ff795e
@@ -231,7 +231,7 @@ fragBullet: {
     lightRadius: 21.5
 
     trailColor: cbd97f
-    trailLength: 12.5
+    trailLength: 5.5
     trailWidth: 1.25
 
     frontColor: edf3a9
@@ -274,7 +274,7 @@ surge-alloy: {
 
     frontColor: fcf387
     backColor: e8d174
-}
+    }
 
 silicon: {
     type: BasicBulletType
@@ -374,7 +374,7 @@ scrap: {
     rangeChange: 60
 
     fragBullets: 8
-    pierceCap: 8
+    pierceCap: 6
     lifetime: 66
     damage: 14.5
     speed: 6.75
@@ -409,7 +409,7 @@ fragBullet: {
     lightRadius: 12.5
 
     trailColor: 9b928b
-    trailLength: 12.5
+    trailLength: 4.5
     trailWidth: 0.85
 
     frontColor: e0b28d
