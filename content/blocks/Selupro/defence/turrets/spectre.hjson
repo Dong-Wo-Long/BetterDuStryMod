@@ -127,7 +127,7 @@ thorium: {
     lightRadius: 14.5
 
     trailColor: cb8ebf
-    trailLength: 52.5
+    trailLength: 24.5
     trailWidth: 3.15
 
     frontColor: f9a3c7
@@ -249,7 +249,7 @@ blast-compound: {
     lightRadius: 14.5
 
     trailColor: c85c51
-    trailLength: 52.5
+    trailLength: 24.5
     trailWidth: 3.15
 
     frontColor: ff795e
@@ -373,7 +373,7 @@ surge-alloy: {
     lightRadius: 12.5
 
     trailColor: e8d174
-    trailLength: 72.5
+    trailLength: 27.5
     trailWidth: 3.25
 
     frontColor: fcf387
