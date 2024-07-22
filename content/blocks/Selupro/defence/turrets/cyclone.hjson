@@ -245,7 +245,7 @@ surge-alloy: {
     width: 4.5
 
     buildingDamageMultiplier: 0.15
-    pierceDamageFactor: 100
+    pierceDamageFactor: 0.0025
     reloadMultiplier: 2.25
     ammoMultiplier: 12
     rangeChange: 172
@@ -315,7 +315,7 @@ pyratite: {
     width: 7.5
 
     buildingDamageMultiplier: 0.01
-    pierceDamageFactor: 0.5
+    pierceDamageFactor: 0.0025
     ammoMultiplier: 21
     rangeChange: 24
 
