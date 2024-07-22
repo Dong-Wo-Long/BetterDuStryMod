@@ -116,7 +116,7 @@ thorium: {
     knockback: 1.8
     pierceCap: 75
     lifetime: 152
-    damage: 169
+    damage: 181
     speed: 2.5
 
     hitSound: large-cannon-hit
@@ -233,12 +233,12 @@ blast-compound: {
 
     splashDamageRadius: 100
     statusDuration: 48
-    splashDamage: 169
+    splashDamage: 214
     status: blasted
     knockback: 2.1
     pierceCap: 96
     lifetime: 171
-    damage: 196
+    damage: 181
     speed: 2.25
 
     hitSound: large-cannon-hit
