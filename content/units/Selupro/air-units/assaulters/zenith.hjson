@@ -84,23 +84,22 @@ bullet: {
 
 hitEffect: {
     type: ExplosionEffect
+    lifetime: 96
 
-    lifetime: 32
-
-    waveColor: ffaa5f
+    waveColor: ffd2ae
     waveStroke: 3.2
-    waveRad: 48
+    waveRad: 40
 
-    smokeColor: 696969
+    smokeColor: 454545
     smokeSizeBase: 0
-    smokeSize: 14.5
+    smokeSize: 21.5
     smokes: 7
 
-    sparkColor: ffaa5f
-    sparkStroke: 1.8
-    sparkRad: 27.5
-    sparkLen: 3
-    sparks: 9
+    sparkColor: ffd2ae
+    sparkStroke: 1.25
+    sparkRad: 24.5
+    sparkLen: 5
+    sparks: 19
     }
 }
     }
