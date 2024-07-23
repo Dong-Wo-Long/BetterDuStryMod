@@ -1,4 +1,5 @@
 research: fortress
+forceMultiTarget: true
 rotateSpeed: 1.32
 stepShake: 8.75
 fogRadius: 34.5
@@ -29,6 +30,10 @@ abilities: [
     amount: 250
     range: 256
     max: 250
+}
+    {
+    type: ArmorPlateAbility
+    healthMultiplier: 1.5
 }
     {
     type: RegenAbility
@@ -71,54 +76,155 @@ bullet: {
 
 {
     name: scepter-weapon
+    parentizeEffects: true
+    rotationLimit: 30
+    baseRotation: 7.5
+    rotateSpeed: 0.6
     inaccuracy: 3
     shootCone: 45
+    rotate: true
     shootY: 8
     recoil: 5
     shake: 6
     y: 1
     x: 16
 
-    reload: 32
+    cooldownTime: 180
+    velocityRnd: 0.45
+    inaccuracy: 9
+    reload: 60
 
-    shootSound: heavy-autocannon-shot
-    ejectEffect: casing4
+    shootSound: heavy-shotgun-shot
+    ejectEffect: casing3
 shoot: {
-    shotDelay: 5
-    shots: 5
+    type: ShootSpread
+    firstShotDelay: 30
+    spread: 0.5
+    shots: 15
+    }
+
+parts: [
+    {
+    type: RegionPart
+    suffix: -rotator
+    progress: reload
+    outline: false
+    under: true
+
+    moveRot: 15000
+    x: 4.5
+    y: -0.75
 }
+
+    {
+    type: ShapePart
+    circle: false
+    hollow: true
+
+    color: a4b8fa
+    layer: 100
+    moveY: 165
+    y: 15
+    
+    rotateSpeed: 1
+    rotation: 0
+
+    radiusTo: 5
+    radius: 0
+
+    strokeTo: 1
+    stroke: 0
+}
+
+    {
+    type: ShapePart
+    circle: false
+    hollow: true
+
+    color: d1efff
+    layer: 100
+    moveY: 165
+    y: 15
+
+    rotateSpeed: 1
+    rotation: 45
+
+    radiusTo: 5
+    radius: 0
+
+    strokeTo: 1
+    stroke: 0
+}
+    ]
 
 bullet: {
     type: BasicBulletType
+    parentizeEffects: true
     collideTerrain: true
+    pierceBuilding: true
     despawnShake: 7.5
     hitShake: 7.5
     pierce: true
     height: 20
     width: 11
 
-    buildingDamageMultiplier: 1.5
-    pierceDamageFactor: 0.25
+    buildingDamageMultiplier: 1.8
+    pierceDamageFactor: 0.05
 
     status: 20s-06-tier-1-strength-reduction
+    splashDamageRadius: 12
     lightningDamage: 24
     statusDuration: 300
     lightningLength: 7
+    splashDamage: 121
+    lifetime: 14.75
+    weaveScale: 3
     pierceCap: 96
     lightning: 4
-    lifetime: 38
-    damage: 121
-    speed: 7
+    weaveMag: 3
+    damage: 181
+    speed: 15
 
-    shootEffect: shootBig
+    smokeEffect: shootBigSmoke2
+    hitEffect: hitBulletColor
+    shootEffect: sparkShoot
 
-    lightColor: f3e979
+    lightColor: d1efff
     lightOpacity: 0.7
     lightRadius: 37.5
 
-    lightningColor: f3e979
-    frontColor: ffffff
-    backColor: f3e979
+    trailColor: a4b8fa
+    trailLength: 3.25
+    trailWidth: 2.1
+
+    lightningColor: d1efff
+    frontColor: d1efff
+    backColor: a4b8fa
+
+despawnEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 9
+
+    sizeFrom: 0
+    sizeTo: 24
+
+    colorFrom: d1efff
+    colorTo: a4b8fa
+    }
+
+chargeEffect: {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 24
+    offsetX: 7
+    line: true
+
+    colorFrom: d1efff
+    colorTo: a4b8fa
+    }
 }
     }
 
@@ -129,7 +235,7 @@ bullet: {
     x: 4.5
     y: 7.5
 
-    reload: 32
+    reload: 24
 
     shootSound: submachine-gun-shot
     ejectEffect: casing1
@@ -144,44 +250,16 @@ bullet: {
     width: 7
 
     lifetime: 50
-    damage: 32
+    damage: 48
     speed: 4.5
 
     lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 21
-}
-    }
 
-{
-    name: mount-weapon
-    shootCone: 45
-    rotate: true
-    shootY: 3
-    x: 10.5
-    y: 6.5
-
-    reload: 32
-
-    shootSound: submachine-gun-shot
-    ejectEffect: casing1
-shoot: {
-    shotDelay: 4
-    shots: 3
-}
-
-bullet: {
-    type: BasicBulletType
-    height: 9
-    width: 7
-
-    lifetime: 50
-    damage: 32
-    speed: 4.5
-
-    lightColor: fff8e8
-    lightOpacity: 0.7
-    lightRadius: 21
+    trailColor: f9c27a
+    trailLength: 4.8
+    trailWidth: 1.25
 }
     }
 
@@ -214,35 +292,36 @@ bullet: {
     type: MissileBulletType
     keepVelocity: false
     despawnShake: 4
-    scaleLife: true
-    drag: -0.003
+    maxRange: 512
     hitShake: 4
     shrinkY: 0
     height: 9
     width: 9
 
-    buildingDamageMultiplier: 1.32
+    buildingDamageMultiplier: 1.24
 
     splashDamageRadius: 26
-    homingPower: 0.02
-    splashDamage: 25
-    homingRange: 360
-    lifetime: 124
-    damage: 50
-    speed: 3
+    homingPower: 0.025
+    splashDamage: 50
+    homingRange: 45
+    lifetime: 129.5
+    weaveScale: 6
+    weaveMag: 3
+    damage: 75
+    speed: 4
 
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
     hitSoundVolume: 0.25
     hitSound: rocket-hit
 
-    lightColor: ffa665
+    lightColor: ffd2ae
     lightOpacity: 0.7
     lightRadius: 32
 
-    trailColor: e58956
-    trailLength: 72.5
-    trailInterval: 8
+    trailInterp: slope
+    trailColor: 454545
+    trailInterval: 2
     trailWidth: 1.5
     }
 }
