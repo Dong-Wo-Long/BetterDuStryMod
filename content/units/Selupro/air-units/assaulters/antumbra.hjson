@@ -283,10 +283,9 @@ bullet: {
     lightRadius: 72.5
 
     trailInterp: slope
-    trailColor: d37f47
-    trailLength: 12.5
-    trailInterval: 8
-    trailWidth: 1.5
+    trailColor: 454545
+    trailInterval: 2
+    trailWidth: 2.5
 
 hitEffect: {
     type: ExplosionEffect
@@ -365,10 +364,9 @@ bullet: {
     lightRadius: 72.5
 
     trailInterp: slope
-    trailColor: d37f47
-    trailLength: 42.5
-    trailInterval: 8
-    trailWidth: 1.5
+    trailColor: 454545
+    trailInterval: 2
+    trailWidth: 2.5
 
 hitEffect: {
     type: ExplosionEffect
