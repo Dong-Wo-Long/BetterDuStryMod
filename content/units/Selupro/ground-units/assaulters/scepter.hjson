@@ -187,8 +187,8 @@ bullet: {
 
     smokeEffect: shootBigSmoke2
     hitEffect: hitBulletColor
-    hitSound: pulse-shot-hit
     shootEffect: sparkShoot
+    hitSound: pulse-hit
 
     lightColor: d1efff
     lightOpacity: 0.7
