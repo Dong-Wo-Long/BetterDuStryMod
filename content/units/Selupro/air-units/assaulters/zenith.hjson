@@ -82,9 +82,6 @@ bullet: {
     trailInterval: 2
     trailWidth: 2.5
 
-    frontColor: ffaa5f
-    backColor: d37f47
-
 hitEffect: {
     type: ExplosionEffect
 
