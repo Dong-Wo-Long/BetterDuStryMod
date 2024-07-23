@@ -94,7 +94,7 @@ bullet: {
     inaccuracy: 9
     reload: 60
 
-    shootSound: heavy-shotgun-shot
+    shootSound: pulse-shot-1
     ejectEffect: casing3
 shoot: {
     type: ShootSpread
@@ -187,6 +187,7 @@ bullet: {
 
     smokeEffect: shootBigSmoke2
     hitEffect: hitBulletColor
+    hitSound: pulse-shot-hit
     shootEffect: sparkShoot
 
     lightColor: d1efff
@@ -214,17 +215,58 @@ despawnEffect: {
     colorTo: a4b8fa
     }
 
-chargeEffect: {
+chargeEffect: [
+    {
     type: ParticleEffect
     rotWithParent: true
     followParent: true
+    randLength: false
+    particles: 18
     lifetime: 24
     offsetX: 7
     line: true
+    cone: 360
+
+    baseLength: 5
+    length: 0
+
+    colorFrom: ffffff
+    colorTo: d1efff
+}
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    particles: 1
+    lifetime: 24
+    offsetX: 7
+    cone: 360
+
+    baseLength: 0
+    length: 0
+
+    sizeFrom: 0
+    sizeTo: 2.5
+
+    strokeFrom: 0.8
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: d1efff
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 24
+    sizeFrom: 0
+    offsetX: 7
+    sizeTo: 5
 
     colorFrom: d1efff
     colorTo: a4b8fa
-    }
+}
+    ]
 }
     }
 
