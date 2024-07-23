@@ -84,7 +84,7 @@ bullet: {
 
 hitEffect: {
     type: ExplosionEffect
-    lifetime: 96
+    lifetime: 60
 
     waveColor: ffd2ae
     waveStroke: 3.2
@@ -99,7 +99,7 @@ hitEffect: {
     sparkStroke: 1.25
     sparkRad: 24.5
     sparkLen: 5
-    sparks: 19
+    sparks: 15
     }
 }
     }
