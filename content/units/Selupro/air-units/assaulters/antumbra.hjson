@@ -284,32 +284,28 @@ bullet: {
 
     trailInterp: slope
     trailColor: d37f47
-    trailLength: 42.5
+    trailLength: 12.5
     trailInterval: 8
     trailWidth: 1.5
 
-    frontColor: ffaa5f
-    backColor: d37f47
-
 hitEffect: {
     type: ExplosionEffect
+    lifetime: 96
 
-    lifetime: 32
-
-    waveColor: ffaa5f
+    waveColor: ffd2ae
     waveStroke: 3.2
-    waveRad: 45
+    waveRad: 40
 
-    smokeColor: 696969
+    smokeColor: 454545
     smokeSizeBase: 0
-    smokeSize: 14.5
-    smokes: 9
+    smokeSize: 21.5
+    smokes: 7
 
-    sparkColor: ffaa5f
-    sparkStroke: 1.5
-    sparkRad: 32.5
-    sparkLen: 9
-    sparks: 15
+    sparkColor: ffd2ae
+    sparkStroke: 1.25
+    sparkRad: 24.5
+    sparkLen: 5
+    sparks: 19
     }
 }
     }
@@ -374,27 +370,24 @@ bullet: {
     trailInterval: 8
     trailWidth: 1.5
 
-    frontColor: ffaa5f
-    backColor: d37f47
-
 hitEffect: {
     type: ExplosionEffect
+    lifetime: 96
 
-    lifetime: 32
-
-    waveColor: ffaa5f
+    waveColor: ffd2ae
     waveStroke: 3.2
-    waveRad: 45
+    waveRad: 40
 
-    smokeColor: 696969
+    smokeColor: 454545
     smokeSizeBase: 0
-    smokeSize: 14.5
-    smokes: 9
+    smokeSize: 21.5
+    smokes: 7
 
-    sparkColor: ffaa5f
-    sparkStroke: 1.5
-    sparkRad: 32.5
-    sparkLen: 9
+    sparkColor: ffd2ae
+    sparkStroke: 1.25
+    sparkRad: 24.5
+    sparkLen: 5
+    sparks: 19
     sparks: 15
     }
 }
@@ -462,7 +455,7 @@ bullet: {
     lightRadius: 52
 
     trailColor: f9c27a
-    trailLength: 72.5
+    trailLength: 5.5
     trailWidth: 1.75
 }
     }
@@ -532,7 +525,7 @@ bullet: {
     trailEffect: artilleryTrail
     trailInterval: 12.5
     trailColor: a4b8fa
-    trailLength: 81
+    trailLength: 15
     trailWidth: 3
     trailSize: 3
 
