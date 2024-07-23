@@ -78,7 +78,7 @@ bullet: {
     lightRadius: 72.5
 
     trailColor: d37f47
-    trailLength: 42.5
+    trailLength: 12.5
     trailInterval: 8
     trailWidth: 1.5
 
