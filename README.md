@@ -10,3 +10,6 @@ This mod is an amalgamation of EU and ET. However, in addition it adds new block
 Special thanks to Snake#2132 for the ability to use weapon sprites for units:
 - ship-cannon - is based on the "parity-unit-launcher"
 - aa-ship-weapon - original sprite "point-laser-mount"
+
+### Asthosus
+https://github.com/Catana791/asthosus?ysclid=lyzrir3syb127993937
