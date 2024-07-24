@@ -13,3 +13,6 @@ Special thanks to Snake#2132 for the ability to use weapon sprites for units:
 
 ### Asthosus
 (https://github.com/Catana791/asthosus?ysclid=lyzrir3syb127993937)
+
+Thanks also to Catana#8735 for the opportunity to use this sprite
+- missiles-mount - recolor sprite "everse-launcher"
