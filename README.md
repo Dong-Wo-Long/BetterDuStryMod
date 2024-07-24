@@ -5,6 +5,6 @@ This mod is an amalgamation of EU and ET. However, in addition it adds new block
 ### P.S.
 #### Saphirrium (https://github.com/3Snake3/Sapphirium?ysclid=lyzqzrbhic385832513)
 
-Отдельная благодарность Snake за возможность использовать спрайты оружий для юнитов:
-- ship-cannon - сделан на основе parity-unit-launcher
-- aa-ship-weapon - оригинал спрайта point-laser-mount
+Special thanks to Snake for the ability to use weapon sprites for units:
+- ship-cannon - is based on the "parity-unit-launcher"
+- aa-ship-weapon - original sprite "point-laser-mount"
