@@ -23,6 +23,13 @@ deathSound: small-air-crush
 
 targetFlags: [ generator, reactor, battery, extinguisher, drill, repair ]
 
+
+    {
+    type: RegenAbility
+    amount: 0.7125
+}
+    ]
+
 weapons: [
 {   
     name: mount-weapon
