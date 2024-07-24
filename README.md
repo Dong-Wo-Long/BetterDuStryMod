@@ -1,4 +1,4 @@
-![BetterDuStryMod](https://github.com/3Snake3/Pictures/blob/master/icon3.png](https://github.com/Dong-Wo-Long/BetterDuStryMod/blob/main/icon.png)
+![BetterDuStryMod](https://github.com/Dong-Wo-Long/BetterDuStryMod/blob/main/icon.png)
 # BetterDuStryMod
 ### Introduction
 This mod is an amalgamation of EU and ET. However, in addition it adds new blocks and rebalances existing blocks.
