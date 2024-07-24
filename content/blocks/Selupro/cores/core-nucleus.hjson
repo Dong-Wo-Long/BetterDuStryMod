@@ -5,9 +5,9 @@ health: 50000
 armor: 7
 
 requirements: [
-    lead/18000
-    metaglass/7500
-    titanium/12500
-    thorium/8100
-    silicon/9600
+    lead/24000
+    metaglass/9600
+    titanium/25000
+    thorium/18000
+    silicon/21000
 ]
