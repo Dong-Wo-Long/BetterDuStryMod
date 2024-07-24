@@ -15,6 +15,7 @@ armor: 3
 
 lightColor: fff8e8
 lightOpacity: 0.7
+healColor: b0bac0
 lightRadius: 45
 
 trailLength: 7.5
