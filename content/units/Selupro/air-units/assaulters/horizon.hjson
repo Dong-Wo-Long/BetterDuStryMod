@@ -23,6 +23,13 @@ immunities: [ blasted ]
 
 targetFlags: [ generator, unitAssembler, factory, storage, battery, drill ]
 
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.04
+}
+    ]
+
 weapons: [
 {
     minShootVelocity: 0.75
