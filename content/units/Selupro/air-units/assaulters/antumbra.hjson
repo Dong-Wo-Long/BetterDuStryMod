@@ -1,22 +1,23 @@
 research: zenith
 alwaysShootWhenMoving: true
+forceMultiTarget: true
 circleTarget: true
 fogRadius: 48
 
 crashDamageMultiplier: 6
 
-ammoType: plastanium
 itemCapacity: 9600
 fallSpeed: 0.0025
 rotateSpeed: 0.9
 health: 32000
-accel: 0.0025
-drag: 0.0025
+accel: 0.005
+drag: 0.005
 speed: 1.3
 armor: 81
 
 lightColor: fff8e8
 lightOpacity: 0.7
+healColor: b0bac0
 lightRadius: 110
 
 trailLength: 19
@@ -33,410 +34,139 @@ abilities: [
     {
     type: ShieldRegenFieldAbility
     reload: 1920
-    amount: 3600
-    max: 18000
+    amount: 2000
+    max: 24000
     range: 0
 }
     {
     type: ShieldRegenFieldAbility
     reload: 960
-    amount: 160
+    amount: 250
     range: 256
-    max: 960
+    max: 500
+}
+    {
+    type: UnitSpawnAbility
+    unit: flare
+
+    spawnTime: 540
+    spawnX: 20
+    spawnY: -12
+}
+    {
+    type: UnitSpawnAbility
+    unit: flare
+
+    spawnTime: 540
+    spawnX: -20
+    spawnY: -12
+}
+
+    {
+    type: RegenAbility
+    amount: 0.7125
 }
     ]
 
 weapons: [
 {
-    parentizeEffects: true
+    name: missiles-mount
     controllable: false
+    rotationLimit: 235
+    rotateSpeed: 1.25
     autoTarget: true
-    shootCone: 96
+    shootCone: 15
     mirror: false
-    x: 0
-    y: 24
-
-    velocityRnd: 0.5
-    inaccuracy: 32
-    reload: 1440
-
-    shootStatus: 20s-11-status-tier-2-motor-deceleration
-    shootSound: loudly-blaster-shot-1
-    chargeSound: charging-weapon
-    shootStatusDuration: 750
-shoot: {
-    type: ShootSpread
-    firstShotDelay: 475
-    shotDelay: 24
-    spread: 1.5
-    shots: 9
-    }
-
-bullet: {
-    type: BasicBulletType
-    sprite: large-orb
-    parentizeEffects: true
-    keepVelocity: false
-    collidesAir: false
-    absorbable: false
-    despawnShake: 5
-    scaleLife: true
-    maxRange: 360
-    shrinkX: 0.25
-    shrinkY: 0.25
-    pierce: true
-    hitShake: 5
-    height: 15
-    width: 15
-
-    buildingDamageMultiplier: 1.75
-
-    status: 20s-05-tier-2-strength-reduction
-    splashDamageRadius: 40
-    statusDuration: 180
-    splashDamage: 81
-    pierceCap: 75
-    lifetime: 420
-    drag: 0.0125
-    speed: 2.75
-    damage: 96
-
-    hitSound: bomb-hit
-
-    lightColor: feb380
-    lightOpacity: 0.7
-    lightRadius: 72.5
-
-    trailEffect: artilleryTrail
-    trailInterval: 12.5
-    trailColor: feb380
-    trailLength: 1.5
-    trailWidth: 1.5
-
-    frontColor: ffffff
-    backColor: feb380
-
-shootEffect: {
-    type: WaveEffect
-    lifetime: 48
-    sizeFrom: 0
-    sizeTo: 32
-
-    colorFrom: feb380
-    colorTo: ffffff
-    }
-
-hitEffect: {
-    type: ExplosionEffect
-
-    lifetime: 48
-
-    waveColor: ffaa5f
-    waveStroke: 3.2
-    waveRad: 48
-
-    smokeColor: 696969
-    smokeSizeBase: 0
-    smokeSize: 14.5
-    smokes: 7
-
-    sparkColor: ffaa5f
-    sparkStroke: 1.8
-    sparkRad: 27.5
-    sparkLen: 3
-    sparks: 9
-    }
-
-chargeEffect: {
-    type: MultiEffect
-effects: [
-{
-    type: WaveEffect
-    rotWithParent: true
-    lifetime: 465
-    sizeFrom: 24
-    sizeTo: 0
-
-    colorFrom: feb380
-    colorTo: ffffff
-    }
-
-{
-    type: ParticleEffect
-    rotWithParent: true
-    lifetime: 465
-    particles: 1
-    cone: 360
-
-    baseLength: 0
-    length: 0
-
-    sizeFrom: 0
-    sizeTo: 9
-
-    strokeFrom: 0.8
-    strokeTo: 0
-
-    colorFrom: ffffff
-    colorTo: feb380
-    }
-
-{
-    type: ParticleEffect
-    rotWithParent: true
-    particles: 24
-    lifetime: 460
-    line: true
-    cone: 360
-
-    baseRotation: 0
-    baseLength: 18
-    length: -18
-
-    strokeFrom: 1.5
-    strokeTo: 0
-
-    colorFrom: ffffff
-    colorTo: feb380
-    }
-]
-    }
-}
-    }
-
-{
-    name: orange-bsw
-    type: PointDefenseWeapon
-    rotationLimit: 215
-    mirror: false
-    shadow: 9
+    rotate: true
+    recoil: 1.5
+    shake: 4
     x: 0
     y: 5
 
-    targetSwitchInterval: 12.5
-    targetInterval: 7.5
-    reload: 2.5
+    cooldownTime: 120
+    reload: 60
 
-    shootSound: lasershoot
-
+    shootSound: scanning
 bullet: {
-    maxRange: 180
-    damage: 48
+    type: SapBulletType
+    collidesGround: false
+    length: 360
+    width: 0.75
 
-    shootEffect: sparkShoot
-    hitEffect: pointHit
-}
-    }
+    status: 20s-18-status-tier-1-damage-reduction
+    statusDuration: 90
+    sapStrength: 0.25
+    knockback: -1
+    lifetime: 40
+    damage: 81
 
-{
-    name: large-mm
-    rotationLimit: 60
-    baseRotation: 24
-    shootCone: 45
-    rotate: true
-    shake: 5
-    x: 14
-    y: 18
+    shootEffect: shootSmall
+    despawnEffect: none
 
-    velocityRnd: 0.32
-    inaccuracy: 9
-    reload: 320
-
-    chargeSound: short-target-locked
-    shootSound: rocket-shot
-shoot: {
-    firstShotDelay: 185
-    shotDelay: 6
-    shots: 9
-    }
-
-bullet: {
-    type: MissileBulletType
-    keepVelocity: false
-    despawnShake: 3.2
-    scaleLife: true
-    hitShake: 3.2
-    shrinkX: 0.25
-    shrinkY: 0.5
-    pierce: true
-    drag: -0.003
-    height: 12
-    width: 8
-
-    pierceDamageFactor: 100
-
-    splashDamageRadius: 40
-    statusDuration: 60
-    splashDamage: 81
-    status: blasted
-    homingPower: 0
-    homingRange: 0
-    weaveScale: 6
-    pierceCap: 75
-    lifetime: 148
-    weaveMag: 1
-    damage: 121
-    speed: 3
-
-    lightColor: d06b53
+    lightColor: feb380
     lightOpacity: 0.7
-    lightRadius: 72.5
+    lightRadius: 21
 
-    trailInterp: slope
-    trailColor: 454545
-    trailInterval: 2
-    trailWidth: 2.5
+    hitColor: feb380
+    color: feb380
 
 hitEffect: {
-    type: ExplosionEffect
-    lifetime: 96
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 30
 
-    waveColor: ffd2ae
-    waveStroke: 3.2
-    waveRad: 40
+    sizeFrom: 0
+    sizeTo: 40
 
-    smokeColor: 454545
-    smokeSizeBase: 0
-    smokeSize: 21.5
-    smokes: 7
+    strokeFrom: 5
+    strokeTo: 2.5
 
-    sparkColor: ffd2ae
-    sparkStroke: 1.25
-    sparkRad: 24.5
-    sparkLen: 5
-    sparks: 19
+    colorFrom: feb380
+    colorTo: ea8878
     }
 }
     }
 
 {
-    name: large-mm
-    rotationLimit: 60
-    baseRotation: 15
-    shootCone: 45
-    rotate: true
-    shake: 5
-    x: 20
-    y: 6
-
-    velocityRnd: 0.32
-    inaccuracy: 9
-    reload: 360
-
-    chargeSound: short-target-locked
-    shootSound: rocket-shot
-shoot: {
-    firstShotDelay: 185
-    shotDelay: 6
-    shots: 9
-    }
-
-bullet: {
-    type: MissileBulletType
-    keepVelocity: false
-    despawnShake: 3.2
-    scaleLife: true
-    hitShake: 3.2
-    shrinkX: 0.25
-    shrinkY: 0.5
-    pierce: true
-    drag: -0.003
-    height: 12
-    width: 8
-
-    pierceDamageFactor: 100
-
-    splashDamageRadius: 40
-    statusDuration: 60
-    splashDamage: 96
-    status: blasted
-    homingPower: 0
-    homingRange: 0
-    weaveScale: 6
-    pierceCap: 81
-    lifetime: 148
-    weaveMag: 1
-    damage: 125
-    speed: 3
-
-    lightColor: d06b53
-    lightOpacity: 0.7
-    lightRadius: 72.5
-
-    trailInterp: slope
-    trailColor: 454545
-    trailInterval: 2
-    trailWidth: 2.5
-
-hitEffect: {
-    type: ExplosionEffect
-    lifetime: 96
-
-    waveColor: ffd2ae
-    waveStroke: 3.2
-    waveRad: 40
-
-    smokeColor: 454545
-    smokeSizeBase: 0
-    smokeSize: 21.5
-    smokes: 7
-
-    sparkColor: ffd2ae
-    sparkStroke: 1.25
-    sparkRad: 24.5
-    sparkLen: 5
-    sparks: 19
-    sparks: 15
-    }
-}
-    }
-
-{
-    name: large-caliber-minigun
+    name: ship-cannon
+    parentizeEffects: true
     predictTarget: false
-    rotationLimit: 24
-    baseRotation: 7.5
-    rotateSpeed: 0.5
+    rotationLimit: 235
+    rotateSpeed: 0.75
     alternate: false
-    inaccuracy: 11
     rotate: true
     shootY: -2
     shadow: 8
     shake: 5
-    x: 10
-    y: 1
+    x: 14
+    y: 18
 
-    cooldownTime: 380
-    velocityRnd: 0.15
-    inaccuracy: 7
-    reload: 420
+    cooldownTime: 90
+    reload: 60
 
-    shootStatus: 20s-12-status-tier-1-motor-deceleration
-    chargeSound: heavy-minigun-charge
-    shootSound: heavy-minigun-shot
-    shootStatusDuration: 640
-    ejectEffect: casing3
+    shootSound: pulse-shot-2
+    ejectEffect: casing2
 shoot: {
-    firstShotDelay: 102
-    shotDelay: 5
-    shots: 96
+    firstShotDelay: 20
+    shots: 1
     }
 
 bullet: {
     type: BasicBulletType
+    pierceBuilding: true
     keepVelocity: false
-    collidesAir: false
-    despawnShake: 7
-    pierce: true
-    hitShake: 7
-    height: 15
-    width: 9
+    despawnShake: 5
+    hittable: false
+    hitShake: 5
+    height: 9
+    width: 5
 
-    buildingDamageMultiplier: 0.75
-    pierceDamageFactor: 0.05
+    buildingDamageMultiplier: 1.25
+    pierceDamageFactor: 0.005
 
     status: 20s-06-tier-1-strength-reduction
-    splashDamageRadius: 12
+    splashDamageRadius: 26
     statusDuration: 180
     splashDamage: 81
     lifetime: 21.25
@@ -444,153 +174,393 @@ bullet: {
     damage: 96
     speed: 16
 
-    hitSound: heavy-minigun-hit
-    hitEffect: blastExplosion
+    smokeEffect: shootSmallSmoke
+    hitEffect: hitBulletColor
     shootEffect: shootBig
-
-    lightColor: fff8e8
-    lightOpacity: 0.7
-    lightRadius: 52
-
-    trailColor: f9c27a
-    trailLength: 5.5
-    trailWidth: 1.75
-}
-    }
-
-{
-    name: large-emp-artillery
-    parentizeEffects: true
-    controllable: false
-    baseRotation: -195
-    rotationLimit: 135
-    rotateSpeed: 0.25
-    autoTarget: true
-    shootCone: 15
-    rotate: true
-    shadow: 17.5
-    shake: 9
-    x: 19.5
-    y: -12
-
-    reload: 600
-
-    shootStatus: 20s-11-status-tier-2-motor-deceleration
-    shootSound: large-artillery-shot
-    chargeSound: charging-power
-    shootStatusDuration: 450
-    shootEffect: shootBig
-    ejectEffect: casing4
-shoot: {
-    firstShotDelay: 117
-    shotDelay: 60
-    shots: 3
-    }
-    
-bullet: {
-    type: ArtilleryBulletType
-    sprite: missile-large
-    parentizeEffects: true
-    pierceBuilding: true
-    collidesTiles: true
-    collidesAir: false
-    despawnShake: 7.5
-    hitShake: 7.5
-    shrinkY: 0.5
-    pierce: true
-    height: 18
-    width: 12
-
-    status: 20s-35-status-tier-2-direct-purpose-emp
-    splashDamageRadius: 60
-    lightningLength: 7.5
-    statusDuration: 540
-    lightningDamage: 5
-    splashDamage: 180
-    knockback: -24
-    pierceCap: 196
-    lifetime: 196
-    lightning: 9
-    damage: 360
-    speed: 1
-
-    hitSound: rocket-explosion
+    hitSound: pulse-hit
 
     lightColor: d1efff
     lightOpacity: 0.7
-    lightRadius: 67.5
+    lightRadius: 37.5
 
-    trailEffect: artilleryTrail
-    trailInterval: 12.5
-    trailColor: a4b8fa
-    trailLength: 15
-    trailWidth: 3
-    trailSize: 3
+    trailColor: 8ca9e8
+    trailLength: 5.5
+    trailWidth: 1.25
 
     lightningColor: d1efff
     frontColor: d1efff
-    backColor: a4b8fa
+    backColor: 8ca9e8
 
-hitEffect: {
-    type: ExplosionEffect
+despawnEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 9
 
-    lifetime: 32
+    sizeFrom: 0
+    sizeTo: 24
 
-    waveColor: d1efff
-    waveStroke: 3.2
-    waveRad: 64
-
-    smokeColor: 8ca9e8
-    smokeSizeBase: 0
-    smokeSize: 21.5
-    smokes: 15
-
-    sparkColor: d1efff
-    sparkStroke: 1.8
-    sparkRad: 41.5
-    sparkLen: 9
-    sparks: 18
-}
+    colorFrom: d1efff
+    colorTo: 8ca9e8
+    }
 
 chargeEffect: {
     type: WaveEffect
     rotWithParent: true
     followParent: true
-    offsetX: 1
-
-    sizeFrom: 12.5
+    lifetime: 18
+    offsetX: 3.5
+    sizeFrom: 5
     sizeTo: 0
 
-    lifetime: 105
-
-    colorFrom: a4b8fa
-    colorTo: d1efff
+    colorFrom: d1efff
+    colorTo: 8ca9e8
     }
 }
     }
 
 {
-    name: large-orange-bsw
-    type: PointDefenseWeapon
-    rotateSpeed: 9
-    mirror: false
+    name: ship-cannon
+    parentizeEffects: true
+    predictTarget: false
+    rotationLimit: 235
+    rotateSpeed: 0.75
+    alternate: false
     rotate: true
-    shadow: 9
-    x: 0
-    y: -7
+    shootY: -2
+    shadow: 8
+    shake: 5
+    x: 20
+    y: 6
 
-    targetSwitchInterval: 5
-    targetInterval: 5
-    reload: 5
+    cooldownTime: 120
+    reload: 90
 
-    shootSound: lasershoot
+    shootSound: pulse-shot-2
+    ejectEffect: casing2
+shoot: {
+    firstShotDelay: 20
+    shots: 1
+    }
 
 bullet: {
-    maxRange: 240
-    damage: 96
+    type: BasicBulletType
+    pierceBuilding: true
+    keepVelocity: false
+    despawnShake: 5
+    hittable: false
+    hitShake: 5
+    height: 9
+    width: 5
 
-    shootEffect: sparkShoot
-    hitEffect: pointHit
+    buildingDamageMultiplier: 1.25
+    pierceDamageFactor: 0.005
+
+    status: 20s-06-tier-1-strength-reduction
+    splashDamageRadius: 26
+    statusDuration: 180
+    splashDamage: 81
+    lifetime: 21.25
+    pierceCap: 75
+    damage: 96
+    speed: 16
+
+    smokeEffect: shootSmallSmoke
+    hitEffect: hitBulletColor
+    shootEffect: shootBig
+    hitSound: pulse-hit
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 37.5
+
+    trailColor: 8ca9e8
+    trailLength: 5.5
+    trailWidth: 1.25
+
+    lightningColor: d1efff
+    frontColor: d1efff
+    backColor: 8ca9e8
+
+despawnEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 9
+
+    sizeFrom: 0
+    sizeTo: 24
+
+    colorFrom: d1efff
+    colorTo: 8ca9e8
+    }
+
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 18
+    offsetX: 3.5
+    sizeFrom: 5
+    sizeTo: 0
+
+    colorFrom: d1efff
+    colorTo: 8ca9e8
+    }
+}
+    }
+
+{
+    name: aa-ship-weapon
+    rotateSpeed: 1.5
+    shootCone: 24
+    mirror: false
+    rotate: true
+    shootY: 4.5
+    recoils: 2
+    recoil: 1
+    shake: 2
+    x: 0
+    y: -6
+
+    cooldownTime: 90
+    reload: 9
+
+    shootSound: plasma-shot-3
+    ejectEffect: casing3
+shoot: { 
+    type: ShootMulti
+source: {
+    type: ShootAlternate
+    spread: 7.5
+    barrels: 2
+    shots: 1
+}
+dest: [ 
+{
+    type: ShootSpread
+    spread: 7.5
+    shots: 1
+    }
+]
+    }
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl-right
+    progress: recoil
+    recoilIndex: 1
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+}
+    }
+
+{
+    type: RegionPart
+    suffix: -brl-left
+    progress: recoil
+    recoilIndex: 0
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+    }
+}
+    ]
+
+bullet: {
+    type: BasicBulletType
+    keepVelocity: false
+    absorbable: false
+    despawnShake: 2
+    hitShake: 2
+    height: 14
+    width: 8
+
+    buildingDamageMultiplier: 1.75
+
+    status: 20s-23-status-tier-2-destructuring
+    splashDamageRadius: 12
+    statusDuration: 180
+    splashDamage: 50
+    pierceCap: 18
+    lifetime: 32
+    damage: 75
+    speed: 12
+
+    smokeEffect: shootSmallSmoke
+    hitEffect: hitBulletColor
+    shootEffect: shootBig
+    hitSound: pulse-hit
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 37.5
+
+    trailColor: ea8878
+    trailLength: 7.5
+    trailWidth: 1.6
+
+    frontColor: feb380
+    backColor: ea8878
+
+despawnEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 9
+
+    sizeFrom: 0
+    sizeTo: 12
+
+    colorFrom: feb380
+    colorTo: ea8878
+    }
+}
+    }
+
+{
+    name: aa-ship-weapon
+    layerOffset: -0.001
+    rotationLimit: 60
+    rotateSpeed: 1.5
+    shootCone: 24
+    mirror: false
+    rotate: true
+    shootY: 4.5
+    recoils: 2
+    recoil: 1
+    shake: 2
+    x: 0
+    y: 17
+
+    cooldownTime: 90
+    reload: 9
+
+    shootSound: plasma-shot-3
+    ejectEffect: casing3
+shoot: { 
+    type: ShootMulti
+source: {
+    type: ShootAlternate
+    spread: 7.5
+    barrels: 2
+    shots: 1
+}
+dest: [ 
+{
+    type: ShootSpread
+    spread: 7.5
+    shots: 1
+    }
+]
+    }
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl-right
+    progress: recoil
+    recoilIndex: 1
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+}
+    }
+
+{
+    type: RegionPart
+    suffix: -brl-left
+    progress: recoil
+    recoilIndex: 0
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+    }
+}
+    ]
+
+bullet: {
+    type: BasicBulletType
+    keepVelocity: false
+    absorbable: false
+    despawnShake: 2
+    hitShake: 2
+    height: 14
+    width: 8
+
+    buildingDamageMultiplier: 1.75
+
+    status: 20s-23-status-tier-2-destructuring
+    splashDamageRadius: 12
+    statusDuration: 180
+    splashDamage: 50
+    pierceCap: 18
+    lifetime: 32
+    damage: 75
+    speed: 12
+
+    smokeEffect: shootSmallSmoke
+    hitEffect: hitBulletColor
+    shootEffect: shootBig
+    hitSound: pulse-hit
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 37.5
+
+    trailColor: ea8878
+    trailLength: 7.5
+    trailWidth: 1.6
+
+    frontColor: feb380
+    backColor: ea8878
+
+despawnEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 9
+
+    sizeFrom: 0
+    sizeTo: 12
+
+    colorFrom: feb380
+    colorTo: ea8878
+}
     }
 }
     ]
