@@ -1,8 +1,6 @@
 # BetterDuStryMod
 ### Introduction
-Лень придумывать, просто знайте, что этот мод обновляет ваниллу и всё.
-
-!!!ЭГИРСЫ НЕ ГОТОВЫ!!!
+This mod is an amalgamation of EU and ET. However, in addition it adds new blocks and rebalances existing blocks.
 
 ## P.S.
 ### Saphirrium (https://github.com/3Snake3/Sapphirium?ysclid=lyzqzrbhic385832513)
