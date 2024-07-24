@@ -12,4 +12,4 @@ Special thanks to Snake#2132 for the ability to use weapon sprites for units:
 - aa-ship-weapon - original sprite "point-laser-mount"
 
 ### Asthosus
-https://github.com/Catana791/asthosus?ysclid=lyzrir3syb127993937
+(https://github.com/Catana791/asthosus?ysclid=lyzrir3syb127993937)
