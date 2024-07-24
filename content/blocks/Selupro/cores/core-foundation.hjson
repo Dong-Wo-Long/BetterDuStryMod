@@ -7,6 +7,6 @@ armor: 5
 requirements: [
     graphite/2400
     lead/5000
-    titanium/7500
-    silicon/3250
+    titanium/7250
+    silicon/3600
 ]
