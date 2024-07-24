@@ -27,6 +27,13 @@ immunities: [ blasted, shocked ]
 
 targetFlags: [ launchPad, factory, storage, repair, unitAssembler, battery ]
 
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.1333333333333
+}
+    ]
+
 weapons: [
 {
     name: large-mm
