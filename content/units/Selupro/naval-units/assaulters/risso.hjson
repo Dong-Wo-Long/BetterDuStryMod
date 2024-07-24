@@ -9,13 +9,22 @@ armor: 8
 lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 62.5
+healColor: b0bac0
+
+immunities: [ burning ]
+
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.05
+}
+    ]
 
 weapons: [
 {
     name: ship-cannon
     parentizeEffects: true
     predictTarget: false
-    rotationLimit: 235
     rotateSpeed: 1.5
     alternate: false
     mirror: false
