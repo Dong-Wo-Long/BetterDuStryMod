@@ -5,7 +5,7 @@
 !!!ЭГИРСЫ НЕ ГОТОВЫ!!!
 
 ## P.S.
-Saphirrium (https://github.com/3Snake3/Sapphirium?ysclid=lyzqzrbhic385832513)
+### Saphirrium (https://github.com/3Snake3/Sapphirium?ysclid=lyzqzrbhic385832513)
 
 Отдельная благодарность Snake за возможность использовать спрайты оружий для юнитов:
 - ship-cannon - сделан на основе parity-unit-launcher
