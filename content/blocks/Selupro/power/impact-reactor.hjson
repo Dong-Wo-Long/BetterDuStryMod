@@ -6,3 +6,4 @@ explosionRadius: 64
 liquidCapacity: 180
 itemDuration: 180
 itemCapacity: 96
+health: 18000
