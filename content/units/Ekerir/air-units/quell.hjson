@@ -5,6 +5,8 @@ fogRadius: 48
 engineColor: bf92f9
 engineLayer: 91
 
+immunities: [ bsm-status-ground-specialization, bsm-status-naval-specialization ]
+
 engines: [
 {
     engineColor: bf92f9
