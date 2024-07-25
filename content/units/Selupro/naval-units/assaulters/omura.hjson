@@ -5,4 +5,4 @@ health: 75000
 speed: 0.4
 armor: 96
 
-immunities: [ burning, melting, shocked, blasted ]
+immunities: [ burning, melting, shocked, blasted, bsm-status-ground-specialization, bsm-status-air-specialization ]
