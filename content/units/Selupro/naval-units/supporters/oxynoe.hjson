@@ -1,1 +1,3 @@
 research: retusa
+
+immunities: [ spore-slowed, electrified, shocked, bsm-status-ground-specialization, bsm-status-air-specialization ]
