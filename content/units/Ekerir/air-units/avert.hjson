@@ -1,1 +1,3 @@
 trailLength: 7.5
+
+immunities: [ bsm-status-air-specialization, bsm-status-naval-specialization ]
