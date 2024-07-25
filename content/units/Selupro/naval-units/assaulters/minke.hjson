@@ -223,7 +223,7 @@ bullet: {
     mirror: false
     rotate: true
     recoil: 2
-    shootY: 2
+    shootY: 3
     shadow: 5
     shake: 3
     x: 0
