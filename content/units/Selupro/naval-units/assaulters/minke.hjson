@@ -24,7 +24,7 @@ weapons: [
     rotate: true
     recoil: 1.5
     shake: 3
-    x: 5
+    x: 6
     y: -11
 
     cooldownTime: 120
