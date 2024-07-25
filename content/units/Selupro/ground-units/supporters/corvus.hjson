@@ -19,7 +19,7 @@ lightOpacity: 0.7
 healColor: 84f491
 lightRadius: 150
 
-immunities: [ shocked, wet, burning, melting, blasted, overclock ]
+immunities: [ shocked, wet, burning, melting, blasted, overclock, bsm-status-air-specialization, bsm-status-naval-specialization ]
 
 abilities: [
     {
