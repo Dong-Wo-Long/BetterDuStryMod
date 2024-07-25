@@ -195,7 +195,7 @@ bullet: {
     collidesAir: false
     despawnShake: 0
     hittable: false
-    maxRange: 384
+    maxRange: 514
     hitShake: 0
     height: 1
     width: 1
