@@ -19,7 +19,7 @@ trailLength: 9.5
 
 deathSound: medium-air-crush
 
-immunities: [ blasted ]
+immunities: [ blasted, bsm-status-air-specialization, bsm-status-naval-specialization ]
 
 targetFlags: [ generator, unitAssembler, factory, storage, battery, drill ]
 
