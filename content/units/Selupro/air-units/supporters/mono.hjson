@@ -13,7 +13,7 @@ lightRadius: 52.5
 
 trailLength: 5.45
 
-immunities: [ tarred, wet ]
+immunities: [ tarred, wet, bsm-status-ground-specialization, bsm-status-naval-specialization ]
 
 ammoType: {
     type: PowerAmmoType
