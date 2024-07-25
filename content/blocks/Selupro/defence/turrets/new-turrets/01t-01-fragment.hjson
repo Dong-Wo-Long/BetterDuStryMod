@@ -8,8 +8,8 @@ fogRadius: 47.5
 hasPower: true
 size: 1
 
-bulletDamage: 2.5
 shootLength: 4.5
+bulletDamage: 3
 reload: 4.8
 health: 210
 range: 340
