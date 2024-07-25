@@ -16,6 +16,8 @@ trailLength: 5.25
 
 deathSound: small-air-crush
 
+immunities: [ bsm-status-ground-specialization, bsm-status-naval-specialization ]
+
 weapons: [
 {
     name: alpha-weapon
