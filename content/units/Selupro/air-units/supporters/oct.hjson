@@ -21,7 +21,7 @@ lightColor: 98ffa9
 lightOpacity: 0.7
 lightRadius: 215
 
-immunities: [ electrified, melting, burning, blasted, shocked, tarred, wet ]
+immunities: [ electrified, melting, burning, blasted, shocked, tarred, wet, bsm-status-ground-specialization, bsm-status-naval-specialization ]
 
 abilities: [
 {
