@@ -11,6 +11,8 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 75
 
+immunities: [ spore-slowed, bsm-status-ground-specialization, bsm-status-air-specialization, bsm-20s-06-tier-1-strength-reduction ]
+
 weapons: [
 {
     name: missiles-mount
