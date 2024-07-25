@@ -5,4 +5,4 @@ health: 75000
 speed: 0.4
 armor: 96
 
-immunities: [ spore-slowed, burning, melting, shocked, blasted, bsm-status-ground-specialization, bsm-status-air-specialization, bsm-20s-05-tier-2-strength-reduction ]
+immunities: [ spore-slowed, burning, melting, shocked, blasted, bsm-status-ground-specialization, bsm-status-air-specialization, bsm-20s-06-tier-1-strength-reduction, bsm-20s-05-tier-2-strength-reduction ]
