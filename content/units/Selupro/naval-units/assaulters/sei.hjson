@@ -6,7 +6,7 @@ health: 48000
 speed: 0.5
 armor: 75
 
-immunities: [ spore-slowed, burning, melting, blasted, bsm-20s-05-tier-2-strength-reduction ]
+immunities: [ spore-slowed, burning, melting, blasted, shocked, bsm-20s-05-tier-2-strength-reduction ]
 
 weapons: [
     {
