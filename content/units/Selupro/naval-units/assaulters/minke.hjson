@@ -115,7 +115,7 @@ bullet: {
     splashDamageRadius: 26
     statusDuration: 90
     splashDamage: 24
-    lifetime: 16.25
+    lifetime: 24.25
     pierceCap: 15
     damage: 48
     speed: 16
@@ -269,7 +269,7 @@ bullet: {
     statusDuration: 60
     splashDamage: 75
     status: blasted
-    lifetime: 48.5
+    lifetime: 64.5
     pierceCap: 15
     damage: 81
     speed: 8
