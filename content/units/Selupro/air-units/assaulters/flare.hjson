@@ -22,7 +22,7 @@ trailLength: 7.5
 
 deathSound: small-air-crush
 
-immunities: [ bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ bsm-status-ground-specialization, bsm-status-naval-specialization ]
 
 targetFlags: [ generator, reactor, battery, extinguisher, drill, repair ]
 
