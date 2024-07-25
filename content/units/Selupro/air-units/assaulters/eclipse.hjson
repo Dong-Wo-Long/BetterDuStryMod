@@ -23,7 +23,7 @@ deathSound: large-air-crush
 loopSound: air-engine
 loopSoundVolume: 0.5
 
-immunities: [ melting, burning, blasted, shocked, tarred, wet ]
+immunities: [ melting, burning, blasted, shocked, tarred, wet, bsm-status-ground-specialization, bsm-status-naval-specialization ]
 
 targetFlags: [ turret, repair, extinguisher, hasFogRadius, unitAssembler, unitCargoUnloadPoint, launchPad, reactor, generator, battery, factory, storage, drill, core ]
 
