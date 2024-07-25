@@ -1,3 +1,4 @@
 research: rtg-generator
 
-powerProduction: 20.8333335
+powerProduction: 41.6666666666
+explosionRadius: 48
