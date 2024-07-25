@@ -36,6 +36,8 @@ trailWidth: 1.5
 engineColor: bf92f9
 engineLayer: 110
 
+immunities: [ bsm-status-ground-specialization, bsm-status-naval-specialization ]
+
 parts: [
     type: FlarePart
     followRotation: true
