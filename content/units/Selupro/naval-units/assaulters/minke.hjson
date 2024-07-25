@@ -16,7 +16,7 @@ weapons: [
     name: missiles-mount
     controllable: false
     rotationLimit: 235
-    baseRotation: -180
+    baseRotation: 135
     rotateSpeed: 1.8
     autoTarget: true
     alternate: false
@@ -24,8 +24,8 @@ weapons: [
     rotate: true
     recoil: 1.5
     shake: 3
-    x: 0
-    y: -12
+    x: 5
+    y: -11
 
     cooldownTime: 120
     reload: 32
