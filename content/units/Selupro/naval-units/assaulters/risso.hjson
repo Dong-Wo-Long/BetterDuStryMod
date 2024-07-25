@@ -1,4 +1,5 @@
 research: naval-factory
+targetAir: false
 
 speed: 0.666666666666
 rotateSpeed: 2.5
