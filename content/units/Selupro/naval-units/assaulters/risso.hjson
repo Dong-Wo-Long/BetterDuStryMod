@@ -12,7 +12,7 @@ lightOpacity: 0.7
 lightRadius: 62.5
 healColor: b0bac0
 
-immunities: [ burning, bsm-status-ground-specialization, bsm-status-air-specialization ]
+immunities: [ blasted, bsm-status-ground-specialization, bsm-status-air-specialization, bsm-20s-06-tier-1-strength-reduction ]
 
 abilities: [
     {
