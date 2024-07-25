@@ -13,7 +13,7 @@ lightOpacity: 0.7
 healColor: b0bac0
 lightRadius: 55
 
-immunities: [ blasted ]
+immunities: [ blasted, bsm-status-air-specialization, bsm-status-naval-specialization ]
 
 abilities: [
     {
