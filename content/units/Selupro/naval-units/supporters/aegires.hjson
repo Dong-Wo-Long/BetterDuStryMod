@@ -8,7 +8,7 @@ health: 48000
 speed: 0.45
 armor: 49
 
-immunities: [ burning, melting, electrified, blasted, overclock, bsm-status-ground-specialization, bsm-status-air-specialization ]
+immunities: [ burning, melting, electrified, blasted, overclock, bsm-status-ground-specialization, bsm-status-air-specialization, bsm-20s-05-tier-2-strength-reduction ]
 
 abilities: [
 {
