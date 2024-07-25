@@ -10,7 +10,7 @@ lightColor: feb380
 lightOpacity: 0.7
 lightRadius: 75
 
-immunities: [ burning, melting, blasted ]
+immunities: [ burning, melting, blasted, bsm-status-air-specialization, bsm-status-naval-specialization ]
 
 weapons: [
 {
