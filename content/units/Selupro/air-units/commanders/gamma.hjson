@@ -17,15 +17,17 @@ trailLength: 5.75
 
 deathSound: small-air-crush
 
+immunities: [ bsm-status-ground-specialization, bsm-status-naval-specialization ]
+
 abilities: [
-{
+    {
     type: ShieldRegenFieldAbility
     reload: 75
     amount: 15
     range: 0
     max: 90
-    }
-]
+}
+    ]
 
 weapons: [
 {
