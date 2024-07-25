@@ -2,3 +2,4 @@ research: rtg-generator
 
 powerProduction: 41.6666666666
 explosionRadius: 48
+health: 5000
