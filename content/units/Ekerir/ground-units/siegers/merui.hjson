@@ -13,6 +13,8 @@ lightColor: 8ca9e8
 lightOpacity: 0.7
 lightRadius: 64.5
 
+immunities: [ bsm-status-air-specialization, bsm-status-naval-specialization ]
+
 weapons: [
 {
     name: merui-weapon
