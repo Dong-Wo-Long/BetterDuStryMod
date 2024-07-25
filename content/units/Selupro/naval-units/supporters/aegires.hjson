@@ -13,7 +13,7 @@ ammoType: {
     totalPower: 900000
 }
 
-immunities: [ burning, melting, electrified, blasted, overclock ]
+immunities: [ burning, melting, electrified, blasted, overclock, bsm-status-ground-specialization, bsm-status-air-specialization ]
 
 abilities: [
 {
