@@ -4,6 +4,6 @@ ambientSoundVolume: 0.25
 powerProduction: 160
 explosionRadius: 64
 liquidCapacity: 240
-itemDuration: 360
-itemCapacity: 96
+itemDuration: 180
+itemCapacity: 360
 health: 18000
