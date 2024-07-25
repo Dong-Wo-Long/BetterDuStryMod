@@ -18,7 +18,7 @@ healColor: b0bac0
 
 deathSound: mech-destroyed
 
-immunities: [ blasted, burning, melting ]
+immunities: [ blasted, burning, melting, bsm-status-air-specialization, bsm-status-naval-specialization ]
 
 abilities: [
     {
