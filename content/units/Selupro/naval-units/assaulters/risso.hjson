@@ -49,6 +49,7 @@ bullet: {
     type: BasicBulletType
     pierceBuilding: true
     keepVelocity: false
+    collidesAir: false
     despawnShake: 3
     hittable: false
     hitShake: 3
