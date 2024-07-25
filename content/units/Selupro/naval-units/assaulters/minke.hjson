@@ -16,7 +16,7 @@ weapons: [
     name: missiles-mount
     controllable: false
     rotationLimit: 235
-    baseRotation: 135
+    baseRotation: -135
     rotateSpeed: 1.8
     autoTarget: true
     alternate: false
