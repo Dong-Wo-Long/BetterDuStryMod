@@ -17,6 +17,8 @@ lightRadius: 81.5
 
 deathSound: mech-destroyed
 
+immunities: [ bsm-status-air-specialization, bsm-status-naval-specialization ]
+
 abilities: [
     {
     type: ShieldArcAbility
