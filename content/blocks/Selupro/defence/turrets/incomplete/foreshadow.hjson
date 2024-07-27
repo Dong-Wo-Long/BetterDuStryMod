@@ -1,4 +1,5 @@
 research: meltdown
+canOverdrive: false
 rotateSpeed: 1
 shake: 15
 
