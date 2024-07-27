@@ -1,4 +1,4 @@
 name: Air specialization
 healthMultiplier: 0.85
 
-opposites: [ bsm-status-ground-specialization ]
+opposites: [ bsm-status-ground-specialization, status-naval-specialization ]
