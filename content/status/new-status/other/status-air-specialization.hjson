@@ -1,2 +1,4 @@
 name: Air specialization
 healthMultiplier: 0.85
+
+opposites: []
