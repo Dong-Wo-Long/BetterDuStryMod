@@ -29,6 +29,7 @@ requirements: [
     copper/9600
     lead/8100
     metaglass/6000
+    graphite/5000
     silicon/7500
     thorium/3600
     plastanium/1800
