@@ -1,2 +1,4 @@
 name: Ground specialization
 healthMultiplier: 0.85
+
+opposites: [ status-naval-specialization ]
