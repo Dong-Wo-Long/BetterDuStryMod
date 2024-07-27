@@ -31,6 +31,8 @@ ammoTypes: {
 
 		buildingDamageMultiplier: 0.0001
 
+		status: 20s-35-status-tier-2-direct-purpose-emp
+		statusDuration: 180
 		splashDamageRadius: 80
 		lightningDamage: 96
 		lightningLength: 5
