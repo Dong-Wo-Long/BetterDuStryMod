@@ -6,9 +6,9 @@ shootY: 3
 recoil: 0
 
 buildCostMultiplier: 1.75
-coolantMultiplier: 20
+coolantMultiplier: 15
 
-maxAmmo: 18
+maxAmmo: 24
 health: 320
 reload: 9
 range: 60
@@ -30,6 +30,7 @@ coal: {
     hittable: false
     hitSize: 7
 
+    buildingDamageMultiplier: 1.5
     reloadMultiplier: 1.25
     ammoMultiplier: 6
 
@@ -39,6 +40,10 @@ coal: {
     lifetime: 16
     speed: 2.75
     damage: 36
+
+    incendChance: 0.9
+    incendAmount: 18
+    incendSpread: 3
 
     shootEffect: shootSmallFlame
     hitEffect: hitFlameSmall
@@ -52,6 +57,7 @@ pyratite: {
     pierce: true
     hitSize: 7
 
+    buildingDamageMultiplier: 1.8
     reloadMultiplier: 0.9
     ammoMultiplier: 12
     rangeChange: 40
@@ -62,44 +68,55 @@ pyratite: {
     damage: 54.5
     speed: 3
 
+    puddleLiquid: slag
+    puddleAmount: 9
+    puddleRange: 2
+    puddles: 1
+
+    incendAmount: 24
+    incendSpread: 5
+    incendChance: 1
+
     despawnEffect: none
 
 smokeEffect: {
+    sizeInterp: pow3In
+    interp: pow5Out
     particles: 6
-    lifetime: 60
-    sizeFrom: 2
-    sizeTo: 0.25
-    length: 110
+    lifetime: 48
+    layer: 100.1
     cone: 7
 
-    lightColor: 696969
+    sizeFrom: 1.5
+    sizeTo: 0
+    length: 115
+
+    lightColor: 454545
     lightOpacity: 0.7
     lightRadius: 12.5
 
-    colorFrom: db661c
+    colorFrom: ffb855
     colorTo: 454545
-
-    sizeInterp: pow3In
-    interp: pow5Out
     }
 
 shootEffect: {
-    particles: 12
-    lifetime: 81
-    sizeFrom: 2
-    sizeTo: 0.25
-    length: 110
-    cone: 7
+    sizeInterp: pow3In
+    interp: pow5Out
+    particles: 9
+    lifetime: 69
+    layer: 100.5
+    cone: 6
 
-    lightColor: 696969
+    sizeFrom: 2
+    sizeTo: 0
+    length: 105
+
+    lightColor: ffb855
     lightOpacity: 0.7
     lightRadius: 12.5
 
     colorFrom: ffb855
     colorTo: db661c
-
-    sizeInterp: pow3In
-    interp: pow5Out
     }
 
 hitEffect: {
@@ -107,7 +124,7 @@ hitEffect: {
 
     lifetime: 15
 
-    waveColor: ffaa5f
+    waveColor: db661c
     waveStroke: 1.5
     waveRad: 4.5
 
@@ -116,7 +133,7 @@ hitEffect: {
     smokeSize: 2.5
     smokes: 5
 
-    sparkColor: ffaa5f
+    sparkColor: db661c
     sparkStroke: 1.25
     sparkRad: 4.5
     sparkLen: 1.5
@@ -126,10 +143,12 @@ hitEffect: {
 
 spore-pod: {
     type: BulletType
+    keepVelocity: false
     collidesAir: false
     hittable: false
     hitSize: 6
 
+    buildingDamageMultiplier: 1.25
     ammoMultiplier: 3
     rangeChange: 12
 
@@ -139,16 +158,24 @@ spore-pod: {
     lifetime: 24
     damage: 24
     speed: 3
+    
+    incendChance: 0.75
+    incendAmount: 15
+    incendSpread: 1
 
     despawnEffect: none
 
 smokeEffect: {
+    sizeInterp: pow3In
+    interp: pow5Out
     particles: 4
     lifetime: 48
-    sizeFrom: 2
-    sizeTo: 0.25
-    length: 75
+    layer: 100.1
     cone: 7
+
+    sizeFrom: 2
+    sizeTo: 0
+    length: 75
 
     lightColor: 696969
     lightOpacity: 0.7
@@ -156,18 +183,19 @@ smokeEffect: {
 
     colorFrom: 7457ce
     colorTo: 454545
-
-    sizeInterp: pow3In
-    interp: pow5Out
     }
 
 shootEffect: {
+    sizeInterp: pow3In
+    interp: pow5Out
     particles: 7
     lifetime: 55
-    sizeFrom: 2
-    sizeTo: 0.25
-    length: 75
+    layer: 100.5
     cone: 7
+
+    sizeFrom: 2
+    sizeTo: 0
+    length: 69
 
     lightColor: 9e78dc
     lightOpacity: 0.7
@@ -175,9 +203,6 @@ shootEffect: {
 
     colorFrom: 9e78dc
     colorTo: 7457ce
-
-    sizeInterp: pow3In
-    interp: pow5Out
     }
 
 hitEffect: {
