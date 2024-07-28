@@ -92,7 +92,9 @@ lead: {
     reloadMultiplier: 0.5
     ammoMultiplier: 6
 
+    status: status-air-specialization
     splashDamageRadius: 40
+    statusDuration: 90
     splashDamage: 27.5
     pierceCap: 15
     lifetime: 81
@@ -152,6 +154,7 @@ metaglass: {
     height: 8
     width: 6
 
+    reloadMultiplier: 1.5
     ammoMultiplier: 12
 
     splashDamageRadius: 26
