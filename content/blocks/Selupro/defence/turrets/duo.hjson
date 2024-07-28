@@ -5,7 +5,7 @@ recoil: 0.5
 range: 192
 shootY: 3
 
-inaccuracy: 2
+inaccuracy: 3
 maxAmmo: 32
 health: 360
 reload: 24
@@ -14,7 +14,7 @@ armor: 2
 ammoUseEffect: casing1
 
 requirements: [
-    copper/32
+    copper/24
 ]
 
 ammoTypes: {
@@ -23,13 +23,16 @@ copper: {
     height: 9
     width: 7
 
-    pierceDamageFactor: 0.000005
+    pierceDamageFactor: 0.0005
     ammoMultiplier: 6
 
     pierceCap: 5
-    lifetime: 48
-    damage: 18
+    lifetime: 60
+    damage: 24
     speed: 3.2
+
+    despawnEffect: hitBulletColor
+    hitEffect: hitBulletColor
 
     lightColor: fff8e8
     lightOpacity: 0.7
@@ -46,14 +49,17 @@ graphite: {
     width: 9
 
     buildingDamageMultiplier: 1.25
-    pierceDamageFactor: 0.0000025
-    reloadMultiplier: 0.75
+    pierceDamageFactor: 0.000025
+    reloadMultiplier: 0.8
     ammoMultiplier: 3
 
     pierceCap: 7
     lifetime: 64
-    damage: 24.5
+    damage: 27.5
     speed: 2.75
+
+    despawnEffect: hitBulletColor
+    hitEffect: hitBulletColor
 
     lightColor: 95abd9
     lightOpacity: 0.7
@@ -77,11 +83,14 @@ silicon: {
     reloadMultiplier: 2.25
     ammoMultiplier: 9
 
-    homingPower: 0.15
+    homingPower: 0.008
     lifetime: 42.5
     pierceCap: 3
-    damage: 12.5
     speed: 4.75
+    damage: 15
+
+    despawnEffect: hitBulletColor
+    hitEffect: hitBulletColor
 
     lightColor: 8e9097
     lightOpacity: 0.7
@@ -101,7 +110,7 @@ scrap: {
     width: 6
 
     buildingDamageMultiplier: 0.85
-    reloadMultiplier: 0.6
+    reloadMultiplier: 0.75
 
     fragRandomSpread: 360
     fragLifeMax: 2.1
@@ -109,8 +118,11 @@ scrap: {
     fragBullets: 3
     fragSpread: 45
     lifetime: 48
-    damage: 9
+    damage: 21.5
     speed: 5
+
+    despawnEffect: hitBulletColor
+    hitEffect: hitBulletColor
 
     lightColor: e0b28d
     lightOpacity: 0.7
@@ -130,9 +142,12 @@ fragBullet: {
     width: 5
 
     pierceCap: 3
+    damage: 12.5
     lifetime: 6
-    damage: 4.8
     speed: 4.5
+
+    despawnEffect: hitBulletColor
+    hitEffect: hitBulletColor
 
     lightColor: e0b28d
     lightOpacity: 0.7
@@ -144,29 +159,8 @@ fragBullet: {
 
     frontColor: e0b28d
     backColor: 9b928b
-
-despawnEffect: {
-    type: ExplosionEffect
-
-    lifetime: 25
-
-    waveColor: e0b28d
-    waveStroke: 1.5
-    waveRad: 3
-
-    smokeColor: e0b28d
-    smokeSizeBase: 0
-    smokeSize: 0
-    smokes: 0
-
-    sparkColor: e0b28d
-    sparkStroke: 0
-    sparkRad: 0
-    sparkLen: 0
-    sparks: 0
 }
     }
-}
 
 pyratite: {
     type: BasicBulletType
@@ -176,17 +170,23 @@ pyratite: {
 
     buildingDamageMultiplier: 0.01
     pierceDamageFactor: 0.00025
-    reloadMultiplier: 0.85
+    reloadMultiplier: 0.9
     ammoMultiplier: 4
 
     splashDamageRadius: 12
     statusDuration: 300
-    splashDamage: 5
+    splashDamage: 15
     status: burning
     pierceCap: 2
     lifetime: 56
-    damage: 14.5
+    damage: 18
     speed: 4
+
+    incendChance: 0.5
+    incendAmount: 15
+    incendSpread: 1
+
+    despawnEffect: hitBulletColor
 
     lightColor: ffaa5f
     lightOpacity: 0.7
