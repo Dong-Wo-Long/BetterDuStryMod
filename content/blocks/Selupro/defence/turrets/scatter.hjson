@@ -84,7 +84,7 @@ fragBullet: {
     }
 
 lead: {
-    type: BasicBulletType
+    type: FlakBulletType
     collidesGround: false
     height: 8
     width: 6
@@ -116,7 +116,7 @@ lead: {
     }
 
 silicon: {
-    type: FlakBulletType
+    type: BasicBulletType
     collidesGround: false
     height: 8
     width: 6
