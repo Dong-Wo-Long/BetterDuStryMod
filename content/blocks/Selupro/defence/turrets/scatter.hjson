@@ -40,7 +40,6 @@ scrap: {
     splashDamage: 21.5
     fragBullets: 4
     lifetime: 67.5
-    pierceCap: 3
     damage: 24
     speed: 6
 
@@ -97,7 +96,6 @@ lead: {
     splashDamageRadius: 40
     statusDuration: 90
     splashDamage: 27.5
-    pierceCap: 15
     lifetime: 81
     speed: 3.75
     damage: 32
@@ -161,7 +159,6 @@ metaglass: {
     splashDamageRadius: 26
     splashDamage: 15
     fragBullets: 6
-    pierceCap: 8
     lifetime: 70
     damage: 18
     speed: 5
