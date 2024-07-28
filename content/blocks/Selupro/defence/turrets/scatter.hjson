@@ -158,7 +158,7 @@ metaglass: {
     ammoMultiplier: 12
 
     splashDamageRadius: 26
-    splashDamage: 12.5
+    splashDamage: 15
     fragBullets: 6
     pierceCap: 8
     lifetime: 70
