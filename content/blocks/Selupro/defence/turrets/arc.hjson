@@ -17,7 +17,7 @@ shootEffect: lightningShoot
 shootSound: spark
 
 consumes: {
-    power: 3
+    power: 2.5
 }
 
 requirements: [
