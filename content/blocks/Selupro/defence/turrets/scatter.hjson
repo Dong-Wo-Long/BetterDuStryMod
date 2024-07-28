@@ -29,7 +29,6 @@ ammoTypes: {
 scrap: {
     type: FlakBulletType
     collidesGround: false
-    scaleLife: true
     height: 8
     width: 6
 
@@ -41,7 +40,7 @@ scrap: {
     fragBullets: 4
     lifetime: 67.5
     pierceCap: 3
-    damage: 14.5
+    damage: 21.5
     speed: 6
 
     hitEffect: flakExplosion
@@ -52,7 +51,7 @@ scrap: {
     lightRadius: 21
 
     trailColor: 9b928b
-    trailLength: 12.5
+    trailLength: 7.5
     trailWidth: 1.25
 
     frontColor: e0b28d
@@ -67,7 +66,7 @@ fragBullet: {
 
     pierceCap: 5
     lifetime: 20
-    damage: 3.2
+    damage: 15
 
     despawnEffect: none
 
@@ -87,7 +86,6 @@ fragBullet: {
 lead: {
     type: FlakBulletType
     collidesGround: false
-    scaleLife: true
     height: 8
     width: 6
 
@@ -98,8 +96,8 @@ lead: {
     splashDamage: 27.5
     pierceCap: 15
     lifetime: 81
-    damage: 21.5
     speed: 3.75
+    damage: 32
 
     hitEffect: flakExplosion
     shootEffect: shootSmall
@@ -109,7 +107,7 @@ lead: {
     lightRadius: 24.5
 
     trailColor: 8c7fa9
-    trailLength: 12.5
+    trailLength: 7.5
     trailWidth: 1.25
 
     frontColor: ab99d3
@@ -130,7 +128,7 @@ silicon: {
     splashDamage: 0
     pierceCap: 5
     lifetime: 75
-    damage: 18.5
+    damage: 21.5
     speed: 4.8
 
     hitEffect: hitBulletColor
@@ -141,28 +139,27 @@ silicon: {
     lightRadius: 21.5
 
     trailColor: 767a84
-    trailLength: 12.5
+    trailLength: 7.5
     trailWidth: 1.25
 
     frontColor: 8e9097
     backColor: 767a84
-}
+    }
 
 metaglass: {
     type: FlakBulletType
     collidesGround: false
-    scaleLife: true
     height: 8
     width: 6
 
     ammoMultiplier: 12
 
     splashDamageRadius: 26
-    splashDamage: 9
-    fragBullets: 7
+    splashDamage: 12.5
+    fragBullets: 6
     pierceCap: 8
     lifetime: 70
-    damage: 15
+    damage: 18
     speed: 5
 
     hitEffect: flakExplosion
@@ -173,7 +170,7 @@ metaglass: {
     lightRadius: 27.5
 
     trailColor: ebeef5
-    trailLength: 12.5
+    trailLength: 7.5
     trailWidth: 1.25
 
     frontColor: ffffff
@@ -188,7 +185,7 @@ fragBullet: {
 
     pierceCap: 5
     lifetime: 20
-    damage: 7.5
+    damage: 12.5
 
     despawnEffect: none
 
