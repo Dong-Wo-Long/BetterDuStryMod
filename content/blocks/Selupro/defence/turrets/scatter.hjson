@@ -6,6 +6,7 @@ shootCone: 32
 recoil: 1
 
 buildCostMultiplier: 2.1
+coolantMultiplier: 1
 
 inaccuracy: 17
 maxAmmo: 45
