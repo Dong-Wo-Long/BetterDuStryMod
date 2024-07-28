@@ -29,11 +29,11 @@ requirements: [
     copper/9600
     lead/8100
     metaglass/6000
-    graphite/5000
+    graphite/3000
     silicon/7500
-    thorium/3600
-    plastanium/1800
-    surge-alloy/1250
+    thorium/5000
+    plastanium/2500
+    surge-alloy/1800
     ]
 
 chargeSound: large-laser-charge
