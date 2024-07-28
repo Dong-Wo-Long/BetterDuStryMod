@@ -53,6 +53,8 @@ graphite: {
     reloadMultiplier: 0.8
     ammoMultiplier: 3
 
+    status: status-ground-specialization
+    statusDuration: 90
     pierceCap: 7
     lifetime: 64
     damage: 27.5
