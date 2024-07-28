@@ -155,7 +155,7 @@ metaglass: {
     height: 8
     width: 6
 
-    reloadMultiplier: 1.5
+    reloadMultiplier: 1.35
     ammoMultiplier: 12
 
     splashDamageRadius: 26
