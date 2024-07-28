@@ -36,11 +36,11 @@ scrap: {
     ammoMultiplier: 3
 
     splashDamageRadius: 20
-    splashDamage: 17.5
+    splashDamage: 21.5
     fragBullets: 4
     lifetime: 67.5
     pierceCap: 3
-    damage: 21.5
+    damage: 24
     speed: 6
 
     hitEffect: flakExplosion
