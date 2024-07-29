@@ -291,6 +291,8 @@ bullet: {
     height: 9
     width: 7
 
+    status: status-air-specialization
+    statusDuration: 300
     lifetime: 50
     damage: 48
     speed: 4.5
