@@ -190,8 +190,8 @@ bullet: {
 
 {
     layerOffset: -0.001
-    rotationLimit: 275
-    rotateSpeed: 4
+    rotationLimit: 300
+    rotateSpeed: 5
     mirror: false
     rotate: true
     shootY: 4
