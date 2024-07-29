@@ -125,14 +125,15 @@ bullet: {
     type: MissileBulletType
     keepVelocity: false
     despawnShake: 7.5
-    scaleLife: true
     shrinkX: 0.25
     shrinkY: 0.5
     height: 11
     width: 11
 
+    status: status-air-specialization
     splashDamageRadius: 40
     lightningDamage: 12.5
+    statusDuration: 300
     lightningLength: 5
     splashDamage: 32
     homingPower: 0.1
