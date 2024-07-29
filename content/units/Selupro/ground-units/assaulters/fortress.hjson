@@ -183,8 +183,9 @@ bullet: {
     width: 5
 
     pierceDamageFactor: 0.005
-    ammoMultiplier: 24
 
+    status: status-air-specialization
+    statusDuration: 180
     pierceCap: 18
     lifetime: 48
     damage: 21.5
