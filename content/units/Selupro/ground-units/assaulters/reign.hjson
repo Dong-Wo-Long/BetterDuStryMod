@@ -413,6 +413,8 @@ bullet: {
 
     buildingDamageMultiplier: 0.75
 
+    status: status-air-specialization
+    statusDuration: 180
     lifetime: 52
     damage: 48
     speed: 5
