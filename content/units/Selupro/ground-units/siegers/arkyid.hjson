@@ -159,9 +159,11 @@ bullet: {
     height: 14
     width: 8
 
-    pierceCap: 5
+    status: status-ground-specialization
+    statusDuration: 180
+    pierceCap: 24
     lifetime: 64
-    damage: 27.5
+    damage: 48
     speed: 6
 
     shootEffect: shootSmallColor
