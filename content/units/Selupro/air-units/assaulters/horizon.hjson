@@ -19,7 +19,7 @@ lightRadius: 52
 
 deathSound: helicopter-crush
 loopSound: helicopter-engine
-loopSoundVolume: 0.25
+loopSoundVolume: 0.125
 
 immunities: [ blasted, bsm-status-ground-specialization, bsm-status-naval-specialization ]
 
