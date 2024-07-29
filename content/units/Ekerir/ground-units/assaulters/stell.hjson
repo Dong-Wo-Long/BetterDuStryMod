@@ -1,7 +1,7 @@
 targetAir: false
 fogRadius: 32.5
 
-rotateSpeed: 3
+rotateSpeed: 1.5
 health: 810
 speed: 0.45
 armor: 15
