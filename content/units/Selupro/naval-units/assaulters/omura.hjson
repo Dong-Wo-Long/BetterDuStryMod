@@ -1,8 +1,44 @@
 research: sei
+faceTarget: false
 
-rotateSpeed: 1
+rotateSpeed: 0.5
 health: 75000
 speed: 0.4
 armor: 96
 
 immunities: [ spore-slowed, burning, melting, shocked, blasted, bsm-status-ground-specialization, bsm-status-air-specialization, bsm-20s-06-tier-1-strength-reduction, bsm-20s-05-tier-2-strength-reduction ]
+
+weapons: [
+{
+    name: mobile-portable-railgun-system
+    rotateSpeed: 0.3
+    mirror: false
+    rotate: true
+    recoil: 10.5
+    shadow: 50
+    shootY: 23
+    shake: 6
+    x: 0
+    y: -3.5
+    
+    cooldownTime: 90
+    reload: 450
+
+    shootSound: railgun
+    ejectEffect: none
+bullet: {
+    type: RailBulletType
+    length: 500
+
+    pierceDamageFactor: 0.5
+    damage: 5000
+
+    hitEffect: massiveExplosion
+    shootEffect: railShoot
+    pointEffect: railTrail
+    smokeEffect: shootBig2
+    pierceEffect: railHit
+    pointEffectSpace: 60
+    }
+}
+    ]
