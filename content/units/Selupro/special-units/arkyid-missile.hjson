@@ -66,14 +66,14 @@ bullet: {
     despawnShake: 10
     maxRange: 24
 
-    buildingDamageMultiplier: 2
+    buildingDamageMultiplier: 1.8
 
     status: 20s-35-status-tier-2-direct-purpose-emp
     splashDamageRadius: 60
     lightningLength: 12.5
-    lightningDamage: 18
+    lightningDamage: 24
     statusDuration: 300
-    splashDamage: 256
+    splashDamage: 500
     lightning: 4
 
     hitSound: rocket-explosion
