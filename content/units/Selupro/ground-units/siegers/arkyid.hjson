@@ -81,7 +81,7 @@ bullet: {
     statusDuration: 300
     status: burning
     pierceCap: 15
-    damage: 256.5
+    damage: 128.5
     lifetime: 24
     speed: 3
 
