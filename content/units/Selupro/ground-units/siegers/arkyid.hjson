@@ -78,14 +78,11 @@ bullet: {
     hittable: false
     hitSize: 6
 
-    buildingDamageMultiplier: 1.5
-    ammoMultiplier: 18
-
     statusDuration: 300
     status: burning
-    pierceCap: 12
+    pierceCap: 15
+    damage: 256.5
     lifetime: 24
-    damage: 52.5
     speed: 3
 
     despawnEffect: none
@@ -159,11 +156,13 @@ bullet: {
     height: 14
     width: 8
 
+    buildingDamageMultiplier: 0.75
+
     status: status-ground-specialization
     statusDuration: 180
     pierceCap: 24
     lifetime: 64
-    damage: 48
+    damage: 144
     speed: 6
 
     shootEffect: shootSmallColor
@@ -206,7 +205,7 @@ bullet: {
 
     sapStrength: 0.35
     lifetime: 30
-    damage: 32
+    damage: 64
 
     shootEffect: shootSmall
     despawnEffect: none
@@ -239,11 +238,11 @@ bullet: {
     length: 100
     width: 0.55
 
-    buildingDamageMultiplier: 0.7
+    buildingDamageMultiplier: 0.55
 
     sapStrength: 0.25
     lifetime: 30
-    damage: 48
+    damage: 106
 
     shootEffect: shootSmall
     despawnEffect: none
@@ -276,11 +275,11 @@ bullet: {
     length: 80
     width: 0.55
 
-    buildingDamageMultiplier: 0.55
+    buildingDamageMultiplier: 0.35
 
     sapStrength: 0.15
     lifetime: 30
-    damage: 69
+    damage: 128
 
     shootEffect: shootSmall
     despawnEffect: none
