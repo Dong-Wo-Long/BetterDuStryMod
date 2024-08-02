@@ -194,7 +194,7 @@ bullet: {
 shoot: {
     firstShotDelay: 185
     shotDelay: 9
-    shots: 8
+    shots: 5
     }
 
 bullet: {
