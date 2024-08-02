@@ -5,21 +5,21 @@ legSplashRange: 26
 stepShake: 10.5
 fogRadius: 128
 
-itemCapacity: 1250
+itemCapacity: 2250
 rotateSpeed: 0.48
 buildSpeed: 1.75
 mineSpeed: 1.25
-health: 48000
+health: 68000
 mineTier: 5
 speed: 0.23
-armor: 144
+armor: 164
 
 lightColor: 98ffa9
 lightOpacity: 0.7
 healColor: 84f491
 lightRadius: 150
 
-immunities: [ shocked, wet, burning, melting, blasted, overclock, bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ shocked, wet, burning, melting, blasted, sapped, overclock, bsm-status-air-specialization, bsm-status-naval-specialization ]
 
 abilities: [
     {
@@ -48,9 +48,9 @@ abilities: [
 }
     {
     type: ShieldRegenFieldAbility
-    amount: 2500
+    amount: 3000
     reload: 900
-    max: 32000
+    max: 1600
     range: 0
 }
     {
@@ -61,8 +61,15 @@ abilities: [
     range: 360
 }
     {
+    type: StatusFieldAbility
+    effect: overclock
+    duration: 540
+    reload: 1080
+    range: 360
+}
+    {
     type: RegenAbility
-    amount: 1.06669
+    amount: 9
 }
     ]
 
@@ -70,18 +77,17 @@ weapons: [
 {
     name: large-plasma-gun
     type: PointDefenseWeapon
-    targetSwitchInterval: 18
-    targetInterval: 15
     rotationLimit: 135
     mirror: false
     shadow: 9
     x: 10
     y: 1
 
+    targetSwitchInterval: 18
+    targetInterval: 15
     reload: 9
 
     shootSound: lasershoot
-
 bullet: {
     maxRange: 180
 
@@ -94,74 +100,67 @@ bullet: {
 
 {
     name: corvus-weapon
-    shootCone: 60
+    parentizeEffects: true
+    soundPitchMin: 1
+    inaccuracy: 0
     mirror: false
     shootY: 5
     shake: 45
     x: 0
     y: 0
 
-    cooldownTime: 2000
-    reload: 2160
+    cooldownTime: 1700
+    reload: 1860
     recoil: 0
 
-    shootStatusDuration: 1500
+    shootStatusDuration: 500
+    chargeSound: lasercharge
+    shootSound: laserblast
     shootStatus: unmoving
 shoot: {
     firstShotDelay: 300
     lifetime: 1
-}
-
-    parentizeEffects: true
-effects: [
-    {
-    type: ParticleEffect
-    region: corvus-weapon-heat
-    sizeFrom: 50
-    length: 0
-
-    lifetime: 45
-    particles: 1
-
-    colorFrom: ffb380
-    colorTo: ffb380
-}
-    ]
-
-    chargeSound: lasercharge
-    shootSound: laserblast
-    soundPitchMin: 1
+    }
 
 bullet: {
     type: LaserBulletType
+    parentizeEffects: true
     collidesTeam: true
     despawnShake: 21
+    fragOnHit: false
     largeHit: true
-    sideLength: 0
+    sideLength: 10
     sideAngle: 15
-    sideWidth: 0
+    sideWidth: 5
     hitShake: 21
-    length: 970
-    width: 90
+    length: 930
+    width: 70
+
+    buildingDamageMultiplier: 0.7
 
     statusDuration: 1920
     healPercent: 100
     status: melting
+    damage: 10000
     lifetime: 90
-    damage: 7500
-
-    lightningLengthRand: 25
-    lightningAngleRand: 50
-    lightningSpacing: 35
-    lightningDamage: 750
+    
+    lightningLengthRand: 20
+    lightningAngleRand: 30
+    lightningSpacing: 12.5
+    lightningDamage: 350
+    lightningLength: 10
     lightningDelay: 1.1
-    lightningLength: 5
+
+    fragRandomSpread: 10
+    fragVelocityMin: 0.1
+    fragVelocityMax: 1.7
+    fragBullets: 100
+    fragLifeMin: 0.1
+    fragLifeMax: 2
 
     colors: [ 98ffa9, ffffff ]
     lightningColor: 98ffa9
     lightColor: 98ffa9
-
-    parentizeEffects: true
 
 chargeEffect: {
     type: MultiEffect
@@ -300,13 +299,190 @@ effects: [
     }
 ]
     }
+
+despawnEffect: [
+    {
+    type: ParticleEffect
+    length: 200
+    cone: 360
+    particles: 90
+    lifetime: 300
+    sizeFrom: 2
+    sizeTo: 4
+    colorFrom: 98ffa9
+    colorTo: 98ffa900
+    followParent: true
+    rotWithParent: true
+}
+    {
+    type: ParticleEffect
+    length: 360
+    cone: 360
+    particles: 120
+    lifetime: 270
+    sizeFrom: 1
+    sizeTo: 3
+    colorFrom: 98ffa970
+    colorTo: 98ffa900
+    followParent: true
+    rotWithParent: true
+}
+    {
+    type: ParticleEffect
+    length: 325
+    cone: 360
+    particles: 120
+    lifetime: 260
+    sizeFrom: 1
+    sizeTo: 3
+    colorFrom: 98ffa970
+    colorTo: 98ffa900
+    followParent: true
+    rotWithParent: true
+}
+    {
+    type: ParticleEffect
+    length: 270
+    cone: 90
+    particles: 120
+    lifetime: 280
+    sizeFrom: 2
+    sizeTo: 4
+    colorFrom: 98ffa9
+    colorTo: 98ffa900
+    followParent: true
+    rotWithParent: true
+}
+    {
+    type: ParticleEffect
+    length: 270
+    cone: 45
+    particles: 120
+    lifetime: 300
+    sizeFrom: 1
+    sizeTo: 3
+    colorFrom: 98ffa9
+    colorTo: 98ffa900
+    followParent: true
+    rotWithParent: true
+}
+    {
+    type: ParticleEffect
+    length: 350
+    cone: 20
+    particles: 70
+    lifetime: 340
+    sizeFrom: 1
+    sizeTo: 3
+    colorFrom: 98ffa9
+    colorTo: 98ffa910
+    followParent: true
+    rotWithParent: true
+}
+    ]
+
+fragBullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    pierceBuilding: true
+    despawnShake: 4.5
+    pierceArmor: true
+    hitShake: 4.5
+    shrinkX: 0.0
+    shrinkY: 0.0
+    pierce: true
+    height: 7.5
+    width: 7.5
+
+    buildingDamageMultiplier: 1.3
+
+    splashDamageRadius: 12
+    statusDuration: 180
+    splashDamage: 90
+    homingPower: 0.06
+    homingRange: 60
+    homingDelay: 50
+    status: burning
+    weaveScale: 9
+    pierceCap: 2
+    lifetime: 80
+    weaveMag: 2
+    damage: 90
+    speed: 4
+
+    fragRandomSpread: 0
+    fragBullets: 1
+
+    smokeEffect: shootBigSmoke
+    shootEffect: shootBigColor
+    hitSound: dullExplosion
+    hitEffect: none
+
+    lightColor: 84f491
+    lightOpacity: 0.7
+    lightRadius: 24.5
+
+    trailColor: 84f491
+    trailLength: 14
+    trailWidth: 2
+
+    frontColor: ffffff
+    backColor: 84f491
+    hitColor: 84f491
+
+despawnEffect: [
+    {
+    type: WaveEffect
+    sides:4
+    rotWithParent: false
+    followParent: false
+    sizeFrom: 0
+    sizeTo: 20
+
+    lifetime: 60
+
+    colorFrom: 84f491
+    colorTo: 84f491
+}
+    {
+    type: WaveEffect
+    rotWithParent: false
+    followParent: false
+    startDelay: 60
+    sizeFrom: 20
+    sizeTo: 10
+    sides: 4
+
+    lifetime: 40
+
+    colorFrom: 84f491
+    colorTo: 84f49100
+}
+    ]
+
+fragBullet: {
+    type: LaserBulletType
+    pierceArmor: true
+    absorbable: false
+    collidesAir: true
+    length: 40
+    width: 7
+
+    damage: 80
+
+    hitColor: 98ffa9
+
+    colors: [ 98ffa9, ffffff ]
 }
     }
+}
+    }
+
 
 {
     name: plasma-gun
     layerOffset: -0.001
-    rotationLimit: 75
+    rotationLimit: 110
     baseRotation: -55
     rotateSpeed: 1.2
     alternate: false
@@ -317,28 +493,30 @@ effects: [
     shake: 5
     x: 20
     y: 3.5
-
-    reload: 240
+    
+    velocityRnd: 0.3
+    inaccuracy: 4
+    reload: 120
 
     ejectEffect: casing1
     shootSound: laser
 shoot: {
     firstShotDelay: 30
-    shotDelay: 5
-    shots: 5
-}
+    shotDelay: 4
+    shots: 3
+    }
 
 bullet: {
     type: LaserBoltType
+    parentizeEffects: true
     pierceBuilding: true
-    collideTerrain: true
     collidesAir: false
     despawnShake: 3.2
-    scaleLife: true
+    pierceArmor: true
     hitShake: 3.2
     height: 30
     width: 9
-
+    
     buildingDamageMultiplier: 0.75
 
     splashDamageRadius: 26
@@ -346,8 +524,10 @@ bullet: {
     healPercent: 15
     lifetime: 112
     pierceCap: 2
-    damage: 125
+    damage: 170
     speed: 3
+
+    despawnEffect: none
 
     trailColor: 84f491
     trailLength: 24.5
@@ -359,8 +539,6 @@ bullet: {
 
     frontColor: ffffff
     backColor: 84f491
-
-    parentizeEffects: true
 
 chargeEffect: {
     type: WaveEffect
@@ -375,24 +553,33 @@ chargeEffect: {
     colorTo: ffffff
     }
 
-hitEffect: {
-    type: MultiEffect
-
-effects: [
-{
+hitEffect: [
+    {
     type: WaveEffect
     rotWithParent: false
     followParent: false
     sizeFrom: 0
     sizeTo: 12
 
-    lifetime: 15
+    lifetime: 40
 
     colorFrom: 84f491
     colorTo: ffffff
-    }
+}
+    {
+    startDelay:40
+    type: WaveEffect
+    rotWithParent: false
+    followParent: false
+    sizeFrom: 12
+    sizeTo: 0
 
-{
+    lifetime: 20
+
+    colorFrom: ffffff
+    colorTo: 84f49100
+}
+    {
     type: ParticleEffect
     line: true
     length: 13.5
@@ -405,11 +592,11 @@ effects: [
     colorTo: ffffff
     strokeFrom: 1.25
     strokeTo: 0.25    
-    }
-]
-    }
+}
+    ]
 }
     }
+
 {
     name: plasma-gun
     layerOffset: -0.001
@@ -423,50 +610,52 @@ effects: [
     shake: 5
     x: 9.75
     y: 12.5
-
-    reload: 120
+    
+    velocityRnd: 0.5
+    inaccuracy: 6
+    reload: 230
 
     ejectEffect: casing1
     shootSound: laser
 shoot: {
     firstShotDelay: 30
-    shotDelay: 5
-    shots: 5
-}
+    shotDelay: 6
+    shots: 7
+    }
 
 bullet: {
     type: LaserBoltType
+    parentizeEffects: true
     pierceBuilding: true
-    collideTerrain: true
     collidesAir: false
     despawnShake: 3.2
-    scaleLife: true
+    pierceArmor: true
     hitShake: 3.2
-    height: 30
-    width: 9
+    height: 20
+    width: 6
 
     buildingDamageMultiplier: 0.5
 
     splashDamageRadius: 26
-    splashDamage: 75
-    healPercent: 18
-    lifetime: 112
+    splashDamage: 150
+    healPercent: 9
+    lifetime: 84
     pierceCap: 3
-    damage: 135
-    speed: 3
+    damage: 120
+    speed: 4
 
-    trailColor: 84f491
-    trailLength: 24.5
-    trailWidth: 2.1
+    despawnEffect: none
 
     lightColor: 84f491
     lightOpacity: 0.7
     lightRadius: 32
 
+    trailColor: 84f491
+    trailLength: 24.5
+    trailWidth: 2.1
+
     frontColor: ffffff
     backColor: 84f491
-
-    parentizeEffects: true
 
 chargeEffect: {
     type: WaveEffect
@@ -481,39 +670,47 @@ chargeEffect: {
     colorTo: ffffff
     }
 
-hitEffect: {
-    type: MultiEffect
-
-effects: [
-{
+hitEffect: [
+    {
     type: WaveEffect
     rotWithParent: false
     followParent: false
     sizeFrom: 0
     sizeTo: 12
 
-    lifetime: 15
+    lifetime: 50
 
     colorFrom: 84f491
     colorTo: ffffff
-    }
+}
+    {
+    startDelay:50
+    type: WaveEffect
+    rotWithParent: false
+    followParent: false
+    sizeFrom: 12
+    sizeTo: 8
 
-{
+    lifetime: 30
+
+    colorFrom: ffffff
+    colorTo: 84f49100
+}
+    {
     type: ParticleEffect
     line: true
-    length: 13.5
+    length: 20.5
     cone: 360
     particles: 7
     lifetime: 15
     sizeFrom: 1.5
-    sizeTo: 0
+    sizeTo: 1
     colorFrom: 84f491
-    colorTo: ffffff
+    colorTo: ffffff00
     strokeFrom: 1.25
-    strokeTo: 0.25
-    }
-]
-    }
+    strokeTo: 0.25    
+}
+    ]
 }
     }
 
@@ -526,70 +723,83 @@ effects: [
     shootCone: 360
     rotate: false
     mirror: false
+    recoil: -4.65
     shootY: 9
     shake: 15
     x: 0
     y: -9
 
-    velocityRnd: 0.2
+    velocityRnd: 0.6
     inaccuracy: 25
-    recoil: -4.65
     reload: 360
 
     shootSound: missile
 shoot: { 
     type: ShootAlternate
-    shotDelay: 8
+    shotDelay: 3
     barrels: 3
     spread: 4
-    shots: 12
-}
+    shots: 24
+    }
 
 bullet: {
     type: MissileBulletType
     keepVelocity: false
+    collidesTeam: true
     despawnShake: 11
-    scaleLife: true
     hitShake: 11
-    shrinkX: 0.3
-    shrinkY: 0.6
-    drag: -0.003
-    height: 12
-    width: 12
+    shrinkX: 0
+    shrinkY: 0
+    height: 8
+    width: 8
 
     buildingDamageMultiplier: 1.25
 
     splashDamageRadius: 26
     statusDuration: 180
     status: electrified
-    collidesTeam: true
-    splashDamage: 132
-    homingPower: 0.7
-    homingRange: 50
-    healPercent: 25
-    weaveScale: 5
-    lifetime: 120
-    weaveMag: 2
-    speed: 2.25
-    damage: 96
+    homingPower: 0.04
+    splashDamage: 52
+    homingRange: 80
+    homingDelay: 30
+    healPercent: 7
+    weaveScale: 4
+    lifetime: 350
+    drag: -0.001
+    weaveMag: 3
+    damage: 200
+    speed: 1.55
 
-    despawnEffect: blastExplosion
-    hitEffect: blastExplosion
-
-    frontColor: ffffff
-    trailColor: 62ae7f
-    trailInterval: 15
-    backColor: 62ae7f
+    despawnEffect: none
 
     lightColor: 62ae7f
     lightOpacity: 0.7
     lightRadius: 41
+
+    trailColor: 62ae7f
+    trailInterval: 15
+
+    frontColor: ffffff
+    backColor: 62ae7f
+
+hitEffect: {
+    type: WaveEffect
+    rotWithParent: false
+    followParent: false
+    sizeFrom: 4
+    sizeTo: 2
+    sides:3
+
+    lifetime: 90
+
+    colorFrom: 84f49180
+    colorTo: 84f49100
+    }
 }
     }
 
 {
     name: double-machine-gun
-
     controllable: false
     rotationLimit: 180
     baseRotation: -45
@@ -605,25 +815,29 @@ bullet: {
     x: 18.5
     y: -4
 
-    cooldownTime: 180
-    reload: 17.5
+    cooldownTime: 80
+    velocityRnd: 0.4
+    inaccuracy: 5
+    reload: 120
 
-    ejectEffect: casing2Double
     shootSound: auto-cannon-shot
+    ejectEffect: casing2Double
 shoot: { 
     type: ShootMulti
 source: {
     type: ShootAlternate
     barrels: 2
     spread: 4
-    shots: 1
+    shots: 6
+    shotDelay:6
     }
 
 dest: [ 
 {
     type: ShootSpread
-    spread: 4
-    shots: 1
+    spread: 0
+    shots: 3
+    shotDelay:30
     }
 ]
     }
@@ -669,41 +883,98 @@ heatProgress: {
     ]
 
 bullet: {
-    type: FlakBulletType
+    type: BasicBulletType
     collidesGround: false
     despawnShake: 3.2
-    scaleLife: true
+    pierceArmor: true
     hitShake: 3.2
     hitSize: 3
-    height: 15
-    width: 9
-
-    splashDamageRadius: 26
+    height: 9
+    width: 6
+    
+    splashDamageRadius: 14
     statusDuration: 45
-    splashDamage: 75
+    splashDamage: 125
     status: blasted
-    pierceCap: 41
-    lifetime: 80
-    speed: 3.2
+    pierceCap: 3
+    lifetime: 40
+    damage: 270
+    speed: 6.4
 
     despawnEffect: hitBulletColor
     shootEffect: shootSmallColor
     smokeEffect: shootBigSmoke
-    hitEffect: blastExplosion
     hitSound: auto-cannon-hit
 
     lightColor: 62ae7f
     lightOpacity: 0.7
     lightRadius: 32.5
 
-    trailInterp: slope
     trailColor: 62ae7f
-    trailLength: 41.5
-    trailWidth: 1.75
+    trailLength: 6
+    trailWidth: 1
 
     frontColor: ffffff
     backColor: 62ae7f
     hitColor: ffffff
+
+hitEffect: [
+    {
+    type: WaveEffect
+    sides:4
+    rotWithParent: false
+    followParent: false
+    sizeFrom: 0
+    sizeTo: 6
+
+    lifetime: 40
+
+    colorFrom: 84f491
+    colorTo: 84f49180
+}
+    {
+    startDelay:40
+    type: WaveEffect
+    sides:4
+    rotWithParent: false
+    followParent: false
+    sizeFrom: 6
+    sizeTo: 3
+
+    lifetime: 30
+
+    colorFrom: 84f49180
+    colorTo: 84f49100
+}
+    {
+    type: ParticleEffect
+    line: true
+    length: 20.5
+    cone: 360
+    particles: 3
+    lifetime: 15
+    sizeFrom: 1.5
+    sizeTo: 1
+    colorFrom: 84f491
+    colorTo: ffffff00
+    strokeFrom: 1.25
+    strokeTo: 0.25    
+}
+    ]
+
+despawnEffect: {
+    type: WaveEffect
+    rotWithParent: false
+    followParent: false
+    sizeFrom: 3
+    sizeTo: 1
+    sides:5
+
+    lifetime: 60
+
+    colorFrom: 84f49180
+    colorTo: 84f49100
+}
     }
 }
     ]
