@@ -56,10 +56,14 @@ bullet: {
 
     statusDuration: 300
     status: burning
-    pierceCap: 24
+    pierceCap: 7
     lifetime: 19
     damage: 42.5
     speed: 3
+
+    incendChance: 0.1
+    incendSpread: 4
+    incendAmount: 3
 
     shootEffect: shootSmallFlame
     hitEffect: hitFlameSmall
