@@ -58,7 +58,6 @@ weapons: [
     reload: 60
 
     shootSound: medium-mech-footsteps
-
 bullet: {
     type: BasicBulletType
     maxRange: 388
@@ -111,9 +110,12 @@ bullet: {
     statusDuration: 300
     splashDamage: 120
     knockback: 4.45
-    pierceCap: 96
     lifetime: 163
     speed: 2.4
+
+    incendChance: 0.8
+    incendSpread: 12
+    incendAmount: 4
 
     hitEffect: blastExplosion
     hitSound: artillery-hit
@@ -186,9 +188,9 @@ bullet: {
 
     status: status-air-specialization
     statusDuration: 180
-    pierceCap: 18
+    pierceCap: 5
     lifetime: 48
-    damage: 21.5
+    damage: 24
     speed: 7.5
 
     lightColor: fff8e8
