@@ -95,14 +95,17 @@ bullet: {
     length: 320
     shake: 5.5
 
+    buildingDamageMultiplier: 0.4
+
     statusDuration: 450
+    healPercent: 0.35
+    status: melting
+    lifetime: 485
+    damage: 270
+
     incendChance: 1.5
-    healPercent: 0.25
     incendSpread: 7
     incendAmount: 5
-    status: melting
-    lifetime: 525
-    damage: 121
 
     despawnEffect: smokeCloud
     hitEffect: hitMeltHeal
@@ -137,7 +140,7 @@ chargeEffect: {
     x: 5
     y: -2.5
 
-    repairSpeed: 1.6
+    repairSpeed: 0.9
 
 bullet: {
     maxRange: 192
@@ -161,8 +164,8 @@ bullet: {
     y: 4
     
     fractionRepairSpeed: 0.05
-    repairSpeed: 1.25
-    reload: 24
+    repairSpeed: 1.2
+    reload: 48
 
 bullet: {
     maxRange: 90
