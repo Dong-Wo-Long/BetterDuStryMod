@@ -6,21 +6,7 @@ health: 69000
 speed: 0.3
 armor: 121
 
-immunities: [ spore-slowed, electrified, burning, blasted, melting, shocked, bsm-status-ground-specialization, bsm-status-air-specialization, bsm-armor-piercing-tier-2, bsm-armor-piercing-tier-3 ]
-
-abilities: [
-    {
-    type: SuppressionFieldAbility
-    particleSize: 3
-    particles: 10
-    orbRadius: 5
-    y: -16
-
-    particleColor: 98ffa9
-    effectColor: 98ffa9
-    color: 98ffa9
-}
-    ]
+immunities: [ spore-slowed, electrified, burning, blasted, melting, shocked, bsm-status-ground-specialization, bsm-status-air-specialization, bsm-20s-05-tier-2-strength-reduction, bsm-20s-04-tier-3-strength-reduction ]
 
 weapons: [
 {
