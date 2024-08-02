@@ -210,6 +210,10 @@ bullet: {
     damage: 325
     speed: 19
 
+    incendChance: 10
+    incendSpread: 10
+    incendAmount: 1
+
     hitSound: heavy-minigun-hit
     hitEffect: blastExplosion
     shootEffect: shootBig
@@ -322,9 +326,6 @@ bullet: {
     splashDamageRadius: 26
     statusDuration: 300
     homingPower: 0.025
-    incendSpread: 36
-    incendChance: 48
-    incendAmount: 96
     splashDamage: 48
     homingRange: 360
     status: burning
@@ -333,6 +334,10 @@ bullet: {
     weaveMag: 4
     damage: 64
     speed: 3
+
+    incendAmount: 69
+    incendSpread: 24
+    incendChance: 18
 
     hitSound: rocket-explosion
     despawnEffect: none
