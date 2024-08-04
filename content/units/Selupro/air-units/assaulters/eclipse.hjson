@@ -29,13 +29,6 @@ targetFlags: [ turret, repair, extinguisher, hasFogRadius, unitAssembler, unitCa
 
 abilities: [
     {
-    type: RegenAbility
-    amount: 0.8
-}
-    ]
-
-abilities: [
-    {
     type: ShieldArcAbility
     region: bsm-eclipse-shield
     radius: 52.5
@@ -62,6 +55,10 @@ abilities: [
     reload: 1050
     amount: 500
     max: 1500
+}
+    {
+    type: RegenAbility
+    amount: 0.8
 }
     ]
 
