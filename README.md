@@ -26,4 +26,4 @@ Thanks also to Catana#8735 for the opportunity to use this sprite:
 
 > [!CAUTION]
 > What follows are just spoilers of future content:
-![BetterDuStryMod](https://github.com/Dong-Wo-Long/BSM-other/blob/main/breach-destroy-tanks.mp4)
+![BetterDuStryMod](https://github.com/Dong-Wo-Long/BSM-other/blob/main/breach-destroy-tanks.mp3)
