@@ -1,9 +1,0 @@
-liquidCapacity: 18000
-constructTime: 10800
-itemCapacity: 24000
-health: 5000
-armor: 12
-
-consumes: {
-    power: 25
-}
