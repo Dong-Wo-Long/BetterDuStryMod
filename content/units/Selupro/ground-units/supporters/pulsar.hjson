@@ -7,7 +7,7 @@ itemCapacity: 48
 buildSpeed: 0.24
 mineSpeed: 0.75
 mineTier: 3
-health: 480
+health: 840
 speed: 1
 armor: 9
 
@@ -18,7 +18,7 @@ lightRadius: 75
 
 trailLength: 9
 
-immunities: [ electrified, shocked, bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ electrified, shocked, bsm-air-specialization, bsm-naval-specialization ]
 
 abilities: [
     {
@@ -47,16 +47,16 @@ weapons: [
     x: 5
     y: 0.5
 
-    inaccuracy: 15
-    reload: 18
+    inaccuracy: 5
+    reload: 24
 
-    shootSound: electro-shotgun-shot
+    shootSound: shotgun-electro-shot
     ejectEffect: none
 shoot: {
     type: ShootSpread
-    spread: 3
-    shots: 5
-}
+    spread: 2
+    shots: 4
+    }
 
 bullet: {
     type: LightningBulletType
@@ -67,8 +67,8 @@ bullet: {
 
     buildingDamageMultiplier: 0.5
 
-    lightningLengthRand: 15
-    lightningLength: 12.5
+    lightningLengthRand: 4
+    lightningLength: 14
     healAmount: 17.5
     damage: 24
 
@@ -85,7 +85,7 @@ lightningType: {
     height: 0
     width: 0
 
-    status: 20s-36-status-tier-1-direct-purpose-emp
+    status: bsm-emp-tier-1
     statusDuration: 180
     healAmount: 7.5
     lifetime: 1

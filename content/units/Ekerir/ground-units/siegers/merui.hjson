@@ -1,3 +1,4 @@
+research: mech-fabricator
 alwaysShootWhenMoving: true
 targetAir: false
 stepShake: 0.18
@@ -13,7 +14,7 @@ lightColor: 8ca9e8
 lightOpacity: 0.7
 lightRadius: 64.5
 
-immunities: [ bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ bsm-air-specialization, bsm-naval-specialization ]
 
 weapons: [
 {
@@ -31,7 +32,7 @@ weapons: [
     inaccuracy: 9
     reload: 180
 
-    shootStatus: 20s-12-status-tier-1-motor-deceleration
+    shootStatus: bsm-motor-deceleration-tier-1
     chargeSound: blaster-charge
     shootSound: blaster-shot-2
     shootStatusDuration: 128
@@ -58,7 +59,7 @@ bullet: {
 
     buildingDamageMultiplier: 1.25
 
-    status: 20s-06-tier-1-strength-reduction
+    status: bsm-armor-piercing-tier-1
     splashDamageRadius: 40
     statusDuration: 180
     splashDamage: 81

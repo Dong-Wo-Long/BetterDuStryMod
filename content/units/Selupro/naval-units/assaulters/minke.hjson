@@ -4,14 +4,14 @@ hitSize: 18
 
 speed: 0.5666666666666
 rotateSpeed: 1.8
-health: 3250
-armor: 12
+health: 1350
+armor: 18
 
 lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 75
 
-immunities: [ spore-slowed, bsm-status-ground-specialization, bsm-status-air-specialization, bsm-20s-06-tier-1-strength-reduction ]
+immunities: [ spore-slowed, bsm-ground-specialization, bsm-air-specialization, bsm-armor-piercing-tier-1 ]
 
 weapons: [
 {
@@ -36,14 +36,14 @@ weapons: [
 bullet: {
     type: SapBulletType
     collidesGround: false
-    length: 360
-    width: 0.75
+    length: 120
+    width: 0.5
 
-    status: 20s-18-status-tier-1-damage-reduction
+    status: bsm-damage-reduction-tier-1
     statusDuration: 90
     sapStrength: 0.25
     knockback: -1
-    lifetime: 40
+    lifetime: 10
     damage: 24
 
     shootEffect: shootSmall
@@ -63,9 +63,9 @@ hitEffect: {
     lifetime: 24
 
     sizeFrom: 0
-    sizeTo: 40
+    sizeTo: 20
 
-    strokeFrom: 3
+    strokeFrom: 2
     strokeTo: 0
 
     colorFrom: feb380
@@ -90,9 +90,9 @@ hitEffect: {
     y: 8
 
     cooldownTime: 90
-    reload: 64
+    reload: 90
 
-    shootSound: pulse-shot-2
+    shootSound: rail-shot-2
     ejectEffect: casing3
 shoot: {
     firstShotDelay: 20
@@ -113,7 +113,7 @@ bullet: {
     buildingDamageMultiplier: 1.25
     pierceDamageFactor: 0.025
 
-    status: 20s-06-tier-1-strength-reduction
+    status: bsm-armor-piercing-tier-1
     splashDamageRadius: 26
     statusDuration: 90
     splashDamage: 24
@@ -126,7 +126,7 @@ bullet: {
     hitEffect: hitBulletColor
     shootEffect: shootBig
     hitSoundVolume: 0.25
-    hitSound: pulse-hit
+    hitSound: bomb-plasma-hit
 
     lightColor: d1efff
     lightOpacity: 0.7
@@ -232,7 +232,7 @@ bullet: {
     y: -3
 
     cooldownTime: 210
-    reload: 180
+    reload: 220
 
     shootSound: cannon-shot-2
     ejectEffect: casing2
@@ -258,6 +258,8 @@ parts: [
 bullet: {
     type: ArtilleryBulletType
     keepVelocity: false
+	collides:true
+	collidesTiles: true
     collidesAir: false
     despawnShake: 5
     hittable: false
@@ -267,13 +269,13 @@ bullet: {
 
     buildingDamageMultiplier: 1.5
 
-    status: bsm-status-ground-specialization
+    status: bsm-ground-specialization
     splashDamageRadius: 40
     statusDuration: 180
     splashDamage: 75
     lifetime: 64.5
-    pierceCap: 24
-    damage: 81
+    pierceCap: 2
+    damage: 60
     speed: 8
 
     smokeEffect: shootSmallSmoke

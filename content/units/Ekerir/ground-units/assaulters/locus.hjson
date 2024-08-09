@@ -1,16 +1,17 @@
+research: stell
 alwaysShootWhenMoving: true
 fogRadius: 52.5
 
 rotateSpeed: 1.6
-health: 1800
+health: 5000
 speed: 0.415
-armor: 18
+armor: 24
 
 lightColor: feb380
 lightOpacity: 0.7
 lightRadius: 75
 
-immunities: [ burning, melting, blasted, bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ burning, melting, blasted, bsm-air-specialization, bsm-naval-specialization ]
 
 weapons: [
 {

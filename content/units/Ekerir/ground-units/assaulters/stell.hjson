@@ -1,7 +1,8 @@
+research: tank-fabricator
 targetAir: false
 fogRadius: 32.5
 
-rotateSpeed: 1.5
+rotateSpeed: 3
 health: 810
 speed: 0.45
 armor: 15
@@ -10,7 +11,7 @@ lightColor: feb380
 lightOpacity: 0.7
 lightRadius: 62.5
 
-immunities: [ burning, blasted, bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ burning, blasted, bsm-air-specialization, bsm-naval-specialization ]
 
 weapons: [
 {

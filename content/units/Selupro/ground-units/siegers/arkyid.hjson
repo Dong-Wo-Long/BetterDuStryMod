@@ -14,7 +14,7 @@ lightOpacity: 0.7
 healColor: bf92f9
 lightRadius: 150
 
-immunities: [ spore-slowed, shocked, sapped, bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ spore-slowed, shocked, sapped, bsm-air-specialization, bsm-naval-specialization ]
 
 abilities: [
     {
@@ -38,9 +38,9 @@ abilities: [
 }
     {
     type: SuppressionFieldAbility
-    orbRadius: 9
+    orbRadius: 6
     reload: 81
-    range: 256
+    range: 60
     layer: 75
     x: 0
     y: -9
@@ -78,37 +78,39 @@ bullet: {
     hittable: false
     hitSize: 6
 
+    buildingDamageMultiplier: 1.5
+    ammoMultiplier: 18
+
     statusDuration: 300
     status: burning
-    pierceCap: 15
-    damage: 128.5
+    pierceCap: 12
     lifetime: 24
+    damage: 52.5
     speed: 3
 
     despawnEffect: none
 
 shootEffect: {
+    sizeInterp: pow3In
+    interp: pow5Out
     particles: 7
     lifetime: 55
-    sizeFrom: 2
-    sizeTo: 0.25
-    length: 75
     cone: 7
 
-    lightColor: 6d56bf
-    lightOpacity: 0.7
-    lightRadius: 7.5
+    sizeTo: 0.25
+    sizeFrom: 2
+    length: 75
 
     colorFrom: 6d56bf
     colorTo: bf92f9
 
-    sizeInterp: pow3In
-    interp: pow5Out
+    lightColor: 6d56bf
+    lightOpacity: 0.7
+    lightRadius: 7.5
     }
 
 hitEffect: {
     type: ExplosionEffect
-
     lifetime: 15
 
     waveColor: bf92f9
@@ -133,22 +135,20 @@ hitEffect: {
     name: large-mpw
     layerOffset: -0.001
     rotationLimit: 45
-    alternate: false
+    alternate: true
     rotate: true
     x: 2.5
     y: 8.5
 
-    velocityRnd: 0.24
-    reload: 280
-
-    shootStatus: 20s-12-status-tier-1-motor-deceleration
+    velocityRnd: 0.28
+    reload: 270
+	inaccuracy:4
     chargeSound: anti-material-rifle-charge
     shootSound: anti-material-rifle-shot
-    shootStatusDuration: 330
 shoot: {
     firstShotDelay: 135
-    shotDelay: 7.5
-    shots: 24
+    shotDelay: 1.25
+    shots: 96
     }
 
 bullet: {
@@ -156,15 +156,13 @@ bullet: {
     height: 14
     width: 8
 
-    buildingDamageMultiplier: 0.75
-
-    status: status-ground-specialization
-    statusDuration: 180
-    pierceCap: 24
-    lifetime: 64
-    damage: 144
-    speed: 6
-
+    pierceCap: 4
+    damage:50
+    drag: 0.05
+    speed: 20
+    buildingDamageMultiplier: 2
+    pierceArmor:true
+    
     shootEffect: shootSmallColor
     hitEffect: hitBulletColor
 
@@ -173,12 +171,57 @@ bullet: {
     lightRadius: 21
 
     trailColor: 6d56bf
-    trailLength: 24.5
-    trailWidth: 1.75
+    trailLength: 3.2
+    trailWidth: 1.5
 
     frontColor: bf92f9
     backColor: 6d56bf
     hitColor: bf92f9
+
+despawnEffect: [
+    {
+    type: ParticleEffect
+    lifetime: 120
+    particles: 5
+    layer: 100.2
+    cone: 360
+
+    sizeFrom: 1
+    length: 12
+    sizeTo: 0
+
+    colorFrom: 6d56bf70
+    colorTo: 6d56bf00
+}
+{
+    type: ParticleEffect
+    lifetime: 90
+    particles: 3
+    layer: 100.2
+    cone: 360
+
+    sizeFrom: 1
+    length: 20
+    sizeTo: 0
+
+    colorFrom: 6d56bf30
+    colorTo: 6d56bf00
+	}
+    {
+    type: ParticleEffect
+    lifetime: 160
+    particles: 7
+    layer: 100.0
+    cone: 1
+
+    sizeFrom: 3
+    sizeTo: 2
+    length: 0
+
+    colorFrom: 6d56bf40
+    colorTo: 6d56bf00
+}
+    ]
 }
     }
 
@@ -205,7 +248,7 @@ bullet: {
 
     sapStrength: 0.35
     lifetime: 30
-    damage: 64
+    damage: 32
 
     shootEffect: shootSmall
     despawnEffect: none
@@ -238,11 +281,11 @@ bullet: {
     length: 100
     width: 0.55
 
-    buildingDamageMultiplier: 0.55
+    buildingDamageMultiplier: 0.7
 
     sapStrength: 0.25
     lifetime: 30
-    damage: 106
+    damage: 48
 
     shootEffect: shootSmall
     despawnEffect: none
@@ -275,11 +318,11 @@ bullet: {
     length: 80
     width: 0.55
 
-    buildingDamageMultiplier: 0.35
+    buildingDamageMultiplier: 0.55
 
     sapStrength: 0.15
     lifetime: 30
-    damage: 128
+    damage: 69
 
     shootEffect: shootSmall
     despawnEffect: none
@@ -296,96 +339,58 @@ bullet: {
 {
     name: purple-missiles-mount
     controllable: false
-    rotationLimit: 50
+    rotateSpeed: 2.4
     autoTarget: true
-    shootCone: 360
+    alternate: false
+    shootCone: 15
     mirror: false
     rotate: true
-    recoil: 2
-    shootY: 1
-    shake: 5
+    recoil: 1.5
+    shake: 3
     x: 0
     y: -7
 
-    velocityRnd: 0.45
-    inaccuracy: 48
-    reload: 375
+    cooldownTime: 120
+    reload: 81
 
-    shootStatus: 20s-12-status-tier-1-motor-deceleration
-    chargeSound: short-target-locked
-    shootStatusDuration: 345
-    shootSound: rocket-shot
-shoot: {
-    type: ShootAlternate
-    firstShotDelay: 185
-    shotDelay: 12
-    spread: 1.8
-    barrels: 2
-    shots: 12
-    }
-
+    shootSound: scanning
 bullet: {
-    type: MissileBulletType
+    type: SapBulletType
     collidesGround: false
-    keepVelocity: false
-    despawnShake: 5
-    scaleLife: true
-    shrinkX: 0.25
-    shrinkY: 0.5
-    height: 11
-    width: 11
+    length: 384
+    width: 0.75
 
-    status: 20s-36-status-tier-1-direct-purpose-emp
-    splashDamageRadius: 40
-    statusDuration: 180
-    lightningDamage: 9
-    lightningLength: 7
-    homingPower: 0.18
-    splashDamage: 81
-    homingRange: 480
-    lifetime: 500
-    lightning: 4
+    status: bsm-damage-reduction-tier-2
+    statusDuration: 90
+    sapStrength: 0.5
+    knockback: -1
+    lifetime: 40
     damage: 96
-    drag: 0.01
-    speed: 5
 
+    shootEffect: shootSmall
     despawnEffect: none
 
-    lightColor: bf92f9
+    lightColor: feb380
     lightOpacity: 0.7
-    lightRadius: 32.5
+    lightRadius: 21
 
-    trailEffect: artilleryTrail
-    trailInterp: slope
-    trailColor: bf92f9
-    trailInterval: 15
-    trailLength: 48
-    trailWidth: 2
-    trailSize: 2
-
-    lightningColor: ffffff
-    frontColor: ffffff
-    backColor: bf92f9
+    hitColor: feb380
+    color: feb380
 
 hitEffect: {
-    type: ExplosionEffect
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 24
 
-    lifetime: 48
+    sizeFrom: 0
+    sizeTo: 40
 
-    waveColor: bf92f9
-    waveStroke: 3.2
-    waveRad: 48
+    strokeFrom: 3
+    strokeTo: 0
 
-    smokeColor: 696969
-    smokeSizeBase: 0
-    smokeSize: 14.5
-    smokes: 7
-
-    sparkColor: bf92f9
-    sparkStroke: 1.8
-    sparkRad: 27.5
-    sparkLen: 3
-    sparks: 9
+    colorFrom: feb380
+    colorTo: ea8878
     }
 }
     }
@@ -402,19 +407,30 @@ hitEffect: {
     shake: 9
     y: -9
     x: 9
-
+    inaccuracy:7
     cooldownTime: 360
     velocityRnd: 0.24
     reload: 360
-
-    shootStatus: 20s-11-status-tier-2-motor-deceleration
+    
+    shootStatus: bsm-motor-deceleration-tier-2
     shootStatusDuration: 300
     shootSound: rocket-fire
     ejectEffect: casing3
 shoot: {
-    shotDelay: 12
-    shots: 6
-}
+        type: ShootMulti
+        source: {
+            type: ShootSpread
+            shots: 2
+            spread: 30
+        }
+        dest: [
+            {
+            type: ShootPattern
+            shots: 3
+            shotDelay: 6
+            }
+    ]
+    }
 
 bullet: { 
     type: BulletType

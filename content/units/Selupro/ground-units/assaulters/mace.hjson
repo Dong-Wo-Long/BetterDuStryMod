@@ -7,18 +7,19 @@ itemCapacity: 32
 rotateSpeed: 3.5
 speed: 0.64
 armor: 15
+health: 940
 
 lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 67.5
 healColor: b0bac0
 
-immunities: [ burning, blasted, bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ burning, blasted, bsm-air-specialization, bsm-naval-specialization ]
 
 abilities: [
     {
     type: ArmorPlateAbility
-    healthMultiplier: 1.5
+    healthMultiplier: 0.7
 }
     {
     type: RegenAbility
@@ -37,34 +38,34 @@ weapons: [
     shootY: 2
     recoil: 1
 
-    reload: 5
+    reload: 7
     
     ejectEffect: none
     shootSound: flame
 
 bullet: {
     type: BulletType
-    pierceBuilding: true
     keepVelocity: false
-    collidesAir: false
     hittable: false
     pierce: true
     hitSize: 7
-
+    
+    pierceBuilding:true
+    
     buildingDamageMultiplier: 1.25
     ammoMultiplier: 3
 
     statusDuration: 300
     status: burning
-    pierceCap: 7
+    pierceCap: 2
     lifetime: 19
-    damage: 42.5
+    damage: 45
     speed: 3
-
-    incendChance: 0.1
-    incendSpread: 4
+    
     incendAmount: 3
-
+    incendSpread: 4
+    incendChance: 0.1
+    
     shootEffect: shootSmallFlame
     hitEffect: hitFlameSmall
     despawnEffect: none

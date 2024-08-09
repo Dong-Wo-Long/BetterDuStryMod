@@ -10,72 +10,108 @@ itemOffsetY: -4.5
 rotateSpeed: 0.25
 buildSpeed: 0.81
 mineSpeed: 15
-health: 48000
+health: 60000
 mineTier: 4
 speed: 0.32
-armor: 121
-
-trailLength: 41.5
+armor: 180
 
 lightColor: 98ffa9
 lightOpacity: 0.7
 lightRadius: 215
 
-immunities: [ electrified, melting, burning, blasted, shocked, tarred, wet, bsm-status-ground-specialization, bsm-status-naval-specialization ]
+trailLength: 41.5
+
+deathSound: air-crush-large-2
+loopSound: air-engine
+loopSoundVolume: 0.4
+
+immunities: [ electrified, melting, burning, blasted, shocked, tarred, wet, bsm-ground-specialization, bsm-naval-specialization ]
 
 abilities: [
-{
+    {
     type: EnergyFieldAbility
-    sameTypeHealMult: 0.32
+    sameTypeHealMult: 0.3
     statusDuration: 500
-    healPercent: 1.25
-    maxTargets: 25
-    damage: 181
-    reload: 75
-    range: 256
+    healPercent: 1
+    maxTargets: 90
+    damage: 100
+    reload: 30
+    range: 260
     x: 0
     y: -5
-    }
-{
+}
+    {
     type: ForceFieldAbility
-    cooldown: 1920
-    radius: 125
-    regen: 3.2
+    cooldown: 1000
+    radius: 220
+    regen: 58
     sides: 8
-    max: 32000
-    }
-
+    max: 58000
+}
 {
+    type: ShieldRegenFieldAbility
+    amount: 700
+    reload:160
+    max: 15000
+    range:140
+	}
+	{
+    type: StatusFieldAbility
+    effect: auto-repair-tier-2
+    duration: 120
+    reload: 60
+    range: 140
+}
+	{
+    type: StatusFieldAbility
+    effect: motor-acceleration-tier-1
+    duration: 120
+    reload: 60
+    range: 140
+}
+	{
+    type: RegenAbility
+    amount:3
+}
+    {
     type: RepairFieldAbility
-    reload: 1800
-    amount: 750
-    range: 180
-    }
-]
+    reload: 60
+    amount: 500
+    range: 50
+}
+    ]
 
 weapons: [
 {
     controllable: false
-    baseRotation: -180
-    rotateSpeed: 0.5
     autoTarget: true
     alternate: false
-    shootCone: 45
+    shootCone: 360
     rotate: false
     mirror: false
     x: 0
-    y: -13
+    y: -5
 
+    inaccuracy: 40
     reload: 900
 
-    heatColor: f9350f
-
     shootSound: missile
-
-shoot: { 
-    shotDelay: 48
+shoot: {
+    type: ShootMulti
+source: {
+    type: ShootSpread
+    spread: 60
     shots: 12
-}
+    }
+
+dest: [
+{
+    type: ShootPattern
+    shotDelay: 6
+    shots: 4
+    }
+]
+    }
 
 bullet: {
     type: BasicBulletType
@@ -87,17 +123,24 @@ bullet: {
     height: 9
     width: 9
 
-    buildingDamageMultiplier: 0.75
+    buildingDamageMultiplier: 0.5
 
-    splashDamageRadius: 20
+    splashDamageRadius: 30
     statusDuration: 180
-    splashDamage: 75
-    homingRange: 180
+    homingPower: 0.07
+    splashDamage: 145
+    homingDelay: 40
+    homingRange: 90
     status: burning
-    homingPower: 1
-    lifetime: 121
-    damage: 90
+    lifetime: 171
+    damage: 120
     speed: 2.5
+	pierceArmor:true
+	
+    smokeEffect: shootBigSmoke
+    shootEffect: shootBigColor
+    despawnEffect: explosion
+    hitSound: dullExplosion
 
     lightColor: 84f491
     lightOpacity: 0.7
@@ -110,98 +153,90 @@ bullet: {
     frontColor: ffffff
     backColor: 84f491
     hitColor: 84f491
-
-    smokeEffect: shootBigSmoke
-    shootEffect: shootBigColor
-    despawnEffect: explosion
-    hitSound: dullExplosion
 }
     }
 
 {
     controllable: false
-    baseRotation: -135
-    rotateSpeed: 0.5
     autoTarget: true
     alternate: false
     shootCone: 45
-    rotate: false
-    x: 17.5
-    y: 1.5
+    rotate: true
+    x: 0
+    y: -5
+	
+    reload: 120
 
-    reload: 600
-
-    heatColor: f9350f
-
-    shootSound: missile
-
-shoot: { 
-    shotDelay: 32
-    shots: 9
-}
+    shootSound: missile  
+shoot: {
+    shotDelay: 6
+	spread:4
+    shots: 3
+    }
 
 bullet: {
     type: BasicBulletType
     sprite: large-orb
     despawnShake: 4.5
     hitShake: 4.5
-    shrinkX: 0.5
-    shrinkY: 0.5
+    shrinkX: 0.0
+    shrinkY: 0.0
     height: 7.5
     width: 7.5
 
-    buildingDamageMultiplier: 0.5
+    buildingDamageMultiplier: 0.2
 
     splashDamageRadius: 24
     statusDuration: 180
-    splashDamage: 121
-    homingRange: 180
+    splashDamage: 90
+    homingPower: 0.05
+    homingRange: 30
+    homingDelay: 40
     status: burning
-    homingPower: 1
-    lifetime: 142
+    lifetime: 121
     damage: 181
-    speed: 2.5
+    speed: 3.5
+	pierce:true
+	pierceCap: 3
+	pierceArmor:true
+	
+    smokeEffect: shootBigSmoke
+    shootEffect: shootBigColor
+    despawnEffect: explosion
+    hitSound: dullExplosion
 
     lightColor: 84f491
     lightOpacity: 0.7
     lightRadius: 24.5
 
     trailColor: 84f491
-    trailLength: 15
-    trailWidth: 1.5
+    trailLength: 9
+    trailWidth: 2
 
     frontColor: ffffff
     backColor: 84f491
     hitColor: 84f491
-
-    smokeEffect: shootBigSmoke
-    shootEffect: shootBigColor
-    despawnEffect: explosion
-    hitSound: dullExplosion
 }
     }
 
 {
     controllable: false
-    rotateSpeed: 0.5
     autoTarget: true
     alternate: false
     shootCone: 90
-    rotate: false
     mirror: false
+    rotate: true
     x: 0
-    y: 5
+    y: -5
 
     reload: 480
 
-    heatColor: f9350f
-
     shootSound: missile
-
+    inaccuracy: 30
 shoot: { 
-    shotDelay: 24
-    shots: 6
-}
+    shotDelay: 8
+    shots: 9
+    }
 
 bullet: {
     type: BasicBulletType
@@ -213,17 +248,26 @@ bullet: {
     height: 12
     width: 12
 
-    buildingDamageMultiplier: 0.25
+    buildingDamageMultiplier: 0.15
 
     splashDamageRadius: 26
     statusDuration: 180
-    splashDamage: 256
-    homingRange: 180
+    splashDamage: 150
+    homingPower: 0.03
+    homingDelay: 40
+    homingRange: 50
     status: burning
-    homingPower: 1
     lifetime: 122
-    damage: 181
+    damage: 230
     speed: 2.5
+	pierce:true
+	pierceCap: 4
+	pierceArmor:true
+	
+    smokeEffect: shootBigSmoke
+    shootEffect: shootBigColor
+    despawnEffect: explosion
+    hitSound: dullExplosion
 
     lightColor: 84f491
     lightOpacity: 0.7
@@ -236,20 +280,14 @@ bullet: {
     frontColor: ffffff
     backColor: 84f491
     hitColor: 84f491
-
-    smokeEffect: shootBigSmoke
-    shootEffect: shootBigColor
-    despawnEffect: explosion
-    hitSound: dullExplosion
 }
     }
 
 {
     name: hidden-oct-weapon
-
     controllable: false
     layerOffset: -0.001
-    rotationLimit: 60
+    rotationLimit: 110
     baseRotation: -45
     rotateSpeed: 0.8
     autoTarget: true
@@ -261,38 +299,39 @@ bullet: {
     y: 15.5
 
     cooldownTime: 60
-    reload: 90
-
-    heatColor: f9350f
+    reload: 80
 
     shootSound: railgun
-
 shoot: { 
     type: ShootAlternate
-    shotDelay: 12
-    barrels: 2
+    shotDelay: 6
     spread: 3.2
-    shots: 6
-}
+    barrels: 2
+    shots: 9
+    }
 
 bullet: {
     type: BasicBulletType
     sprite: missile-large
-    collideTerrain: true
     collidesAir: false
     pierceArmor: true
     hitSize: 4
     height: 15
     width: 7
-
+	
     buildingDamageMultiplier: 1.25
 
     splashDamageRadius: 36
-    splashDamage: 320
+    splashDamage: 220
     pierceCap: 32
-    lifetime: 60
-    damage: 250
-    speed: 3.2
+    lifetime: 40
+    damage: 150
+    speed: 6.4
+
+    despawnEffect: hitBulletColor
+    smokeEffect: shootBigSmoke
+    shootEffect: shootBigColor
+    hitSound: dullExplosion
 
     lightColor: 84f491
     lightOpacity: 0.7
@@ -306,14 +345,8 @@ bullet: {
     backColor: 84f491
     hitColor: 84f491
 
-    despawnEffect: hitBulletColor
-    smokeEffect: shootBigSmoke
-    shootEffect: shootBigColor
-    hitSound: dullExplosion
-
 hitEffect: {
     type: ExplosionEffect
-
     lifetime: 50
 
     waveColor: 84f491
@@ -332,15 +365,14 @@ hitEffect: {
     sparks: 8
     }
 }
-
     }
+
 {
     name: hidden-oct-weapon
-
     controllable: false
     layerOffset: -0.001
     baseRotation: -135
-    rotationLimit: 60
+    rotationLimit: 110
     rotateSpeed: 0.8
     autoTarget: true
     alternate: false
@@ -351,24 +383,20 @@ hitEffect: {
     y: -31
 
     cooldownTime: 60
-    reload: 90
-
-    heatColor: f9350f
+    reload: 80
 
     shootSound: railgun
-
 shoot: { 
     type: ShootAlternate
-    shotDelay: 12
-    barrels: 2
+    shotDelay: 6
     spread: 3.2
-    shots: 6
-}
+    barrels: 2
+    shots: 8
+    }
 
 bullet: {
     type: BasicBulletType
     sprite: missile-large
-    collideTerrain: true
     collidesAir: false
     pierceArmor: true
     hitSize: 4
@@ -378,11 +406,16 @@ bullet: {
     buildingDamageMultiplier: 1.25
 
     splashDamageRadius: 36
-    splashDamage: 320
+    splashDamage: 220
     pierceCap: 32
-    lifetime: 60
-    damage: 250
-    speed: 3.2
+    lifetime: 40
+    damage: 180
+    speed: 6.4
+
+    despawnEffect: hitBulletColor
+    smokeEffect: shootBigSmoke
+    shootEffect: shootBigColor
+    hitSound: dullExplosion
 
     lightColor: 84f491
     lightOpacity: 0.7
@@ -396,14 +429,8 @@ bullet: {
     backColor: 84f491
     hitColor: 84f491
 
-    despawnEffect: hitBulletColor
-    smokeEffect: shootBigSmoke
-    shootEffect: shootBigColor
-    hitSound: dullExplosion
-
 hitEffect: {
     type: ExplosionEffect
-
     lifetime: 50
 
     waveColor: 84f491
@@ -424,3 +451,4 @@ hitEffect: {
     }
 }
     ]
+

@@ -14,7 +14,7 @@ lightOpacity: 0.7
 healColor: bf92f9
 lightRadius: 120
 
-immunities: [ spore-slowed, sapped, bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ spore-slowed, sapped, bsm-air-specialization, bsm-naval-specialization ]
 
 abilities: [
     {
@@ -27,14 +27,6 @@ abilities: [
     cooldown: 900
     regen: 3.25
     max: 2500
-}
-    {
-    type: SuppressionFieldAbility
-    orbRadius: 5
-    range: 192
-    layer: 75
-    x: 0
-    y: -7
 }
     {
     type: RegenAbility
@@ -99,7 +91,7 @@ bullet: {
 
     statusDuration: 300
     knockback: -0.75
-    sapStrength: 1
+    sapStrength: 0.8
     lifetime: 35
     damage: 69
 
@@ -133,10 +125,10 @@ bullet: {
     inaccuracy: 30
     reload: 360
 
-    shootStatus: 20s-12-status-tier-1-motor-deceleration
-    chargeSound: short-target-locked
+    shootStatus: bsm-motor-deceleration-tier-1
+    chargeSound: target-locked-short
     shootStatusDuration: 320
-    shootSound: rocket-shot
+    shootSound: rocket-shot-1
 shoot: {
     type: ShootAlternate
     firstShotDelay: 185
@@ -157,7 +149,7 @@ bullet: {
     height: 11
     width: 11
 
-    status: 20s-36-status-tier-1-direct-purpose-emp
+    status: bsm-emp-tier-1
     splashDamageRadius: 40
     statusDuration: 180
     lightningDamage: 9

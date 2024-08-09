@@ -13,19 +13,19 @@ lightOpacity: 0.7
 healColor: b0bac0
 lightRadius: 55
 
-immunities: [ blasted, bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ blasted, bsm-air-specialization, bsm-naval-specialization ]
 
 abilities: [
     {
     type: ShieldRegenFieldAbility
-    reload: 300
-    amount: 50
+    reload: 200
+    amount: 25
     range: 0
     max: 50
 }
     {
     type: ArmorPlateAbility
-    healthMultiplier: 0.8
+    healthMultiplier: 0.1
 }
     {
     type: RegenAbility
@@ -46,24 +46,21 @@ weapons: [
     inaccuracy: 5
     reload: 7.5
 
-    shootSound: submachine-gun-shot
+    shootSound: machine-gun-shot-2
     ejectEffect: casing1
 bullet: {
     type: BasicBulletType
-    collideTerrain: true
     height: 9
     width: 7
 
-    status: status-air-specialization
-    statusDuration: 90
     lifetime: 49
-    damage: 15
+    damage: 13
     speed: 4
-
-    incendChance: 0.04
-    incendSpread: 2
+    
     incendAmount: 1
-
+    incendSpread: 2
+    incendChance: 0.04
+    
     lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 20

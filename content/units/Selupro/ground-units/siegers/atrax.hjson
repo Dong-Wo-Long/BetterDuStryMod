@@ -14,7 +14,7 @@ lightOpacity: 0.7
 healColor: bf92f9
 lightRadius: 90
 
-immunities: [ melting, burning, sapped, bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ melting, burning, sapped, bsm-air-specialization, bsm-naval-specialization ]
 
 abilities: [
     {
@@ -108,10 +108,10 @@ bullet: {
     inaccuracy: 9
     reload: 275
 
-    shootStatus: 20s-12-status-tier-1-motor-deceleration
-    chargeSound: short-target-locked
+    shootStatus: motor-deceleration-tier-1
+    chargeSound: target-locked-short
     shootStatusDuration: 250
-    shootSound: rocket-shot
+    shootSound: rocket-shot-1
 shoot: {
     type: ShootAlternate
     firstShotDelay: 185
@@ -125,15 +125,14 @@ bullet: {
     type: MissileBulletType
     keepVelocity: false
     despawnShake: 7.5
+    scaleLife: true
     shrinkX: 0.25
     shrinkY: 0.5
     height: 11
     width: 11
 
-    status: status-air-specialization
     splashDamageRadius: 40
     lightningDamage: 12.5
-    statusDuration: 300
     lightningLength: 5
     splashDamage: 32
     homingPower: 0.1

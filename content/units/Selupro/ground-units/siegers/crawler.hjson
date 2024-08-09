@@ -13,12 +13,12 @@ lightOpacity: 0.7
 lightRadius: 47.5
 healColor: bf92f9
 
-immunities: [ sapped, bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ sapped, bsm-air-specialization, bsm-naval-specialization ]
 
 abilities: [
     {
     type: ArmorPlateAbility
-    healthMultiplier: 12
+    healthMultiplier: 1
 }
     {
     type: RegenAbility
@@ -36,7 +36,7 @@ weapons: [
 
     reload: 45
 
-    chargeSound: crawler-boom
+    chargeSound: boom-crawler
     ejectEffect: none
     shootSound: none
 shoot: {
@@ -53,7 +53,7 @@ bullet: {
     hittable: false
     collides: false
 
-    buildingDamageMultiplier: 2.5
+    buildingDamageMultiplier: 1.5
 
     splashDamageRadius: 60
     statusDuration: 90

@@ -54,21 +54,20 @@ weapons: [
     ejectEffect: none
 shoot: {
     firstShotDelay: 75
-    shotDelay: 0
-    shots: 1
+    shotDelay: 10
+    shots: 2
 }
 
 bullet: {
     type: LaserBoltBulletType
     parentizeEffects: true
     collideTerrain: true
-    pierceBuilding: true
     collidesTeam: true
 
     pierceDamageFactor: 0.005
 
     healAmount: 32
-    pierceCap: 5
+    pierceCap: 2
     lifetime: 68
     damage: 41.5
     speed: 5

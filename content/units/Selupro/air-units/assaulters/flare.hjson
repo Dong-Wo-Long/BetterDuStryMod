@@ -9,7 +9,7 @@ itemCapacity: 24
 rotateSpeed: 9
 accel: 0.025
 drag: 0.015
-health: 96
+health: 135
 speed: 5
 armor: 3
 
@@ -20,9 +20,9 @@ lightRadius: 45
 
 trailLength: 7.5
 
-deathSound: small-air-crush
+deathSound: air-crush-small-1
 
-immunities: [ bsm-status-ground-specialization, bsm-status-naval-specialization ]
+immunities: [ bsm-ground-specialization, bsm-naval-specialization ]
 
 targetFlags: [ generator, reactor, battery, extinguisher, drill, repair ]
 
@@ -43,7 +43,7 @@ weapons: [
 
     reload: 5
 
-    shootSound: machine-gun-shot
+    shootSound: machine-gun-shot-3
     ejectEffect: casing1
     
 bullet: {
@@ -54,7 +54,7 @@ bullet: {
 
     ammoMultiplier: 5
 
-    status: status-naval-specialization
+    status: naval-specialization
     statusDuration: 90
     lifetime: 64
     damage: 12.5

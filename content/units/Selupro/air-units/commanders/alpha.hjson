@@ -14,9 +14,9 @@ lightRadius: 60
 
 trailLength: 5.25
 
-deathSound: small-air-crush
+deathSound: air-crush-small-1
 
-immunities: [ bsm-status-ground-specialization, bsm-status-naval-specialization ]
+immunities: [ bsm-ground-specialization, bsm-naval-specialization ]
 
 weapons: [
 {
@@ -26,7 +26,7 @@ weapons: [
     
     reload: 7.5
 
-    shootSound: submachine-gun-shot
+    shootSound: machine-gun-shot-2
     ejectEffect: casing1
 
 bullet: {
@@ -39,7 +39,7 @@ bullet: {
     pierceDamageFactor: 0.005
 
     lifetime: 80.5
-    pierceCap: 8
+    pierceCap: 2
     speed: 3.25
     damage: 15
 

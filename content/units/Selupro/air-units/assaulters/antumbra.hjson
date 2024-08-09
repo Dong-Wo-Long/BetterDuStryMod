@@ -9,24 +9,24 @@ crashDamageMultiplier: 6
 itemCapacity: 9600
 fallSpeed: 0.0025
 rotateSpeed: 0.9
-health: 32000
-accel: 0.005
-drag: 0.005
+health: 28000
+accel: 0.015
+drag: 0.015
 speed: 1.3
-armor: 81
+armor: 92
 
 lightColor: fff8e8
 lightOpacity: 0.7
 healColor: b0bac0
 lightRadius: 110
 
-trailLength: 19
-
-loopSoundVolume: 0.32
-deathSound: air-crush
+deathSound: air-crush-1
+loopSoundVolume: 0.18
 loopSound: air-engine
 
-immunities: [ burning, blasted, shocked, tarred, wet, bsm-status-ground-specialization, bsm-status-naval-specialization ]
+trailLength: 19
+
+immunities: [ burning, blasted, shocked, tarred, wet, bsm-ground-specialization, bsm-naval-specialization ]
 
 targetFlags: [ unitAssembler, unitCargoUnloadPoint, turret, reactor, generator, battery, core ]
 
@@ -61,7 +61,6 @@ abilities: [
     spawnX: -20
     spawnY: -12
 }
-
     {
     type: RegenAbility
     amount: 0.7125
@@ -93,7 +92,7 @@ bullet: {
     length: 360
     width: 0.75
 
-    status: 20s-18-status-tier-1-damage-reduction
+    status: bsm-damage-reduction-tier-1
     statusDuration: 90
     sapStrength: 0.25
     knockback: -1
@@ -145,7 +144,7 @@ hitEffect: {
     cooldownTime: 90
     reload: 60
 
-    shootSound: pulse-shot-2
+    shootSound: machine-gun-shot-4
     ejectEffect: casing2
 shoot: {
     firstShotDelay: 20
@@ -156,6 +155,7 @@ bullet: {
     type: BasicBulletType
     pierceBuilding: true
     keepVelocity: false
+    pierceArmor: true
     despawnShake: 5
     hittable: false
     hitShake: 5
@@ -165,10 +165,10 @@ bullet: {
     buildingDamageMultiplier: 1.25
     pierceDamageFactor: 0.005
 
-    status: 20s-06-tier-1-strength-reduction
+    status: bsm-armor-piercing-tier-1
     splashDamageRadius: 26
     statusDuration: 180
-    splashDamage: 81
+    splashDamage: 70
     lifetime: 21.25
     pierceCap: 75
     damage: 96
@@ -176,8 +176,8 @@ bullet: {
 
     smokeEffect: shootSmallSmoke
     hitEffect: hitBulletColor
+    hitSound: bomb-plasma-hit
     shootEffect: shootBig
-    hitSound: pulse-hit
 
     lightColor: d1efff
     lightOpacity: 0.7
@@ -236,7 +236,7 @@ chargeEffect: {
     cooldownTime: 120
     reload: 90
 
-    shootSound: pulse-shot-2
+    shootSound: machine-gun-shot-4
     ejectEffect: casing2
 shoot: {
     firstShotDelay: 20
@@ -247,6 +247,7 @@ bullet: {
     type: BasicBulletType
     pierceBuilding: true
     keepVelocity: false
+    pierceArmor: true
     despawnShake: 5
     hittable: false
     hitShake: 5
@@ -256,19 +257,19 @@ bullet: {
     buildingDamageMultiplier: 1.25
     pierceDamageFactor: 0.005
 
-    status: 20s-06-tier-1-strength-reduction
+    status: bsm-armor-piercing-tier-1
     splashDamageRadius: 26
     statusDuration: 180
-    splashDamage: 81
+    splashDamage: 60
     lifetime: 21.25
     pierceCap: 75
-    damage: 96
+    damage: 146
     speed: 16
 
     smokeEffect: shootSmallSmoke
     hitEffect: hitBulletColor
+    hitSound: bomb-plasma-hit
     shootEffect: shootBig
-    hitSound: pulse-hit
 
     lightColor: d1efff
     lightOpacity: 0.7
@@ -396,7 +397,7 @@ bullet: {
 
     buildingDamageMultiplier: 1.75
 
-    status: 20s-23-status-tier-2-destructuring
+    status: bsm-oxidation-tier-2
     splashDamageRadius: 12
     statusDuration: 180
     splashDamage: 50
@@ -408,7 +409,7 @@ bullet: {
     smokeEffect: shootSmallSmoke
     hitEffect: hitBulletColor
     shootEffect: shootBig
-    hitSound: pulse-hit
+    hitSound: cannon-hit
 
     lightColor: feb380
     lightOpacity: 0.7
@@ -524,7 +525,7 @@ bullet: {
 
     buildingDamageMultiplier: 1.75
 
-    status: 20s-23-status-tier-2-destructuring
+    status: bsm-oxidation-tier-2
     splashDamageRadius: 12
     statusDuration: 180
     splashDamage: 50
@@ -536,7 +537,7 @@ bullet: {
     smokeEffect: shootSmallSmoke
     hitEffect: hitBulletColor
     shootEffect: shootBig
-    hitSound: pulse-hit
+    hitSound: cannon-hit
 
     lightColor: feb380
     lightOpacity: 0.7

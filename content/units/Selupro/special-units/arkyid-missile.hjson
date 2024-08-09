@@ -25,7 +25,7 @@ maxRange: 6
 health: 96
 speed: 4.5
 armor: 5
-
+homingDelay:20
 deathExplosionEffect: none
 loopSoundVolume: 0.5
 
@@ -36,7 +36,7 @@ trailWidth: 1.5
 engineColor: bf92f9
 engineLayer: 110
 
-immunities: [ bsm-status-ground-specialization, bsm-status-naval-specialization ]
+immunities: [ bsm-ground-specialization, bsm-naval-specialization ]
 
 parts: [
     type: FlarePart
@@ -66,14 +66,14 @@ bullet: {
     despawnShake: 10
     maxRange: 24
 
-    buildingDamageMultiplier: 1.8
+    buildingDamageMultiplier: 2
 
-    status: 20s-35-status-tier-2-direct-purpose-emp
     splashDamageRadius: 60
     lightningLength: 12.5
-    lightningDamage: 24
+    lightningDamage: 18
     statusDuration: 300
-    splashDamage: 500
+    status: emp-tier-2
+    splashDamage: 256
     lightning: 4
 
     hitSound: rocket-explosion

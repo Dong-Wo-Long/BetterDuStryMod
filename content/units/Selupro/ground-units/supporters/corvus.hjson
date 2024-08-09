@@ -19,7 +19,7 @@ lightOpacity: 0.7
 healColor: 84f491
 lightRadius: 150
 
-immunities: [ shocked, wet, burning, melting, blasted, sapped, overclock, bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ shocked, wet, burning, melting, blasted, overclock, bsm-air-specialization, bsm-naval-specialization ]
 
 abilities: [
     {
@@ -60,7 +60,7 @@ abilities: [
     reload: 1080
     range: 360
 }
-    {
+	{
     type: StatusFieldAbility
     effect: overclock
     duration: 540
@@ -69,7 +69,7 @@ abilities: [
 }
     {
     type: RegenAbility
-    amount: 1.5
+    amount: 9
 }
     ]
 
@@ -127,7 +127,6 @@ bullet: {
     parentizeEffects: true
     collidesTeam: true
     despawnShake: 21
-    fragOnHit: false
     largeHit: true
     sideLength: 10
     sideAngle: 15
@@ -135,28 +134,21 @@ bullet: {
     hitShake: 21
     length: 930
     width: 70
-
-    buildingDamageMultiplier: 0.7
-
+	
+	buildingDamageMultiplier: 0.7
+	
     statusDuration: 1920
     healPercent: 100
     status: melting
-    damage: 10000
     lifetime: 90
-    
+    damage: 10000
+	fragOnHit:false
     lightningLengthRand: 20
+	lightningLength: 10
     lightningAngleRand: 30
     lightningSpacing: 12.5
     lightningDamage: 350
-    lightningLength: 10
     lightningDelay: 1.1
-
-    fragRandomSpread: 10
-    fragVelocityMin: 0.1
-    fragVelocityMax: 1.7
-    fragBullets: 100
-    fragLifeMin: 0.1
-    fragLifeMax: 2
 
     colors: [ 98ffa9, ffffff ]
     lightningColor: 98ffa9
@@ -299,9 +291,8 @@ effects: [
     }
 ]
     }
-
-despawnEffect: [
-    {
+	despawnEffect:[
+	{
     type: ParticleEffect
     length: 200
     cone: 360
@@ -314,7 +305,7 @@ despawnEffect: [
     followParent: true
     rotWithParent: true
 }
-    {
+	{
     type: ParticleEffect
     length: 360
     cone: 360
@@ -327,7 +318,7 @@ despawnEffect: [
     followParent: true
     rotWithParent: true
 }
-    {
+	{
     type: ParticleEffect
     length: 325
     cone: 360
@@ -340,7 +331,7 @@ despawnEffect: [
     followParent: true
     rotWithParent: true
 }
-    {
+	{
     type: ParticleEffect
     length: 270
     cone: 90
@@ -353,7 +344,7 @@ despawnEffect: [
     followParent: true
     rotWithParent: true
 }
-    {
+	{
     type: ParticleEffect
     length: 270
     cone: 45
@@ -365,8 +356,8 @@ despawnEffect: [
     colorTo: 98ffa900
     followParent: true
     rotWithParent: true
-}
-    {
+}	
+	{
     type: ParticleEffect
     length: 350
     cone: 20
@@ -379,18 +370,20 @@ despawnEffect: [
     followParent: true
     rotWithParent: true
 }
-    ]
-
-fragBullet: {
-    type: BasicBulletType
+	]
+	fragRandomSpread: 10
+    fragVelocityMin: 0.1
+	fragVelocityMax: 1.7
+    fragBullets: 100
+    fragLifeMin: 0.1
+	fragLifeMax: 2
+	fragBullet:{
+	type: BasicBulletType
     sprite: large-orb
-    pierceBuilding: true
     despawnShake: 4.5
-    pierceArmor: true
     hitShake: 4.5
     shrinkX: 0.0
     shrinkY: 0.0
-    pierce: true
     height: 7.5
     width: 7.5
 
@@ -403,20 +396,46 @@ fragBullet: {
     homingRange: 60
     homingDelay: 50
     status: burning
-    weaveScale: 9
-    pierceCap: 2
     lifetime: 80
-    weaveMag: 2
     damage: 90
     speed: 4
-
-    fragRandomSpread: 0
-    fragBullets: 1
-
+	pierce:true
+	pierceCap: 2
+	pierceBuilding:true
+	pierceArmor:true
+	
     smokeEffect: shootBigSmoke
     shootEffect: shootBigColor
+    despawnEffect: [{
+    type: WaveEffect
+    sides:4
+    rotWithParent: false
+    followParent: false
+    sizeFrom: 0
+    sizeTo: 20
+	
+    lifetime: 60
+
+    colorFrom: 84f491
+    colorTo: 84f491
+}
+	{
+	startDelay:60
+    type: WaveEffect
+    sides:4
+    rotWithParent: false
+    followParent: false
+    sizeFrom: 20
+    sizeTo: 10
+
+    lifetime: 40
+
+    colorFrom: 84f491
+    colorTo: 84f49100
+}
+]
+	hitEffect:none
     hitSound: dullExplosion
-    hitEffect: none
 
     lightColor: 84f491
     lightOpacity: 0.7
@@ -425,58 +444,29 @@ fragBullet: {
     trailColor: 84f491
     trailLength: 14
     trailWidth: 2
-
+	
+	weaveScale: 9
+    weaveMag: 2
+	
     frontColor: ffffff
     backColor: 84f491
     hitColor: 84f491
-
-despawnEffect: [
-    {
-    type: WaveEffect
-    sides:4
-    rotWithParent: false
-    followParent: false
-    sizeFrom: 0
-    sizeTo: 20
-
-    lifetime: 60
-
-    colorFrom: 84f491
-    colorTo: 84f491
-}
-    {
-    type: WaveEffect
-    rotWithParent: false
-    followParent: false
-    startDelay: 60
-    sizeFrom: 20
-    sizeTo: 10
-    sides: 4
-
-    lifetime: 40
-
-    colorFrom: 84f491
-    colorTo: 84f49100
-}
-    ]
-
-fragBullet: {
-    type: LaserBulletType
-    pierceArmor: true
-    absorbable: false
-    collidesAir: true
-    length: 40
-    width: 7
-
-    damage: 80
-
-    hitColor: 98ffa9
-
-    colors: [ 98ffa9, ffffff ]
-}
+	fragBullets: 1
+    fragRandomSpread: 0
+    fragBullet: {
+            type: LaserBulletType
+            length: 40
+			width:7
+            damage: 80
+            pierceArmor: true
+            hitColor: 98ffa9
+			absorbable:false
+            colors: [ 98ffa9, ffffff ]
+            collidesAir: true
+        }
     }
 }
-    }
+	}
 
 
 {
@@ -635,7 +625,7 @@ bullet: {
     width: 6
 
     buildingDamageMultiplier: 0.5
-
+	
     splashDamageRadius: 26
     splashDamage: 150
     healPercent: 9
@@ -767,10 +757,10 @@ bullet: {
     lifetime: 350
     drag: -0.001
     weaveMag: 3
-    damage: 200
     speed: 1.55
+    damage: 200
 
-    despawnEffect: none
+    hitEffect: none
 
     lightColor: 62ae7f
     lightOpacity: 0.7
@@ -781,8 +771,8 @@ bullet: {
 
     frontColor: ffffff
     backColor: 62ae7f
-
-hitEffect: {
+	despawnEffect:none
+	hitEffect: {
     type: WaveEffect
     rotWithParent: false
     followParent: false
@@ -820,8 +810,8 @@ hitEffect: {
     inaccuracy: 5
     reload: 120
 
-    shootSound: auto-cannon-shot
     ejectEffect: casing2Double
+    shootSound: cannon-shot-1
 shoot: { 
     type: ShootMulti
 source: {
@@ -900,11 +890,12 @@ bullet: {
     lifetime: 40
     damage: 270
     speed: 6.4
-
+    pierceArmor:true
+	
     despawnEffect: hitBulletColor
     shootEffect: shootSmallColor
     smokeEffect: shootBigSmoke
-    hitSound: auto-cannon-hit
+    hitSound: cannon-hit
 
     lightColor: 62ae7f
     lightOpacity: 0.7

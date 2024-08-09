@@ -19,16 +19,16 @@ lightRadius: 145
 
 trailLength: 46
 
-deathSound: large-air-crush-1
-loopSoundVolume: 0.35
+deathSound: air-crush-large-1
+loopSoundVolume: 0.24
 loopSound: air-engine
 
-immunities: [ melting, burning, blasted, shocked, tarred, wet, bsm-status-ground-specialization, bsm-status-naval-specialization ]
+immunities: [ melting, burning, blasted, shocked, tarred, wet, bsm-ground-specialization, bsm-naval-specialization ]
 
 targetFlags: [ turret, repair, extinguisher, hasFogRadius, unitAssembler, unitCargoUnloadPoint, launchPad, reactor, generator, battery, factory, storage, drill, core ]
 
 abilities: [
-    {
+{
     type: ShieldArcAbility
     region: bsm-eclipse-shield
     radius: 52.5
@@ -39,28 +39,24 @@ abilities: [
     cooldown: 900
     regen: 3.2
     max: 18000
-}
-    {
+    }
+{
     type: ShieldRegenFieldAbility
     range: 0
 
     reload: 1050
     amount: 4000
     max: 24000
-}
-    {
+    }
+{
     type: ShieldRegenFieldAbility
     range: 500
 
     reload: 1050
     amount: 500
     max: 1500
-}
-    {
-    type: RegenAbility
-    amount: 0.8
-}
-    ]
+    }
+]
 
 weapons: [
 {

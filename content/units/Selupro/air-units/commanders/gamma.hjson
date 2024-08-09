@@ -15,9 +15,9 @@ lightRadius: 80
 
 trailLength: 5.75
 
-deathSound: small-air-crush
+deathSound: air-crush-small-1
 
-immunities: [ bsm-status-ground-specialization, bsm-status-naval-specialization ]
+immunities: [ bsm-ground-specialization, bsm-naval-specialization ]
 
 abilities: [
     {
@@ -37,7 +37,7 @@ weapons: [
     
     reload: 5
 
-    shootSound: machine-gun-shot
+    shootSound: machine-gun-shot-3
     ejectEffect: casing1
 
 bullet: {
@@ -52,8 +52,8 @@ bullet: {
     homingPower: 0.125
     homingRange: 90
     lifetime: 104.5
-    pierceCap: 15
-    damage: 21.5
+    pierceCap: 3
+    damage: 18
     speed: 3.75
 
     smokeEffect: shootSmallSmoke

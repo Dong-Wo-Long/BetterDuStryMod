@@ -4,9 +4,18 @@ faceTarget: false
 rotateSpeed: 1
 health: 48000
 speed: 0.5
-armor: 75
+armor: 89
 
-immunities: [ spore-slowed, burning, melting, blasted, shocked, bsm-status-ground-specialization, bsm-status-air-specialization, bsm-20s-05-tier-2-strength-reduction ]
+healColor: b0bac0
+
+immunities: [ spore-slowed, burning, melting, blasted, shocked, bsm-ground-specialization, bsm-air-specialization, bsm-armor-piercing-tier-2 ]
+
+abilities: [
+    {
+    type: RegenAbility
+    amount: 5
+}
+    ]
 
 weapons: [
     {
@@ -16,85 +25,284 @@ weapons: [
     rotate: true
     shootY: 4.5
     shadow: 20
-    recoil: 4
+    recoil: 1
     shake: 1
     x: 0
     y: 0
 
-    velocityRnd: 0.5
-    inaccuracy: 7
-    reload: 48
-
+    velocityRnd: 0.6
+    inaccuracy: 9
+    reload: 160
     shootSound: missile
     ejectEffect: none
 shoot: {
-    type: ShootAlternate
-    shotDelay: 1.5
-    barrels: 3
-    spread: 4
-    shots: 9
-    }
+		type: ShootMulti
+		source: {
+		type: ShootBarrel
+		shotDelay: 2
+		spread: 2
+		shots: 6
+
+		barrels: [
+			-5, 0, 0,
+			0, 0, 0,
+			5, 0, 0
+		]
+		}
+		dest: [
+			{
+			type: ShootPattern
+			shots: 5
+			shotDelay: 16
+			}
+	]
+	}
 
 bullet: {
-    type: MissileBulletType
+    type: BasicBulletType
     keepVelocity: false
-    weaveScale: 8
+    weaveScale: 12
     weaveMag: 2
     shrinkX: 0
     shrinkY: 0
     height: 8
     width: 8
 
-    splashDamageRadius: 40
-    homingPower: 0.12
-    splashDamage: 69
+    splashDamageRadius: 27
+    homingPower: 0.03
+    splashDamage: 172
     homingRange: 80
-    lifetime: 130
+    lifetime: 90
     drag: -0.003
-    damage: 96
+    damage: 186
     speed: 3
 
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
-
+	
+	trailWidth:2
+    trailLength:6
+	
     trailColor: f9c27a
     frontColor: fff8e8
     backColor: f9c27a
 }
     }
-
 {
-    name: large-bullet-mount
-    rotateSpeed: 4
+    name: double-machine-gun
+
+    rotationLimit: 275
+    shootCone: 45
+    mirror: true
+	alternate:true
     rotate: true
+    rotateSpeed: 3
     shadow: 12
     recoil: 3
     shootY: 7
-    shake: 2
+    shake: 5
     x: 17.5
     y: -16.5
+	
+    cooldownTime: 180
+    reload: 92
+
+    ejectEffect: casing2Double
+    shootSound: cannon-shot-1
+shoot: { 
+    type: ShootMulti
+source: {
+    type: ShootAlternate
+    barrels: 2
+    spread: 4
+    shots: 3
+	shotDelay: 6
+}
+dest: [ 
+{
+    type: ShootSpread
+    shots: 2
+	shotDelay: 12
+    }
+]
+    }
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl-2
+    progress: recoil
+    recoilIndex: 1
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+}
+    }
+
+{
+    type: RegionPart
+    suffix: -brl-1
+    progress: recoil
+    recoilIndex: 0
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+    }
+}
+    ]
+
+bullet: {
+    type: ArtilleryBulletType
+    collidesTiles: false
+    despawnShake: 4.5
+    hitShake: 4.5
+    hitSize: 4
+    height: 16
+    width: 11
+	
+	damage: 140
+	
+    buildingDamageMultiplier: 1.25
+
+    splashDamageRadius: 36
+    statusDuration: 45
+    splashDamage: 45
+    status: blasted
+    lifetime: 140
+    speed: 3
+
+    despawnEffect: hitBulletColor
+    shootEffect: shootSmallColor
+    hitEffect: flakExplosionBig
+    smokeEffect: shootBigSmoke
+    hitSound: cannon-hit
+
+    lightColor: ffffff
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    trailEffect: artilleryTrail
+    trailInterval: 17.5
+    trailInterp: slope
+    trailColor: feb380
+    trailLength: 21.5
+    trailWidth: 2.15
+    trailSize: 4
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: ffffff
+}
+    }
+{
+    name: ship-cannon
+    parentizeEffects: true
+    predictTarget: false
+    rotationLimit: 245
+    rotateSpeed: 1.5
+	baseRoration:40
+    alternate: true
+    mirror: true
+    rotate: true
+    shootY: -2
+    shake: 1.5
+    shadow: 2
+    x: 16
+    y: 4
 
     cooldownTime: 90
-    inaccuracy: 1
-    reload: 24
+    reload: 64
 
+    shootSound: rail-shot-2
     ejectEffect: casing3
-    shootSound: shootBig
 shoot: {
-    shotDelay: 5
-    shots: 5
+    firstShotDelay: 20
+    shots: 2
+	shotDelay:10
     }
 
 bullet: {
     type: BasicBulletType
-    height: 19
-    width: 13
+    pierceBuilding: true
+    keepVelocity: false
+    collidesAir: false
+    despawnShake: 3
+    hittable: false
+    hitShake: 3
+    height: 9
+    width: 5
 
-    lifetime: 48
-    damage: 81
-    speed: 5
+    buildingDamageMultiplier: 1.25
+    pierceDamageFactor: 0.8
 
+    status: bsm-armor-piercing-tier-1
+    splashDamageRadius: 26
+    statusDuration: 90
+    splashDamage: 120
+    lifetime: 24.25
+    pierceCap: 3
+    damage: 48
+    speed: 16
+
+    smokeEffect: shootSmallSmoke
+    hitEffect: hitBulletColor
     shootEffect: shootBig
+    hitSoundVolume: 0.25
+    hitSound: bomb-plasma-hit
+
+    lightColor: ffffff
+    lightOpacity: 0.7
+    lightRadius: 37.5
+
+    trailColor: feb380
+    trailLength: 5.5
+    trailWidth: 1.15
+
+    lightningColor: ffffff
+    frontColor: ffffff
+    backColor: feb380
+
+despawnEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 9
+
+    sizeFrom: 0
+    sizeTo: 14
+
+    colorFrom: ffffff
+    colorTo: feb38050
+    }
+
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 18
+    offsetX: 3.5
+    sizeFrom: 3
+    sizeTo: 1
+
+    colorFrom: ffffff
+    colorTo: feb38030
+}
     }
 }
     ]

@@ -1,3 +1,4 @@
+research: merui
 alwaysShootWhenMoving: true
 legSplashDamage: 96
 legSplashRange: 12
@@ -17,7 +18,7 @@ lightRadius: 81.5
 
 deathSound: mech-destroyed
 
-immunities: [ bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ bsm-air-specialization, bsm-naval-specialization ]
 
 abilities: [
     {
@@ -79,8 +80,8 @@ bullet: {
     height: 1
     width: 1
 
-    status: 20s-35-status-tier-2-direct-purpose-emp
     splashDamageRadius: 72
+    status: bsm-emp-tier-2
     statusDuration: 450
     splashDamage: 181
     healPercent: 25
@@ -165,7 +166,7 @@ bullet: {
     cooldownTime: 160
     reload: 180
 
-    shootStatus: 20s-12-status-tier-1-motor-deceleration
+    shootStatus: bsm-motor-deceleration-tier-1
     chargeSound: plasma-charge
     shootSound: plasma-shot-2
     shootStatusDuration: 160
@@ -195,7 +196,7 @@ bullet: {
     speed: 4.5
 
     smokeEffect: shootSmokeSquare
-    hitSound: plasma-bomb-hit
+    hitSound: bomb-plasma-hit
     despawnEffect: none
 
     lightColor: 8ca9e8

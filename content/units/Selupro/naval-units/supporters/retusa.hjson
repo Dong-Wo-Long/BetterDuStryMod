@@ -9,17 +9,20 @@ speed: 1.45
 range: 180
 armor: 3
 
-immunities: [ spore-slowed, electrified, bsm-status-ground-specialization, bsm-status-air-specialization ]
+immunities: [ spore-slowed, electrified, bsm-ground-specialization, bsm-air-specialization ]
 
 weapons: [
 {
     controllable: false
-    rotateSpeed: 180
+    rotateSpeed:1
+	baseRotation:180
+	rotationLimit:20
     autoTarget: true
     targetAir: false
     mirror: false
     rotate: true
     reload: 180
+	shootCone:360
     shootX: 0
     shootY: 0
     x: 0
@@ -48,14 +51,14 @@ bullet: {
     width: 8
 
     buildingDamageMultiplier: 0.75
-    pierceDamageFactor: 7.5
 
     splashDamageRadius: 26
-    homingPower: 0.06
+    homingPower: 0.05
+	homingRange: 30
+	homingDelay:10
     splashDamage: 45
     healPercent: 4
     lifetime: 147
-    pierceCap: 3
     damage: 32
     speed: 1.5
 
@@ -70,7 +73,7 @@ bullet: {
 
     trailColor: 98ffa9
     trailLength: 21.5
-    trailWidth: 3
+    trailWidth: 2
 
     frontColor: ffffff
     mixColorTo: ffffff
@@ -115,10 +118,10 @@ bullet: {
 
 shootEffect: {
     particles: 15
-    lifetime: 32
-    sizeFrom: 2.5
-    sizeTo: 0.25
-    length: 50
+    lifetime: 22
+    sizeFrom: 1.5
+    sizeTo: 0.5
+    length: 45
     cone: 5
 
     lightColor: 98ffa9

@@ -7,7 +7,7 @@ itemCapacity: 960
 rotateSpeed: 0.9
 buildSpeed: 0.96
 mineSpeed: 1.5
-health: 32000
+health: 27000
 mineTier: 4
 speed: 0.32
 armor: 69
@@ -19,7 +19,7 @@ lightRadius: 125
 
 trailLength: 15
 
-immunities: [ electrified, melting, burning, bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ electrified, melting, burning, bsm-air-specialization, bsm-naval-specialization ]
 
 abilities: [
     {
@@ -77,13 +77,12 @@ bullet: {
     cooldownTime: 700
     reload: 750
 
-    shootStatus: 20s-10-status-tier-3-motor-deceleration
-    chargeSound: large-beam-charge
-    shootSound: large-beam-shot-2
+    shootStatus: bsm-motor-deceleration-tier-3
+    chargeSound: beam-large-charge
+    shootSound: beam-large-shot-2
     shootStatusDuration: 725
 shoot: {
     firstShotDelay: 155
-    lifetime: 1
 }
 
 bullet: {
@@ -94,18 +93,17 @@ bullet: {
     hitShake: 4.5
     length: 320
     shake: 5.5
-
-    buildingDamageMultiplier: 0.4
-
+	
+	buildingDamageMultiplier: 0.4
+	
     statusDuration: 450
+    incendChance: 1.5
     healPercent: 0.35
+    incendSpread: 7
+    incendAmount: 5
     status: melting
     lifetime: 485
     damage: 270
-
-    incendChance: 1.5
-    incendSpread: 7
-    incendAmount: 5
 
     despawnEffect: smokeCloud
     hitEffect: hitMeltHeal
@@ -159,7 +157,6 @@ bullet: {
     alternate: false
     beamWidth: 1
     mirror: true
-    aimDst: 0
     x: 14
     y: 4
     
@@ -184,19 +181,29 @@ bullet: {
     shake: 15
     x: 11
     y: -8
+	
+    inaccuracy: 20
+    reload: 400
 
-    inaccuracy: 3
-    reload: 500
-
-    chargeSound: short-target-locked
-    shootSound: heavy-artillery-shot
+    chargeSound: target-locked-short
+    shootSound: artillery-heavy-shot
     ejectEffect: casing3
 shoot: {
+	type: ShootMulti
+	source: {
+    type: ShootSpread
     firstShotDelay: 185
-    shotDelay: 9
-    shots: 5
+    spread: 0.5
+    shots: 3
     }
-
+	dest: [
+	{
+	type: ShootPattern
+		shots: 3
+		shotDelay: 12
+	}
+	]
+	}
 bullet: {
     type: EmpBulletType
     sprite: missile-large
@@ -208,18 +215,22 @@ bullet: {
     height: 12
     width: 9
 
-    splashDamageRadius: 60
+    splashDamageRadius: 40
     statusDuration: 300
     status: electrified
-    splashDamage: 125
+    splashDamage: 145
     healPercent: 1.25
     knockback: 0.8
     lifetime: 232
-    damage: 150
+    damage: 90
     speed: 2.5
-
-    hitSound: heavy-artillery-hit
+	
+	homingPower: 0.03
+    homingRange: 70
+	homingDelay:30
+	
     smokeEffect: shootBigSmoke2
+    hitSound: bomb-plasma-hit
     shootEffect: shootBig
 
     lightColor: 84f491
@@ -231,7 +242,6 @@ bullet: {
     trailColor: 84f491
     trailLength: 3
     trailWidth: 3
-    trailSize: 9
 
     frontColor: ffffff
     backColor: 84f491
@@ -280,7 +290,7 @@ hitEffect: {
     reload: 14.5
 
     ejectEffect: casing2Double
-    shootSound: auto-cannon-shot
+    shootSound: cannon-shot-1
 shoot: { 
     type: ShootMulti
 source: {
@@ -361,7 +371,7 @@ bullet: {
     shootEffect: shootSmallColor
     smokeEffect: shootBigSmoke
     hitEffect: blastExplosion
-    hitSound: auto-cannon-hit
+    hitSound: cannon-hit
 
     lightColor: 62ae7f
     lightOpacity: 0.7

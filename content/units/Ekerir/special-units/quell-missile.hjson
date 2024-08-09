@@ -32,7 +32,7 @@ engineLayer: 110
 trailWidth: 1.5
 trailLength: 5
 
-immunities: [ bsm-status-ground-specialization, bsm-status-naval-specialization ]
+immunities: [ bsm-ground-specialization, bsm-naval-specialization ]
 
 weapons: [
     {
@@ -43,14 +43,14 @@ weapons: [
     reload: 1
     shake: 1
 
-    bullet: {
-        type: ExplosionBulletType
-        collidesAir: false
+bullet: {
+    type: ExplosionBulletType
+    collidesAir: false
 
-        splashDamageRadius: 25
-        splashDamage: 110
+    splashDamageRadius: 25
+    splashDamage: 110
 
-        shootEffect: massiveExplosion
-        }
+    shootEffect: massiveExplosion
     }
-]
+}
+    ]

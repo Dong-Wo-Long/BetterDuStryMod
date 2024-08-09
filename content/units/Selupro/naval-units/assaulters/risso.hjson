@@ -4,7 +4,7 @@ targetAir: false
 speed: 0.666666666666
 rotateSpeed: 2.5
 fogRadius: 35
-health: 500
+health: 620
 armor: 8
 
 lightColor: fff8e8
@@ -12,7 +12,7 @@ lightOpacity: 0.7
 lightRadius: 62.5
 healColor: b0bac0
 
-immunities: [ spore-slowed, bsm-status-ground-specialization, bsm-status-air-specialization ]
+immunities: [ spore-slowed, bsm-ground-specialization, bsm-air-specialization ]
 
 abilities: [
     {
@@ -37,9 +37,9 @@ weapons: [
     y: -2
 
     cooldownTime: 90
-    reload: 64
+    reload: 80
 
-    shootSound: pulse-shot-2
+    shootSound: rail-shot-2
     ejectEffect: casing2
 shoot: {
     firstShotDelay: 20
@@ -48,7 +48,6 @@ shoot: {
 
 bullet: {
     type: BasicBulletType
-    pierceBuilding: true
     keepVelocity: false
     collidesAir: false
     despawnShake: 3
@@ -58,22 +57,21 @@ bullet: {
     width: 5
 
     buildingDamageMultiplier: 1.25
-    pierceDamageFactor: 0.025
-
-    status: 20s-06-tier-1-strength-reduction
+	
+    status: bsm-armor-piercing-tier-1
     splashDamageRadius: 26
     statusDuration: 90
-    splashDamage: 24
+    splashDamage: 30
     lifetime: 16.25
-    pierceCap: 15
-    damage: 48
+    pierceCap: 2
+    damage: 32
     speed: 16
 
     smokeEffect: shootSmallSmoke
     hitEffect: hitBulletColor
     shootEffect: shootBig
     hitSoundVolume: 0.25
-    hitSound: pulse-hit
+    hitSound: bomb-plasma-hit
 
     lightColor: d1efff
     lightOpacity: 0.7
@@ -115,3 +113,4 @@ chargeEffect: {
     }
 }
     ]
+

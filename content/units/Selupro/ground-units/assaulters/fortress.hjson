@@ -18,24 +18,24 @@ healColor: b0bac0
 
 deathSound: mech-destroyed
 
-immunities: [ blasted, burning, melting, bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ blasted, burning, melting, bsm-air-specialization, bsm-naval-specialization ]
 
 abilities: [
     {
     type: ShieldArcAbility
     region: bsm-fortress-shield
-    radius: 32
-    angle: 110
+    radius: 27
+    angle: 90
     width: 3
     y: -9
 
     cooldown: 1080
-    regen: 4.5
-    max: 1500
+    regen: 1.2
+    max: 600
 }
     {
     type: ArmorPlateAbility
-    healthMultiplier: 0.5
+    healthMultiplier: 0.3
 }
     {
     type: RegenAbility
@@ -57,7 +57,8 @@ weapons: [
 
     reload: 60
 
-    shootSound: medium-mech-footsteps
+    shootSound: mech-medium-footsteps
+
 bullet: {
     type: BasicBulletType
     maxRange: 388
@@ -103,20 +104,21 @@ bullet: {
     height: 20
     width: 16
 
-    buildingDamageMultiplier: 1.5
-
-    status: 20s-06-tier-1-strength-reduction
+    buildingDamageMultiplier: 1.6
+    
+    damage: 90
+    
+    status: bsm-armor-piercing-tier-1
     splashDamageRadius: 26
     statusDuration: 300
     splashDamage: 120
     knockback: 4.45
+    pierceCap: 96
     lifetime: 163
     speed: 2.4
-
-    incendChance: 0.8
-    incendSpread: 12
     incendAmount: 4
-
+    incendSpread: 12
+    incendChance: 0.8
     hitEffect: blastExplosion
     hitSound: artillery-hit
 
@@ -160,7 +162,7 @@ bullet: {
 shoot: {
     firstShotDelay: 64
     shotDelay: 6
-    shots: 7
+    shots: 4
     }
 
 parts: [
@@ -185,12 +187,11 @@ bullet: {
     width: 5
 
     pierceDamageFactor: 0.005
+    ammoMultiplier: 24
 
-    status: status-air-specialization
-    statusDuration: 180
-    pierceCap: 5
+    pierceCap: 2
     lifetime: 48
-    damage: 24
+    damage: 32
     speed: 7.5
 
     lightColor: fff8e8

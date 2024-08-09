@@ -22,14 +22,14 @@ engineSize: 3.5
 
 deathSound: mech-destroyed
 
-immunities: [ electrified, shocked, bsm-status-air-specialization, bsm-status-naval-specialization ]
+immunities: [ electrified, shocked, bsm-air-specialization, bsm-naval-specialization ]
 
 abilities: [
     {
     type: ForceFieldAbility 
-    cooldown: 720
-    radius: 72
-    max: 2500
+    cooldown: 420
+    radius: 56
+    max: 1600
     regen: 2
     sides: 4
 }
@@ -53,8 +53,7 @@ weapons: [
 
     reload: 60
 
-    shootSound: medium-mech-footsteps
-
+    shootSound: mech-medium-footsteps
 bullet: {
     type: BasicBulletType
     maxRange: 196
@@ -84,7 +83,7 @@ bullet: {
     shake: 9
     x: 7.5
 
-    reload: 150
+    reload: 160
 
     chargeSound: laser-charge
     shootSound: laser-shot
@@ -106,8 +105,8 @@ bullet: {
 
     statusDuration: 300
     status: melting
-    healAmount: 50
-    damage: 81
+    healAmount: 170
+    damage: 92
 
     colors: [ 84f491, 84f491, ffffff ]
 }
@@ -116,14 +115,14 @@ bullet: {
 {
     name: hidden-pm-mount
     layerOffset: -0.001
-    baseRotation: -115
+    baseRotation: -205
     shootCone: 360
     rotate: false
     shootY: 5.25
     recoil: -5
     shake: 5
-    x: 5
-    y: -1.5
+    x: 3
+    y: -2.5
 
     velocityRnd: 0.2
     inaccuracy: 30
@@ -131,12 +130,13 @@ bullet: {
 
     shootSound: missile
 shoot: { 
-    shotDelay: 15
+    shotDelay: 5
     shots: 3
     }
 
 bullet: {
-    type: MissileBulletType
+    type: BasicBulletType
+    
     keepVelocity: false
     collidesTeam: true
     despawnShake: 3
@@ -146,17 +146,18 @@ bullet: {
     hitShake: 3
     height: 9
     width: 9
-
-    splashDamageRadius: 26
+    
+    splashDamageRadius: 13
     statusDuration: 180
     status: electrified
-    homingPower: 0.21
+    homingPower: 1
+    homingDelay: 4
     splashDamage: 32
-    homingRange: 180
-    healAmount: 21
-    lifetime: 64
+    homingRange: 5
+    healAmount: 40
+    lifetime: 140
     damage: 48
-    drag: 0.01
+    drag: 0.02
     speed: 4
 
     despawnEffect: blastExplosion
