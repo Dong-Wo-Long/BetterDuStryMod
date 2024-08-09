@@ -25,7 +25,7 @@ Thanks also to Catana#8735 for the opportunity to use this sprite:
 - missiles-mount - recolor sprite "everse-launcher"
 
 > [!CAUTION]
-> ### What follows are just spoilers of future content:
+> ### What follows are just spoilers of future content (WIP):
 New bullets for Titan:
 
 ![BetterDuStryMod](https://github.com/Dong-Wo-Long/BSM-other/blob/main/Mindustry_LmnQzuS9mx.gif)
