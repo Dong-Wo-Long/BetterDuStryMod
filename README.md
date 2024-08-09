@@ -23,3 +23,7 @@ Special thanks to Snake#2132 for the ability to use weapon sprites for units:
 
 Thanks also to Catana#8735 for the opportunity to use this sprite:
 - missiles-mount - recolor sprite "everse-launcher"
+
+> [!CAUTION]
+> What follows are just spoilers of future content:
+![BetterDuStryMod](https://github.com/Dong-Wo-Long/BSM-other/blob/main/breach-destroy-tanks.mp4)
