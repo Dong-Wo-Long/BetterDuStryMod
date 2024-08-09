@@ -4,7 +4,7 @@
 This mod is an amalgamation of EU and ET. However, in addition it adds new blocks and rebalances existing blocks.
 
 Special thanks in support of the mod KOSTOLOM, Bloody_Ocean, 
-Nekit, Fox1va_, inflarespirit.
+Nekit, Fox1va_, martie96, inflarespirit.
 
 ![BetterDuStryMod](https://github.com/Dong-Wo-Long/BSM-other/blob/main/database-units.png)
 
