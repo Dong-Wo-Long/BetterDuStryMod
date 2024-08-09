@@ -29,6 +29,7 @@ Thanks also to Catana#8735 for the opportunity to use this sprite:
 New bullets for Titan:
 
 ![BetterDuStryMod](https://github.com/Dong-Wo-Long/BSM-other/blob/main/Mindustry_LmnQzuS9mx.gif)
+
 Updated Breaches:
 
 ![BetterDuStryMod](https://github.com/Dong-Wo-Long/BSM-other/blob/main/Mindustry_oqqv2mMNvN.gif)
