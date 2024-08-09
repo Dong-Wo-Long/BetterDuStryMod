@@ -9,7 +9,7 @@ Nekit, Fox1va_, martie96, inflarespirit.
 ![BetterDuStryMod](https://github.com/Dong-Wo-Long/BSM-other/blob/main/database-units.png)
 
 > [!IMPORTANT]
-> The mod does not shamelessly steal other people's sprites without their author's permission to use them.
+> ### The mod does not shamelessly steal other people's sprites without their author's permission to use them.
 ### Saphirrium
 (https://github.com/3Snake3/Sapphirium?ysclid=lyzqzrbhic385832513)
 
