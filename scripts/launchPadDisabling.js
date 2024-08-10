@@ -1,1 +1,0 @@
-Blocks.launchPad.buildVisibility = BuildVisibility.hidden;
