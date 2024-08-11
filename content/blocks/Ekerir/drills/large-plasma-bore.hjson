@@ -1,0 +1,17 @@
+research: plasma-bore
+
+optionalBoostIntensity: 1.333333333333
+buildCostMultiplier: 1
+
+itemCapacity: 180
+drillTime: 50
+
+consumes: {
+    power: 3
+    }
+
+requirements: [
+    silicon/800
+    graphite/1200
+    tungsten/500
+    ]

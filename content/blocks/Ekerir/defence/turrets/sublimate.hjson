@@ -1,0 +1,98 @@
+research: breach
+targetUnderBlocks: false
+targetAir: false
+
+liquidConsumed: 1.33333333333
+
+newTargetInterval: 30
+targetInterval: 5
+rotateSpeed: 1.5
+health: 3000
+range: 130
+armor: 5
+
+consumes: {
+    power: 35
+    }
+
+requirements: [
+    silicon/320
+    oxide/350
+    beryllium/270
+    ]
+
+loopSoundVolume: 1
+shootSound: none
+loopSound: torch
+ammoTypes: {
+//--------------------------------------ammo-1
+ozone: {
+    type: ContinuousFlameBulletType
+    collidesAir: false
+    pierceArmor: false
+    length: 130
+
+    buildingDamageMultiplier: 1.4
+
+    statusDuration: 540
+    status: burning
+    knockback: 1
+    pierceCap: 2
+    damage: 57.5
+
+    incendChance: 0.8
+    incendAmount: 18
+    incendSpread: 3
+    }
+//--------------------------------------ammo-2
+nitrogen: {
+    type: ContinuousFlameBulletType
+    collidesAir: false
+    pierceArmor: false
+    length: 170
+
+    buildingDamageMultiplier: 0.01
+    reloadMultiplier: 1.25
+    rangeChange: 40
+
+    status: bsm-crystallization
+    statusDuration: 180
+    knockback: 0.8
+    pierceCap: 5
+    damage: 18
+
+    lightColor: c6ace8
+
+    flareColor: c6ace8
+    hitColor: c6ace8
+
+    colors: [ 8d5bd4, a983de, c6ace8, e0d3f2, ffffff ]
+    }
+//--------------------------------------ammo-3
+cyanogen: {
+    type: ContinuousFlameBulletType
+    collidesAir: false
+    length: 200
+
+    buildingDamageMultiplier: 1.7
+    reloadMultiplier: 0.9
+    rangeChange: 70
+
+    statusDuration: 300
+    status: melting
+    knockback: 2
+    pierceCap: 3
+    damage: 120
+
+    incendAmount: 21
+    incendChance: 1
+    incendSpread: 5
+
+    lightColor: 89e8b6
+
+    flareColor: 89e8b6
+    hitColor: 89e8b6
+
+    colors: [ 465ab8, 66a6d2, 89e8b6, cafcbe, ffffff ]
+}
+    }

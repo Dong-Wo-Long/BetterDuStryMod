@@ -1,0 +1,16 @@
+research: cliff-crusher
+
+buildCostMultiplier: 1
+
+itemCapacity: 2100
+drillTime: 400
+
+consumes: {
+    power: 25
+    }
+
+requirements: [
+    silicon/2700
+    graphite/5000
+    beryllium/2400
+    ]

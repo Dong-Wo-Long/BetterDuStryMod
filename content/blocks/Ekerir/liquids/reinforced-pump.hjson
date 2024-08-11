@@ -1,0 +1,13 @@
+research: vent-condenser
+
+pumpAmount: 0.66666666666
+
+consumes: {
+    power: 0.4
+    }
+
+requirements: [
+    silicon/50
+    tungsten/30
+    beryllium/80
+    ]

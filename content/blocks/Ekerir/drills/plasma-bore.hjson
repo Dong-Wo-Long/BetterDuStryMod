@@ -1,0 +1,17 @@
+research: cliff-crusher
+
+optionalBoostIntensity: 1.25
+buildCostMultiplier: 1
+
+drillTime: 66.6666666667
+itemCapacity: 70
+range: 10
+
+consumes: {
+    power: 0.8
+    }
+
+requirements: [
+    graphite/80
+    beryllium/50
+    ]

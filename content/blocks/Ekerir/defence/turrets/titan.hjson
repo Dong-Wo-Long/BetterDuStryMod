@@ -1,0 +1,1525 @@
+research: breach
+moveWhileCharging: false
+recoil: 3
+shake: 9
+
+coolantMultiplier: 1.2
+
+velocityRnd: 0.08
+rotateSpeed: 0.64
+ammoPerShot: 72
+inaccuracy: 3
+health: 55000
+maxAmmo: 550
+reload: 1500
+range: 1200
+armor: 24
+
+consumes: {
+    power: 135
+    }
+
+requirements: [
+    silicon/2400
+    graphite/2700
+    tungsten/2100
+    thorium/1800
+    carbide/500
+    ]
+
+shootSound: artillery-heavy-cannon-shot
+chargeSound: charging-power-5-times
+minWarmup: 0.25
+shoot: {
+    firstShotDelay: 573
+    shotDelay: 18
+    shots: 3
+    }
+
+ammoTypes: {
+//--------------------------------------ammo-1
+thorium: {
+    type: ArtilleryBulletType
+    scaledSplashDamage: true
+    pierceBuilding: true
+    pierceArmor: true
+    despawnShake: 7
+    shrinkX: 0.2
+    shrinkY: 0.1
+    hitShake: 7
+    height: 19
+    width: 17
+
+    buildingDamageMultiplier: 0.7
+    pierceDamageFactor: 0.25
+    reloadMultiplier: 0.5
+    ammoMultiplier: 5
+
+    status: armor-piercing-tier-2
+    splashDamageRadius: 120
+    statusDuration: 1260
+    splashDamage: 5000
+    pierceCap: 24
+    lifetime: 140
+    knockback: 5
+    speed: 3.5
+
+    hitSound: artillery-heavy-cannon-hit
+    smokeEffect: shootSmokeTitan
+    shootEffect: shootTitan
+    despawnEffect: none
+
+    trailInterp: slope
+    trailColor: f9a3c7
+    trailEffect: none
+    trailSinScl: 2.5
+    trailSinMag: 0.5
+    trailLength: 32
+    trailWidth: 3.35
+
+    frontColor: ffffff
+    backColor: f9a3c7
+    hitColor: f9a3c7
+
+hitEffect: [
+    titanExplosion, 
+    titanSmoke,
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    particles: 1
+    lifetime: 60
+
+    sizeFrom: 0
+    sizeTo: 120
+
+    strokeFrom: 3
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: f9a3c7
+}
+    ]
+
+chargeEffect: [
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 573
+    particles: 1
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 0
+    length: 0
+
+    sizeFrom: 0
+    sizeTo: 10
+
+    strokeFrom: 1
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: f9a3c7
+}
+//-------------------charge-lvl-1-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: f9a3c7
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: f9a3c7
+}
+//-------------------charge-lvl-2-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 114
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: f9a3c7
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 114
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: f9a3c7
+}
+//-------------------charge-lvl-3-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 228
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: f9a3c7
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 228
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: f9a3c7
+}
+//-------------------charge-lvl-4-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 342
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: f9a3c7
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 342
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: f9a3c7
+}
+//-------------------charge-lvl-5-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 456
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: f9a3c7
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 456
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: f9a3c7
+    }
+]
+    }
+//--------------------------------------ammo-2
+surge-alloy: {
+    type: ArtilleryBulletType
+    scaledSplashDamage: true
+    pierceBuilding: true
+    despawnShake: 5
+    shrinkX: 0.2
+    shrinkY: 0.1
+    hitShake: 5
+    height: 24
+    width: 18
+
+    buildingDamageMultiplier: 0.2
+    pierceDamageFactor: 0.025
+    reloadMultiplier: 0.3
+    ammoMultiplier: 2
+
+    status: bsm-ionicized
+    splashDamageRadius: 72
+    statusDuration: 900
+    splashDamage: 2500
+    pierceCap: 18
+    lifetime: 140
+    knockback: 2
+    speed: 2.5
+
+    fragRandomSpread: 120
+    fragVelocityMin: 0.4
+    fragVelocityMax: 1.2
+    fragSpread: 120
+    fragBullets: 3
+    fragLifeMin: 0.4
+    fragLifeMax: 1.2
+
+    lightningColor: feb380
+    lightningDamage: 180
+    lightningLength: 17
+    lightning: 25
+
+    hitSound: artillery-heavy-cannon-hit
+    smokeEffect: shootSmokeTitan
+    shootEffect: shootTitan
+    despawnEffect: none
+
+    trailInterp: slope
+    trailColor: feb380
+    trailEffect: none
+    trailSinScl: 2.5
+    trailSinMag: 0.5
+    trailLength: 50
+    trailWidth: 3.35
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+
+hitEffect: [
+    titanExplosion, 
+    titanSmoke,
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    particles: 1
+    lifetime: 60
+
+    sizeFrom: 0
+    sizeTo: 120
+
+    strokeFrom: 3
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+    ]
+
+chargeEffect: [
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 573
+    particles: 1
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 0
+    length: 0
+
+    sizeFrom: 0
+    sizeTo: 10
+
+    strokeFrom: 1
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+//-------------------charge-lvl-1-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+//-------------------charge-lvl-2-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 114
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 114
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+//-------------------charge-lvl-3-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 228
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 228
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+//-------------------charge-lvl-4-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 342
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 342
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+//-------------------charge-lvl-5-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 456
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 456
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+    ]
+
+fragBullet: {
+    type: ArtilleryBulletType
+    pierceBuilding: true
+    collidesAir: false
+    fragOnHit: false
+    shrinkX: 0
+    shrinkY: 0.1
+    height: 15
+    width: 15
+
+    buildingDamageMultiplier: 0.1
+    pierceDamageFactor: 0.0005
+
+    status: bsm-ionicized
+    splashDamageRadius: 60
+    statusDuration: 300
+    splashDamage: 720
+    fragBullets: 1
+    pierceCap: 17
+    knockback: 2
+    lifetime: 48
+    speed: 2
+
+    lightningColor: fc8e6c
+    lightningDamage: 70
+    lightningLength: 12
+    lightning: 24
+
+    despawnSound: weather-thunderstorm
+    despawnSoundVolume: 0.25
+    hitEffect: none
+
+    lightColor: fc8e6c
+    lightOpacity: 0.7
+    lightRadius: 16.5
+
+    trailInterp: slope
+    trailColor: fc8e6c
+    trailEffect: none
+    trailLength: 24
+    trailWidth: 1.5
+
+    frontColor: feb380
+    backColor: fc8e6c
+    hitColor: fc8e6c
+
+despawnEffect: [
+    titanExplosion,
+    titanSmoke,
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 120
+    particles: 1
+
+    sizeFrom: 60
+    sizeTo: 60
+
+    strokeFrom: 5
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+    ]
+
+fragBullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    pierceBuilding: true
+    collidesAir: false
+    fragOnHit: false
+    shrinkX: 0.5
+    shrinkY: 0.5
+    height: 24
+    width: 24
+
+    buildingDamageMultiplier: 0.1
+    pierceDamageFactor: 0.0005
+
+    status: bsm-ionicized
+    splashDamageRadius: 60
+    statusDuration: 250
+    splashDamage: 500
+    fragBullets: 1
+    pierceCap: 16
+    lifetime: 100
+    knockback: 2
+    damage: 150
+    speed: 0
+
+    lightningColor: fc8e6c
+    lightningDamage: 60
+    lightningLength: 12
+    lightning: 21
+
+    despawnSound: weather-thunderstorm
+    despawnSoundVolume: 0.25
+    hitEffect: none
+
+    lightColor: fc8e6c
+    lightOpacity: 0.7
+    lightRadius: 50
+
+    frontColor: feb380
+    backColor: fc8e6c
+    hitColor: fc8e6c
+
+despawnEffect: [
+    titanExplosion,
+    titanSmoke,
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 120
+    particles: 1
+
+    sizeFrom: 60
+    sizeTo: 60
+
+    strokeFrom: 5
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+    ]
+
+fragBullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    pierceBuilding: true
+    collidesAir: false
+    fragOnHit: false
+    shrinkX: 0.5
+    shrinkY: 0.5
+    height: 24
+    width: 24
+
+    buildingDamageMultiplier: 0.1
+    pierceDamageFactor: 0.0005
+
+    status: bsm-ionicized
+    splashDamageRadius: 60
+    statusDuration: 200
+    splashDamage: 350
+    fragBullets: 1
+    pierceCap: 15
+    lifetime: 100
+    knockback: 2
+    damage: 120
+    speed: 0
+
+    lightningColor: fc8e6c
+    lightningDamage: 50
+    lightningLength: 12
+    lightning: 19
+
+    despawnSound: weather-thunderstorm
+    despawnSoundVolume: 0.25
+    hitEffect: none
+
+    lightColor: fc8e6c
+    lightOpacity: 0.7
+    lightRadius: 50
+
+    frontColor: feb380
+    backColor: fc8e6c
+    hitColor: fc8e6c
+
+despawnEffect: [
+    titanExplosion,
+    titanSmoke,
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 120
+    particles: 1
+
+    sizeFrom: 60
+    sizeTo: 60
+
+    strokeFrom: 5
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+    ]
+
+fragBullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    pierceBuilding: true
+    collidesAir: false
+    fragOnHit: false
+    shrinkX: 0.5
+    shrinkY: 0.5
+    height: 24
+    width: 24
+
+    buildingDamageMultiplier: 0.1
+    pierceDamageFactor: 0.0005
+
+    status: bsm-ionicized
+    splashDamageRadius: 60
+    statusDuration: 150
+    splashDamage: 270
+    fragBullets: 1
+    pierceCap: 14
+    lifetime: 100
+    knockback: 2
+    damage: 80
+    speed: 0
+
+    lightningColor: fc8e6c
+    lightningDamage: 40
+    lightningLength: 12
+    lightning: 18
+
+    despawnSound: weather-thunderstorm
+    despawnSoundVolume: 0.25
+    hitEffect: none
+
+    lightColor: fc8e6c
+    lightOpacity: 0.7
+    lightRadius: 50
+
+    frontColor: feb380
+    backColor: fc8e6c
+    hitColor: fc8e6c
+
+despawnEffect: [
+    titanExplosion,
+    titanSmoke,
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 120
+    particles: 1
+
+    sizeFrom: 60
+    sizeTo: 60
+
+    strokeFrom: 5
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+    ]
+
+fragBullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    pierceBuilding: true
+    collidesAir: false
+    shrinkX: 1
+    shrinkY: 1
+    height: 24
+    width: 24
+
+    buildingDamageMultiplier: 0.1
+    pierceDamageFactor: 0.0005
+
+    status: bsm-ionicized
+    splashDamageRadius: 60
+    statusDuration: 100
+    splashDamage: 210
+    pierceCap: 13
+    lifetime: 100
+    knockback: 2
+    damage: 50
+    speed: 0
+
+    lightningColor: fc8e6c
+    lightningDamage: 30
+    lightningLength: 12
+    lightning: 17
+
+    despawnSound: weather-thunderstorm
+    despawnSoundVolume: 0.25
+    hitEffect: none
+
+    lightColor: fc8e6c
+    lightOpacity: 0.7
+    lightRadius: 50
+
+    frontColor: feb380
+    backColor: fc8e6c
+    hitColor: fc8e6c
+
+despawnEffect: [
+    titanExplosion,
+    titanSmoke,
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 120
+    particles: 1
+
+    sizeFrom: 60
+    sizeTo: 60
+
+    strokeFrom: 5
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
+    ]
+}
+    }
+}
+    }
+}
+    }
+//--------------------------------------ammo-3
+tungsten: {
+    type: ArtilleryBulletType
+    scaledSplashDamage: true
+    pierceBuilding: true
+    pierceArmor: true
+    despawnShake: 5
+    shrinkX: 0.2
+    shrinkY: 0.1
+    hitShake: 5
+    height: 20
+    width: 16
+
+    buildingDamageMultiplier: 0.5
+    pierceDamageFactor: 0.025
+    reloadMultiplier: 0.7
+    ammoMultiplier: 10
+
+    status: bsm-armor-piercing-tier-1
+    splashDamageRadius: 40
+    statusDuration: 1440
+    splashDamage: 2700
+    pierceCap: 24
+    lifetime: 140
+    knockback: 3
+    speed: 4
+
+    fragRandomSpread: 5
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragBullets: 24
+    fragLifeMin: 1
+    fragLifeMax: 1
+    fragSpread: 15
+
+    hitSound: artillery-heavy-cannon-hit
+    smokeEffect: shootSmokeTitan
+    shootEffect: shootTitan
+    despawnEffect: none
+
+    trailInterp: slope
+    trailColor: 768a9a
+    trailEffect: none
+    trailSinScl: 2.5
+    trailSinMag: 0.5
+    trailLength: 32
+    trailWidth: 3.35
+
+    frontColor: ffffff
+    backColor: 768a9a
+    hitColor: 768a9a
+
+hitEffect: [
+    titanExplosion, 
+    titanSmoke,
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    particles: 1
+    lifetime: 60
+
+    sizeFrom: 0
+    sizeTo: 120
+
+    strokeFrom: 3
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: 768a9a
+}
+    ]
+
+chargeEffect: [
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 573
+    particles: 1
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 0
+    length: 0
+
+    sizeFrom: 0
+    sizeTo: 10
+
+    strokeFrom: 1
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: 768a9a
+}
+//-------------------charge-lvl-1-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: 768a9a
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: 768a9a
+}
+//-------------------charge-lvl-2-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 114
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: 768a9a
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 114
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: 768a9a
+}
+//-------------------charge-lvl-3-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 228
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: 768a9a
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 228
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: 768a9a
+}
+//-------------------charge-lvl-4-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 342
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: 768a9a
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 342
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: 768a9a
+}
+//-------------------charge-lvl-5-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 456
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: 768a9a
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 456
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: 768a9a
+}
+    ]
+
+fragBullet: {
+    type: BasicBulletType
+    pierceBuilding: true
+    collidesAir: false
+    pierceArmor: true
+    shrinkY: 1
+    height: 16
+    width: 7
+
+    buildingDamageMultiplier: 0.4
+    pierceDamageFactor: 0.005
+
+    status: bsm-ground-specialization
+    statusDuration: 1080
+    pierceCap: 21
+    knockback: 2
+    lifetime: 24
+    damage: 330
+    speed: 5
+
+    despawnEffect: hitSquaresColor
+    hitEffect: hitSquaresColor
+
+    lightColor: 768a9a
+    lightOpacity: 0.7
+    lightRadius: 16.5
+
+    trailColor: 768a9a
+    trailLength: 3
+    trailWidth: 1.5
+
+    frontColor: ffffff
+    backColor: 768a9a
+}
+    }
+//--------------------------------------ammo-4
+oxide: {
+    type: ArtilleryBulletType
+    scaledSplashDamage: true
+    pierceBuilding: true
+    fragOnHit: false
+    despawnShake: 3
+    shrinkX: 0.2
+    shrinkY: 0.1
+    hitShake: 3
+    height: 22
+    width: 19
+
+    ammoMultiplier: 5
+
+    status: bsm-corrosion
+    splashDamageRadius: 144
+    statusDuration: 1440
+    splashDamage: 0
+    lifetime: 140
+    damage: 0
+    speed: 4
+
+    fragRandomSpread: 5
+    fragVelocityMin: 0.8
+    fragVelocityMax: 1
+    fragBullets: 24
+    fragLifeMin: 0.8
+    fragLifeMax: 1
+    fragSpread: 15
+
+    hitSound: artillery-heavy-cannon-hit
+    smokeEffect: shootSmokeTitan
+    shootEffect: shootTitan
+    hitEffect: none
+
+    trailInterp: slope
+    trailColor: e4ffd6
+    trailEffect: none
+    trailSinScl: 2.5
+    trailSinMag: 0.5
+    trailLength: 32
+    trailWidth: 3.35
+
+    frontColor: ffffff
+    backColor: e4ffd6
+    hitColor: e4ffd6
+
+despawnEffect: [
+    titanExplosion,
+    titanSmoke,
+    {
+    type: ExplosionEffect
+    lifetime: 500
+
+    waveColor: e4ffd6
+    waveStroke: 0
+    waveRad: 0
+
+    smokeColor: e4ffd6
+    smokeSizeBase: 0
+    smokeSize: 40
+    smokeRad: 90
+    smokes: 7
+
+    sparkColor: e4ffd6
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    particles: 1
+    lifetime: 90
+
+    sizeFrom: 0
+    sizeTo: 144
+
+    strokeFrom: 3
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: e4ffd6
+}
+    ]
+
+chargeEffect: [
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 573
+    particles: 1
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 0
+    length: 0
+
+    sizeFrom: 0
+    sizeTo: 10
+
+    strokeFrom: 1
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: e4ffd6
+}
+//-------------------charge-lvl-1-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: e4ffd6
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: e4ffd6
+}
+//-------------------charge-lvl-2-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 114
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: e4ffd6
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 114
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: e4ffd6
+}
+//-------------------charge-lvl-3-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 228
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: e4ffd6
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 228
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: e4ffd6
+}
+//-------------------charge-lvl-4-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 342
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: e4ffd6
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 342
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: e4ffd6
+}
+//-------------------charge-lvl-5-------------------
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    randLength: false
+    startDelay: 456
+    particles: 18
+    lifetime: 114
+    offsetX: 7.5
+    cone: 360
+
+    baseLength: 40
+    length: -40
+
+    colorFrom: ffffff
+    colorTo: e4ffd6
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    startDelay: 456
+    lifetime: 114
+    particles: 1
+    offsetX: 7
+
+    sizeFrom: 40
+    sizeTo: 0
+
+    colorFrom: ffffff
+    colorTo: e4ffd6
+}
+    ]
+
+fragBullet: {
+    type: ArtilleryBulletType
+    pierceBuilding: true
+    collidesAir: false
+    fragOnHit: false
+    shrinkX: 0
+    shrinkY: 0.1
+    height: 15
+    width: 15
+
+    status: bsm-corrosion
+    splashDamageRadius: 72
+    statusDuration: 900
+    splashDamage: 0
+    lifetime: 48
+    damage: 0
+    speed: 3
+
+    hitEffect: none
+
+    lightColor: e4ffd6
+    lightOpacity: 0.7
+    lightRadius: 16.5
+
+    trailInterp: slope
+    trailColor: e4ffd6
+    trailEffect: none
+    trailLength: 24
+    trailWidth: 1.5
+
+    frontColor: ffffff
+    backColor: e4ffd6
+    hitColor: e4ffd6
+
+despawnEffect: [
+    titanExplosion,
+    titanSmoke,
+    {
+    type: ExplosionEffect
+    lifetime: 500
+
+    waveColor: e4ffd6
+    waveStroke: 0
+    waveRad: 0
+
+    smokeColor: e4ffd6
+    smokeSizeBase: 0
+    smokeSize: 24
+    smokeRad: 50
+    smokes: 5
+
+    sparkColor: e4ffd6
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    particles: 1
+    lifetime: 90
+
+    sizeFrom: 0
+    sizeTo: 72
+
+    strokeFrom: 3
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: e4ffd6
+    }
+]
+    }
+}
+    }

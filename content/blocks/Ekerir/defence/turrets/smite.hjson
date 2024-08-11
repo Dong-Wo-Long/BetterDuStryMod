@@ -1,0 +1,19 @@
+research: afflict
+
+ammoPerShot: 81
+health: 240000
+maxAmmo: 2500
+armor: 70
+
+consumes: {
+    power: 1200
+    }
+
+requirements: [
+    oxide/15000
+    beryllium/21000
+    silicon/24000
+    tungsten/18000
+    phase-fabric/9600
+    surge-alloy/12000
+    ]

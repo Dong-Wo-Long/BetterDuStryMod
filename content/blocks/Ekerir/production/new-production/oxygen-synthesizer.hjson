@@ -1,0 +1,54 @@
+research: silicon-arc-furnace
+name: Oxygen Synthesizer
+description: ...
+type: HeatCrafter
+category: crafting
+rotateDraw: false
+invertFlip: true
+hasLiquids: true
+hasPower: true
+rotate: true
+size: 2
+
+outputLiquid: oxygenium/0.04166666666
+liquidOutputDirections: [ 1 ]
+heatRequirement: 3
+liquidCapacity: 81
+itemCapacity: 0
+craftTime: 4
+
+ambientSoundVolume: 0.025
+ambientSound: electricHum
+
+consumes: {
+    power: 2.5
+liquids: [
+    water/0.08333333333
+]
+    }
+
+requirements: [
+    silicon/40
+    graphite/80
+    tungsten/24
+    ]
+
+drawer: {
+    type: DrawMulti
+drawers: [
+{
+    type: DrawRegion
+    suffix: -bottom
+    }
+{
+    type: DrawLiquidTile
+    drawLiquid: oxygenium
+    }
+{
+    type: DrawDefault
+    }
+{
+    type: DrawLiquidOutputs
+    }
+]
+    }

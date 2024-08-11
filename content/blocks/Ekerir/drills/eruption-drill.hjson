@@ -1,0 +1,17 @@
+research: impact-drill
+
+buildCostMultiplier: 1
+
+drillTime: 312.5
+itemCapacity: 5000
+
+consumes: {
+    power: 35
+    }
+
+requirements: [
+    silicon/7500
+    graphite/8100
+    tungsten/5000
+    thorium/2100
+    ]

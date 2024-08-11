@@ -1,0 +1,7 @@
+research: silicon-arc-furnace
+
+liquidCapacity: 180
+outputItem: oxide/5
+itemCapacity: 150
+craftTime: 180
+heatOutput: 8

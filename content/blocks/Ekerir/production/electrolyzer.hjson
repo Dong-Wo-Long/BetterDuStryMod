@@ -1,0 +1,13 @@
+research: silicon-arc-furnace
+
+outputLiquids: [
+    ozone/0.3
+    hydrogen/0.35
+    ]
+
+consumes: {
+    power: 12
+liquids: [
+    oxygenium/0.4
+]
+    }

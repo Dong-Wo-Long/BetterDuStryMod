@@ -1,0 +1,168 @@
+research: breach
+targetUnderBlocks: false
+consumeAmmoOnce: false
+targetAir: false
+shootCone: 40
+shootY: 5
+recoil: 2
+shake: 2
+
+coolantMultiplier: 6
+
+velocityRnd: 0.17
+inaccuracy: 0.2
+rotateSpeed: 3
+ammoPerShot: 3
+envEnabled: 1
+maxAmmo: 150
+health: 7000
+reload: 30
+range: 140
+armor: 9
+
+consumes: {
+    power: 20
+    }
+
+requirements: [
+    graphite/210
+    tungsten/170
+    beryllium/150
+    ]
+
+shootSound: shotgun-shot-1
+shoot: {
+    type: ShootSpread
+    spread: 4
+    shots: 15
+    }
+
+ammoTypes: {
+//--------------------------------------ammo-1
+graphite: {
+    type: BasicBulletType
+    collidesAir: false
+    hitSize: 7
+    height: 20
+    width: 25
+
+    buildingDamageMultiplier: 0.85
+    reloadMultiplier: 1.15
+    ammoMultiplier: 9
+
+    lifetime: 18.5
+    knockback: 3
+    damage: 47
+    speed: 8
+
+    smokeEffect: shootSmokeSquareSparse
+    despawnEffect: hitSquaresColor
+    shootEffect: shootBigColor
+    hitEffect: hitSquaresColor
+
+    trailColor: 95abd9
+    trailLength: 3
+    trailWidth: 6
+
+    frontColor: ffffff
+    backColor: 95abd9
+    hitColor: 95abd9
+    }
+//--------------------------------------ammo-2
+thorium: {
+    type: BasicBulletType
+    collidesAir: false
+    hitSize: 7
+    height: 20
+    width: 25
+
+    buildingDamageMultiplier: 1.15
+    reloadMultiplier: 0.9
+    ammoMultiplier: 3
+    rangeChange: -20
+
+    status: bsm-armor-piercing-tier-1
+    splashDamageRadius: 12
+    statusDuration: 150
+    splashDamage: 69
+    lifetime: 17.5
+    knockback: 4
+    damage: 72
+    speed: 7
+
+    smokeEffect: shootSmokeSquareSparse
+    despawnEffect: hitSquaresColor
+    shootEffect: shootBigColor
+    hitEffect: hitSquaresColor
+
+    trailColor: f9a3c7
+    trailLength: 3
+    trailWidth: 6
+
+    frontColor: ffffff
+    backColor: f9a3c7
+    hitColor: f9a3c7
+    }
+//--------------------------------------ammo-3
+silicon: {
+    type: BasicBulletType
+    collidesAir: false
+    hitSize: 5
+    height: 18
+    width: 23
+
+    buildingDamageMultiplier: 0.7
+    reloadMultiplier: 1.4
+    ammoMultiplier: 12
+    rangeChange: 32
+
+    homingPower: 0.1
+    knockback: 0.15
+    lifetime: 21.5
+    damage: 31
+    speed: 9
+
+    smokeEffect: shootSmokeSquareSparse
+    despawnEffect: hitSquaresColor
+    shootEffect: shootBigColor
+    hitEffect: hitSquaresColor
+
+    trailColor: 8e9097
+    trailLength: 3
+    trailWidth: 5
+
+    frontColor: ffffff
+    backColor: 8e9097
+    hitColor: 8e9097
+    }
+//--------------------------------------ammo-4
+tungsten: {
+    type: BasicBulletType
+    collidesAir: false
+    hitSize: 3
+    height: 19
+    width: 7
+
+    buildingDamageMultiplier: 0.8
+    pierceDamageFactor: 0.05
+    ammoMultiplier: 6
+
+    lifetime: 17.5
+    pierceCap: 4
+    damage: 52
+    speed: 8.5
+
+    smokeEffect: shootSmokeSquareSparse
+    despawnEffect: hitSquaresColor
+    shootEffect: shootBigColor
+    hitEffect: hitSquaresColor
+
+    trailColor: 768a9a
+    trailLength: 3
+    trailWidth: 1.5
+
+    frontColor: ffffff
+    backColor: 768a9a
+    hitColor: 768a9a
+}
+    }
