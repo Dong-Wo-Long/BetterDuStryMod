@@ -1,0 +1,23 @@
+name: Crystallization
+buildSpeedMultiplier: 0.7
+healthMultiplier: 0.9
+dragMultiplier: 1.2
+speedMultiplier: 0
+disarm: true
+
+effectChance: 0.125
+effect: [
+    {
+    type: WaveEffect
+    rotWithParent: false
+    followParent: false
+    lifetime: 60
+    sides: 6
+
+    sizeFrom: 0
+    sizeTo: 3
+
+    colorFrom: ffffff
+    colorTo: c6ace8
+}
+    ]

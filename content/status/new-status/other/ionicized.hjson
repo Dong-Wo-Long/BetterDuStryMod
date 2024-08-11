@@ -1,0 +1,51 @@
+name: Ionicized
+buildSpeedMultiplier: 0.25
+healthMultiplier: 0.8
+reloadMultiplier: 0.7
+speedMultiplier: 0.7
+damage: 0.4
+
+effectChance: 0.075
+effect: [
+    {
+    type: ExplosionEffect
+    lifetime: 32
+
+    waveColor: f15454
+    waveStroke: 0
+    waveRad: 0
+
+    smokeColor: feb380
+    smokeSizeBase: 0
+    smokeSize: 5
+    smokeRad: 4
+    smokes: 3
+
+    sparkColor: f15454
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+}
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    sizeInterp: linear
+    randLength: false
+    particles: 2
+    lifetime: 40
+    line: true
+    cone: 360
+
+    length: 0.01
+    sizeFrom: 1
+    strokeFrom: 2
+    strokeTo: 0
+    lenFrom: 8
+    lenTo: 8
+
+    colorFrom: ffffff
+    colorTo: f15454
+}
+    ]

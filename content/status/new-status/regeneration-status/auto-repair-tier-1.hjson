@@ -1,0 +1,48 @@
+name: Tier 1 Auto Repair
+show: false
+damage: -1
+
+effectChance: 0.05
+effect: [
+    {
+    type: WaveEffect
+    rotWithParent: false
+    followParent: false
+    rotation: 90
+    lifetime: 60
+    sides: 3
+
+    sizeFrom: 0
+    sizeTo: 3
+
+    colorFrom: ffffff
+    colorTo: 84f491
+}
+    {
+    type: WaveEffect
+    rotWithParent: false
+    followParent: false
+    rotation: 45
+    lifetime: 60
+    sides: 3
+
+    sizeFrom: 0
+    sizeTo: 3
+
+    colorFrom: ffffff
+    colorTo: 84f491
+}
+    {
+    type: WaveEffect
+    rotWithParent: false
+    followParent: false
+    lifetime: 60
+    sides: 3
+
+    sizeFrom: 0
+    sizeTo: 3
+
+    colorFrom: ffffff
+    colorTo: 84f491
+}
+    ]
