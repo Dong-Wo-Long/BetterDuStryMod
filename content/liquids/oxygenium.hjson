@@ -1,0 +1,15 @@
+research: ozone
+name: Oxygenium
+description: ...
+gas: true
+
+heatCapacity: 0.5
+explosiveness: 0
+flammability: 0
+temperature: 1
+viscosity: 0
+
+lightColor: ffffff
+gasColor: ffffff00
+barColor: ffffff33
+color: ffffff
