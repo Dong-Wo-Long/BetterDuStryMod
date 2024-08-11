@@ -1,0 +1,6 @@
+research: anthicus
+
+health: 150000
+armor: 81
+
+immunities: [ bsm-air-specialization, bsm-naval-specialization ]

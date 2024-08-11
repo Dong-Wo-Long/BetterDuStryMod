@@ -1,0 +1,145 @@
+research: oxynoe
+
+rotateSpeed: 1
+health: 2700
+speed: 0.56
+armor: 15
+
+immunities: [ burning, melting, shocked, blasted, bsm-anti-tank, bsm-ground-specialization, bsm-air-specialization, bsm-armor-piercing-tier-2 ]
+
+weapons: [
+{
+    name: repair-bwc-green
+    type: RepairBeamWeapon
+    shootY: 6
+    x: 11
+    y: -10
+
+    repairSpeed: 0.7
+    beamWidth: 0.8
+
+bullet: {
+    maxRange: 130
+}
+    }
+
+{
+    name: plasma-cannon-mount
+    rotateSpeed: 4
+    rotate: true
+    shadow: 5
+    x: 9
+    y: 3
+
+    velocityRnd: 0.1
+    inaccuracy: 1
+    reload: 60
+
+    shootSound: missile
+    ejectEffect: none
+
+bullet: {
+    sprite: missile-large
+    collidesGround: true
+    keepVelocity: false
+    collidesAir: true
+    shrinkY: 0
+    height: 12
+    width: 12
+
+    splashDamageRadius: 30
+    splashDamage: 90
+    explodeRange: 40
+    homingRange: 60
+    weaveScale: 8
+    lifetime: 80
+    drag: -0.003
+    weaveMag: 1
+    speed: 3
+
+    fragVelocityMin: 0.3
+    fragBullets: 7
+
+    lightColor: 98ffa9
+    lightOpacity: 0.7
+    lightRadius: 60
+
+    trailColor: 98ffa9
+    trailLength: 29
+    trailWidth: 4.5
+
+    frontColor: ffffff
+    backColor: 98ffa9
+
+hitEffect: {
+    type: ExplosionEffect
+    lifetime: 28
+
+    waveColor: 98ffa9
+    waveRadBase: 7
+    waveRad: 30
+    waveStroke: 6
+    waveLife: 10
+
+    smokeColor: ffffff
+    smokes: 6
+
+    sparkColor: 98ffa9
+    sparkStroke: 1.5
+    sparkRad: 35
+    sparkLen: 4
+    sparks: 6
+    }
+
+fragBullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    collidesTeam: true
+
+    splashDamageRadius: 20
+    splashDamage: 13
+    homingPower: 0.2
+    healPercent: 2.8
+    weaveScale: 4
+    lifetime: 60
+    weaveMag: 4
+
+    shootEffect: shootHeal
+    smokeEffect: hitLaser
+    despawnEffect: none
+    hitSound: none
+
+    lightColor: 98ffa9
+    lightOpacity: 0.7
+    lightRadius: 40
+
+    trailColor: 98ffa9
+    trailChance: -1
+    trailLength: 20
+    trailWidth: 2.5
+
+    frontColor: ffffff
+    backColor: 98ffa9
+
+hitEffect: {
+    type: ExplosionEffect
+    lifetime: 20
+
+    waveColor: 98ffa9
+    waveRad: 12
+    waveStroke: 2
+
+    smokeColor: ffffff
+    smokeSizeBase: 0
+    smokeSize: 0
+
+    sparkColor: 98ffa9
+    sparkStroke: 1.5
+    sparkRad: 35
+    sparkLen: 4
+    sparks: 9
+    }
+}
+    }
+}
+    ]

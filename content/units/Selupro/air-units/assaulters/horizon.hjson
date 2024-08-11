@@ -1,0 +1,302 @@
+research: flare
+circleTarget: true
+lowAltitude: true
+faceTarget: true
+fogRadius: 21.5
+
+rotateSpeed: 2.5
+fallSpeed: 0.008
+accel: 0.025
+health: 810
+drag: 0.025
+speed: 2.5
+armor: 12
+
+lightColor: fff8e8
+lightOpacity: 0.7
+healColor: b0bac0
+lightRadius: 52
+
+deathSound: helicopter-crush
+loopSound: helicopter-engine
+loopSoundVolume: 0.125
+
+immunities: [ blasted, bsm-anti-tank, bsm-ground-specialization, bsm-naval-specialization ]
+
+targetFlags: [ generator, unitAssembler, factory, storage, battery, drill ]
+
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.04
+}
+    {
+    type: StatusFieldAbility
+    parentizeEffects: true
+    display: false
+    effect: none
+    effectY: 1
+    reload: 3
+    
+activeEffect: {
+    followParent: true
+    rotWithParent: true
+    particles: 1
+    lifetime: 5
+    length: 0
+    region: bsm-horizon-large-rotor
+    sizeFrom: 15
+    sizeTo: 15
+    spin: 16
+    layer: 115.3
+}
+    }
+
+{
+    type: StatusFieldAbility
+    parentizeEffects: true
+    display: false
+    effect: none
+    effectY: -8
+    reload: 3
+
+activeEffect: {
+    followParent: true
+    rotWithParent: true
+    particles: 1
+    lifetime: 5
+    length: 0
+    region: bsm-horizon-rotor
+    sizeFrom: 5
+    sizeTo: 5
+    spin: 16
+    layer: 90.2
+    }
+}
+
+    {
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.01
+    interval: 0.001
+    effectParam: 1
+    color: f15454
+    layer: 100.1
+    x: 3
+    y: -8
+}
+    {
+    type: MoveEffectAbility
+    effect: artilleryTrail
+    minVelocity: 0.01
+    interval: 0.001
+    effectParam: 1
+    color: f15454
+    layer: 100.1
+    x: -3
+    y: -8
+}
+    ]
+
+parts: [
+    {
+    type: FlarePart
+    color2: ffffff
+    color1: f15454
+    rotation: 45
+    layer: 100.2
+    radius: 5.5
+    stroke: 1
+    x: 3
+    y: -8
+}
+    {
+    type: FlarePart
+    color2: ffffff
+    color1: f15454
+    rotation: 45
+    layer: 100.2
+    radius: 5.5
+    stroke: 1
+    x: -3
+    y: -8
+}
+    ]
+
+weapons: [
+{
+    controllable: false
+    layerOffset: -0.001
+    baseRotation: -135
+    rotationLimit: 1
+    autoTarget: true
+    alternate: false
+    shootCone: 120
+    rotate: true
+    shake: 2.75
+    x: 5
+    y: -2
+
+    cooldownTime: 90
+    velocityRnd: 1
+    inaccuracy: 45
+    reload: 450
+
+    shootStatus: bsm-motor-acceleration-tier-1
+    shootSound: heat-trap-shot
+    shootStatusDuration: 48
+shoot: {
+    shotDelay: 5
+    shots: 9
+    }
+
+bullet: {
+    type: MissileBulletType
+    sprite: mine-bullet
+    collidesGround: false
+    keepVelocity: false
+    despawnShake: 0
+    shrinkY: 0.85
+    hitShake: 0
+    height: 8
+    width: 8
+
+    splashDamageRadius: 20
+    splashDamage: 24
+    homingRange: 0
+    homingPower: 0
+    lifetime: 90
+    damage: 48
+    drag: 0.03
+    speed: 3
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+    hitSoundVolume: 0.25
+    hitSound: none
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 27.5
+
+    trailColor: f9c27a
+    trailLength: 3.5
+    trailWidth: 1.25
+
+    frontColor: fff8e8
+    backColor: f9c27a
+}
+    }
+
+{
+    layerOffset: -0.001
+    rotationLimit: 300
+    rotateSpeed: 5
+    mirror: false
+    rotate: true
+    shootY: 4
+    shake: 2
+    x: 0
+    y: 5.5
+
+    velocityRnd: 0.18
+    inaccuracy: 7
+    reload: 325
+
+    chargeSound: minigun-heavy-charge
+    shootSound: minigun-hell-shot
+    ejectEffect: casing1
+shoot: {
+    firstShotDelay: 102
+    shotDelay: 3
+    shots: 64
+    }
+
+bullet: {
+    type: BasicBulletType
+    keepVelocity: false
+    despawnShake: 0.5
+    hitShake: 0.5
+    height: 8.5
+    width: 6.5
+
+    buildingDamageMultiplier: 0.85
+    pierceDamageFactor: 0.005
+
+    statusDuration: 90
+    status: burning
+    pierceCap: 7
+    lifetime: 25
+    damage: 18
+    speed: 9
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 20
+
+    trailColor: f9c27a
+    trailLength: 3.5
+    trailWidth: 1.25
+}
+    }
+
+{
+    name: horizon-mm
+    layerOffset: -0.001
+    rotationLimit: 9
+    shootCone: 15
+    rotate: true
+    shake: 1.8
+    x: 7
+    y: 2
+
+    velocityRnd: 0.24
+    cooldownTime: 90
+    inaccuracy: 3
+    reload: 32
+
+    shootSound: rocket-fire
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    collidesAir: false
+    despawnShake: 2.5
+    hitShake: 2.5
+    shrinkY: 0.6
+    height: 8
+    width: 8
+
+    buildingDamageMultiplier: 1.8
+
+    status: naval-specialization
+    splashDamageRadius: 26
+    statusDuration: 180
+    splashDamage: 25
+    homingRange: 24
+    weaveScale: 5
+    lifetime: 58
+    drag: -0.003
+    weaveMag: 0
+    damage: 27
+    speed: 3
+
+    incendChance: 0.85
+    incendAmount: 18
+    incendSpread: 9
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+    hitSoundVolume: 0.25
+    hitSound: rocket-hit
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 27.5
+
+    trailColor: 454545
+
+    frontColor: fff8e8
+    backColor: f9c27a
+    }
+}
+    ]

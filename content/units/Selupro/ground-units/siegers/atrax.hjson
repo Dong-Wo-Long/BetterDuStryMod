@@ -1,0 +1,152 @@
+research: crawler
+alwaysShootWhenMoving: true
+targetAir: true
+stepShake: 0.7
+fogRadius: 29
+
+rotateSpeed: 1.8
+speed: 0.53335
+health: 960
+armor: 8
+
+lightColor: 665c9f
+lightOpacity: 0.7
+healColor: bf92f9
+lightRadius: 90
+
+immunities: [ melting, burning, sapped, bsm-anti-tank, bsm-air-specialization, bsm-naval-specialization ]
+
+abilities: [
+    {
+    type: ShieldArcAbility
+    region: bsm-atrax-shield-right
+    angleOffset: -75
+    radius: 10
+    angle: 64
+    width: 3
+    y: -1
+
+    cooldown: 300
+    regen: 3
+    max: 180
+}
+    {
+    type: ShieldArcAbility
+    region: bsm-atrax-shield-left
+    angleOffset: 75
+    radius: 10
+    angle: 64
+    width: 3
+    y: -1
+
+    cooldown: 300
+    regen: 3
+    max: 180
+}
+    {
+    type: RegenAbility
+    amount: 0.03
+}
+    ]
+
+weapons: [
+{
+    name: atrax-weapon
+    useAttackRange: false
+    rotationLimit: 15
+    rotateSpeed: 2.75
+    rotate: true
+    shootY: 3
+    recoil: 1
+    x: 7
+    y: 0
+
+    inaccuracy: 5
+    reload: 2.4
+
+    ejectEffect: none
+    shootSound: flame
+bullet: { 
+    type: LiquidBulletType
+    liquid: slag
+    collideTerrain: true
+    collidesAir: false
+    scaleLife: true
+
+    buildingDamageMultiplier: 2
+
+    statusDuration: 450
+    status: melting
+    knockback: 0.5
+    lifetime: 64
+    damage: 18
+    speed: 2.5
+    drag: 0.01
+
+    shootEffect: shootSmall
+
+    lightColor: ffa166
+    lightOpacity: 0.7
+    lightRadius: 32
+}
+    }
+
+{
+    name: purple-missiles-mount
+    controllable: false
+    rotateSpeed: 1.8
+    autoTarget: true
+    alternate: false
+    shootCone: 15
+    mirror: false
+    rotate: true
+    recoil: 1.5
+    shake: 3
+    x: 4.15
+    y: -5
+
+    cooldownTime: 120
+    reload: 32
+
+    shootSound: scanning
+bullet: {
+    type: SapBulletType
+    collidesGround: false
+    length: 360
+    width: 0.75
+
+    status: bsm-damage-reduction-tier-1
+    statusDuration: 300
+    sapStrength: 0.25
+    knockback: -1
+    lifetime: 40
+    damage: 24
+
+    shootEffect: shootSmall
+    despawnEffect: none
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 21
+
+    hitColor: feb380
+    color: feb380
+
+hitEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 24
+
+    sizeFrom: 0
+    sizeTo: 40
+
+    strokeFrom: 3
+    strokeTo: 0
+
+    colorFrom: feb380
+    colorTo: ea8878
+}
+    }
+}
+    ]

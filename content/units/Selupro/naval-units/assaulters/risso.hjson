@@ -1,0 +1,116 @@
+research: naval-factory
+targetAir: false
+
+speed: 0.666666666666
+rotateSpeed: 2.5
+fogRadius: 35
+health: 500
+armor: 8
+
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 62.5
+healColor: b0bac0
+
+immunities: [ spore-slowed, bsm-anti-tank, bsm-ground-specialization, bsm-air-specialization ]
+
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.05
+}
+    ]
+
+weapons: [
+{
+    name: ship-cannon
+    parentizeEffects: true
+    predictTarget: false
+    rotateSpeed: 1.5
+    alternate: false
+    mirror: false
+    rotate: true
+    shootY: -2
+    shake: 1.5
+    shadow: 8
+    x: 0
+    y: -2
+
+    cooldownTime: 90
+    reload: 64
+
+    shootSound: rail-shot-2
+    ejectEffect: casing2
+shoot: {
+    firstShotDelay: 20
+    shots: 1
+    }
+
+bullet: {
+    type: BasicBulletType
+    pierceBuilding: true
+    keepVelocity: false
+    collidesAir: false
+    despawnShake: 3
+    hittable: false
+    hitShake: 3
+    height: 9
+    width: 5
+
+    buildingDamageMultiplier: 1.25
+    pierceDamageFactor: 0.025
+
+    status: bsm-armor-piercing-tier-1
+    splashDamageRadius: 26
+    statusDuration: 90
+    splashDamage: 24
+    lifetime: 16.25
+    pierceCap: 15
+    damage: 48
+    speed: 16
+
+    smokeEffect: shootSmallSmoke
+    hitEffect: hitBulletColor
+    hitSound: bomb-plasma-hit
+    shootEffect: shootBig
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 37.5
+
+    trailColor: 8ca9e8
+    trailLength: 5.5
+    trailWidth: 1.15
+
+    lightningColor: d1efff
+    frontColor: d1efff
+    backColor: 8ca9e8
+
+despawnEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 9
+
+    sizeFrom: 0
+    sizeTo: 24
+
+    colorFrom: d1efff
+    colorTo: 8ca9e8
+    }
+
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 18
+    offsetX: 3.5
+    sizeFrom: 5
+    sizeTo: 0
+
+    colorFrom: d1efff
+    colorTo: 8ca9e8
+}
+    }
+}
+    ]

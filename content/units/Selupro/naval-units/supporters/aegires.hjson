@@ -1,0 +1,43 @@
+research: cyerce
+rotateToBuilding: false
+faceTarget: false
+
+buildSpeed: 4.5
+rotateSpeed: 1
+health: 48000
+speed: 0.45
+armor: 49
+
+immunities: [ burning, melting, electrified, blasted, overclock, bsm-anti-tank, bsm-ground-specialization, bsm-air-specialization, bsm-armor-piercing-tier-1 ]
+
+abilities: [
+{
+    type: EnergyFieldAbility
+    sameTypeHealMult: 5
+    statusDuration: 750
+    healPercent: 7.5
+    maxTargets: 50
+    damage: 5000
+    reload: 1920
+    range: 400
+    x: 0
+    y: 0
+    }
+
+{
+    type: StatusFieldAbility
+    effect: overclock
+    duration: 750
+    reload: 1500
+    range: 440
+    }
+
+{
+    type: ForceFieldAbility
+    cooldown: 2700
+    radius: 256
+    regen: 2.5
+    max: 75000
+    sides: 24
+    }
+]

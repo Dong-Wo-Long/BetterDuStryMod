@@ -1,0 +1,68 @@
+research: dagger
+targetAir: false
+fogRadius: 12.5
+stepShake: 0.6
+
+itemCapacity: 32
+rotateSpeed: 3.5
+speed: 0.64
+armor: 15
+
+lightColor: fff8e8
+lightOpacity: 0.7
+lightRadius: 67.5
+healColor: b0bac0
+
+immunities: [ burning, blasted, bsm-anti-tank, bsm-air-specialization, bsm-naval-specialization ]
+
+abilities: [
+    {
+    type: ArmorPlateAbility
+    healthMultiplier: 1.5
+}
+    {
+    type: RegenAbility
+    amount: 0.05
+}
+    ]
+
+weapons: [
+{
+    name: mace-weapon
+    rotationLimit: 15
+    rotateSpeed: 2
+    shootCone: 90
+    rotate: true
+    top: false
+    shootY: 2
+    recoil: 1
+
+    reload: 5
+    
+    ejectEffect: none
+    shootSound: flame
+bullet: {
+    type: BulletType
+    pierceBuilding: true
+    keepVelocity: false
+    collidesAir: false
+    hittable: false
+    pierce: true
+    hitSize: 7
+
+    buildingDamageMultiplier: 1.25
+    ammoMultiplier: 3
+
+    statusDuration: 300
+    status: burning
+    pierceCap: 24
+    lifetime: 19
+    damage: 42.5
+    speed: 3
+
+    shootEffect: shootSmallFlame
+    hitEffect: hitFlameSmall
+    despawnEffect: none
+    }
+}
+    ]

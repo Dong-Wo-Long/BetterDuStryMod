@@ -1,0 +1,6 @@
+research: tecta
+
+health: 690000
+armor: 180
+
+immunities: [ bsm-air-specialization, bsm-naval-specialization ]

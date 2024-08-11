@@ -1,0 +1,6 @@
+research: cleroi
+
+health: 21000
+armor: 18
+
+immunities: [ bsm-air-specialization, bsm-naval-specialization ]

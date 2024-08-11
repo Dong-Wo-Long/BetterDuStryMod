@@ -1,0 +1,8 @@
+research: precept
+
+rotateSpeed: 0.6
+health: 180000
+speed: 0.32
+armor: 121
+
+immunities: [ bsm-air-specialization, bsm-naval-specialization ]
