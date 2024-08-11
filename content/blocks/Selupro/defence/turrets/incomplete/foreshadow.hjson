@@ -1,0 +1,102 @@
+research: lancer
+canOverdrive: false
+rotateSpeed: 1
+shake: 15
+
+scaledHealth: 530
+ammoPerShot: 48
+shootCone: 0.35
+maxAmmo: 96
+reload: 480
+range: 1200
+armor: 32
+
+consumes: {
+    power: 125
+	liquids: [
+		cryofluid/1
+	]
+	items: [
+		blast-compound/15
+	]
+}
+
+ammoUseEffect: casing3
+
+ammoTypes: {
+	surge-alloy: {
+		type: BasicBulletType
+		height: 48
+		width: 16
+
+		buildingDamageMultiplier: 0.0001
+
+		status: bsm-emp-tier-2
+		statusDuration: 180
+		splashDamageRadius: 80
+		lightningDamage: 96
+		lightningLength: 5
+		lightning: 10
+		damage: 3350
+		splashDamage: 320
+		lifetime: 15
+		speed: 64
+
+		despawnEffect: blastExplosion
+		hitEffect: blastExplosion
+		shootEffect: shootBig
+
+		lightColor: fcf387
+		lightOpacity: 0.7
+		lightRadius: 32
+
+		trailColor: e8d174
+		trailLength: 12.5
+		trailWidth: 8
+
+		frontColor: fcf387
+		backColor: e8d174
+		
+		fragBullets: 8
+		fragOnHit: true
+		
+		fragRandomSpread: 10
+		
+		fragBullet: {
+			type: BasicBulletType
+			removeAfterPierce: false
+			collideTerrain: false
+			pierceBuilding: false
+			collidesAir: true
+			despawnShake: 1
+			pierce: true
+			pierceCap: 2
+			hitShake: 1
+			height: 40
+			width: 4
+
+			buildingDamageMultiplier: 0.01
+			
+			splashDamageRadius: 20
+			lightningDamage: 75
+			lightningLength: 1
+			lightning: 2
+			damage: 180
+			splashDamage: 90
+			
+			lifetime: 5
+			speed: 32
+
+			despawnEffect: blastExplosion
+			hitEffect: blastExplosion
+
+			lightColor: fcf387
+			lightOpacity: 0.7
+			lightRadius: 32
+			
+			trailColor: e8d174
+			trailLength: 6.5
+			trailWidth: 2
+		}
+	}
+}

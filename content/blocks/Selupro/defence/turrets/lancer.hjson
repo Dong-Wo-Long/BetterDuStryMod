@@ -1,0 +1,260 @@
+research: arc
+rotateSpeed: 0.41
+fogRadius: 32
+recoil: 3
+shake: 5
+
+buildCostMultiplier: 2.57
+coolantMultiplier: 12.5
+
+cooldownTime: 1440
+reload: 1260
+health: 750
+range: 380
+recoil: 3
+armor: 5
+
+shootEffect: lancerLaserShoot
+smokeEffect: none
+
+consumes: {
+    power: 21
+}
+
+requirements: [
+    lead/180
+    metaglass/125
+    titanium/75
+    silicon/45
+]
+
+chargeSound: railgun-charge
+shootSound: railgun-shot
+shoot: {
+    firstShotDelay: 1440
+    }
+
+shootType: {
+    type: LaserBulletType
+    collidesAir: false
+    drawSize: 400
+    length: 515
+    hitSize: 4
+
+    buildingDamageMultiplier: 4.201
+    ammoMultiplier: 1
+
+    status: bsm-emp-tier-2
+    statusDuration: 540
+    pierceCap: 24
+    lifetime: 32
+    damage: 481
+
+    lightningLengthRand: 7.5
+    lightningAngleRand: 50
+    lightningSpacing: 35
+    lightningDamage: 121
+    lightningLength: 2.5
+    lightningDelay: 0.1
+
+    lightningColor: d1efff
+    lightColor: d1efff
+
+    hitEffect: hitLancer
+
+    colors: [ a9d8ff, ffffff ]
+
+chargeEffect: {
+    type: MultiEffect
+effects: [
+    {
+    type: ParticleEffect
+    lifetime: 1438
+    particles: 1
+    cone: 360
+
+    baseLength: 0
+    length: 0
+
+    sizeFrom: 0
+    sizeTo: 6
+
+    strokeFrom: 0.8
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: a9d8ff
+}
+
+    {
+    type: ParticleEffect
+    particles: 3
+    lifetime: 20
+    line: true
+    cone: 45
+
+    baseRotation: 0
+    baseLength: 0
+    length: 12.5
+
+    strokeFrom: 1.2
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: a9d8ff
+}
+
+    {
+    type: ParticleEffect
+    startDelay: 40
+    particles: 3
+    lifetime: 20
+    line: true
+    cone: 60
+
+    baseRotation: 0
+    baseLength: 0
+    length: 14.5
+
+    strokeFrom: 1.2
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: a9d8ff
+}
+
+    {
+    type: ParticleEffect
+    startDelay: 40
+    lifetime: 160
+    particles: 3
+    line: true
+    cone: 45
+
+    baseRotation: 0
+    baseLength: 7.5
+    length: 0
+
+    strokeFrom: 1.2
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: a9d8ff
+}
+
+    {
+    type: ParticleEffect
+    startDelay: 200
+    lifetime: 200
+    particles: 5
+    line: true
+    cone: 45
+
+    baseRotation: 0
+    baseLength: 4.5
+    length: 0
+
+    strokeFrom: 1.2
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: a9d8ff
+}
+
+    {
+    type: ParticleEffect
+    startDelay: 400
+    lifetime: 200
+    particles: 7
+    line: true
+    cone: 60
+
+    baseRotation: 0
+    baseLength: 7.5
+    length: 0
+
+    strokeFrom: 1.2
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: a9d8ff
+}
+
+    {
+    type: ParticleEffect
+    startDelay: 600
+    lifetime: 200
+    particles: 9
+    line: true
+    cone: 75
+
+    baseRotation: 0
+    baseLength: 9
+    length: 0
+
+    strokeFrom: 1.2
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: a9d8ff
+}
+
+    {
+    type: ParticleEffect
+    startDelay: 800
+    particles: 12
+    lifetime: 200
+    line: true
+    cone: 90
+
+    baseLength: 12.5
+    baseRotation: 0
+    length: 0
+
+    strokeFrom: 1.2
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: a9d8ff
+}
+
+    {
+    type: ParticleEffect
+    startDelay: 1000
+    particles: 13
+    lifetime: 200
+    line: true
+    cone: 90
+
+    baseLength: 14.5
+    baseRotation: 0
+    length: 0
+
+    strokeFrom: 1.2
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: a9d8ff
+}
+
+    {
+    type: ParticleEffect
+    startDelay: 1200
+    particles: 15
+    lifetime: 200
+    line: true
+    cone: 120
+
+    baseLength: 17.5
+    baseRotation: 0
+    length: 0
+
+    strokeFrom: 1.2
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: a9d8ff
+}
+    ]
+}
+    }
