@@ -15,7 +15,7 @@ immunities: [ burning, blasted, bsm-air-specialization, bsm-naval-specialization
 
 weapons: [
 {
-    name: locus-weapon
+    name: mobile-machine-gun
 
     layerOffset: 0.0001
     rotateSpeed: 0.75
