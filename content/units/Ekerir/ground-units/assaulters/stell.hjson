@@ -15,7 +15,7 @@ immunities: [ burning, blasted, bsm-air-specialization, bsm-naval-specialization
 
 weapons: [
 {
-    name: stell-weapon
+    name: twin-tank-gun
 
     soundPitchMax: 0.75
     layerOffset: 0.0001
