@@ -1,8 +1,0 @@
-research: reinforced-payload-conveyor
-
-armor: 2
-
-requirements: [
-  silicon/12
-  tungsten/18
-]
