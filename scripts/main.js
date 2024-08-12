@@ -7,9 +7,3 @@ mod.meta.description = "[accent]RU:[] [gray]Очень опасный мод, к
 mod.meta.author = "[accent]D[#9E5F00]&[accent]X";
 
 require("foreshadow");
-require("evilLaugh");
-require("oct");
-require("reconstructors/additiveReconstructor");
-require("reconstructors/multiplicativeReconstructor");
-require("reconstructors/exponentialReconstructor");
-require("reconstructors/tetrativeReconstructor");
