@@ -91,7 +91,7 @@ blast-compound: {
     lightRadius: 27.5
 
     trailColor: c85c51
-    trailLength: 121.5
+    trailLength: 17.5
     trailWidth: 1.75
 
     frontColor: ff795e
@@ -153,7 +153,7 @@ pyratite: {
     lightRadius: 42.5
 
     trailColor: d37f47
-    trailLength: 72.5
+    trailLength: 12.5
     trailWidth: 1.75
 
     frontColor: ffaa5f
@@ -217,7 +217,7 @@ surge-alloy: {
     lightRadius: 32.5
 
     trailColor: e8d174
-    trailLength: 72.5
+    trailLength: 7.5
     trailWidth: 1.25
 
     frontColor: fcf387
@@ -261,7 +261,7 @@ titanium: {
     lightRadius: 34.5
 
     trailColor: 919fe7
-    trailLength: 64.5
+    trailLength: 12.5
     trailWidth: 1.5
 
     frontColor: a4b8fa
@@ -325,7 +325,7 @@ plastanium: {
     backColor: cbd97f
 
     trailColor: cbd97f
-    trailLength: 32.5
+    trailLength: 12.5
     trailWidth: 1.5
 
 fragBullet: {
@@ -350,7 +350,7 @@ fragBullet: {
     lightRadius: 27.5
 
     trailColor: cbd97f
-    trailLength: 72.5
+    trailLength: 5.5
     trailWidth: 1.5
 
     frontColor: edf3a9
