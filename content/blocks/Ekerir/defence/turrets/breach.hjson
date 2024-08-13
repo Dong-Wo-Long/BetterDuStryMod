@@ -11,7 +11,7 @@ shootCone: 1
 maxAmmo: 270
 health: 5000
 reload: 450
-range: 552
+range: 512
 armor: 7
 
 consumes: {
@@ -51,8 +51,8 @@ beryllium: {
     splashDamageRadius: 26
     statusDuration: 450
     splashDamage: 350
+    lifetime: 50.5
     pierceCap: 3
-    lifetime: 53
     damage: 380
     speed: 11
 
@@ -261,7 +261,7 @@ tungsten: {
     buildingDamageMultiplier: 0.5
     pierceDamageFactor: 0.025
     ammoMultiplier: 8
-    rangeChange: -132
+    rangeChange: -92
 
     status: bsm-ground-specialization
     splashDamageRadius: 15
@@ -478,7 +478,7 @@ carbide: {
     pierceDamageFactor: 0.0025
     reloadMultiplier: 0.65
     ammoMultiplier: 4
-    rangeChange: -116
+    rangeChange: -76
 
     status: bsm-armor-piercing-tier-1
     splashDamageRadius: 20
