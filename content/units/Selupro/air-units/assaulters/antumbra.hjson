@@ -26,7 +26,7 @@ deathSound: air-crush-1
 loopSoundVolume: 0.18
 loopSound: air-engine
 
-immunities: [ burning, blasted, shocked, tarred, wet, bsm-anti-tank, bsm-ground-specialization, bsm-naval-specialization ]
+immunities: [ burning, blasted, shocked, tarred, wet, bsm-ground-specialization, bsm-naval-specialization ]
 
 targetFlags: [ unitAssembler, unitCargoUnloadPoint, turret, reactor, generator, battery, core ]
 
