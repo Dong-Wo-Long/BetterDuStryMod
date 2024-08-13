@@ -27,7 +27,7 @@ requirements: [
     surge-alloy/450
     ]
 
-shootSound: large-cannon-shot
+shootSound: cannon-large-shot
 ammoUseEffect: casing3
 
 shoot: {
@@ -64,7 +64,7 @@ graphite: {
     damage: 140
     speed: 4.5
 
-    hitSound: large-cannon-hit
+    hitSound: cannon-large-hit
     shootEffect: shootBig
 
     lightColor: 95abd9
@@ -127,7 +127,7 @@ thorium: {
     fragRandomSpread: 12
     fragBullets: 3
 
-    hitSound: large-cannon-hit
+    hitSound: cannon-large-hit
     shootEffect: shootBig
 
     lightColor: f9a3c7
@@ -208,7 +208,7 @@ pyratite: {
     incendSpread: 30
     incendChance: 1
 
-    hitSound: large-cannon-hit
+    hitSound: cannon-large-hit
     shootEffect: shootBig
 
     lightColor: ffaa5f
@@ -269,7 +269,7 @@ blast-compound: {
     damage: 181
     speed: 2.25
 
-    hitSound: large-cannon-hit
+    hitSound: cannon-large-hit
     shootEffect: shootBig
 
     lightColor: ff795e
@@ -330,7 +330,7 @@ titanium: {
     damage: 121
     speed: 3.2
 
-    hitSound: large-cannon-hit
+    hitSound: cannon-large-hit
     shootEffect: shootBig
 
     lightColor: a4b8fa
@@ -381,7 +381,7 @@ surge-alloy: {
     ammoMultiplier: 12
     rangeChange: 388
 
-    status: 20s-35-status-tier-2-direct-purpose-emp
+    status: bsm-emp-tier-2
     splashDamageRadius: 33
     lightningLength: 16
     statusDuration: 250
@@ -393,7 +393,7 @@ surge-alloy: {
     damage: 75
     speed: 5.5
 
-    hitSound: large-cannon-hit
+    hitSound: cannon-large-hit
     shootEffect: shootBig
 
     lightColor: fcf387
@@ -443,194 +443,8 @@ effects: [
     sparkRad: 45
     sparkLen: 6
     sparks: 14
-}
-    ]
-}
-    }
-
-phase-fabric: {
-    type: BasicBulletType
-    sprite: large-bomb
-    pierceBuilding: true
-    pierceArmor: true
-    scaleLife: true
-    hittable: false
-    shrinkY: 0
-    shrinkX: 0
-    hitSize: 5
-    height: 22
-    width: 22
-
-    buildingDamageMultiplier: 0.5
-    reloadMultiplier: 0.5
-    ammoMultiplier: 4
-
-    splashDamageRadius: 33
-    lightningLength: 16
-    statusDuration: 250
-    splashDamage: 48
-    status: sapped
-    lifetime: 140
-    pierceCap: 3
-    damage: 150
-    speed: 5.5
-
-    fragRandomSpread: 30
-    fragVelocityMin: 0.5
-    fragLifeMax: 1.5
-    fragBullets: 14
-    fragLifeMin: 1
-
-    hitSound: large-cannon-hit
-    shootEffect: shootBig
-
-    lightColor: EFCA98
-    lightOpacity: 0.7
-    lightRadius: 12.5
-
-    trailColor: E3A880
-    trailLength: 12
-    trailWidth: 2.5
-
-    frontColor: EFCA98
-    backColor: E3A880
-
-hitEffect: {
-    type: MultiEffect
-
-effects: [
-{
-    type: ExplosionEffect
-
-    lifetime: 60
-
-    waveColor: EFCA98
-    waveStroke: 1.25
-    waveRad: 60
-
-    smokeColor: 696969
-    smokeSizeBase: 0
-    smokeSize: 6
-    smokes: 8
-
-    sparkColor: EFCA98
-    sparkStroke: 2.5
-    sparkRad: 4
-    sparkLen: 16
-    sparks: 12
     }
 ]
-    }
-
-fragBullet: {
-    type: ArtilleryBulletType
-    sprite: large-bomb
-    collidesGround: false
-    reflectable: false
-    collidesAir: false
-    pierceArmor: true
-    absorbable: false
-    fragOnHit: false
-    collides: false
-    hittable: false
-    pierce: true
-    shrinkX: 0
-    shrinkY: 0
-    height: 9
-    width: 9
-    spin: -3
-
-    splashDamageRadius: 10
-    statusDuration: 380
-    splashDamage: 60
-    status: sapped
-    pierceCap: 90
-    lifetime: 10
-    damage: 10
-    speed: 10
-
-    fragRandomSpread: 0
-    fragBullets: 1
-    fragAngle: 180
-
-    despawnSound: plasma-shot-3
-    hitEffect: none
-
-    lightColor: EFCA98
-
-    trailColor: EFCA98
-    trailEffect: none
-    trailLength: 12
-    trailWidth: 1
-
-    frontColor: EFCA98
-    backColor: E3A880
-    hitColor: E3A880
-
-despawnEffect: [
-    {
-    type: ParticleEffect
-    lifetime: 70
-    particles: 12
-    line: true
-    cone: 30
-    length: -30
-
-    strokeFrom: 1.2
-    strokeTo: 0
-
-    colorFrom: EFCA9890
-    colorTo: E3A88030
-}
-    {
-    type: ParticleEffect
-    lifetime: 70
-    particles: 12
-    line: true
-    cone: 30
-
-    length: -15
-
-    strokeFrom: 1.4
-    strokeTo: 0
-
-    colorFrom: EFCA9890
-    colorTo: E3A88030
-}
-    {
-    type: ParticleEffect
-    lifetime: 70
-    particles: 12
-    line: true
-    cone: 3
-
-    length: 40
-
-    strokeFrom: 1.4
-    strokeTo: 0
-
-    colorFrom: EFCA9890
-    colorTo: E3A88030
-}
-    ]
-
-fragBullet: {
-    type: ShrapnelBulletType
-    pierceArmor: true
-    serrations: 0
-    length: 60
-    width: 3
-
-    buildingDamageMultiplier: 0.5
-
-    lifetime: 60
-    damage: 60
-
-    hitSound: none
-
-    fromColor: EFCA98F0
-    toColor: E3A88080
-}
     }
 }
     }
