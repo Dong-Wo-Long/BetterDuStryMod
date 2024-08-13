@@ -11,7 +11,7 @@ lightColor: fff8e8
 lightOpacity: 0.7
 lightRadius: 75
 
-immunities: [ spore-slowed, bsm-anti-tank, bsm-ground-specialization, bsm-air-specialization, bsm-armor-piercing-tier-1 ]
+immunities: [ spore-slowed, bsm-ground-specialization, bsm-air-specialization, bsm-armor-piercing-tier-1 ]
 
 weapons: [
 {
