@@ -43,7 +43,7 @@ parts: [
 
 smokeEffect: shootBigSmoke
 chargeSound: target-locked
-shootSound: rocket-shot
+shootSound: rocket-shot-1
 shootEffect: shootBig
 shoot: {
     type: ShootBarrel
