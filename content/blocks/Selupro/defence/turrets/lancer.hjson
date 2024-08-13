@@ -28,8 +28,8 @@ requirements: [
     silicon/45
 ]
 
-chargeSound: railgun-charge
-shootSound: railgun-shot
+chargeSound: rail-charge-1
+shootSound: rail-shot-1
 shoot: {
     firstShotDelay: 1440
     }
