@@ -21,7 +21,7 @@ deathSound: helicopter-crush
 loopSound: helicopter-engine
 loopSoundVolume: 0.125
 
-immunities: [ blasted, bsm-anti-tank, bsm-ground-specialization, bsm-naval-specialization ]
+immunities: [ blasted, bsm-ground-specialization, bsm-naval-specialization ]
 
 targetFlags: [ generator, unitAssembler, factory, storage, battery, drill ]
 
