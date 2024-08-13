@@ -1,3 +1,8 @@
 research: silicon-arc-furnace
 
 heatOutput: 5
+
+requirements: [
+    graphite/30
+    tungsten/24
+    ]
