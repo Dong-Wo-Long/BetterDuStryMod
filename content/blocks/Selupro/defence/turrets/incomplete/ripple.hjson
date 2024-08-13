@@ -14,7 +14,7 @@ reload: 750
 range: 960
 armor: 9
 
-shootSound: large-cannon-shot
+shootSound: cannon-large-shot
 ammoUseEffect: casing3Double
 ammoEjectBack: 5
 ammoPerShot: 5
@@ -40,7 +40,7 @@ graphite: {
     lifetime: 80
     speed: 1.8
 
-    hitSound: large-cannon-hit
+    hitSound: cannon-large-hit
     shootEffect: shootBig
     hitSoundVolume: 0.75
 
@@ -117,7 +117,7 @@ silicon: {
     lifetime: 80
     speed: 2.25
 
-    hitSound: large-cannon-hit
+    hitSound: cannon-large-hit
     hitSoundVolume: 0.75
 
     lightColor: 8e9097
@@ -194,7 +194,7 @@ pyratite: {
     lifetime: 80
     speed: 2
 
-    hitSound: large-cannon-hit
+    hitSound: cannon-large-hit
     hitSoundVolume: 0.75
 
     lightColor: ffaa5f
@@ -300,7 +300,7 @@ blast-compound: {
     lifetime: 80
     speed: 1.5
 
-    hitSound: large-cannon-hit
+    hitSound: cannon-large-hit
     shootEffect: shootBig
     hitSoundVolume: 0.75
 
@@ -410,7 +410,7 @@ plastanium: {
 
     despawnEffect: plasticExplosion
     hitEffect: plasticExplosion
-    hitSound: large-cannon-hit
+    hitSound: cannon-large-hit
     hitSoundVolume: 0.75
 
     lightColor: edf3a9
