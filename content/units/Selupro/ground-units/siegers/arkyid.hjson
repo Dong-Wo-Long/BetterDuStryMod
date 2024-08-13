@@ -14,7 +14,7 @@ lightOpacity: 0.7
 healColor: bf92f9
 lightRadius: 150
 
-immunities: [ spore-slowed, shocked, sapped, bsm-anti-tank, bsm-air-specialization, bsm-naval-specialization ]
+immunities: [ spore-slowed, shocked, sapped, bsm-air-specialization, bsm-naval-specialization ]
 
 abilities: [
     {
