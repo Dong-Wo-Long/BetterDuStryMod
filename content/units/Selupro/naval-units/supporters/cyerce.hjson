@@ -5,7 +5,7 @@ health: 2700
 speed: 0.56
 armor: 15
 
-immunities: [ burning, melting, shocked, blasted, bsm-anti-tank, bsm-ground-specialization, bsm-air-specialization, bsm-armor-piercing-tier-2 ]
+immunities: [ burning, melting, shocked, blasted, bsm-ground-specialization, bsm-air-specialization, bsm-armor-piercing-tier-2 ]
 
 weapons: [
 {
