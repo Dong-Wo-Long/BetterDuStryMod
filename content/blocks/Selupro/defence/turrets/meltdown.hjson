@@ -36,8 +36,8 @@ requirements: [
     surge-alloy/1800
     ]
 
-chargeSound: large-laser-charge
-loopSound: large-laser-shot-2
+chargeSound: laser-large-charge
+loopSound: laser-large-shot-2
 shoot: {
     firstShotDelay: 315
     shots: 1
