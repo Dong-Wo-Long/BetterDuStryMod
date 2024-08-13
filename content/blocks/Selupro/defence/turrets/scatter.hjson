@@ -92,7 +92,7 @@ lead: {
     reloadMultiplier: 0.5
     ammoMultiplier: 6
 
-    status: air-specialization
+    status: bsm-air-specialization
     splashDamageRadius: 40
     statusDuration: 90
     splashDamage: 27.5
