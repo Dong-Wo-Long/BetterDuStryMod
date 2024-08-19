@@ -11,7 +11,7 @@ This mod is an amalgamation of EU and ET. However, in addition it adds new block
 
 > [!IMPORTANT]
 > ### The mod does not shamelessly steal other people's sprites without their author's permission to use them.
-### Saphirrium
+### Sapphirium
 (https://github.com/3Snake3/Sapphirium?ysclid=lyzqzrbhic385832513)
 
 Special thanks to Snake#2132 for the ability to use weapon sprites for units:
