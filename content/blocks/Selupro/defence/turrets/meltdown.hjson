@@ -9,6 +9,7 @@ recoil: 4
 shake: 2
 
 buildCostMultiplier: 0.3246169
+researchCostMultiplier: 3
 coolantMultiplier: 4
 
 shootDuration: 475
