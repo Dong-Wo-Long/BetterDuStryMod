@@ -13,13 +13,14 @@ armor: 32
 
 consumes: {
     power: 125
-	liquids: [
-		cryofluid/1
-	]
-	items: [
-		blast-compound/15
-	]
-}
+liquids: [
+    cryofluid/1
+    ]
+
+items: [
+    blast-compound/15
+]
+    }
 
 ammoUseEffect: casing3
 
