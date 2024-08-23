@@ -1,5 +1,3 @@
-importClass(java.lang.Class);
-
 const mod = Vars.mods.locateMod("bsm");
 
 mod.meta.displayName = "[#AD33FF]B[#800FFF]e[#AD33FF]tt[#530FFF]er[#800FFF]us[#530FFF]t[#380BA5]ry [#AD33FF]Mo[#800FFF]d";
