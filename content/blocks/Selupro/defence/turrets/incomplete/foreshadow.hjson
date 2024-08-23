@@ -12,14 +12,7 @@ range: 1200
 armor: 32
 
 consumes: {
-    power: 125
-liquids: [
-    cryofluid/1
-    ]
-
-items: [
-    blast-compound/15
-]
+    power: 180
     }
 
 ammoUseEffect: casing3
