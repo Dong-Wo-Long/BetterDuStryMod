@@ -1,12 +1,329 @@
 research: elude
-fogRadius: 25
+fogRadius: 41
+range: 216
 
 itemCapacity: 0
-rotateSpeed: 4
+rotateSpeed: 5
 health: 2100
 accel: 0.09
+speed: 5.5
 drag: 0.08
 armor: 9
-speed: 2
+
+deathSound: air-crush-medium-3
+loopSound: drone-engine
+loopSoundVolume: 0.025
 
 immunities: [ bsm-ground-specialization, bsm-naval-specialization ]
+
+abilities: [
+    {
+type: MoveEffectAbility
+rotateEffect: true
+minVelocity: 5
+interval: 1.5
+x: 0
+y: 0
+
+effect: {
+    type: ParticleEffect
+    particles: 8
+    line: true
+    cone: 45
+
+    baseRotation: 180
+    baseLength: 4
+    length: 3.2
+
+    colorFrom: ffffff
+    strokeFrom: 1.6
+    colorTo: bf92f9
+    strokeTo: 1
+    }
+}
+    {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.1
+    teamColor: true
+    effectParam: 4
+    interval: 3
+    x: -8.75
+    y: -4
+}
+    {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.1
+    teamColor: true
+    effectParam: 4
+    interval: 3
+    x: 8.75
+    y: -4
+}
+    {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.1
+    teamColor: true
+    effectParam: 4
+    interval: 3
+    x: -9.75
+    y: -9.5
+}
+    {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.1
+    teamColor: true
+    effectParam: 4
+    interval: 3
+    x: 9.75
+    y: -9.5
+}
+    ]
+
+weapons: [
+    {
+    name: laser-cannon
+    layerOffset: -0.01
+    rotate: false
+    mirror: false
+    top: false
+    recoil: 1
+    shootY: 5
+    x: 0
+    y: 6.5
+
+    inaccuracy: 2
+    reload: 25
+
+    shootSound: plasma-shot-3
+shoot: { 
+    type: ShootMulti
+source: {
+    type: ShootHelix
+    shotDelay: 5
+    barrels: 1
+    spread: 0
+    shots: 3
+    }
+
+dest: [ 
+{
+    type: ShootAlternate
+    barrels: 1
+    spread: 0
+    shots: 1
+    }
+]
+    }
+
+bullet: {
+    type: BasicBulletType
+    height: 12
+    width: 7
+
+    buildingDamageMultiplier: 0.3
+
+    lifetime: 30
+    damage: 41
+    speed: 8
+
+    despawnEffect: hitBulletColor
+    smokeEffect: shootBigSmoke
+    hitEffect: hitBulletColor
+    shootEffect: sparkShoot
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 24.5
+
+    trailColor: bf92f9
+    trailLength: 5
+    trailWidth: 1.5
+
+    frontColor: ffffff
+    backColor: bf92f9
+    hitColor: bf92f9
+}
+    }
+
+{
+    name: laser-gun
+    layerOffset: -0.01
+    shootCone: 45
+    rotate: false
+    shake: 2
+    x: 7.5
+    y: 2.5
+
+    velocityRnd: 0.18
+    cooldownTime: 96
+    inaccuracy: 9
+    reload: 24
+
+    shootSound: plasma-missile-shot
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    collidesAir: false
+    despawnShake: 2.5
+    hitShake: 2.5
+    shrinkY: 0.6
+    height: 12
+    width: 12
+
+    status: ground-specialization
+    splashDamageRadius: 26
+    statusDuration: 180
+    homingPower: 0.05
+    splashDamage: 47
+    homingRange: 45
+    weaveScale: 5
+    lifetime: 54
+    drag: -0.003
+    weaveMag: 5
+    damage: 52
+    speed: 5
+
+    despawnEffect: blastExplosion
+    hitSound: flak-plasma-boom
+    hitEffect: blastExplosion
+    hitSoundVolume: 0.25
+
+    lightColor: bf92f9
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    trailColor: bf92f9
+    trailInterval: 0.1
+
+    frontColor: ffffff
+    backColor: bf92f9
+
+despawnEffect: [
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    particles: 15
+    lifetime: 15
+    line: true
+    cone: 360
+
+    strokeFrom: 2.4
+    strokeTo: 0
+    sizeFrom: 3
+    sizeTo: 0
+    baseLength: 0
+    length: 24
+
+    colorFrom: ffffff
+    colorTo: bf92f9
+}
+    {
+    type: ExplosionEffect
+    lifetime: 64
+
+    waveColor: ffffff
+    waveStroke: 5
+    waveRad: 30
+    waveLife: 24
+
+    smokeColor: bf92f9
+    smokeSizeBase: 0
+    smokeSize: 15
+    smokeRad: 18
+    smokes: 7
+
+    sparkColor: bf92f9
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+}
+    ]
+
+hitEffect: [
+{
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    particles: 15
+    lifetime: 15
+    line: true
+    cone: 360
+
+    strokeFrom: 2.4
+    strokeTo: 0
+    sizeFrom: 3
+    sizeTo: 0
+    baseLength: 0
+    length: 24
+
+    colorFrom: ffffff
+    colorTo: bf92f9
+    }
+{
+    type: ExplosionEffect
+    lifetime: 64
+
+    waveColor: ffffff
+    waveStroke: 5
+    waveRad: 30
+    waveLife: 24
+
+    smokeColor: bf92f9
+    smokeSizeBase: 0
+    smokeSize: 15
+    smokeRad: 18
+    smokes: 7
+
+    sparkColor: bf92f9
+    sparkStroke: 0
+    sparkRad: 0
+    sparkLen: 0
+    sparks: 0
+}
+    ]
+}
+    }
+
+{
+    baseRotation: -90
+    display: false
+    rotate: false
+    mirror: false
+    x: 0
+    y: 0
+
+    shootCone: 60
+    reload: 300
+
+    shootSound: hyperjump
+
+shoot: {
+    shotDelay: 15
+    shots: 2
+}
+
+bullet: {
+    pierceBuilding: true
+    collides: false
+    pierce: true
+    impact: true
+    height: 0
+    width: 0
+
+    lifetime: 10
+    maxRange: 80
+    recoil: 24
+    damage: 0
+    speed: 8
+
+    despawnEffect: none
+    hitEffect: none
+    }
+}
+    ]
