@@ -212,7 +212,7 @@ bullet: {
     statusDuration: 180
     splashDamage: 181
     lifetime: 20.5
-    pierceCap: 96
+    pierceCap: 24
     damage: 325
     speed: 19
 
@@ -221,9 +221,9 @@ bullet: {
     fragBullets: 2
     fragLifeMin: 0
 
-    incendChance: 10
-    incendSpread: 10
-    incendAmount: 1
+    incendSpread: 7
+    incendChance: 1
+    incendAmount: 9
 
     hitSound: heavy-minigun-hit
     hitEffect: blastExplosion
@@ -247,23 +247,19 @@ fragBullet: {
     height: 10
     width: 10
 
-    buildingDamageMultiplier: 0.7
+    buildingDamageMultiplier: 0.5
     pierceDamageFactor: 0.75
 
     splashDamageRadius: 26
-    puddleLiquid: slag
-    splashDamage: 120
-    puddleAmount: 6
-    puddleRange: 3
+    splashDamage: 50
     pierceCap: 2
     lifetime: 20
-    damage: 140
-    puddles: 2
+    damage: 70
     speed: 5
 
-    incendChance: 10
-    incendSpread: 10
-    incendAmount: 1
+    incendSpread: 3
+    incendChance: 1
+    incendAmount: 3
 
     hitEffect: flakExplosion
 
