@@ -241,7 +241,6 @@ fragBullet: {
     type: BasicBulletType
     pierceBuilding: true
     collidesAir: false
-    pierceArmor: true
     despawnShake: 1
     pierce: true
     hitShake: 1
