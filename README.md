@@ -2,6 +2,8 @@
 
 ## https://discord.gg/y42PzYzNvs
 
+![BetterDuStryMod](https://github.com/Dong-Wo-Long/Images-and-gifs/blob/main/techsupport_sysodmin.gif)
+
 # BetterDuStryMod
 ![BetterDuStryMod](https://github.com/Dong-Wo-Long/BetterDuStryMod/blob/main/icon.png)
 ### Introduction
