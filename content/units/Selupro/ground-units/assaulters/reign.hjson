@@ -168,106 +168,6 @@ bullet: {
 
 {
     name: reign-weapon
-    shootCone: 45
-    shootY: 11
-    recoil: 5
-    shake: 5
-    x: 21.5
-    y: 1
-
-    reload: 22.5
-
-    chargeSound: minigun-heavy-charge
-    shootSound: minigun-heavy-shot
-    ejectEffect: casing4
-shoot: {
-    type: ShootSpread
-    firstShootDelay: 80
-    shotDelay: 7
-    spread: 0
-    shots: 4
-    }
-
-bullet: {
-    type: BasicBulletType
-    pierceBuilding: true
-    despawnShake: 5
-    hittable: false
-    pierce: true
-    hitShake: 5
-    height: 33
-    width: 14
-
-    buildingDamageMultiplier: 0.9
-    
-    splashDamageRadius: 13
-    splashDamage: 125
-    lifetime: 20.5
-    pierceCap: 3
-    damage: 345
-    speed: 19
-
-    fragRandomSpread: 25
-    fragVelocityMin: 0.4
-    fragBullets: 2
-    fragLifeMin: 0
-    
-    hitSound: heavy-minigun-hit
-    hitEffect: blastExplosion
-    shootEffect: shootBig
-
-    lightColor: fff8e8
-    lightOpacity: 0.7
-    lightRadius: 52
-
-    trailColor: f9c27a
-    trailLength: 4
-    trailWidth: 2
-
-fragBullet: {
-    type: BasicBulletType
-    pierceBuilding: true
-    collidesAir: false
-    pierceArmor: true
-    despawnShake: 1
-    pierce: true
-    hitShake: 1
-    height: 10
-    width: 10
-
-    buildingDamageMultiplier: 0.7
-    pierceDamageFactor: 0.75
-
-    splashDamageRadius: 26
-    puddleLiquid: slag
-    splashDamage: 120
-    puddleAmount: 6
-    puddleRange: 3
-    pierceCap: 2
-    lifetime: 20
-    damage: 140
-    puddles: 2
-    speed: 5
-
-    incendChance: 10
-    incendSpread: 10
-    incendAmount: 1
-
-    hitEffect: flakExplosion
-
-    lightColor: fff8e8
-    lightOpacity: 0.7
-    lightRadius: 21
-
-    trailColor: F3E979F0
-    trailLength: 3
-    trailWidth: 1
-    }
-}
-    }
-
-{
-    name: reign-weapon
     rotationLimit: 15
     rotateSpeed: 0.8
     alternate: false
@@ -315,6 +215,11 @@ bullet: {
     pierceCap: 96
     damage: 325
     speed: 19
+
+    fragRandomSpread: 25
+    fragVelocityMin: 0.4
+    fragBullets: 2
+    fragLifeMin: 0
 
     incendChance: 10
     incendSpread: 10
