@@ -201,15 +201,16 @@ bullet: {
     buildingDamageMultiplier: 0.9
     
     splashDamageRadius: 13
-    fragRandomSpread: 25
-    fragVelocityMin: 0.4
     splashDamage: 125
-    fragBullets: 2
-    fragLifeMin: 0
     lifetime: 20.5
     pierceCap: 3
     damage: 345
     speed: 19
+
+    fragRandomSpread: 25
+    fragVelocityMin: 0.4
+    fragBullets: 2
+    fragLifeMin: 0
     
     hitSound: heavy-minigun-hit
     hitEffect: blastExplosion
@@ -222,6 +223,114 @@ bullet: {
     trailColor: f9c27a
     trailLength: 4
     trailWidth: 2
+
+fragBullet: {
+    type: BasicBulletType
+    pierceBuilding: true
+    collidesAir: false
+    pierceArmor: true
+    despawnShake: 1
+    pierce: true
+    hitShake: 1
+    height: 10
+    width: 10
+
+    buildingDamageMultiplier: 0.7
+    pierceDamageFactor: 0.75
+
+    splashDamageRadius: 26
+    puddleLiquid: slag
+    splashDamage: 120
+    puddleAmount: 6
+    puddleRange: 3
+    pierceCap: 2
+    lifetime: 20
+    damage: 140
+    puddles: 2
+    speed: 5
+
+    incendChance: 10
+    incendSpread: 10
+    incendAmount: 1
+
+    hitEffect: flakExplosion
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 21
+
+    trailColor: F3E979F0
+    trailLength: 3
+    trailWidth: 1
+    }
+}
+    }
+
+{
+    name: reign-weapon
+    rotationLimit: 15
+    rotateSpeed: 0.8
+    alternate: false
+    shootCone: 45
+    rotate: true
+    recoil: 1.5
+    shootY: 11
+    shake: 5
+    x: 21.5
+    y: 1
+
+    cooldownTime: 600
+    velocityRnd: 0.18
+    inaccuracy: 5
+    reload: 640
+
+    chargeSound: heavy-minigun-charge
+    shootSound: heavy-minigun-shot
+    ejectEffect: casing4
+shoot: {
+    firstShotDelay: 102
+    shotDelay: 5
+    shots: 96
+    }
+
+bullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    pierceBuilding: true
+    despawnShake: 5
+    hittable: false
+    pierce: true
+    hitShake: 5
+    height: 33
+    width: 14
+
+    buildingDamageMultiplier: 0.25
+    pierceDamageFactor: 0.015
+
+    status: armor-piercing-tier-1
+    splashDamageRadius: 26
+    statusDuration: 180
+    splashDamage: 181
+    lifetime: 20.5
+    pierceCap: 96
+    damage: 325
+    speed: 19
+
+    incendChance: 10
+    incendSpread: 10
+    incendAmount: 1
+
+    hitSound: heavy-minigun-hit
+    hitEffect: blastExplosion
+    shootEffect: shootBig
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 52
+
+    trailColor: f9c27a
+    trailLength: 3.25
+    trailWidth: 2.75
 
 fragBullet: {
     type: BasicBulletType
