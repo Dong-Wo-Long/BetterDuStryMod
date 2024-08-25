@@ -60,6 +60,10 @@ bullet: {
     damage: 15
     speed: 4
 
+    incendChance: 0.025
+    incendAmount: 8
+    incendSpread: 1
+
     lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 20
