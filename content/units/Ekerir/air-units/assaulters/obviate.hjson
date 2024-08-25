@@ -1,12 +1,364 @@
 research: avert
-fogRadius: 25
+fogRadius: 64
+range: 384
 
-rotateSpeed: 2.1
 itemCapacity: 0
+rotateSpeed: 3
 health: 18000
 accel: 0.09
-speed: 1.5
+speed: 2.4
 drag: 0.08
 armor: 15
 
 immunities: [ bsm-ground-specialization, bsm-naval-specialization ]
+
+abilities: [
+    {
+    type: ShieldArcAbility
+    region: bsm-cleroi-shield
+    radius: 24
+    angle: 250
+    width: 3
+    y: -1.5
+
+    cooldown: 900
+    regen: 2.4
+    max: 8000
+}
+    {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.1
+    teamColor: true
+    effectParam: 4
+    interval: 3
+    x: -9.5
+    y: -11.5
+}
+    {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.1
+    teamColor: true
+    effectParam: 4
+    interval: 3
+    x: 9.5
+    y: -11.5
+}
+    {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.1
+    teamColor: true
+    effectParam: 6
+    interval: 3
+    x: 0
+    y: -13.5
+}
+    ]
+
+weapons: [
+    {
+    mirror: false
+    shootY: 0
+    shake: 3
+    x: 0
+    y: -2
+
+    cooldownTime: 800
+    reload: 700
+
+    chargeSound: charging-weapon
+    shootSound: laser-large-shot-1
+    minWarmup: 0.95
+shoot: { 
+    type: ShootMulti
+    firstShotDelay: 460
+source: {
+    type: ShootHelix
+    firstShotDelay: 460
+    shotDelay: 9
+    shots: 3
+    mag: 1
+    scl: 5
+    }
+
+dest: [ 
+{
+    type: ShootAlternate
+    barrels: 1
+    spread: 0
+    shots: 1
+    }
+]
+    }
+
+bullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    shrinkX: 0
+    shrinkY: 0
+    height: 15
+    width: 15
+
+    lifetime: 48
+    damage: 240
+    speed: 9
+
+    lightningColor: bf92f9
+    lightningLengthRand: 8
+    lightningDamage: 24
+    lightningLength: 2
+    lightning: 8
+
+    bulletInterval: 4
+
+    despawnSound: bomb-plasma-hit
+    smokeEffect: shootSmokeTitan
+
+    trailEffect: missileTrail
+    trailColor: bf92f9
+    trailInterval: 3
+    trailLength: 12
+    trailWidth: 2.2
+    trailParam: 4
+
+    frontColor: ffffff
+    backColor: bf92f9
+    hirColor: bf92f9
+
+shootEffect: [
+    shootTitan,
+    {
+    type: WaveEffect
+    lifetime: 14
+
+    strokeFrom: 4
+    sizeTo: 26
+
+    colorTo: 6d56bf
+}
+    ]
+
+despawnEffect: {
+    type: ExplosionEffect
+    smokeColor: 454545
+    sparkColor: 665c9f
+    waveColor: bf92f9
+
+    waveStroke: 4
+    waveRad: 40
+    }
+
+hitEffect: {
+    type: ExplosionEffect
+    smokeColor: 454545
+    sparkColor: 665c9f
+    waveColor: bf92f9
+
+    waveStroke: 4
+    waveRad: 40
+    }
+
+chargeEffect: [
+    {
+    type: ParticleEffect
+    lifetime: 440
+    particles: 1
+    cone: 360
+
+    baseLength: 0
+    length: 0
+
+    sizeFrom: 0
+    sizeTo: 5
+
+    strokeFrom: 0.8
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: bf92f9
+}
+    {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 440
+
+    sizeFrom: 35
+    sizeTo: 0
+
+    strokeFrom: 5
+    strokeTo: 0
+
+    colorFrom: bf92f9
+    colorTo: ffffff
+}
+
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    particles: 15
+    lifetime: 440
+    line: true
+    cone: 24
+
+    baseLength: 70
+    length: -70
+
+    sizeFrom: 2.5
+    sizeTo: 0
+
+    strokeFrom: 0.8
+    strokeTo: 0.6
+
+    colorFrom: bf92f9
+    colorTo: ffffff
+}
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    particles: 15
+    lifetime: 440
+    line: true
+    cone: 360
+
+    baseLength: 34
+    length: -34
+
+    sizeFrom: 2.5
+    sizeTo: 0
+
+    strokeFrom: 0.8
+    strokeTo: 0.6
+
+    colorFrom: bf92f9
+    colorTo: ffffff
+}
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 440
+    particles: 5
+    line: true
+    cone: 360
+
+    baseLength: 34
+    length: -34
+
+    sizeFrom: 5
+    sizeTo: 0
+
+    strokeFrom: 0.8
+    strokeTo: 0.6
+
+    colorFrom: bf92f9
+    colorTo: ffffff
+}
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 440
+    particles: 3
+    line: true
+    cone: 360
+
+    baseLength: 34
+    length: -34
+
+    sizeFrom: 9
+    sizeTo: 0
+
+    strokeFrom: 0.8
+    strokeTo: 0.6
+
+    colorFrom: bf92f9
+    colorTo: ffffff
+}
+    ]
+
+intervalBullet: {
+    type: LightningBulletType
+    collidesAir: false
+
+    buildingDamageMultiplier: 0.2
+
+    damage: 180
+
+    lightningColor: bf92f9
+    lightningLengthRand: 6
+    lightningLength: 3
+
+lightningType: {
+    type: BulletType
+    hittable: false
+
+    buildingDamageMultiplier: 0.2
+
+    statusDuration: 10
+    status: shocked
+    lifetime: 10
+
+    lightColor: ffffff
+
+    hitEffect: hitLancer
+    despawnEffect: none
+}
+    }
+}
+    }
+
+{
+    name: laser-gun
+    type: PointDefenseWeapon
+    rotationLimit: 45
+    layerOffset: 0.01
+    shootCone: 45
+    rotate: true
+    shake: 2
+    x: 3
+    y: -8
+
+    targetSwitchInterval: 15
+    targetInterval: 7.5
+    reload: 6
+
+    shootSound: environment-spark
+bullet: {
+    maxRange: 240
+    damage: 9
+
+    shootEffect: sparkShoot
+    hitEffect: pointHit
+}
+    }
+
+{
+    name: laser-gun
+    type: PointDefenseWeapon
+    rotationLimit: 45
+    layerOffset: 0.01
+    shootCone: 45
+    rotate: true
+    shake: 2
+    x: 9
+    y: -11
+
+    targetSwitchInterval: 15
+    targetInterval: 7.5
+    reload: 6
+
+    shootSound: environment-spark
+bullet: {
+    maxRange: 240
+    damage: 9
+
+    shootEffect: sparkShoot
+    hitEffect: pointHit
+    }
+}
+    ]
