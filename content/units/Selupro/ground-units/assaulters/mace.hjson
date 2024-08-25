@@ -60,6 +60,10 @@ bullet: {
     damage: 42.5
     speed: 3
 
+    incendAmount: 15
+    incendChance: 1
+    incendSpread: 4
+
     shootEffect: shootSmallFlame
     hitEffect: hitFlameSmall
     despawnEffect: none
