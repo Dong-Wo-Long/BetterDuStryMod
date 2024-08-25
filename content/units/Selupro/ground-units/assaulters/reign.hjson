@@ -184,8 +184,8 @@ bullet: {
     inaccuracy: 5
     reload: 640
 
-    chargeSound: heavy-minigun-charge
-    shootSound: heavy-minigun-shot
+    chargeSound: minigun-heavy-charge
+    shootSound: minigun-heavy-shot
     ejectEffect: casing4
 shoot: {
     firstShotDelay: 102
