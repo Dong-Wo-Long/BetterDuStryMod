@@ -4,18 +4,18 @@ fogRadius: 52.5
 stepShake: 14.5
 range: 600
 
-itemCapacity: 1600
+itemCapacity: 18000
 rotateSpeed: 0.75
-health: 88000
+health: 81000
 speed: 0.21
 armor: 196
+
+deathSound: mech-large-destroyed
 
 lightColor: fff8e8
 lightOpacity: 0.7
 healColor: b0bac0
 lightRadius: 170
-
-deathSound: mech-large-destroyed
 
 immunities: [ overclock, burning, melting, wet, blasted, shocked, bsm-air-specialization, bsm-naval-specialization ]
 
@@ -37,10 +37,6 @@ abilities: [
     {
     type: RegenAbility
     amount: 1
-}
-    {
-    type: ArmorPlateAbility
-    healthMultiplier: 0.1
 }
     ]
 
@@ -91,7 +87,7 @@ bullet: {
     x: 11
     y: 10
 
-    reload: 2
+    reload: 3
 
     ejectEffect: none
     shootSound: flame
@@ -100,7 +96,6 @@ bullet: {
     pierceBuilding: true
     keepVelocity: false
     collidesAir: false
-    pierceArmor: true
     hittable: false
     pierce: true
     hitSize: 7
@@ -145,7 +140,6 @@ bullet: {
     pierceBuilding: true
     keepVelocity: false
     collidesAir: false
-    pierceArmor: true
     hittable: false
     pierce: true
     hitSize: 7
@@ -207,25 +201,18 @@ bullet: {
     buildingDamageMultiplier: 0.25
     pierceDamageFactor: 0.015
 
-    status: armor-piercing-tier-1
     splashDamageRadius: 26
-    statusDuration: 180
     splashDamage: 181
     lifetime: 20.5
-    pierceCap: 24
+    pierceCap: 96
     damage: 325
     speed: 19
 
-    fragRandomSpread: 25
-    fragVelocityMin: 0.4
-    fragBullets: 2
-    fragLifeMin: 0
-
-    incendSpread: 7
+    incendAmount: 21
+    incendSpread: 9
     incendChance: 1
-    incendAmount: 9
 
-    hitSound: heavy-minigun-hit
+    hitSound: minigun-heavy-hit
     hitEffect: blastExplosion
     shootEffect: shootBig
 
@@ -237,40 +224,27 @@ bullet: {
     trailLength: 3.25
     trailWidth: 2.75
 
-fragBullet: {
-    type: BasicBulletType
-    pierceBuilding: true
-    collidesAir: false
-    despawnShake: 1
-    pierce: true
-    hitShake: 1
-    height: 10
-    width: 10
+smokeEffect: [
+    {
+    type: ParticleEffect
+    startDelay: 0
+    particles: 7
+    lifetime: 24
+    offsetX: -2
+    line: true
+    cone: 5
 
-    buildingDamageMultiplier: 0.5
-    pierceDamageFactor: 0.75
+    baseRotation: 0
+    baseLength: 0
+    length: 30
 
-    splashDamageRadius: 26
-    splashDamage: 50
-    pierceCap: 2
-    lifetime: 20
-    damage: 70
-    speed: 5
+    strokeFrom: 1.2
+    strokeTo: 0
 
-    incendSpread: 3
-    incendChance: 1
-    incendAmount: 3
-
-    hitEffect: flakExplosion
-
-    lightColor: fff8e8
-    lightOpacity: 0.7
-    lightRadius: 21
-
-    trailColor: F3E979F0
-    trailLength: 3
-    trailWidth: 1
-    }
+    colorFrom: f9c27a
+    colorTo: fff8e8
+}
+    ]
 }
     }
 
@@ -493,15 +467,15 @@ fragBullet: {
     x: 10.5
     y: -2.5
 
-    cooldownTime: 480
+    cooldownTime: 280
     velocityRnd: 0.64
     inaccuracy: 360
-    reload: 500
+    reload: 300
 
     shootSound: rocket-shot-2
 shoot: { 
-    shotDelay: 4.5
-    shots: 24
+    shotDelay: 9
+    shots: 12
     }
 
     warmupMaintainTime: 180
@@ -549,24 +523,23 @@ bullet: {
     height: 14
     width: 8
 
-    buildingDamageMultiplier: 0.6
+    buildingDamageMultiplier: 1.24
 
     splashDamageRadius: 26
     statusDuration: 300
-    homingPower: 0.03
+    homingPower: 0.025
     splashDamage: 48
-    homingRange: 190
+    homingRange: 360
     status: burning
     weaveScale: 12
     lifetime: 360
     weaveMag: 4
-    damage: 290
-    speed: 4
+    damage: 64
+    speed: 3
 
-    fragRandomSpread: 20
-    fragLifeMin: 0.4
-    fragBullets: 4
-    fragLifeMax: 2
+    incendAmount: 24
+    incendSpread: 36
+    incendChance: 1
 
     hitSound: rocket-explosion
     despawnEffect: none
@@ -619,41 +592,61 @@ hitEffect: {
     sparkLen: 5
     sparks: 19
     }
+}
+    }
 
-fragBullet: {
+{
+    name: mount-weapon
+    shootCone: 24
+    rotate: true
+    shootY: 1
+    x: 13
+    y: -7
+
+    inaccuracy: 3
+    reload: 32
+
+    shootSound: machine-gun-shot-3
+    ejectEffect: casing1
+shoot: { 
+    type: ShootMulti
+source: {
+    shotDelay: 5
+    barrels: 1
+    spread: 0
+    shots: 5
+    }
+
+dest: [ 
+{
+    type: ShootAlternate
+    barrels: 1
+    spread: 3
+    shots: 2
+    }
+]
+    }
+
+bullet: {
     type: BasicBulletType
-    pierceBuilding: true
-    collidesAir: false
-    despawnShake: 1
-    pierce: true
-    hitShake: 1
-    height: 6
-    width: 6
+    height: 9
+    width: 7
 
-    buildingDamageMultiplier: 0.4
-    pierceDamageFactor: 0.75
+    buildingDamageMultiplier: 0.75
 
-    splashDamageRadius: 26
-    puddleLiquid: slag
-    splashDamage: 40
-    lifetime: 7
-    damage: 20
-    speed: 4
+    status: air-specialization
+    statusDuration: 180
+    lifetime: 52
+    damage: 48
+    speed: 5
 
-    incendSpread: 7
-    incendAmount: 4
-    incendChance: 1
-
-    hitEffect: flakExplosion
-
-    lightColor: ffd2ae
+    lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 21
 
-    trailColor: ffd2ae
-    trailLength: 3
-    trailWidth: 1
-    }
+    trailColor: f9c27a
+    trailLength: 3.25
+    trailWidth: 1.25
 }
     }
 
