@@ -58,7 +58,6 @@ weapons: [
     reload: 60
 
     shootSound: mech-medium-footsteps
-
 bullet: {
     type: BasicBulletType
     maxRange: 388
@@ -114,6 +113,10 @@ bullet: {
     pierceCap: 96
     lifetime: 163
     speed: 2.4
+
+    incendChance: 0.9
+    incendAmount: 21
+    incendSpread: 7
 
     hitEffect: blastExplosion
     hitSound: artillery-hit
