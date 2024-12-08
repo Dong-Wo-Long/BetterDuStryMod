@@ -1,6 +1,7 @@
-# Intro
-
-![BetterDuStryMod](https://github.com/Dong-Wo-Long/Images-and-gifs/blob/main/techsupport_sysodmin.gif)
+> [!WARNING]  
+> A lot of errors have been found in the mod - from now on, its current version becomes "experimental"
+> Until critical, and less significant, problems and errors are resolved, the mod will have this given status
+> So install it at your own risk, knowing that it is partially or completely broken
 
 # BetterDuStryMod
 ![BetterDuStryMod](https://github.com/Dong-Wo-Long/BetterDuStryMod/blob/main/icon.png)
