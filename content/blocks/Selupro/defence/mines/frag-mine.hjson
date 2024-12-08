@@ -20,7 +20,7 @@ cooldown: 60
 damage: 300
 health: 100
 
-destroySound: mine-boom
+destroySound: boom-mine
 
 requirements: [
     graphite/18
