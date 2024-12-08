@@ -143,7 +143,7 @@ weapons: [
     reload: 450
 
     shootStatus: bsm-motor-acceleration-tier-1
-    shootSound: heat-trap-shot
+    shootSound: rocket-shot-1
     shootStatusDuration: 48
 shoot: {
     shotDelay: 5
