@@ -15,7 +15,7 @@ immunities: [ bsm-air-specialization, bsm-naval-specialization ]
 
 weapons: [
 {
-    name: blaster-gun
+    name: laser-gun
     baseRotation: -35
     shootCone: 360
     recoil: 0.15
