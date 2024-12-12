@@ -110,7 +110,7 @@ bullet: {
     statusDuration: 300
     splashDamage: 120
     knockback: 4.45
-    pierceCap: 96
+    pierceCap: 18
     lifetime: 163
     speed: 2.4
 
