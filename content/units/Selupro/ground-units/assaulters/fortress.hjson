@@ -189,7 +189,7 @@ bullet: {
 
     status: air-specialization
     statusDuration: 180
-    pierceCap: 18
+    pierceCap: 15
     lifetime: 48
     damage: 21.5
     speed: 7.5
