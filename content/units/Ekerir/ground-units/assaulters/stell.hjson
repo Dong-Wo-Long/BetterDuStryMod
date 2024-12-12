@@ -40,7 +40,7 @@ shoot: {
     barrels: 2
     spread: 3.5
     shots: 2
-}
+    }
 
 bullet: {
     type: BasicBulletType
@@ -78,6 +78,6 @@ bullet: {
     smokeEffect: shootBigSmoke
     shootEffect: shootBigColor
     hitEffect: blastExplosion
-}
     }
-]
+}
+    ]
