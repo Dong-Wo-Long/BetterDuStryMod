@@ -67,7 +67,8 @@ bullet: {
 
     pierceDamageFactor: 0.005
 
-    statusEffect: bsm-air-specialization
+    status: air-specialization
+    statusDuration: 90
     healAmount: 32
     pierceCap: 5
     lifetime: 68
