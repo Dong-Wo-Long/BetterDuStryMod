@@ -67,7 +67,7 @@ bullet: {
 
     pierceDamageFactor: 0.005
 
-    status: air-specialization
+    status: ground-specialization
     statusDuration: 90
     healAmount: 32
     pierceCap: 5
