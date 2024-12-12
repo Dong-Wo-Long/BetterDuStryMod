@@ -204,13 +204,9 @@ bullet: {
     splashDamageRadius: 26
     splashDamage: 181
     lifetime: 20.5
-    pierceCap: 96
+    pierceCap: 24
     damage: 325
     speed: 19
-
-    incendAmount: 21
-    incendSpread: 9
-    incendChance: 1
 
     hitSound: minigun-heavy-hit
     hitEffect: blastExplosion
