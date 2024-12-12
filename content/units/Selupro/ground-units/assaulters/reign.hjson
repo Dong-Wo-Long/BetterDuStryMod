@@ -105,7 +105,7 @@ bullet: {
 
     statusDuration: 540
     status: burning
-    pierceCap: 81
+    pierceCap: 21
     lifetime: 19
     damage: 81
     speed: 3
@@ -149,7 +149,7 @@ bullet: {
 
     statusDuration: 540
     status: burning
-    pierceCap: 81
+    pierceCap: 21
     lifetime: 19
     damage: 81
     speed: 3
@@ -283,7 +283,7 @@ bullet: {
 
     buildingDamageMultiplier: 0
 
-    pierceCap: 200
+    pierceCap: 48
     lifetime: 160
     damage: 450
     drag: 0.03
@@ -425,7 +425,7 @@ fragBullet: {
 
     splashDamageRadius: 26
     splashDamage: 30
-    pierceCap: 200
+    pierceCap: 24
     lifetime: 60
     damage: 90
     drag: 0.07
