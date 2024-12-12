@@ -33,7 +33,7 @@ weapons: [
 
     heatColor: f9350f
 
-    shootSound: dullExplosion
+    shootSound: tank-shot
 
 shoot: { 
     type: ShootAlternate
