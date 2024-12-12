@@ -13,6 +13,8 @@ lightRadius: 62.5
 
 immunities: [ burning, blasted, bsm-air-specialization, bsm-naval-specialization ]
 
+deathSound: tank-small-destroyed
+
 weapons: [
 {
     name: twin-tank-gun
