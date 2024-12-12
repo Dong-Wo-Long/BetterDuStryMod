@@ -1,3 +1,5 @@
+# Oh dear, if there are those willing to help with mod development..... I just really need spriters. I can't do this anymore - I need quality, not my hackwork
+
 > [!WARNING]  
 > A lot of errors have been found in the mod - from now on, its current version becomes "experimental"
 > Until critical, and less significant, problems and errors are resolved, the mod will have this given status
