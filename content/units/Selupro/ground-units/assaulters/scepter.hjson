@@ -178,7 +178,7 @@ bullet: {
     splashDamage: 121
     lifetime: 14.75
     weaveScale: 3
-    pierceCap: 96
+    pierceCap: 21
     lightning: 4
     weaveMag: 3
     damage: 181
