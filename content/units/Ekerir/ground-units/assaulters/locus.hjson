@@ -55,7 +55,8 @@ parts: [
     type: FlarePart
     color2: ffffff
     color1: f36869
-    radius: 5.5
+    rotation: 45
+    radius: 5
     stroke: 1
     x: 4.5
     y: 1.8
