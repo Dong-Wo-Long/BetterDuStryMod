@@ -17,7 +17,7 @@ hitSize: 26
 crushDamage: 1.5
 itemCapacity: 0
 rotateSpeed: 0
-health: 7200
+health: 9600
 speed: 0
 armor: 9
 
@@ -49,7 +49,7 @@ name: precept-wreck-weapon
 
     aiControllable: false
     controllable: false
-    baseRotation: 52
+    baseRotation: -32
     rotateSpeed: 0.7
     autoTarget: true
     layerOffset: 1
