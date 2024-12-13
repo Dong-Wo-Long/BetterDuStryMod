@@ -37,17 +37,19 @@ weapons: [
 shoot: {
     firstShotDelay: 185
     shotDelay: 15
-    shots: 9
+    shots: 4
     }
 
 bullet: {
     type: BasicBulletType
-    sprite: missile-large
+    sprite: mine-bullet
     collideTerrain: true
     soundPitchMax: 0.45
     collidesAir: false
     despawnShake: 4.5
-    hitShake: 4.5
+    hitShake: 9
+    shrinkX: 0
+    shrinkY: 0
     hitSize: 4
     height: 12
     width: 12
@@ -58,14 +60,14 @@ bullet: {
     damage: 0
     speed: 0
 
-    fragBullets: 4
+    fragBullets: 1
 
     trailEffect: hitSquaresColor
     trailRotation: true
     trailColor: feb380
-    trailInterval: 3
-    trailWidth: 2.8
-    trailLength: 8
+    trailInterval: 0
+    trailLength: 0
+    trailWidth: 0
 
     lightColor: feb380
     lightOpacity: 0.7
@@ -99,7 +101,7 @@ fragBullet: {
     lifetime: 129.5
     weaveScale: 6
     weaveMag: 3
-    damage: 75
+    damage: 81
     speed: 4
 
     despawnEffect: blastExplosion
