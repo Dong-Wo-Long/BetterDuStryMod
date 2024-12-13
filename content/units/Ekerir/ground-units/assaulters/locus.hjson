@@ -24,6 +24,61 @@ abilities: [
 
 weapons: [
 {
+    name: locus-gun
+    controllable: false
+    rotationLimit: 30
+    rotateSpeed: 0.8
+    autoTarget: true
+    shootCone: 25
+    mirror: false
+    rotate: true
+    shootY: 7.5
+    x: 5
+    y: -3.5
+
+    cooldownTime: 150
+    velocityRnd: 0.24
+    inaccuracy: 3
+    reload: 32
+
+    shootSound: 7.62-mm-shot
+    ejectEffect: casing1
+shoot: {
+    shotDelay: 4
+    shots: 3
+    }
+
+bullet: {
+    type: BasicBulletType
+    pierceBuilding: true
+    pierce: true
+    height: 12
+    width: 5
+
+    pierceDamageFactor: 0.005
+
+    status: ground-specialization
+    statusDuration: 180
+    pierceCap: 15
+    lifetime: 48
+    damage: 12.5
+    speed: 7.5
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 20
+
+    trailColor: feb380
+    trailLength: 7.5
+    trailWidth: 1
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+}
+    }
+
+{
     name: mobile-machine-gun
 
     layerOffset: 0.0001
