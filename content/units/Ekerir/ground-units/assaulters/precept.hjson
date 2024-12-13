@@ -63,11 +63,11 @@ bullet: {
 
     splashDamageRadius: 20
     splashDamage: 50
-    knockback: 9
+    knockback: 12.5
     pierceCap: 2
     lifetime: 28
     damage: 240
-    speed: 7
+    speed: 9
 
     fragBullets: 4
 
