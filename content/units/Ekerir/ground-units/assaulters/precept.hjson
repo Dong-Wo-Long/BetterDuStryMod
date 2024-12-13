@@ -40,7 +40,9 @@ shoot: {
     shots: 9
     }
 
-bullet: {
+
+
+fragBullet: {
     type: MissileBulletType
     keepVelocity: false
     despawnShake: 4
