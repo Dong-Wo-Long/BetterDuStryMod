@@ -42,7 +42,7 @@ name: locus-wreck-weapon
 
     aiControllable: false
     controllable: false
-    baseRotation: 32
+    baseRotation: 52
     rotateSpeed: 0.7
     autoTarget: true
     layerOffset: 1
@@ -53,7 +53,7 @@ name: locus-wreck-weapon
     top: true
     shake: 0
     x: 0
-    y: -2.25
+    y: -1.25
 
     reload: 180
 
