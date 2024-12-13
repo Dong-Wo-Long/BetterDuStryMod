@@ -33,7 +33,7 @@ weapons: [
     recoil: 1.5
 
     chargeSound: target-locked-short
-    shootSound: rocket-shot-1
+    shootSound: tank-atgm-shot
 shoot: {
     firstShotDelay: 185
     shotDelay: 15
