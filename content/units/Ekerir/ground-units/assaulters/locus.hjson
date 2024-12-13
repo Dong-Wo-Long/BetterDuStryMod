@@ -33,7 +33,7 @@ weapons: [
     mirror: false
     rotate: true
     x: 0
-    y: 7
+    y: 6
 
     cooldownTime: 150
     velocityRnd: 0.24
