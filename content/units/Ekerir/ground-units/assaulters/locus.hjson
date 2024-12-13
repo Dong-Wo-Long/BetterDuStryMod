@@ -59,8 +59,6 @@ parts: [
     suffix: -brl
     outline: false
     under: true
-    x: 0
-    y: 8
 moves: [
     {
     type: PartMove
