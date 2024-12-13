@@ -47,6 +47,7 @@ weapons: [
 
 shoot: { 
     type: ShootMulti
+    firstShotDelay: 30
 source: {
     type: ShootAlternate
     firstShotDelay: 30
