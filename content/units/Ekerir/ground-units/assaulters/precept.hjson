@@ -25,7 +25,7 @@ weapons: [
     rotate: false
     shake: 7
     x: 7
-    y: -5
+    y: -6
 
     velocityRnd: 0.2
     inaccuracy: 30
