@@ -102,9 +102,17 @@ fragBullet: {
     drag: 0.01
     speed: 5
 
+    incendChance: 0.4
+    incendAmount: 21
+    incendSpread: 5
+
     trailColor: feb380
     trailWidth: 1.7
     trailLength: 3
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 21.5
 
     frontColor: ffffff
     backColor: feb380
