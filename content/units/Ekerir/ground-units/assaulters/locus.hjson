@@ -36,8 +36,8 @@ weapons: [
     x: 0
     y: 0
 
-    cooldownTime: 32
-    reload: 180
+    cooldownTime: 180
+    reload: 210
 
     chargeSound: 14.5-mm-charge
     shootSound: 14.5-mm-shot
