@@ -67,40 +67,18 @@ dest: [
 parts: [
 {
     type: RegionPart
-    suffix: -brl-right
-    progress: recoil
-    recoilIndex: 1
-    outline: false
-    mirror: false
-    moveY: -2.5
+    suffix: -barrel
     under: true
-
-heatProgress: {
-    type: recoil
-    recoilIndex: 1
-    op: blend
-    amount: 0
-    other: 0
+    x: 0
+    y: 8
+moves: [
+    {
+    type: PartMove
+    progress: recoil
+    x: 0
+    y: -2
 }
-    }
-
-{
-    type: RegionPart
-    suffix: -brl-left
-    progress: recoil
-    recoilIndex: 0
-    outline: false
-    mirror: false
-    moveY: -2.5
-    under: true
-
-heatProgress: {
-    type: recoil
-    recoilIndex: 0
-    op: blend
-    amount: 0
-    other: 0
-    }
+    ]
 }
     ]
 
