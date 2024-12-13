@@ -17,6 +17,68 @@ deathSound: tank-destroyed
 
 weapons: [
 {
+    name: large-mm-dark
+    controllable: false
+    autoTarget: true
+    shootCone: 360
+    rotate: false
+    rotation: 45
+    shake: 7
+    x: 8.5
+    y: -7
+
+    velocityRnd: 0.2
+    inaccuracy: 30
+    reload: 215
+    recoil: 1.5
+
+    chargeSound: target-locked-short
+    shootSound: rocket-shot-1
+shoot: {
+    firstShotDelay: 185
+    shotDelay: 15
+    shots: 9
+    }
+
+bullet: {
+    type: MissileBulletType
+    keepVelocity: false
+    despawnShake: 4
+    maxRange: 512
+    hitShake: 4
+    shrinkY: 0
+    height: 9
+    width: 9
+
+    buildingDamageMultiplier: 1.24
+
+    splashDamageRadius: 26
+    homingPower: 0.025
+    splashDamage: 50
+    homingRange: 45
+    lifetime: 129.5
+    weaveScale: 6
+    weaveMag: 3
+    damage: 75
+    speed: 4
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+    hitSoundVolume: 0.25
+    hitSound: rocket-hit
+
+    lightColor: ffd2ae
+    lightOpacity: 0.7
+    lightRadius: 32
+
+    trailInterp: slope
+    trailColor: 454545
+    trailInterval: 2
+    trailWidth: 1.5
+}
+    }
+
+{
     name: precept-weapon
     layerOffset: 0.0001
     rotateSpeed: 0.9
@@ -24,7 +86,7 @@ weapons: [
     shootCone: 3
     rotate: true
     shootY: 16
-    recoil: 3
+    recoil: 15
     x: 0
     y: -1
 
