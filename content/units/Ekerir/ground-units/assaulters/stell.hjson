@@ -15,6 +15,13 @@ immunities: [ burning, blasted, bsm-air-specialization, bsm-naval-specialization
 
 deathSound: tank-small-destroyed
 
+abilities: [
+    {
+    type: SpawnDeathAbility
+    unit: stell-wreck
+}
+    ]
+
 weapons: [
 {
     name: twin-tank-gun
