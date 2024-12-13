@@ -47,7 +47,7 @@ weapons: [
 shoot: { 
     type: ShootAlternate
     barrels: 2
-    spread: 6
+    spread: 4
     shots: 2
     }
 
