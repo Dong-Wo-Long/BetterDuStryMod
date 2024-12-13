@@ -32,9 +32,8 @@ weapons: [
     shootCone: 25
     mirror: false
     rotate: true
-    shootY: 7.5
     x: 0
-    y: 5
+    y: 7
 
     cooldownTime: 150
     velocityRnd: 0.24
@@ -95,8 +94,7 @@ bullet: {
     inaccuracy: 1.5
     reload: 10
 
-    chargeSound: 14.5-mm-charge
-    shootSound: 14.5-mm-shot
+    shootSound: auto-cannon-shot
     heatColor: f9350f
 
 shoot: { 
