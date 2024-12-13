@@ -96,7 +96,7 @@ fragBullet: {
     splashDamageRadius: 26
     homingPower: 0.15
     splashDamage: 50
-    homingRange: 45
+    homingRange: 360
     lifetime: 129.5
     weaveScale: 6
     weaveMag: 3
