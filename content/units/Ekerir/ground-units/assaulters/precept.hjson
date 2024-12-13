@@ -17,15 +17,13 @@ deathSound: tank-destroyed
 
 weapons: [
 {
-    name: large-mm-dark
     controllable: false
-    baseRotation: -45
     autoTarget: true
     shootCone: 360
     rotate: false
     shake: 7
-    x: 7
-    y: -6
+    x: 3
+    y: -1
 
     velocityRnd: 0.2
     inaccuracy: 30
@@ -57,7 +55,8 @@ bullet: {
     splashDamage: 0
     lifetime: 120
     damage: 0
-    speed: 0
+    drag: 0.1
+    speed: 3
 
     fragBullets: 1
 
