@@ -39,13 +39,12 @@ weapons: [
     cooldownTime: 32
     reload: 4.5
 
+    chargeSound: 14.5-mm-charge
+    shootSound: 14.5-mm-shot
     heatColor: f9350f
-
-    shootSound: bolt
-
 shoot: {
     type: ShootAlternate
-}
+    }
 
 bullet: { 
     type: BasicBulletType
@@ -76,6 +75,6 @@ bullet: {
     frontColor: ffffff
     backColor: feb380
     hitColor: feb380
-}
     }
-]
+}
+    ]
