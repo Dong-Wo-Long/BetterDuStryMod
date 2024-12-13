@@ -58,8 +58,8 @@ parts: [
     rotation: 45
     radius: 5
     stroke: 1
-    x: 4.5
-    y: 1.8
+    x: 4.8
+    y: 1.5
     }
 
 {
