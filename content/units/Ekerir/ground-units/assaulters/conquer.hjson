@@ -6,6 +6,6 @@ health: 780000
 speed: 0.24
 armor: 256
 
-immunities: [ wet, sapped, burning, bsm-emp-tier-1, bsm-emp-tier-2, bsm-armor-piercing-tier-1, bsm-armor-piercing-tier-2, blasted, bsm-air-specialization, bsm-naval-specialization ]
+immunities: [ wet, sapped, burning, bsm-ionicized, bsm-emp-tier-1, bsm-emp-tier-2, bsm-armor-piercing-tier-1, bsm-armor-piercing-tier-2, blasted, bsm-air-specialization, bsm-naval-specialization ]
 
 deathSound: tank-large-destroyed
