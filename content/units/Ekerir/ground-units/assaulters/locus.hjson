@@ -13,6 +13,8 @@ lightRadius: 75
 
 immunities: [ burning, blasted, bsm-air-specialization, bsm-naval-specialization ]
 
+deathSound: tank-medium-destroyed
+
 weapons: [
 {
     name: mobile-machine-gun
