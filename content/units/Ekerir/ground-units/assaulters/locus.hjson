@@ -57,6 +57,8 @@ parts: [
     color1: f36869
     radius: 5.5
     stroke: 1
+    x: 3
+    y: 3
     }
 
 {
