@@ -29,14 +29,14 @@ weapons: [
 
     velocityRnd: 0.2
     inaccuracy: 30
-    reload: 215
+    reload: 480
     recoil: 1.5
 
     chargeSound: target-locked-short
     shootSound: tank-atgm-shot
 shoot: {
     firstShotDelay: 185
-    shotDelay: 15
+    shotDelay: 24
     shots: 4
     }
 
