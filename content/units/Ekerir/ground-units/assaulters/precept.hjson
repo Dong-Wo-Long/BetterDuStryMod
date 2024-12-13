@@ -40,7 +40,15 @@ shoot: {
     shots: 9
     }
 
-
+bullet: {
+    type: BasicBulletType
+    keepVelocity: false
+    despawnShake: 4
+    maxRange: 512
+    hitShake: 4
+    shrinkY: 0
+    height: 9
+    width: 9
 
 fragBullet: {
     type: MissileBulletType
@@ -77,6 +85,7 @@ fragBullet: {
     trailColor: 454545
     trailInterval: 2
     trailWidth: 1.5
+    }
 }
     }
 
