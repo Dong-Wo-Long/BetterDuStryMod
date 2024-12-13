@@ -56,7 +56,7 @@ shoot: {
 parts: [
 {
     type: RegionPart
-    suffix: -barrel
+    suffix: -brl
     outline: false
     under: true
     x: 0
