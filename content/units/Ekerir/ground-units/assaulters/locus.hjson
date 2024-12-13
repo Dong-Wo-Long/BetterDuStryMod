@@ -31,6 +31,7 @@ weapons: [
     mirror: false
     shootCone: 5
     rotate: true
+    recoils: 2
     shootY: 10
     recoil: 1
     x: 0
@@ -43,12 +44,63 @@ weapons: [
     chargeSound: 14.5-mm-charge
     shootSound: 14.5-mm-shot
     heatColor: f9350f
-shoot: {
+
+shoot: { 
+    type: ShootMulti
+source: {
     type: ShootAlternate
     firstShotDelay: 30
     shotDelay: 4.5
     shots: 48
+}
+dest: [ 
+{
+    type: ShootSpread
+    spread: 7.5
+    shots: 1
     }
+]
+    }
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl-right
+    progress: recoil
+    recoilIndex: 1
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+}
+    }
+
+{
+    type: RegionPart
+    suffix: -brl-left
+    progress: recoil
+    recoilIndex: 0
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+    }
+}
+    ]
 
 bullet: { 
     type: BasicBulletType
