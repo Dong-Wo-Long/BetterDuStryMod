@@ -45,7 +45,7 @@ weapons: [
     heatColor: f9350f
 shoot: {
     type: ShootAlternate
-    firstShotDelay: 24
+    firstShotDelay: 30
     shotDelay: 4.5
     shots: 48
     }
