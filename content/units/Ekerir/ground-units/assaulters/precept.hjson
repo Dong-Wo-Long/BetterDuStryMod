@@ -161,6 +161,7 @@ bullet: {
     sprite: missile-large
     collideTerrain: true
     pierceBuilding: true
+    collidesAir: false
     pierceArmor: true
     despawnShake: 9
     recoil: 0.125
@@ -208,6 +209,7 @@ fragBullet: {
     sprite: missile-large
     pierceBuilding: true
     collideTerrain: true
+    collidesAir: false
     despawnShake: 3
     pierce: true
     hitShake: 3
