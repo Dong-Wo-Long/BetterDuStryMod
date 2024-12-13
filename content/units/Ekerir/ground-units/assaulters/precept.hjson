@@ -43,7 +43,6 @@ shoot: {
 bullet: {
     type: BasicBulletType
     sprite: mine-bullet
-    collideTerrain: true
     soundPitchMax: 0.45
     despawnShake: 5
     maxRange: 260
@@ -160,6 +159,7 @@ moves: [
 bullet: {
     type: BasicBulletType
     sprite: missile-large
+    collideTerrain: true
     pierceBuilding: true
     pierceArmor: true
     despawnShake: 9
@@ -207,6 +207,7 @@ fragBullet: {
     type: BasicBulletType
     sprite: missile-large
     pierceBuilding: true
+    collideTerrain: true
     despawnShake: 3
     pierce: true
     hitShake: 3
