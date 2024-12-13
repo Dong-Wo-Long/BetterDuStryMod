@@ -54,6 +54,7 @@ bullet: {
     type: BasicBulletType
     sprite: missile-large
     collideTerrain: true
+    makeFire: true
     length: 12
     width: 5
 
