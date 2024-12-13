@@ -6,6 +6,6 @@ health: 780000
 speed: 0.24
 armor: 256
 
-immunities: [ wet, burning, bsm-air-specialization, bsm-naval-specialization ]
+immunities: [ wet, burning, blasted, bsm-air-specialization, bsm-naval-specialization ]
 
 deathSound: tank-large-destroyed
