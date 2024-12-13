@@ -95,7 +95,7 @@ heatProgress: {
 
 heatProgress: {
     type: recoil
-    recoilIndex: 1
+    recoilIndex: 0
     op: blend
     amount: 0
     other: 0
