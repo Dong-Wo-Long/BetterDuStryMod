@@ -36,17 +36,17 @@ weapons: [
     x: 0
     y: 0
 
-    cooldownTime: 180
-    reload: 210
+    cooldownTime: 270
+    reload: 360
 
     chargeSound: 14.5-mm-charge
     shootSound: 14.5-mm-shot
     heatColor: f9350f
 shoot: {
     type: ShootAlternate
-    firstShotDelay: 23
+    firstShotDelay: 30
     shotDelay: 4.5
-    shots: 32
+    shots: 48
     }
 
 bullet: { 
