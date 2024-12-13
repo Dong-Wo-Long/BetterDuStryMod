@@ -52,6 +52,14 @@ shoot: {
 
 parts: [
 {
+    type: FlarePart
+    color2: ffffff
+    color1: f36869
+    radius: 5.5
+    stroke: 1
+    }
+
+{
     type: RegionPart
     suffix: -brl
     outline: false
