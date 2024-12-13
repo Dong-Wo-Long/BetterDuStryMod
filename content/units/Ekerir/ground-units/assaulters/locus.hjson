@@ -38,32 +38,17 @@ weapons: [
 
     cooldownTime: 270
     inaccuracy: 1.5
-    reload: 360
+    reload: 8
 
     chargeSound: 14.5-mm-charge
     shootSound: 14.5-mm-shot
     heatColor: f9350f
 
 shoot: { 
-    type: ShootMulti
-    firstShotDelay: 30
-source: {
-    type: ShootAlternate
-    firstShotDelay: 30
-    shotDelay: 4.5
-    barrels: 1
-    spread: 0
-    shots: 24
-    }
-
-dest: [ 
-{
     type: ShootAlternate
     barrels: 2
-    spread: 5
+    spread: 6
     shots: 2
-    }
-]
     }
 
 parts: [
@@ -94,6 +79,7 @@ bullet: {
     buildingDamageMultiplier: 0.75
     pierceDamageFactor: 0.8
 
+    splashDamage
     statusDuration: 180
     status: burning
     pierceCap: 15
