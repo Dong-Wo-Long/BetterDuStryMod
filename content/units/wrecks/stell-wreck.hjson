@@ -38,7 +38,7 @@ treadRects: [
 
 weapons: [
 {
-name: none
+name: stell-wreck-weapon
 
     aiControllable: false
     controllable: false
