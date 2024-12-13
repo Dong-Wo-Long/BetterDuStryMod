@@ -45,7 +45,6 @@ bullet: {
     sprite: mine-bullet
     collideTerrain: true
     soundPitchMax: 0.45
-    collidesAir: false
     despawnShake: 4.5
     hitShake: 9
     shrinkX: 0
