@@ -67,6 +67,7 @@ parts: [
 {
     type: RegionPart
     suffix: -barrel
+    outline: false
     under: true
     x: 0
     y: 8
