@@ -60,6 +60,7 @@ bullet: {
     buildingDamageMultiplier: 0.75
     pierceDamageFactor: 0.8
 
+    statusDuration: 180
     status: burning
     lifetime: 52
     damage: 24
