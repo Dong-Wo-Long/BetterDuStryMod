@@ -19,10 +19,10 @@ weapons: [
 {
     name: large-mm-dark
     controllable: false
+    baseRotation: 45
     autoTarget: true
     shootCone: 360
     rotate: false
-    rotation: 45
     shake: 7
     x: 8.5
     y: -7
@@ -45,8 +45,9 @@ bullet: {
     sprite: mine-bullet
     collideTerrain: true
     soundPitchMax: 0.45
-    despawnShake: 4.5
-    hitShake: 9
+    despawnShake: 5
+    maxRange: 260
+    hitShake: 5
     shrinkX: 0
     shrinkY: 0
     hitSize: 4
