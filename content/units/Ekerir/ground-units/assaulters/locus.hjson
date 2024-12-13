@@ -38,7 +38,7 @@ weapons: [
 
     cooldownTime: 270
     inaccuracy: 1.5
-    reload: 8
+    reload: 10
 
     chargeSound: 14.5-mm-charge
     shootSound: 14.5-mm-shot
