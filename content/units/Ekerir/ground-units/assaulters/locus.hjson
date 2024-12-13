@@ -51,17 +51,17 @@ source: {
     type: ShootAlternate
     firstShotDelay: 30
     shotDelay: 4.5
-    barrels: 2
-    spread: 5
-    shots: 32
+    barrels: 1
+    spread: 0
+    shots: 24
     }
 
 dest: [ 
 {
     type: ShootAlternate
-    barrels: 1
-    spread: 0
-    shots: 1
+    barrels: 2
+    spread: 5
+    shots: 2
     }
 ]
     }
