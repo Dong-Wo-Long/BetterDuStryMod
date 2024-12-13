@@ -33,6 +33,23 @@ weapons: [
     reload: 180
 
     heatColor: f9350f
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl
+    outline: false
+    under: true
+moves: [
+    {
+    type: PartMove
+    progress: recoil
+    x: 0
+    y: -4.5
+}
+    ]
+}
+    ]
     
 bullet: {
     type: BasicBulletType
