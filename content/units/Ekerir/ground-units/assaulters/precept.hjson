@@ -42,13 +42,43 @@ shoot: {
 
 bullet: {
     type: BasicBulletType
-    keepVelocity: false
-    despawnShake: 4
-    maxRange: 512
-    hitShake: 4
-    shrinkY: 0
-    height: 9
-    width: 9
+    sprite: missile-large
+    collideTerrain: true
+    soundPitchMax: 0.45
+    collidesAir: false
+    despawnShake: 4.5
+    hitShake: 4.5
+    hitSize: 4
+    height: 12
+    width: 12
+
+    splashDamageRadius: 0
+    splashDamage: 0
+    lifetime: 90
+    damage: 0
+    speed: 0
+
+    fragBullets: 4
+
+    trailEffect: hitSquaresColor
+    trailRotation: true
+    trailColor: feb380
+    trailInterval: 3
+    trailWidth: 2.8
+    trailLength: 8
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 21.5
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+
+    despawnEffect: blastExplosion
+    smokeEffect: shootSmokeTitan
+    hitEffect: blastExplosion
+    shootEffect: shootTitan
 
 fragBullet: {
     type: MissileBulletType
