@@ -15,6 +15,13 @@ immunities: [ wet, burning, blasted, bsm-armor-piercing-tier-1, bsm-air-speciali
 
 deathSound: tank-destroyed
 
+abilities: [
+    {
+    type: SpawnDeathAbility
+    unit: precept-wreck
+}
+    ]
+
 weapons: [
 {
     controllable: false
