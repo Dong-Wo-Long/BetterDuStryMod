@@ -11,7 +11,7 @@ flying: false
 hidden: true
 
 treadPullOffset: 5
-fogRadius: 15
+fogRadius: 12.5
 hitSize: 26
 
 crushDamage: 1.5
@@ -29,10 +29,17 @@ immunities: [ burning ]
 
 treadRects: [
     {
-    x: -20
-    y: -25
-    width: 14
-    height: 51
+    x: -44
+    y: -22
+    width: 30
+    height: 75
+}
+
+    {
+    x: -16
+    y: -53
+    width: 17
+    height: 60
 }
     ]
 
