@@ -129,13 +129,14 @@ fragBullet: {
     shootCone: 3
     rotate: true
     shootY: 16
-    recoil: 15
+    recoil: 3
+    shake: 15
     x: 0
     y: -1
 
     shootSound: tank-medium-shot
-    cooldownTime: 360
-    reload: 300
+    cooldownTime: 480
+    reload: 360
 
     heatColor: f9350f
 
@@ -161,8 +162,10 @@ bullet: {
     sprite: missile-large
     pierceBuilding: true
     pierceArmor: true
+    despawnShake: 9
     recoil: 0.125
     pierce: true
+    hitShake: 9
     hitSize: 6
     height: 13
     width: 7.5
@@ -204,7 +207,9 @@ fragBullet: {
     type: BasicBulletType
     sprite: missile-large
     pierceBuilding: true
+    despawnShake: 3
     pierce: true
+    hitShake: 3
     hitSize: 4
     height: 7
     width: 5
