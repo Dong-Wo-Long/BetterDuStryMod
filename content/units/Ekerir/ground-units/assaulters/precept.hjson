@@ -6,3 +6,5 @@ speed: 0.6
 armor: 70
 
 immunities: [ bsm-air-specialization, bsm-naval-specialization ]
+
+deathSound: tank-destroyed
