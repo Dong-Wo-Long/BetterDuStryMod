@@ -89,7 +89,7 @@ bullet: {
     damage: 24
     speed: 7.5
 
-    incendChance: 0.7
+    incendChance: 0.6
     incendAmount: 21
     incendSpread: 5
 
