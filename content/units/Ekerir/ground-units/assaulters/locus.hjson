@@ -107,6 +107,32 @@ bullet: {
     frontColor: ffffff
     backColor: feb380
     hitColor: feb380
+
+despawnEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 9
+
+    sizeFrom: 0
+    sizeTo: 24
+
+    colorFrom: ffffff
+    colorTo: feb380
+    }
+
+hitEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 9
+
+    sizeFrom: 0
+    sizeTo: 24
+
+    colorFrom: ffffff
+    colorTo: feb380
+}
     }
 }
     ]
