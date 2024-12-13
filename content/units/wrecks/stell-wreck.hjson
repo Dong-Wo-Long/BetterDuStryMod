@@ -59,24 +59,6 @@ name: none
 
     shootSound: none
 
-parts: [
-{
-    type: RegionPart
-    suffix: -barrel
-    under: true
-    x: 0
-    y: 8
-moves: [
-    {
-    type: PartMove
-    progress: recoil
-    x: 0
-    y: 0
-}
-    ]
-}
-    ]
-
 bullet: {
     type: ArtilleryBulletType
     despawnShake: 0
