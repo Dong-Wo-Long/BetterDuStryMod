@@ -1,10 +1,101 @@
 research: locus
+fogRadius: 48
 
+crushDamage: 2.5
 rotateSpeed: 1
 health: 24000
 speed: 0.6
 armor: 70
 
-immunities: [ bsm-air-specialization, bsm-naval-specialization ]
+lightColor: feb380
+lightOpacity: 0.7
+lightRadius: 96
+
+immunities: [ wet, burning, blasted, bsm-armor-piercing-tier-1, bsm-air-specialization, bsm-naval-specialization ]
 
 deathSound: tank-destroyed
+
+weapons: [
+{
+    name: precept-weapon
+    layerOffset: 0.0001
+    rotateSpeed: 0.9
+    mirror: false
+    shootCone: 3
+    rotate: true
+    shootY: 16
+    recoil: 3
+    x: 0
+    y: -1
+
+    shootSound: tank-medium-shot
+    cooldownTime: 210
+    reload: 180
+
+    heatColor: f9350f
+    
+bullet: {
+    type: BasicBulletType
+    sprite: missile-large
+    pierceBuilding: true
+    recoil: 0.125
+    pierce: true
+    hitSize: 6
+    height: 13
+    width: 7.5
+
+    splashDamageRadius: 20
+    splashDamage: 50
+    knockback: 9
+    pierceCap: 2
+    lifetime: 28
+    damage: 240
+    speed: 7
+
+    fragBullets: 4
+
+    trailEffect: hitSquaresColor
+    trailRotation: true
+    trailColor: feb380
+    trailInterval: 3
+    trailWidth: 2.8
+    trailLength: 8
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+
+    despawnEffect: blastExplosion
+    smokeEffect: shootSmokeTitan
+    hitEffect: blastExplosion
+    shootEffect: shootTitan
+
+fragBullet: {
+    type: BasicBulletType
+    sprite: missile-large
+    pierceBuilding: true
+    pierce: true
+    hitSize: 4
+    height: 7
+    width: 5
+
+    pierceCap: 3
+    lifetime: 15
+    damage: 47.5
+    drag: 0.01
+    speed: 5
+
+    trailColor: feb380
+    trailWidth: 1.7
+    trailLength: 3
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+
+    despawnEffect: hitBulletColor
+    hitEffect: hitBulletColor
+}
+    }
+}
+    ]
