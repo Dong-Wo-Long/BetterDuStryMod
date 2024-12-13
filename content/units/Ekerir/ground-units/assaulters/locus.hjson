@@ -62,9 +62,14 @@ bullet: {
 
     statusDuration: 180
     status: burning
+    pierceCap: 15
     lifetime: 52
     damage: 24
     speed: 7.5
+
+    incendChance: 0.7
+    incendAmount: 21
+    incendSpread: 5
 
     lightColor: feb380
     lightOpacity: 0.7
