@@ -19,7 +19,7 @@ weapons: [
 {
     name: large-mm-dark
     controllable: false
-    baseRotation: 45
+    baseRotation: -45
     autoTarget: true
     shootCone: 360
     rotate: false
