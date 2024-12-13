@@ -44,13 +44,26 @@ weapons: [
     shootSound: 14.5-mm-shot
     heatColor: f9350f
 
-shoot: {
+shoot: { 
+    type: ShootMulti
+    firstShotDelay: 30
+source: {
     type: ShootAlternate
     firstShotDelay: 30
     shotDelay: 4.5
     barrels: 2
-    spread: 6
+    spread: 5
     shots: 32
+    }
+
+dest: [ 
+{
+    type: ShootAlternate
+    barrels: 1
+    spread: 0
+    shots: 1
+    }
+]
     }
 
 parts: [
