@@ -79,8 +79,9 @@ bullet: {
     buildingDamageMultiplier: 0.75
     pierceDamageFactor: 0.8
 
-    splashDamage
+    splashDamageRadius: 20
     statusDuration: 180
+    splashDamage: 21
     status: burning
     pierceCap: 15
     lifetime: 52
