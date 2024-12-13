@@ -29,8 +29,8 @@ weapons: [
     y: -1
 
     shootSound: tank-medium-shot
-    cooldownTime: 210
-    reload: 180
+    cooldownTime: 360
+    reload: 300
 
     heatColor: f9350f
 
@@ -55,6 +55,7 @@ bullet: {
     type: BasicBulletType
     sprite: missile-large
     pierceBuilding: true
+    pierceArmor: true
     recoil: 0.125
     pierce: true
     hitSize: 6
@@ -64,11 +65,14 @@ bullet: {
     splashDamageRadius: 20
     splashDamage: 50
     knockback: 12.5
-    pierceCap: 2
-    lifetime: 28
-    damage: 240
+    pierceCap: 24
+    lifetime: 43
+    damage: 510
     speed: 9
 
+    incendChance: 0.25
+    incendAmount: 24
+    incendSpread: 7
     fragBullets: 4
 
     trailEffect: hitSquaresColor
@@ -77,6 +81,10 @@ bullet: {
     trailInterval: 3
     trailWidth: 2.8
     trailLength: 8
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 21.5
 
     frontColor: ffffff
     backColor: feb380
@@ -98,13 +106,13 @@ fragBullet: {
 
     pierceCap: 3
     lifetime: 15
-    damage: 47.5
+    damage: 70
     drag: 0.01
     speed: 5
 
-    incendChance: 0.4
-    incendAmount: 21
-    incendSpread: 5
+    incendChance: 0.125
+    incendAmount: 18
+    incendSpread: 3
 
     trailColor: feb380
     trailWidth: 1.7
