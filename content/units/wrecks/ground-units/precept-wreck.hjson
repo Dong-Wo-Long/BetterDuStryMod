@@ -45,7 +45,7 @@ treadRects: [
 
 weapons: [
 {
-name: locus-wreck-weapon
+name: precept-wreck-weapon
 
     aiControllable: false
     controllable: false
