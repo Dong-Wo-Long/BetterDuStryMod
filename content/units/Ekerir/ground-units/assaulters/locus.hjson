@@ -50,7 +50,7 @@ shoot: {
     shotDelay: 4.5
     barrels: 2
     spread: 6
-    shots: 48
+    shots: 32
     }
 
 parts: [
