@@ -52,6 +52,7 @@ source: {
     type: ShootAlternate
     firstShotDelay: 30
     shotDelay: 4.5
+    barrels: 2
     shots: 48
 }
 dest: [ 
