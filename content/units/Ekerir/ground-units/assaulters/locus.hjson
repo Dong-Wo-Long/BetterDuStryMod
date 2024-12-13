@@ -38,7 +38,7 @@ weapons: [
 
     cooldownTime: 64
     inaccuracy: 1.5
-    reload: 18
+    reload: 15
 
     shootSound: tank-shot
     heatColor: f9350f
