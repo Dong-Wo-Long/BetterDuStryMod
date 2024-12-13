@@ -24,8 +24,8 @@ weapons: [
     shootCone: 360
     rotate: false
     shake: 7
-    x: 8.5
-    y: -7
+    x: 7
+    y: -5
 
     velocityRnd: 0.2
     inaccuracy: 30
