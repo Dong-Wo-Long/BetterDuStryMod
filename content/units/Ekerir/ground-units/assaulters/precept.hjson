@@ -65,6 +65,7 @@ bullet: {
     drag: 0.1
     speed: 3
 
+    fragVelocityMin: 0.75
     fragBullets: 1
 
     trailEffect: hitSquaresColor
