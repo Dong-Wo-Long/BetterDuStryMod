@@ -107,7 +107,7 @@ fragBullet: {
     lifetime: 129.5
     weaveScale: 6
     weaveMag: 3
-    damage: 81
+    damage: 70
     speed: 4
 
     despawnEffect: blastExplosion
@@ -172,11 +172,12 @@ bullet: {
     pierceArmor: true
     despawnShake: 9
     recoil: 0.125
-    pierce: true
     hitShake: 9
     hitSize: 6
     height: 13
     width: 7.5
+
+    buildingDamageMultiplier: 1.5
 
     splashDamageRadius: 20
     splashDamage: 50
@@ -217,6 +218,7 @@ fragBullet: {
     pierceBuilding: true
     collideTerrain: true
     collidesAir: false
+    pierceArmor: true
     despawnShake: 3
     pierce: true
     hitShake: 3
@@ -226,7 +228,7 @@ fragBullet: {
 
     pierceCap: 3
     lifetime: 15
-    damage: 70
+    damage: 210
     drag: 0.01
     speed: 5
 
