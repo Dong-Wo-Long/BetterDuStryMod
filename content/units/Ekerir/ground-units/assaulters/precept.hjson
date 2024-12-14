@@ -209,9 +209,9 @@ bullet: {
     backColor: feb380
     hitColor: feb380
 
-    despawnEffect: blastExplosion
+    despawnEffect: flakExplosionBig
     smokeEffect: shootSmokeTitan
-    hitEffect: blastExplosion
+    hitEffect: flakExplosionBig
     shootEffect: shootTitan
 
 fragBullet: {
