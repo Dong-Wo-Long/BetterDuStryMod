@@ -37,7 +37,7 @@ weapons: [
     reload: 480
     recoil: 1.5
 
-    chargeSound: target-locked-short
+    chargeSound: tank-atgm-lock
     shootSound: tank-atgm-shot
 shoot: {
     firstShotDelay: 185
