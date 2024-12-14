@@ -178,6 +178,7 @@ bullet: {
     width: 7.5
 
     buildingDamageMultiplier: 1.5
+    pierceDamageFactor: 0.5
 
     status: bsm-armor-piercing-tier-2
     splashDamageRadius: 40
