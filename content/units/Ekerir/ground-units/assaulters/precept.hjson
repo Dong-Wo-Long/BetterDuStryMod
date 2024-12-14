@@ -179,7 +179,9 @@ bullet: {
 
     buildingDamageMultiplier: 1.5
 
-    splashDamageRadius: 20
+    status: bsm-armor-piercing-tier-2
+    splashDamageRadius: 40
+    statusDuration: 1440
     splashDamage: 50
     knockback: 12.5
     pierceCap: 24
