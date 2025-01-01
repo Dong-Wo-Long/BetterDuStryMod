@@ -5,8 +5,8 @@ health: 25000
 armor: 5
 
 requirements: [
-    graphite/5000
-    lead/6000
-    titanium/7250
-    silicon/3600
+    graphite/3600
+    lead/4750
+    titanium/5250
+    silicon/2700
 ]
