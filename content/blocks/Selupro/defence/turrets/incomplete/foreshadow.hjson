@@ -1,25 +1,20 @@
 research: lancer
-canOverdrive: false
 rotateSpeed: 1
+canOverdrive: false
 shake: 15
-
 scaledHealth: 530
-ammoPerShot: 48
-shootCone: 0.35
+ammoPerShot: 50
+shootCone: 0.2
 maxAmmo: 96
 reload: 480
-range: 1200
+range: 900
 armor: 32
 
 consumes: {
-    power: 125
+    power: 100
 liquids: [
     cryofluid/1
     ]
-
-items: [
-    blast-compound/15
-]
     }
 
 ammoUseEffect: casing3
@@ -29,23 +24,24 @@ ammoTypes: {
 		type: BasicBulletType
 		height: 48
 		width: 16
-
-		buildingDamageMultiplier: 0.0001
+        buildingDamageMultiplier: 0.0001
 
 		status: bsm-emp-tier-2
 		statusDuration: 180
 		splashDamageRadius: 80
 		lightningDamage: 96
-		lightningLength: 5
-		lightning: 10
-		damage: 3350
-		splashDamage: 320
-		lifetime: 15
-		speed: 64
+		lightningLength: 8
+		lightning: 13
+		damage: 3250
+		splashDamage: 360
+		lifetime: 45
+		speed: 20
+        pierce: true
+		pierceArmor: true
 
 		despawnEffect: blastExplosion
 		hitEffect: blastExplosion
-		shootEffect: shootBig
+		shootEffect: railShoot
 
 		lightColor: fcf387
 		lightOpacity: 0.7
@@ -53,7 +49,33 @@ ammoTypes: {
 
 		trailColor: e8d174
 		trailLength: 12.5
-		trailWidth: 8
+		trailWidth: 3
+		trailInterval: 1
+		trailRotation: true
+trailEffect: [
+{
+	     baseRotation: 0
+		 type: ParticleEffect
+		 particles: 7
+		 cone: 90
+		 length: -20
+		 colorFrom: e8d174
+		 colorTo: ffffff00
+		 sizeFrom: 4
+		 sizeTo: 0
+        }
+        {
+         baseRotation: 0
+		 type: ParticleEffect
+		 particles: 5
+		 cone: 35
+		 length: -20
+		 line: true
+		 colorFrom: e8d174
+		 colorTo: ffffff00
+		 lenFrom: 8
+        }
+]
 
 		frontColor: fcf387
 		backColor: e8d174
@@ -61,7 +83,7 @@ ammoTypes: {
 		fragBullets: 8
 		fragOnHit: true
 		
-		fragRandomSpread: 10
+		fragRandomSpread: 75
 		
 		fragBullet: {
 			type: BasicBulletType
@@ -80,12 +102,12 @@ ammoTypes: {
 			
 			splashDamageRadius: 20
 			lightningDamage: 75
-			lightningLength: 1
-			lightning: 2
+			lightningLength: 5
+			lightning: 6
 			damage: 180
 			splashDamage: 90
 			
-			lifetime: 5
+			lifetime: 2
 			speed: 32
 
 			despawnEffect: blastExplosion
@@ -99,5 +121,93 @@ ammoTypes: {
 			trailLength: 6.5
 			trailWidth: 2
 		}
+	}
+	phase-fabric: {
+		type: BasicBulletType
+		height: 48
+		width: 16
+		buildingDamageMultiplier: 0.001
+		
+		damage: 890
+		splashDamage: 1120
+		splashDamageRadius: 64
+		lifetime: 61
+		speed: 15.5
+		scaleLife: true
+
+		despawnEffect: [
+        {
+        type: ParticleEffect
+        particles: 14
+        sizeFrom: 7
+        sizeTo: 0
+        colorTo: f7e4c0
+        length: 64
+        baseLength: 30
+        lifetime: 60
+        }
+        {
+        type: ParticleEffect
+        particles: 6
+        sizeFrom: 4
+        sizeTo: 0
+        colorFrom: 757575
+        colorTo: ffffff00
+        length: 64
+        baseLength: 60
+        lifetime: 20
+        }
+        {
+        type: ParticleEffect
+        particles: 6
+        colorTo: f7e4c0
+        length: 64
+        baseLength: 30
+        line: true
+        lifetime: 60
+        lenFrom: 8
+        lenTo: 6
+        strokeFrom: 3
+        strokeTo: 0
+        }
+        ]
+		hitEffect: blastExplosion
+		shootEffect: railShoot
+
+		lightColor: fcf387
+		lightOpacity: 0.7
+		lightRadius: 32
+
+		trailColor: f7e4c0
+		trailLength: 12.5
+		trailWidth: 3
+		trailInterval: 1
+		trailRotation: true
+		trailEffect: [
+	 	{
+	     baseRotation: 0
+		 type: ParticleEffect
+		 particles: 5
+		 cone: 90
+		 length: -20
+		 colorFrom: f7e4c0
+		 colorTo: ffffff00
+		 sizeFrom: 4
+		 sizeTo: 0
+        }
+        {
+         baseRotation: 0
+		 type: ParticleEffect
+		 particles: 2
+		 cone: 35
+		 length: -20
+		 line: true
+		 colorFrom: f7e4c0
+		 colorTo: ffffff00
+		 lenFrom: 8
+        }
+        ]
+		frontColor: fcf387
+		backColor: e8d174
 	}
 }
