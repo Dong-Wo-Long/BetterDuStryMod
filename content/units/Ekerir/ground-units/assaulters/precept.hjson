@@ -24,7 +24,7 @@ abilities: [
 
 weapons: [
 {
-    name: hidden-bombing-mw
+    name: hidden-dark-bombing-mw
     controllable: false
     layerOffset: -0.001
     rotationLimit: 30
