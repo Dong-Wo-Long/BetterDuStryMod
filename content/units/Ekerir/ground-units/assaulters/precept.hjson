@@ -75,6 +75,7 @@ bullet: {
     x: 4
     y: 6
 
+    inaccuracy: 2
     reload: 36
 
     shootSound: machine-gun-shot-2
