@@ -23,7 +23,49 @@ abilities: [
     ]
 
 weapons: [
+{
+    name: hidden-bombing-mw
+    controllable: false
+    layerOffset: -0.001
+    rotationLimit: 30
+    autoTarget: true
+    alternate: false
+    shootCone: 45
+    rotate: true
+    mirror: true
+    shake: 1.75
+    shootY: 1
+    x: 11
+    y: 10
 
+    reload: 3
+
+    ejectEffect: none
+    shootSound: flame
+bullet: {
+    type: BulletType
+    pierceBuilding: true
+    keepVelocity: false
+    collidesAir: false
+    hittable: false
+    pierce: true
+    hitSize: 7
+
+    buildingDamageMultiplier: 1.45
+    ammoMultiplier: 15
+
+    statusDuration: 540
+    status: burning
+    pierceCap: 21
+    lifetime: 19
+    damage: 81
+    speed: 3
+
+    shootEffect: shootSmallFlame
+    hitEffect: hitFlameSmall
+    despawnEffect: none
+}
+    }
 
 {
     name: precept-weapon
