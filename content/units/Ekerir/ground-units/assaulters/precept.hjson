@@ -75,14 +75,14 @@ bullet: {
     x: 6
     y: 7
 
-    reload: 24
+    reload: 36
 
     shootSound: machine-gun-shot-2
     ejectEffect: casing1
 shoot: {
-    shotDelay: 4
-    shots: 3
-}
+    shotDelay: 3
+    shots: 9
+    }
 
 bullet: {
     type: BasicBulletType
