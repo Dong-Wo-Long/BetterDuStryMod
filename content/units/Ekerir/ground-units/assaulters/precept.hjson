@@ -72,7 +72,7 @@ bullet: {
     mirror: false
     shootCone: 45
     rotate: true
-    x: 5
+    x: 4
     y: 6
 
     reload: 36
@@ -87,7 +87,7 @@ shoot: {
 bullet: {
     type: BasicBulletType
     height: 9
-    width: 7
+    width: 6
 
     status: air-specialization
     statusDuration: 300
@@ -120,7 +120,7 @@ bullet: {
     recoil: 3
     shake: 15
     x: 0
-    y: -1
+    y: -3
 
     shootSound: tank-medium-shot
     cooldownTime: 480
