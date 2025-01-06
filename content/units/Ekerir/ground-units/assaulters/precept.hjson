@@ -72,8 +72,8 @@ bullet: {
     mirror: false
     shootCone: 45
     rotate: true
-    x: 6
-    y: 7
+    x: 5
+    y: 6
 
     reload: 36
 
@@ -95,13 +95,17 @@ bullet: {
     damage: 48
     speed: 4.5
 
-    lightColor: fff8e8
+    lightColor: feb380
     lightOpacity: 0.7
     lightRadius: 21
 
-    trailColor: f9c27a
+    trailColor: feb380
     trailLength: 4.8
     trailWidth: 1.25
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
 }
     }
 
