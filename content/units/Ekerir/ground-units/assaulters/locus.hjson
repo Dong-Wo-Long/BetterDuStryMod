@@ -83,6 +83,7 @@ bullet: {
     sprite: missile-large
     collideTerrain: true
     pierceArmor: true
+    scaleLife: true
     makeFire: true
     length: 12
     width: 5
