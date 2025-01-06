@@ -68,6 +68,44 @@ bullet: {
     }
 
 {
+    name: large-point-weapon
+    mirror: false
+    shootCone: 45
+    rotate: true
+    x: 6
+    y: 7
+
+    reload: 24
+
+    shootSound: machine-gun-shot-2
+    ejectEffect: casing1
+shoot: {
+    shotDelay: 4
+    shots: 3
+}
+
+bullet: {
+    type: BasicBulletType
+    height: 9
+    width: 7
+
+    status: air-specialization
+    statusDuration: 300
+    lifetime: 50
+    damage: 48
+    speed: 4.5
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 21
+
+    trailColor: f9c27a
+    trailLength: 4.8
+    trailWidth: 1.25
+}
+    }
+
+{
     name: precept-weapon
     layerOffset: 0.0001
     rotateSpeed: 0.9
