@@ -35,8 +35,8 @@ weapons: [
     mirror: true
     shake: 1.75
     shootY: 1
-    x: 11
-    y: 10
+    x: 10
+    y: 9
 
     reload: 3
 
