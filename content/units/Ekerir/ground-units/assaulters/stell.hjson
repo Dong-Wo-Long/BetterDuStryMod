@@ -58,6 +58,7 @@ bullet: {
     soundPitchMax: 0.45
     collidesAir: false
     despawnShake: 4.5
+    scaleLife: true
     hitShake: 4.5
     hitSize: 4
     height: 7
