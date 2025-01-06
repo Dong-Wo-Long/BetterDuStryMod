@@ -27,7 +27,7 @@ weapons: [
     name: hidden-dark-bombing-mw
     controllable: false
     layerOffset: -0.001
-    rotationLimit: 30
+    rotationLimit: 15
     autoTarget: true
     alternate: false
     shootCone: 45
@@ -35,8 +35,8 @@ weapons: [
     mirror: true
     shake: 1.75
     shootY: 1
-    x: 10
-    y: 9
+    x: 9
+    y: 7
 
     reload: 3
 
