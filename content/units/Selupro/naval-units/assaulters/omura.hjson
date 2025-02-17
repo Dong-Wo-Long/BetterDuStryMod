@@ -7,7 +7,54 @@ speed: 0.4
 armor: 96
 
 immunities: [ spore-slowed, burning, melting, shocked, blasted, bsm-ground-specialization, bsm-air-specialization, bsm-armor-piercing-tier-1, bsm-armor-piercing-tier-2 ]
-
+abilities: [
+    {
+    type: ShieldRegenFieldAbility
+    reload: 1800
+    amount: 2000
+    max: 35000
+    range: 0
+}
+    {
+    type: ShieldRegenFieldAbility
+    reload: 200
+    amount: 250
+    range: 256
+    max: 100
+}
+    {
+    type: UnitSpawnAbility
+    unit: horizon
+    spawnTime: 540
+    spawnX: 20
+    spawnY: -12
+}
+    {
+    type: UnitSpawnAbility
+    unit: horizon
+    spawnTime: 1740
+    spawnX: -20
+    spawnY: -12
+}
+ {
+    type: UnitSpawnAbility
+    unit: minke
+    spawnTime: 540
+    spawnX: 30
+    spawnY: 0
+}
+    {
+    type: UnitSpawnAbility
+    unit: minke
+    spawnTime: 1740
+    spawnX: -30
+    spawnY: 0
+}
+    {
+    type: RegenAbility
+    amount: 0.7125
+}
+    ]
 weapons: [
 {
     name: mobile-portable-railgun-system
@@ -31,7 +78,7 @@ bullet: {
     length: 500
 
     pierceDamageFactor: 0.5
-    damage: 5000
+    damage: 4000
 
     hitEffect: massiveExplosion
     shootEffect: railShoot
@@ -41,4 +88,171 @@ bullet: {
     pointEffectSpace: 60
     }
 }
-    ]
+{
+    name: ship-cannon
+    parentizeEffects: true
+    predictTarget: false
+    rotateSpeed: 1.5
+    alternate: false
+    mirror: true
+    rotate: true
+    shootY: -2
+    shake: 1.5
+    shadow: 8
+    x: 8
+    y: -8
+
+    cooldownTime: 90
+    reload: 64
+
+    shootSound: rail-shot-2
+    ejectEffect: casing2
+shoot: {
+    firstShotDelay: 20
+    shots: 1
+    }
+
+bullet: {
+    type: BasicBulletType
+    pierceBuilding: true
+    keepVelocity: false
+    collidesAir: false
+    despawnShake: 3
+    hittable: false
+    hitShake: 3
+    height: 9
+    width: 5
+
+    buildingDamageMultiplier: 1.25
+    pierceDamageFactor: 0.025
+
+    status: bsm-armor-piercing-tier-1
+    splashDamageRadius: 26
+    statusDuration: 90
+    splashDamage: 24
+    lifetime: 16.25
+    pierceCap: 15
+    damage: 48
+    speed: 16
+
+    smokeEffect: shootSmallSmoke
+    hitEffect: hitBulletColor
+    hitSound: bomb-plasma-hit
+    shootEffect: shootBig
+
+    lightColor: d1efff
+    lightOpacity: 0.7
+    lightRadius: 37.5
+
+    trailColor: 8ca9e8
+    trailLength: 5.5
+    trailWidth: 1.15
+
+    lightningColor: d1efff
+    frontColor: d1efff
+    backColor: 8ca9e8
+
+despawnEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 9
+
+    sizeFrom: 0
+    sizeTo: 24
+
+    colorFrom: d1efff
+    colorTo: 8ca9e8
+    }
+
+chargeEffect: {
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 18
+    offsetX: 3.5
+    sizeFrom: 5
+    sizeTo: 0
+
+    colorFrom: d1efff
+    colorTo: 8ca9e8
+}
+    }
+}
+{
+    name: double-machine-gun
+    rotationLimit: 275
+    rotateSpeed: 3
+    shootCone: 45
+    mirror: true
+    rotate: true
+    shootY: 4.5
+    recoils: 2
+    recoil: 1
+    shake: 5
+    x: 10
+    y: 7.5
+
+    cooldownTime: 180
+    reload: 48
+
+    ejectEffect: casing2Double
+    shootSound: cannon-shot-2
+shoot: {
+    type: ShootMulti
+source: {
+    type: ShootAlternate
+    barrels: 2
+    spread: 4
+    shots: 1
+}
+dest: [
+{
+    type: ShootSpread
+    spread: 4
+    shots: 1
+    }
+]
+    }
+
+parts: [
+{
+    type: RegionPart
+    suffix: -brl-2
+    progress: recoil
+    recoilIndex: 1
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+}
+    }
+
+{
+    type: RegionPart
+    suffix: -brl-1
+    progress: recoil
+    recoilIndex: 0
+    outline: false
+    mirror: false
+    moveY: -2.5
+    under: true
+
+heatProgress: {
+    type: recoil
+    recoilIndex: 1
+    op: blend
+    amount: 0
+    other: 0
+    }
+}
+]
+}
+]
