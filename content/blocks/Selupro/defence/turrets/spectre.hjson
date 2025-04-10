@@ -111,7 +111,7 @@ thorium: {
     reloadMultiplier: 0.5
     ammoMultiplier: 5
     
-    status: 20s-06-tier-1-strength-reduction
+    status: armor-piercing-tier-2
     splashDamageRadius: 72
     statusDuration: 180
     splashDamage: 96
@@ -317,7 +317,9 @@ titanium: {
     ammoMultiplier: 8
     rangeChange: 132
 
+    status: armor-piercing-tier-1
     splashDamageRadius: 64
+    statusDuration: 300
     splashDamage: 81
     pierceCap: 21
     lifetime: 160
