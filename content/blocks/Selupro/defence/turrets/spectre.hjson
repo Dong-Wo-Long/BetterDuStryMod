@@ -34,6 +34,7 @@ shootSound: howitzer-shot-1
 ammoUseEffect: casing3
 shoot: { 
     type: ShootAlternate
+    firstShotDelay: 285
     spread: 7.75
     barrels: 2
     shots: 2
