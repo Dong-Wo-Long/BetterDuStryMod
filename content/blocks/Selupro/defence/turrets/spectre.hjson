@@ -57,7 +57,7 @@ graphite: {
     status: bsm-ground-specialization
     splashDamageRadius: 60
     statusDuration: 450
-    splashDamage: 720
+    splashDamage: 1200
     knockback: 2.5
     lifetime: 155
     pierceCap: 9
@@ -112,10 +112,10 @@ thorium: {
     reloadMultiplier: 0.3
     ammoMultiplier: 5
     
-    status: armor-piercing-tier-2
+    status: armor-piercing-tier-1
     splashDamageRadius: 72
     statusDuration: 340
-    splashDamage: 1200
+    splashDamage: 1500
     knockback: 3.2
     pierceCap: 25
     lifetime: 170
@@ -192,7 +192,7 @@ pyratite: {
 
     splashDamageRadius: 120
     statusDuration: 450
-    splashDamage: 570
+    splashDamage: 910
     status: burning
     knockback: 1.8
     pierceCap: 12
@@ -247,7 +247,7 @@ blast-compound: {
     height: 21
     width: 15
 
-    buildingDamageMultiplier: 1.5
+    buildingDamageMultiplier: 1.2
     pierceDamageFactor: 7.5
     reloadMultiplier: 0.5
     ammoMultiplier: 12
@@ -255,7 +255,7 @@ blast-compound: {
 
     splashDamageRadius: 100
     statusDuration: 48
-    splashDamage: 1500
+    splashDamage: 1800
     status: blasted
     pierceCap: 15
     lifetime: 196
@@ -299,65 +299,6 @@ hitEffect: {
 }
     }
 
-titanium: {
-    type: ArtilleryBulletType
-    hittable: false
-    hitSize: 5
-    height: 23
-    width: 14.5
-
-    buildingDamageMultiplier: 0.75
-    pierceDamageFactor: 7.5
-    reloadMultiplier: 1.25
-    ammoMultiplier: 8
-    rangeChange: 144
-
-    status: armor-piercing-tier-1
-    splashDamageRadius: 64
-    statusDuration: 300
-    splashDamage: 910
-    pierceCap: 21
-    lifetime: 180
-    knockback: 3
-    speed: 3.2
-
-    hitSound: howitzer-hit-1
-    shootEffect: shootBig
-    hitSoundVolume: 0.25
-
-    lightColor: a4b8fa
-    lightOpacity: 0.7
-    lightRadius: 45
-
-    trailColor: 919fe7
-    trailLength: 12.5
-    trailWidth: 3
-
-    frontColor: a4b8fa
-    backColor: 919fe7
-
-hitEffect: {
-    type: ExplosionEffect
-
-    lifetime: 32
-
-    waveColor: a4b8fa
-    waveStroke: 7.5
-    waveRad: 70
-
-    smokeColor: 696969
-    smokeSizeBase: 0
-    smokeSize: 9
-    smokes: 13
-
-    sparkColor: a4b8fa
-    sparkStroke: 3.5
-    sparkRad: 23
-    sparkLen: 4
-    sparks: 9
-}
-    }
-
 surge-alloy: {
     type: ArtilleryBulletType
     hittable: false
@@ -376,7 +317,7 @@ surge-alloy: {
     lightningLength: 16
     lightningDamage: 25
     statusDuration: 250
-    splashDamage: 410
+    splashDamage: 810
     lifetime: 150
     pierceCap: 5
     lightning: 3
