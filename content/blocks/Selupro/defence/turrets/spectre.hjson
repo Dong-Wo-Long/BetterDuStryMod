@@ -30,13 +30,12 @@ requirements: [
 
 shootSound: cannon-large-shot
 ammoUseEffect: casing3
-
 shoot: { 
     type: ShootAlternate
     spread: 7.75
     barrels: 2
     shots: 2
-}
+    }
 
 ammoTypes: {
 graphite: {
