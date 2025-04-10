@@ -4,7 +4,7 @@ fogRadius: 35
 
 boostMultiplier: 2
 itemCapacity: 32
-buildSpeed: 0.5
+buildSpeed: 0.05
 mineSpeed: 0.32
 mineTier: 2
 health: 180
