@@ -1,10 +1,10 @@
 research: cyclone
-rotateSpeed: 1.25
 targetAir: false
+rotateSpeed: 1
 recoilTime: 48
 shootCone: 32
 shake: 12.5
-recoil: 6
+recoil: 9
 
 buildCostMultiplier: 1.32
 coolantMultiplier: 1.2
