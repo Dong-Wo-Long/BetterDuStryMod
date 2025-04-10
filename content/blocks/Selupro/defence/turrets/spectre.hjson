@@ -9,9 +9,9 @@ recoil: 9
 buildCostMultiplier: 1.32
 coolantMultiplier: 1.2
 
-ammoPerShot: 32
+ammoPerShot: 48
 inaccuracy: 0
-maxAmmo: 1536
+maxAmmo: 1152
 health: 3200
 reload: 750
 range: 436
@@ -22,11 +22,11 @@ consumes: {
     }
 
 requirements: [
-    lead/1250
-    graphite/810
-    thorium/780
-    plastanium/320
-    surge-alloy/240
+    lead/5250
+    graphite/2700
+    thorium/1800
+    plastanium/2100
+    surge-alloy/1250
     ]
 
 chargeSound: howitzer-charge-1
