@@ -188,7 +188,9 @@ plastanium: {
     buildingDamageMultiplier: 0.21
     ammoMultiplier: 24
 
+    status: bsm-naval-specialization
     splashDamageRadius: 36
+    statusDuration: 450
     splashDamage: 17.5
     fragBullets: 6
     lifetime: 66.5
@@ -287,6 +289,8 @@ silicon: {
     ammoMultiplier: 41
     rangeChange: 40
 
+    status: bsm-air-specialization
+    statusDuration: 300
     homingPower: 0.18
     pierceCap: 5
     lifetime: 75
@@ -374,6 +378,8 @@ scrap: {
     ammoMultiplier: 9
     rangeChange: 60
 
+    status: bsm-ground-specialization
+    statusDuration: 750
     fragBullets: 3
     pierceCap: 6
     lifetime: 66
