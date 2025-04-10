@@ -1,5 +1,5 @@
 type: ShockMine
-research: 11m-01-frag-mine
+research: frag-mine
 name: EMP mine
 description: "On contact with the enemy, the mine explodes and incapacitates units for 2.5 seconds. The mine can also deal electricity damage and reduces the units combat effectiveness for an additional 5 seconds."
 underBullets: true
