@@ -107,8 +107,10 @@ silicon: {
     buildingDamageMultiplier: 0.5
     reloadMultiplier: 1.75
     ammoMultiplier: 12
-    
+
+    status: bsm-ground-specialization
     splashDamageRadius: 26
+    statusDuration: 180
     splashDamage: 47.5
     homingPower: 0.12
     homingRange: 50
@@ -399,8 +401,10 @@ plastanium: {
 
     reloadMultiplier: 0.8
     ammoMultiplier: 3
-    
+
+    status: bsm-naval-specialization
     splashDamageRadius: 36
+    statusDuration: 300
     splashDamage: 45
     fragBullets: 10
     knockback: 2.1
@@ -466,8 +470,8 @@ spore-pod: {
     ammoMultiplier: 8
 
     splashDamageRadius: 120
+    statusDuration: 1080
     status: spore-slowed
-    statusDuration: 900
     splashDamage: 0
     fragBullets: 3
     knockback: 0.8
