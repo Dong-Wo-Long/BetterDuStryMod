@@ -311,7 +311,7 @@ titanium: {
     status: armor-piercing-tier-1
     splashDamageRadius: 64
     statusDuration: 300
-    splashDamage: 1200
+    splashDamage: 910
     pierceCap: 21
     lifetime: 180
     knockback: 3
