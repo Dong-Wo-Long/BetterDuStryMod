@@ -12,6 +12,7 @@ reload: 24
 armor: 2
 
 ammoUseEffect: casing1
+shootSound: duo-shot
 
 requirements: [
     copper/24
