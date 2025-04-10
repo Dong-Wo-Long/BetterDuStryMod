@@ -1,6 +1,6 @@
 research: cyclone
+rotateSpeed: 0.48
 targetAir: false
-rotateSpeed: 0.5
 recoilTime: 48
 shootCone: 32
 shake: 12.5
