@@ -22,7 +22,7 @@ consumes: {
     }
 
 requirements: [
-    lead/5250
+    lead/5200
     graphite/2700
     thorium/1800
     plastanium/2100
