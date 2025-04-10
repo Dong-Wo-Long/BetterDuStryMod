@@ -29,7 +29,7 @@ requirements: [
 ]
 
 ammoUseEffect: casing2
-shootSound: shootBig
+shootSound: duo-shot
 shoot: {
     shotDelay: 4
     shots: 5
