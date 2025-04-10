@@ -29,7 +29,7 @@ requirements: [
     surge-alloy/240
     ]
 
-shootSound: cannon-large-shot
+shootSound: howitzer-shot-1
 ammoUseEffect: casing3
 shoot: { 
     type: ShootAlternate
