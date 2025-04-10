@@ -29,6 +29,7 @@ requirements: [
     surge-alloy/240
     ]
 
+chargeSound: howitzer-charge-1
 shootSound: howitzer-shot-1
 ammoUseEffect: casing3
 shoot: { 
