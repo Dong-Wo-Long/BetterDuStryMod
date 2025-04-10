@@ -55,11 +55,11 @@ graphite: {
     rangeChange: 228
 
     splashDamageRadius: 60
-    splashDamage: 64
+    splashDamage: 210
     knockback: 2.5
     lifetime: 155
     pierceCap: 9
-    damage: 75
+    damage: 240
     speed: 4.5
 
     hitSound: howitzer-hit-1
@@ -112,12 +112,12 @@ thorium: {
     
     status: armor-piercing-tier-2
     splashDamageRadius: 72
-    statusDuration: 180
+    statusDuration: 340
     splashDamage: 96
     knockback: 3.2
     pierceCap: 25
     lifetime: 170
-    damage: 121
+    damage: 520
     speed: 2.5
 
     fragRandomSpread: 360
@@ -169,7 +169,7 @@ fragBullet: {
 
     knockback: 2
     lifetime: 60
-    damage: 50
+    damage: 180
 
     fromColor: F9A3C7
     toColor: CB8EBF
@@ -253,13 +253,13 @@ blast-compound: {
 
     splashDamageRadius: 100
     statusDuration: 48
-    splashDamage: 121
+    splashDamage: 170
     status: blasted
     pierceCap: 15
     lifetime: 196
     knockback: 5
+    damage: 150
     speed: 2.25
-    damage: 96
 
     hitSound: howitzer-hit-1
     shootEffect: shootBig
@@ -313,11 +313,11 @@ titanium: {
     status: armor-piercing-tier-1
     splashDamageRadius: 64
     statusDuration: 300
-    splashDamage: 81
+    splashDamage: 240
     pierceCap: 21
     lifetime: 180
     knockback: 3
-    damage: 96
+    damage: 270
     speed: 3.2
 
     hitSound: howitzer-hit-1
@@ -372,13 +372,13 @@ surge-alloy: {
     status: bsm-emp-tier-2
     splashDamageRadius: 33
     lightningLength: 16
-    statusDuration: 250
     lightningDamage: 25
-    splashDamage: 48
+    statusDuration: 250
+    splashDamage: 70
     lifetime: 150
     pierceCap: 5
     lightning: 3
-    damage: 75
+    damage: 120
     speed: 5.5
 
     hitSound: howitzer-hit-1
