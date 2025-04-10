@@ -31,16 +31,12 @@ requirements: [
 shootSound: cannon-large-shot
 ammoUseEffect: casing3
 
-shoot: {
-    type: ShootBarrel
-    shotDelay: 15
+shoot: { 
+    type: ShootAlternate
+    spread: 7.75
+    barrels: 2
     shots: 2
-
-barrels: [
-    -3.75, 0, 0
-    3.75, 0, 0
-]
-    }
+}
 
 ammoTypes: {
 graphite: {
