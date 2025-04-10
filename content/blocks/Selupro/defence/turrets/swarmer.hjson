@@ -301,7 +301,9 @@ plastanium: {
     ammoMultiplier: 12
     rangeChange: 80
 
+    status: bsm-air-specialization
     splashDamageRadius: 26
+    statusDuration: 900
     homingPower: 0.02
     splashDamage: 81
     homingRange: 180
