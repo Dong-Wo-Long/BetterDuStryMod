@@ -41,8 +41,6 @@ shoot: {
 ammoTypes: {
 graphite: {
     type: ArtilleryBulletType
-    pierceBuilding: true
-    scaleLife: true
     hittable: false
     hitSize: 4.8
     height: 23
@@ -52,12 +50,12 @@ graphite: {
     pierceDamageFactor: 7.5
     reloadMultiplier: 2.25
     ammoMultiplier: 18
-    rangeChange: 220
+    rangeChange: 228
 
     splashDamageRadius: 60
     splashDamage: 64
     knockback: 2.5
-    lifetime: 150
+    lifetime: 155
     pierceCap: 9
     damage: 75
     speed: 4.5
@@ -100,9 +98,7 @@ hitEffect: {
 
 thorium: {
     type: ArtilleryBulletType
-    pierceBuilding: true
     fragOnHit: false
-    scaleLife: true
     hittable: false
     hitSize: 5.2
     height: 28
@@ -118,7 +114,7 @@ thorium: {
     splashDamage: 96
     knockback: 3.2
     pierceCap: 25
-    lifetime: 155
+    lifetime: 170
     damage: 121
     speed: 2.5
 
@@ -180,8 +176,6 @@ fragBullet: {
 
 pyratite: {
     type: ArtilleryBulletType
-    pierceBuilding: true
-    scaleLife: true
     hitSize: 5.5
     height: 25
     width: 17
@@ -190,7 +184,7 @@ pyratite: {
     pierceDamageFactor: 7.5
     reloadMultiplier: 0.85
     ammoMultiplier: 15
-    rangeChange: 272
+    rangeChange: 304
 
     splashDamageRadius: 120
     statusDuration: 450
@@ -198,7 +192,7 @@ pyratite: {
     status: burning
     knockback: 1.8
     pierceCap: 12
-    lifetime: 141
+    lifetime: 150
     damage: 41.5
     speed: 5
 
@@ -244,8 +238,6 @@ hitEffect: {
 
 blast-compound: {
     type: ArtilleryBulletType
-    pierceBuilding: true
-    scaleLife: true
     hittable: false
     hitSize: 5.32
     height: 21
@@ -255,14 +247,14 @@ blast-compound: {
     pierceDamageFactor: 7.5
     reloadMultiplier: 0.64
     ammoMultiplier: 12
-    rangeChange: 4
+    rangeChange: 16
 
     splashDamageRadius: 100
     statusDuration: 48
     splashDamage: 121
     status: blasted
     pierceCap: 15
-    lifetime: 171
+    lifetime: 196
     knockback: 5
     speed: 2.25
     damage: 96
@@ -305,8 +297,6 @@ hitEffect: {
 
 titanium: {
     type: ArtilleryBulletType
-    pierceBuilding: true
-    scaleLife: true
     hittable: false
     hitSize: 5
     height: 23
@@ -316,14 +306,14 @@ titanium: {
     pierceDamageFactor: 7.5
     reloadMultiplier: 1.5
     ammoMultiplier: 8
-    rangeChange: 132
+    rangeChange: 144
 
     status: armor-piercing-tier-1
     splashDamageRadius: 64
     statusDuration: 300
     splashDamage: 81
     pierceCap: 21
-    lifetime: 160
+    lifetime: 180
     knockback: 3
     damage: 96
     speed: 3.2
@@ -366,8 +356,6 @@ hitEffect: {
 
 surge-alloy: {
     type: ArtilleryBulletType
-    pierceBuilding: true
-    scaleLife: true
     hittable: false
     hitSize: 5
     height: 24
@@ -377,7 +365,7 @@ surge-alloy: {
     pierceDamageFactor: 100
     reloadMultiplier: 3
     ammoMultiplier: 12
-    rangeChange: 388
+    rangeChange: 384
 
     status: bsm-emp-tier-2
     splashDamageRadius: 33
@@ -385,9 +373,9 @@ surge-alloy: {
     statusDuration: 250
     lightningDamage: 25
     splashDamage: 48
+    lifetime: 150
     pierceCap: 5
     lightning: 3
-    lifetime: 140
     damage: 75
     speed: 5.5
 
