@@ -65,6 +65,7 @@ graphite: {
 
     hitSound: howitzer-hit-1
     shootEffect: shootBig
+    hitSoundVolume: 0.25
 
     lightColor: 95abd9
     lightOpacity: 0.7
@@ -125,6 +126,7 @@ thorium: {
 
     hitSound: howitzer-hit-1
     shootEffect: shootBig
+    hitSoundVolume: 0.25
 
     lightColor: f9a3c7
     lightOpacity: 0.7
@@ -203,6 +205,7 @@ pyratite: {
 
     hitSound: howitzer-hit-1
     shootEffect: shootBig
+    hitSoundVolume: 0.25
 
     lightColor: ffaa5f
     lightOpacity: 0.7
@@ -261,6 +264,7 @@ blast-compound: {
 
     hitSound: howitzer-hit-1
     shootEffect: shootBig
+    hitSoundVolume: 0.25
 
     lightColor: ff795e
     lightOpacity: 0.7
@@ -319,6 +323,7 @@ titanium: {
 
     hitSound: howitzer-hit-1
     shootEffect: shootBig
+    hitSoundVolume: 0.25
 
     lightColor: a4b8fa
     lightOpacity: 0.7
@@ -379,6 +384,7 @@ surge-alloy: {
 
     hitSound: howitzer-hit-1
     shootEffect: shootBig
+    hitSoundVolume: 0.25
 
     lightColor: fcf387
     lightOpacity: 0.7
