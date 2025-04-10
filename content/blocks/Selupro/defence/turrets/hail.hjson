@@ -33,7 +33,9 @@ graphite: {
 
     ammoMultiplier: 2
 
+    status: bsm-ground-specialization
     splashDamageRadius: 40
+    statusDuration: 300
     splashDamage: 52.5
     knockback: 1.5
     pierceCap: 8
@@ -142,7 +144,7 @@ pyratite: {
 
     splashDamageRadius: 60
     fragRandomSpread: 360
-    statusDuration: 900
+    statusDuration: 450
     splashDamage: 27.5
     knockback: 0.75
     status: burning
@@ -194,7 +196,7 @@ fragBullet: {
     buildingDamageMultiplier: 0.25
 
     splashDamageRadius: 26
-    splashDamage: 14.5
+    splashDamage: 15
     lifetime: 12
     damage: 9
 
@@ -244,8 +246,10 @@ scrap: {
     buildingDamageMultiplier: 0.85
     reloadMultiplier: 0.6
 
+    status: bsm-naval-specialization
     splashDamageRadius: 12
     fragRandomSpread: 360
+    statusDuration: 180
     splashDamage: 21.5
     fragLifeMax: 2.25
     fragLifeMin: 0.8
