@@ -193,7 +193,7 @@ plastanium: {
     fragBullets: 6
     lifetime: 66.5
     pierceCap: 18
-    damage: 14.5
+    damage: 15
     speed: 5
     
     despawnEffect: plasticExplosion
