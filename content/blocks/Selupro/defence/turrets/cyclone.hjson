@@ -374,7 +374,7 @@ scrap: {
     ammoMultiplier: 9
     rangeChange: 60
 
-    fragBullets: 8
+    fragBullets: 3
     pierceCap: 6
     lifetime: 66
     damage: 14.5
