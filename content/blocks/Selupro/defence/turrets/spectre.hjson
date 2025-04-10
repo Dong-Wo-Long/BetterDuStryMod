@@ -40,7 +40,7 @@ shoot: {
 
 ammoTypes: {
 graphite: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
     pierceBuilding: true
     scaleLife: true
     hittable: false
@@ -99,7 +99,7 @@ hitEffect: {
     }
 
 thorium: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
     pierceBuilding: true
     fragOnHit: false
     scaleLife: true
@@ -179,7 +179,7 @@ fragBullet: {
     }
 
 pyratite: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
     pierceBuilding: true
     scaleLife: true
     hitSize: 5.5
@@ -243,7 +243,7 @@ hitEffect: {
     }
 
 blast-compound: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
     pierceBuilding: true
     scaleLife: true
     hittable: false
@@ -304,7 +304,7 @@ hitEffect: {
     }
 
 titanium: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
     pierceBuilding: true
     scaleLife: true
     hittable: false
@@ -365,7 +365,7 @@ hitEffect: {
     }
 
 surge-alloy: {
-    type: BasicBulletType
+    type: ArtilleryBulletType
     pierceBuilding: true
     scaleLife: true
     hittable: false
