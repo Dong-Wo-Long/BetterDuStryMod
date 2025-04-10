@@ -317,14 +317,14 @@ pyratite: {
     buildingDamageMultiplier: 0.01
     pierceDamageFactor: 0.0025
     ammoMultiplier: 21
-    rangeChange: 24
+    rangeChange: 64
 
     splashDamageRadius: 12
     statusDuration: 180
     splashDamage: 21.5
     status: burning
     pierceCap: 15
-    lifetime: 90
+    lifetime: 120
     damage: 24.5
     speed: 4.1
 
