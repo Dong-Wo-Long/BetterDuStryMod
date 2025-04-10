@@ -60,7 +60,7 @@ graphite: {
     damage: 75
     speed: 4.5
 
-    hitSound: cannon-large-hit
+    hitSound: howitzer-hit-1
     shootEffect: shootBig
 
     lightColor: 95abd9
@@ -121,7 +121,7 @@ thorium: {
     fragRandomSpread: 360
     fragBullets: 5
 
-    hitSound: cannon-large-hit
+    hitSound: howitzer-hit-1
     shootEffect: shootBig
 
     lightColor: f9a3c7
@@ -200,7 +200,7 @@ pyratite: {
     incendSpread: 30
     incendChance: 1
 
-    hitSound: cannon-large-hit
+    hitSound: howitzer-hit-1
     shootEffect: shootBig
 
     lightColor: ffaa5f
@@ -259,7 +259,7 @@ blast-compound: {
     speed: 2.25
     damage: 96
 
-    hitSound: cannon-large-hit
+    hitSound: howitzer-hit-1
     shootEffect: shootBig
 
     lightColor: ff795e
@@ -318,7 +318,7 @@ titanium: {
     damage: 96
     speed: 3.2
 
-    hitSound: cannon-large-hit
+    hitSound: howitzer-hit-1
     shootEffect: shootBig
 
     lightColor: a4b8fa
@@ -379,7 +379,7 @@ surge-alloy: {
     damage: 75
     speed: 5.5
 
-    hitSound: cannon-large-hit
+    hitSound: howitzer-hit-1
     shootEffect: shootBig
 
     lightColor: fcf387
