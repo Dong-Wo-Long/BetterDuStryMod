@@ -13,7 +13,7 @@ inaccuracy: 0
 maxAmmo: 1536
 health: 3200
 reload: 86
-range: 380
+range: 436
 armor: 18
 
 consumes: {
@@ -56,7 +56,7 @@ graphite: {
     splashDamageRadius: 60
     splashDamage: 64
     knockback: 2.5
-    lifetime: 134
+    lifetime: 150
     pierceCap: 9
     damage: 75
     speed: 4.5
@@ -117,7 +117,7 @@ thorium: {
     splashDamage: 96
     knockback: 3.2
     pierceCap: 25
-    lifetime: 152
+    lifetime: 155
     damage: 121
     speed: 2.5
 
