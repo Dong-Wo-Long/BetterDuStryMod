@@ -50,18 +50,17 @@ graphite: {
 
     buildingDamageMultiplier: 0.85
     pierceDamageFactor: 7.5
-    reloadMultiplier: 2.25
+    reloadMultiplier: 1.8
     ammoMultiplier: 18
     rangeChange: 228
 
     status: bsm-ground-specialization
     splashDamageRadius: 60
     statusDuration: 450
-    splashDamage: 370
+    splashDamage: 720
     knockback: 2.5
     lifetime: 155
     pierceCap: 9
-    damage: 520
     speed: 4.5
 
     hitSound: howitzer-hit-1
@@ -109,17 +108,16 @@ thorium: {
     width: 15
 
     pierceDamageFactor: 7.5
-    reloadMultiplier: 0.5
+    reloadMultiplier: 0.3
     ammoMultiplier: 5
     
     status: armor-piercing-tier-2
     splashDamageRadius: 72
     statusDuration: 340
-    splashDamage: 720
+    splashDamage: 1200
     knockback: 3.2
     pierceCap: 25
     lifetime: 170
-    damage: 1210
     speed: 2.5
 
     fragRandomSpread: 360
@@ -171,7 +169,7 @@ fragBullet: {
 
     knockback: 2
     lifetime: 60
-    damage: 380
+    damage: 500
 
     fromColor: F9A3C7
     toColor: CB8EBF
@@ -192,12 +190,11 @@ pyratite: {
 
     splashDamageRadius: 120
     statusDuration: 450
-    splashDamage: 270
+    splashDamage: 570
     status: burning
     knockback: 1.8
     pierceCap: 12
     lifetime: 150
-    damage: 320
     speed: 5
 
     incendAmount: 12
@@ -249,18 +246,17 @@ blast-compound: {
 
     buildingDamageMultiplier: 1.5
     pierceDamageFactor: 7.5
-    reloadMultiplier: 0.64
+    reloadMultiplier: 0.5
     ammoMultiplier: 12
     rangeChange: 16
 
     splashDamageRadius: 100
     statusDuration: 48
-    splashDamage: 570
+    splashDamage: 1500
     status: blasted
     pierceCap: 15
     lifetime: 196
     knockback: 5
-    damage: 520
     speed: 2.25
 
     hitSound: howitzer-hit-1
@@ -308,18 +304,17 @@ titanium: {
 
     buildingDamageMultiplier: 0.75
     pierceDamageFactor: 7.5
-    reloadMultiplier: 1.5
+    reloadMultiplier: 1.25
     ammoMultiplier: 8
     rangeChange: 144
 
     status: armor-piercing-tier-1
     splashDamageRadius: 64
     statusDuration: 300
-    splashDamage: 410
+    splashDamage: 1200
     pierceCap: 21
     lifetime: 180
     knockback: 3
-    damage: 720
     speed: 3.2
 
     hitSound: howitzer-hit-1
@@ -367,7 +362,7 @@ surge-alloy: {
 
     buildingDamageMultiplier: 0.32
     pierceDamageFactor: 100
-    reloadMultiplier: 3
+    reloadMultiplier: 2.25
     ammoMultiplier: 12
     rangeChange: 384
 
@@ -376,11 +371,10 @@ surge-alloy: {
     lightningLength: 16
     lightningDamage: 25
     statusDuration: 250
-    splashDamage: 210
+    splashDamage: 410
     lifetime: 150
     pierceCap: 5
     lightning: 3
-    damage: 240
     speed: 5.5
 
     hitSound: howitzer-hit-1
