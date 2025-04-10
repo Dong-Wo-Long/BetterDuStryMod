@@ -54,7 +54,9 @@ graphite: {
     ammoMultiplier: 18
     rangeChange: 228
 
+    status: bsm-ground-specialization
     splashDamageRadius: 60
+    statusDuration: 450
     splashDamage: 210
     knockback: 2.5
     lifetime: 155
