@@ -28,6 +28,7 @@ abilities: [
 
 weapons: [
 {
+    shootOnDeath: true
     shootCone: 180
     mirror: false
     shootY: 0
