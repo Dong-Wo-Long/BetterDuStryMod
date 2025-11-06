@@ -1,11 +1,12 @@
 research: lancer
 shake: 24
 
-ammoPerShot: 50000
+liquidCapacity: 360
 scaledHealth: 530
+ammoPerShot: 5000
 rotateSpeed: 0.4
-maxAmmo: 180000
 shootCone: 0.2
+maxAmmo: 15000
 reload: 480
 range: 960
 armor: 27
@@ -41,7 +42,7 @@ surge-alloy: {
     buildingDamageMultiplier: 0.0001
 	pierceDamageFactor: 10
 	reloadMultiplier: 0.8
-    ammoMultiplier: 100
+    ammoMultiplier: 10
 
 	splashDamageRadius: 192
 	lightningDamage: 240
@@ -146,7 +147,7 @@ thorium: {
 	buildingDamageMultiplier: 6
 	pierceDamageFactor: 10
 	reloadMultiplier: 0.1
-    ammoMultiplier: 10
+    ammoMultiplier: 1
 
 	splashDamageRadius: 32
 	splashDamage: 8100
@@ -232,6 +233,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
