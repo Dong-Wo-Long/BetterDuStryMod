@@ -1,20 +1,21 @@
 research: lancer
-rotateSpeed: 1
 canOverdrive: false
 shake: 15
+
 scaledHealth: 530
 ammoPerShot: 50
+rotateSpeed: 0.4
 shootCone: 0.2
 maxAmmo: 96
 reload: 480
-range: 900
-armor: 32
+range: 960
+armor: 27
 
 consumes: {
-    power: 100
+    power: 3500
 liquids: [
-    cryofluid/1
-    ]
+    cryofluid/4
+]
     }
 
 ammoUseEffect: casing3
@@ -211,3 +212,4 @@ trailEffect: [
 		backColor: e8d174
 	}
 }
+
