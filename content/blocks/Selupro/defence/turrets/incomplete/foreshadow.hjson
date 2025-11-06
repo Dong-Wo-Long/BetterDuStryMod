@@ -39,6 +39,7 @@ surge-alloy: {
 	width: 16
 
     buildingDamageMultiplier: 0.0001
+	pierceDamageFactor: 10
 	reloadMultiplier: 0.8
     ammoMultiplier: 100
 
@@ -143,6 +144,7 @@ thorium: {
 	width: 18
 
 	buildingDamageMultiplier: 5
+	pierceDamageFactor: 10
 	reloadMultiplier: 0.1
     ammoMultiplier: 10
 
@@ -230,3 +232,4 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
