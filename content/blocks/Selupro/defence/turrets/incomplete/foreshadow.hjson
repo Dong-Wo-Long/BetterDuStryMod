@@ -143,7 +143,7 @@ thorium: {
 	height: 48
 	width: 18
 
-	buildingDamageMultiplier: 5
+	buildingDamageMultiplier: 6
 	pierceDamageFactor: 10
 	reloadMultiplier: 0.1
     ammoMultiplier: 10
@@ -232,4 +232,5 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
