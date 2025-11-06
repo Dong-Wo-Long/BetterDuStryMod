@@ -1,6 +1,6 @@
 research: lancer
 canOverdrive: false
-shake: 15
+shake: 24
 
 scaledHealth: 530
 rotateSpeed: 0.4
@@ -223,6 +223,7 @@ trailEffect: [
 		backColor: e8d174
 	}
 }
+
 
 
 
