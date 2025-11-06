@@ -135,95 +135,97 @@ fragBullet: {
 }
 	}
 
-phase-fabric: {
-		type: BasicBulletType
-		height: 48
-		width: 16
-		buildingDamageMultiplier: 0.001
+thorium: {
+	type: BasicBulletType
+	height: 48
+	width: 16
+	buildingDamageMultiplier: 0.001
 		
-		damage: 890
-		splashDamage: 1120
-		splashDamageRadius: 64
-		lifetime: 61
-		speed: 15.5
-		scaleLife: true
+	damage: 890
+	splashDamage: 1120
+	splashDamageRadius: 64
+	lifetime: 61
+	speed: 15.5
+	scaleLife: true
 
-		despawnEffect: [
-        {
-        type: ParticleEffect
-        particles: 14
-        sizeFrom: 7
-        sizeTo: 0
-        colorTo: f7e4c0
-        length: 64
-        baseLength: 30
-        lifetime: 60
-        }
-        {
-        type: ParticleEffect
-        particles: 6
-        sizeFrom: 4
-        sizeTo: 0
-        colorFrom: 757575
-        colorTo: ffffff00
-        length: 64
-        baseLength: 60
-        lifetime: 20
-        }
-        {
-        type: ParticleEffect
-        particles: 6
-        colorTo: f7e4c0
-        length: 64
-        baseLength: 30
-        line: true
-        lifetime: 60
-        lenFrom: 8
-        lenTo: 6
-        strokeFrom: 3
-        strokeTo: 0
-        }
-        ]
-		hitEffect: blastExplosion
-		shootEffect: railShoot
-
-		lightColor: fcf387
-		lightOpacity: 0.7
-		lightRadius: 32
-
-		trailColor: f7e4c0
-		trailLength: 12.5
-		trailWidth: 3
-		trailInterval: 1
-		trailRotation: true
-		trailEffect: [
-	 	{
-	     baseRotation: 0
-		 type: ParticleEffect
-		 particles: 5
-		 cone: 90
-		 length: -20
-		 colorFrom: f7e4c0
-		 colorTo: ffffff00
-		 sizeFrom: 4
-		 sizeTo: 0
-        }
-        {
-         baseRotation: 0
-		 type: ParticleEffect
-		 particles: 2
-		 cone: 35
-		 length: -20
-		 line: true
-		 colorFrom: f7e4c0
-		 colorTo: ffffff00
-		 lenFrom: 8
-        }
-        ]
-		frontColor: fcf387
-		backColor: e8d174
+despawnEffect: [
+{
+    type: ParticleEffect
+    particles: 14
+    sizeFrom: 7
+    sizeTo: 0
+    colorTo: f7e4c0
+    length: 64
+    baseLength: 30
+    lifetime: 60
+    }
+{
+    type: ParticleEffect
+    particles: 6
+    sizeFrom: 4
+    sizeTo: 0
+    colorFrom: 757575
+    colorTo: ffffff00
+    length: 64
+    baseLength: 60
+    lifetime: 20
+    }
+{
+    type: ParticleEffect
+    particles: 6
+    colorTo: f7e4c0
+    length: 64
+    baseLength: 30
+    line: true
+    lifetime: 60
+    lenFrom: 8
+    lenTo: 6
+    strokeFrom: 3
+    strokeTo: 0
 	}
+]
+
+	hitEffect: blastExplosion
+	shootEffect: railShoot
+
+	lightColor: fcf387
+	lightOpacity: 0.7
+	lightRadius: 32
+
+	trailColor: f7e4c0
+	trailLength: 12.5
+	trailWidth: 3
+	trailInterval: 1
+	trailRotation: true
+trailEffect: [
+{
+	baseRotation: 0
+	type: ParticleEffect
+	particles: 5
+	cone: 90
+	length: -20
+	colorFrom: f7e4c0
+	colorTo: ffffff00
+	sizeFrom: 4
+	sizeTo: 0
+    }
+{
+    baseRotation: 0
+	type: ParticleEffect
+	particles: 2
+	cone: 35
+	length: -20
+	line: true
+	colorFrom: f7e4c0
+	colorTo: ffffff00
+	lenFrom: 8
+	}
+]
+	frontColor: fcf387
+	backColor: e8d174
 }
+	}
+
 
 
 
