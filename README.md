@@ -1,4 +1,4 @@
-# Oh dear, if there are those willing to help with mod development..... I just really need spriters. I can't do this anymore - I need quality, not my hackwork
+# So, I might have to rework some things in the mod... I hope the balance doesn't go to hell? Then again, what's the difference? The gameplay experience is what matters most, preferably not a completely shitty one
 
 > [!WARNING]  
 > A lot of errors have been found in the mod - from now on, its current version becomes "experimental"
