@@ -3,8 +3,8 @@ canOverdrive: false
 shake: 15
 
 scaledHealth: 530
-ammoPerShot: 50
 rotateSpeed: 0.4
+ammoPerShot: 50
 shootCone: 0.2
 maxAmmo: 96
 reload: 480
@@ -212,4 +212,5 @@ trailEffect: [
 		backColor: e8d174
 	}
 }
+
 
