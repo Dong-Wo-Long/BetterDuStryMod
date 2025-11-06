@@ -18,6 +18,16 @@ liquids: [
 ]
     }
 
+requirements: [
+	lead/24000
+    metaglass/18000
+    silicon/21000
+	thorium/8100
+	plastanium/7800
+	surge-alloy/810
+	phase-fabric/240
+    ]
+
 ammoUseEffect: casing3
 
 ammoTypes: {
@@ -212,5 +222,6 @@ trailEffect: [
 		backColor: e8d174
 	}
 }
+
 
 
