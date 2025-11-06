@@ -35,6 +35,7 @@ ammoTypes: {
 surge-alloy: {
 	type: BasicBulletType
 	pierceArmor: true
+	fragOnHit: true
 	pierce: true
 	height: 48
 	width: 16
@@ -66,6 +67,9 @@ surge-alloy: {
 	trailLength: 12.5
 	trailWidth: 3
 
+	frontColor: fcf387
+	backColor: e8d174
+
 trailEffect: [
 	{
 	baseRotation: 0
@@ -91,13 +95,8 @@ trailEffect: [
 }
 	]
 
-	frontColor: fcf387
-	backColor: e8d174
-		
-	fragBullets: 8
-	fragOnHit: true
-		
-	fragRandomSpread: 75
+	fragRandomSpread: 0
+	fragBullets: 1
 		
 fragBullet: {
 	type: BasicBulletType
@@ -106,8 +105,8 @@ fragBullet: {
 	pierceBuilding: false
 	collidesGround: false
 	despawnShake: 1
+	hitShake: 10
 	pierce: true
-	hitShake: 8
 	height: 0
 	width: 0
 
@@ -139,11 +138,11 @@ thorium: {
 	type: BasicBulletType
 	scaleLife: true
 	height: 48
-	width: 16
+	width: 18
 
 	buildingDamageMultiplier: 1.2
 
-	splashDamageRadius: 64
+	splashDamageRadius: 32
 	splashDamage: 8100
 	damage: 24000
 	lifetime: 61
@@ -170,7 +169,7 @@ despawnEffect: [
     length: 64
     baseLength: 60
     lifetime: 20
-    }
+	}
 {
     type: ParticleEffect
     particles: 6
@@ -193,11 +192,12 @@ despawnEffect: [
 	lightOpacity: 0.7
 	lightRadius: 32
 
+	trailRotation: true
 	trailColor: f7e4c0
+	trailInterval: 1
 	trailLength: 12.5
 	trailWidth: 3
-	trailInterval: 1
-	trailRotation: true
+
 trailEffect: [
 {
 	baseRotation: 0
@@ -226,6 +226,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
