@@ -1,5 +1,4 @@
 research: lancer
-canOverdrive: false
 shake: 24
 
 ammoPerShot: 50000
@@ -230,6 +229,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
