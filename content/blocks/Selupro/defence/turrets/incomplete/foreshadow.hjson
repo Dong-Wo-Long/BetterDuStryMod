@@ -20,6 +20,7 @@ liquids: [
 
 requirements: [
 	lead/24000
+	graphite/5000
     metaglass/18000
     silicon/21000
 	thorium/8100
@@ -222,6 +223,7 @@ trailEffect: [
 		backColor: e8d174
 	}
 }
+
 
 
 
