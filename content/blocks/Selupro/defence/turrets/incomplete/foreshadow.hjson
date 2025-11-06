@@ -34,22 +34,23 @@ ammoUseEffect: casing3
 ammoTypes: {
 surge-alloy: {
 	type: BasicBulletType
+	pierceArmor: true
+	pierce: true
 	height: 48
 	width: 16
+
     buildingDamageMultiplier: 0.0001
 
-	status: bsm-emp-tier-2
-	statusDuration: 180
-	splashDamageRadius: 80
-	lightningDamage: 96
-	lightningLength: 8
+	splashDamageRadius: 192
+	lightningDamage: 240
+	statusDuration: 1440
+	status: bsm-high-emp
+	lightningLength: 4
+	splashDamage: 1000
 	lightning: 13
-	damage: 3250
-	splashDamage: 360
-	lifetime: 45
-	speed: 20
-    pierce: true
-	pierceArmor: true
+	lifetime: 60
+	damage: 5000
+	speed: 24
 
 	despawnEffect: blastExplosion
 	hitEffect: blastExplosion
@@ -59,11 +60,12 @@ surge-alloy: {
 	lightOpacity: 0.7
 	lightRadius: 32
 
+	trailRotation: true
 	trailColor: e8d174
+	trailInterval: 1
 	trailLength: 12.5
 	trailWidth: 3
-	trailInterval: 1
-	trailRotation: true
+
 trailEffect: [
 	{
 	baseRotation: 0
@@ -102,25 +104,23 @@ fragBullet: {
 	removeAfterPierce: false
 	collideTerrain: false
 	pierceBuilding: false
-	collidesAir: true
+	collidesGround: false
 	despawnShake: 1
 	pierce: true
-	pierceCap: 2
-	hitShake: 1
-	height: 40
-	width: 4
+	hitShake: 8
+	height: 0
+	width: 0
 
-	buildingDamageMultiplier: 0.01
+	buildingDamageMultiplier: 0.00001
 			
-	splashDamageRadius: 20
-	lightningDamage: 75
-	lightningLength: 5
-	lightning: 6
+	splashDamageRadius: 120
+	splashDamage: 100000
+	pierceCap: 8
+	lightning: 3
 	damage: 180
-	splashDamage: 90
 			
-	lifetime: 2
-	speed: 32
+	lifetime: 1
+	speed: 0
 
 	despawnEffect: blastExplosion
 	hitEffect: blastExplosion
@@ -137,16 +137,17 @@ fragBullet: {
 
 thorium: {
 	type: BasicBulletType
+	scaleLife: true
 	height: 48
 	width: 16
-	buildingDamageMultiplier: 0.001
-		
-	damage: 890
-	splashDamage: 1120
+
+	buildingDamageMultiplier: 1.2
+
 	splashDamageRadius: 64
+	splashDamage: 8100
+	damage: 24000
 	lifetime: 61
 	speed: 15.5
-	scaleLife: true
 
 despawnEffect: [
 {
@@ -225,6 +226,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
