@@ -6,7 +6,7 @@ scaledHealth: 530
 rotateSpeed: 0.4
 ammoPerShot: 50
 shootCone: 0.2
-maxAmmo: 96
+maxAmmo: 8100
 reload: 480
 range: 960
 armor: 27
@@ -224,6 +224,7 @@ phase-fabric: {
 		backColor: e8d174
 	}
 }
+
 
 
 
