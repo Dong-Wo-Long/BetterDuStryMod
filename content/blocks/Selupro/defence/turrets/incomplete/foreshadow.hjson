@@ -2,12 +2,11 @@ research: lancer
 canOverdrive: false
 shake: 24
 
+ammoPerShot: 50000
 scaledHealth: 530
-ammoPerShot: 5000
 rotateSpeed: 0.4
-ammoPerShot: 50
+maxAmmo: 180000
 shootCone: 0.2
-maxAmmo: 96000
 reload: 480
 range: 960
 armor: 27
@@ -227,6 +226,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
