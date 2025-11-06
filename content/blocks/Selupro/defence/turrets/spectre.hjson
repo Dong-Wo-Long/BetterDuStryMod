@@ -339,6 +339,8 @@ surge-alloy: {
     frontColor: fcf387
     backColor: e8d174
 
+    despawnEffect: instBomb
+
 hitEffect: {
     type: MultiEffect
 
@@ -380,5 +382,6 @@ effects: [
     }
 }
     }
+
 
 
