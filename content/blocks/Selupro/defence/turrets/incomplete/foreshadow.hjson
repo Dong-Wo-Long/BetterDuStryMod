@@ -41,6 +41,8 @@ surge-alloy: {
 	width: 16
 
     buildingDamageMultiplier: 0.0001
+	reloadMultiplier: 0.8
+    ammoMultiplier: 100
 
 	splashDamageRadius: 192
 	lightningDamage: 240
@@ -226,6 +228,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
