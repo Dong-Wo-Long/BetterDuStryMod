@@ -35,9 +35,10 @@ ammoUseEffect: casing3
 shoot: { 
     type: ShootAlternate
     firstShotDelay: 285
+    shotDelay: 24
     spread: 7.75
     barrels: 2
-    shots: 2
+    shots: 4
     }
 
 ammoTypes: {
@@ -379,3 +380,4 @@ effects: [
     }
 }
     }
+
