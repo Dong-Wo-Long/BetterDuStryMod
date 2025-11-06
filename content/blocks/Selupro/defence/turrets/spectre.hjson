@@ -350,9 +350,9 @@ effects: [
     rotWithParent: false
     followParent: false
     sizeFrom: 0
-    sizeTo: 30
+    sizeTo: 120
 
-    lifetime: 60
+    lifetime: 24
 
     colorFrom: e8d174
     colorTo: fcf387
@@ -382,6 +382,7 @@ effects: [
     }
 }
     }
+
 
 
 
