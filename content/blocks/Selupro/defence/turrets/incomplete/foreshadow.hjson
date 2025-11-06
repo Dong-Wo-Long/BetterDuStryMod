@@ -34,7 +34,6 @@ ammoTypes: {
 surge-alloy: {
 	type: BasicBulletType
 	pierceArmor: true
-	fragOnHit: true
 	pierce: true
 	height: 48
 	width: 16
@@ -137,7 +136,9 @@ fragBullet: {
 
 thorium: {
 	type: BasicBulletType
-	scaleLife: true
+	pierceBuilding: true
+	pierceArmor: true
+	pierce: true
 	height: 48
 	width: 18
 
@@ -229,18 +230,3 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
