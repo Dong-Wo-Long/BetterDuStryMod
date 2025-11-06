@@ -32,109 +32,110 @@ requirements: [
 ammoUseEffect: casing3
 
 ammoTypes: {
-	surge-alloy: {
-		type: BasicBulletType
-		height: 48
-		width: 16
-        buildingDamageMultiplier: 0.0001
+surge-alloy: {
+	type: BasicBulletType
+	height: 48
+	width: 16
+    buildingDamageMultiplier: 0.0001
 
-		status: bsm-emp-tier-2
-		statusDuration: 180
-		splashDamageRadius: 80
-		lightningDamage: 96
-		lightningLength: 8
-		lightning: 13
-		damage: 3250
-		splashDamage: 360
-		lifetime: 45
-		speed: 20
-        pierce: true
-		pierceArmor: true
+	status: bsm-emp-tier-2
+	statusDuration: 180
+	splashDamageRadius: 80
+	lightningDamage: 96
+	lightningLength: 8
+	lightning: 13
+	damage: 3250
+	splashDamage: 360
+	lifetime: 45
+	speed: 20
+    pierce: true
+	pierceArmor: true
 
-		despawnEffect: blastExplosion
-		hitEffect: blastExplosion
-		shootEffect: railShoot
+	despawnEffect: blastExplosion
+	hitEffect: blastExplosion
+	shootEffect: railShoot
 
-		lightColor: fcf387
-		lightOpacity: 0.7
-		lightRadius: 32
+	lightColor: fcf387
+	lightOpacity: 0.7
+	lightRadius: 32
 
-		trailColor: e8d174
-		trailLength: 12.5
-		trailWidth: 3
-		trailInterval: 1
-		trailRotation: true
+	trailColor: e8d174
+	trailLength: 12.5
+	trailWidth: 3
+	trailInterval: 1
+	trailRotation: true
 trailEffect: [
-{
-	     baseRotation: 0
-		 type: ParticleEffect
-		 particles: 7
-		 cone: 90
-		 length: -20
-		 colorFrom: e8d174
-		 colorTo: ffffff00
-		 sizeFrom: 4
-		 sizeTo: 0
-        }
-        {
-         baseRotation: 0
-		 type: ParticleEffect
-		 particles: 5
-		 cone: 35
-		 length: -20
-		 line: true
-		 colorFrom: e8d174
-		 colorTo: ffffff00
-		 lenFrom: 8
-        }
-]
+	{
+	baseRotation: 0
+	type: ParticleEffect
+	particles: 7
+	cone: 90
+	length: -20
+	colorFrom: e8d174
+	colorTo: ffffff00
+	sizeFrom: 4
+	sizeTo: 0
+}
+	{
+    baseRotation: 0
+	type: ParticleEffect
+	particles: 5
+	cone: 35
+	length: -20
+	line: true
+	colorFrom: e8d174
+	colorTo: ffffff00
+	lenFrom: 8
+}
+	]
 
-		frontColor: fcf387
-		backColor: e8d174
+	frontColor: fcf387
+	backColor: e8d174
 		
-		fragBullets: 8
-		fragOnHit: true
+	fragBullets: 8
+	fragOnHit: true
 		
-		fragRandomSpread: 75
+	fragRandomSpread: 75
 		
-		fragBullet: {
-			type: BasicBulletType
-			removeAfterPierce: false
-			collideTerrain: false
-			pierceBuilding: false
-			collidesAir: true
-			despawnShake: 1
-			pierce: true
-			pierceCap: 2
-			hitShake: 1
-			height: 40
-			width: 4
+fragBullet: {
+	type: BasicBulletType
+	removeAfterPierce: false
+	collideTerrain: false
+	pierceBuilding: false
+	collidesAir: true
+	despawnShake: 1
+	pierce: true
+	pierceCap: 2
+	hitShake: 1
+	height: 40
+	width: 4
 
-			buildingDamageMultiplier: 0.01
+	buildingDamageMultiplier: 0.01
 			
-			splashDamageRadius: 20
-			lightningDamage: 75
-			lightningLength: 5
-			lightning: 6
-			damage: 180
-			splashDamage: 90
+	splashDamageRadius: 20
+	lightningDamage: 75
+	lightningLength: 5
+	lightning: 6
+	damage: 180
+	splashDamage: 90
 			
-			lifetime: 2
-			speed: 32
+	lifetime: 2
+	speed: 32
 
-			despawnEffect: blastExplosion
-			hitEffect: blastExplosion
+	despawnEffect: blastExplosion
+	hitEffect: blastExplosion
 
-			lightColor: fcf387
-			lightOpacity: 0.7
-			lightRadius: 32
+	lightColor: fcf387
+	lightOpacity: 0.7
+	lightRadius: 32
 			
-			trailColor: e8d174
-			trailLength: 6.5
-			trailWidth: 2
-		}
+	trailColor: e8d174
+	trailLength: 6.5
+	trailWidth: 2
+}
 	}
-	phase-fabric: {
+
+phase-fabric: {
 		type: BasicBulletType
 		height: 48
 		width: 16
@@ -223,6 +224,7 @@ trailEffect: [
 		backColor: e8d174
 	}
 }
+
 
 
 
