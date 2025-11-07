@@ -113,7 +113,9 @@ bullet: {
     despawnEffect: none
     hitEffect: none
     hitSound: none
+    }
 }
     ]
+
 
 
