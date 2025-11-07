@@ -6,7 +6,7 @@ scaledHealth: 530
 ammoPerShot: 5000
 rotateSpeed: 0.4
 shootCone: 0.2
-maxAmmo: 15000
+maxAmmo: 5000
 reload: 480
 range: 960
 armor: 27
@@ -136,7 +136,7 @@ fragBullet: {
 }
 	}
 
-thorium: {
+silicon: {
 	type: BasicBulletType
 	pierceBuilding: true
 	pierceArmor: true
@@ -233,6 +233,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
