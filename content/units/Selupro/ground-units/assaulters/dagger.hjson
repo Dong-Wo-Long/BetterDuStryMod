@@ -65,4 +65,58 @@ bullet: {
     lightRadius: 20
     }
 }
+
+{
+    controllable: false
+    shootOnDeath: true
+    shootCone: 180
+    mirror: false
+    shootY: 0
+    x: 0
+    y: 0
+
+    reload: 1
+
+    shootSound: large-boom
+    ejectEffect: none
+
+bullet: {
+    instantDisappear: true
+    collidesTiles: false
+    collidesAir: false
+    rangeOverride: 46
+    killShooter: true
+    hittable: false
+    collides: false
+
+    buildingDamageMultiplier: 5
+
+    splashDamageRadius: 120
+    statusDuration: 90
+    splashDamage: 500
+    status: melting
+    speed: 0
+
+    puddleLiquid: oil
+    puddleAmount: 180
+    puddleRange: 1
+    puddles: 13
+
+    fragRandomSpread: 5
+    fragBullets: 4
+    fragSpread: 90
+
+    incendAmount: 48
+    incendSpread: 81
+    incendChance: 1
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+
+    despawnEffect: none
+    hitEffect: none
+    hitSound: none
+}
     ]
+
