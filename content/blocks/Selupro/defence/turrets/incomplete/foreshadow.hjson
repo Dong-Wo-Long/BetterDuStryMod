@@ -8,7 +8,7 @@ rotateSpeed: 0.4
 shootCone: 0.2
 maxAmmo: 5000
 reload: 480
-range: 960
+range: 576
 armor: 27
 
 consumes: {
@@ -231,6 +231,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
