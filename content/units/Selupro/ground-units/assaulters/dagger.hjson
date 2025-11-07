@@ -69,7 +69,8 @@ bullet: {
 {
     controllable: false
     shootOnDeath: true
-    shootCone: 180
+    shootCone: 360
+    display: false
     mirror: false
     shootY: 0
     x: 0
@@ -77,24 +78,23 @@ bullet: {
 
     reload: 1
 
-    shootSound: large-boom
     ejectEffect: none
+    shootSound: none
 
 bullet: {
     instantDisappear: true
     collidesTiles: false
     collidesAir: false
-    rangeOverride: 46
     killShooter: true
     hittable: false
     collides: false
 
     buildingDamageMultiplier: 5
 
-    splashDamageRadius: 120
+    splashDamageRadius: 26
     statusDuration: 90
-    splashDamage: 500
-    status: melting
+    splashDamage: 24
+    status: burning
     speed: 0
 
     puddleLiquid: oil
@@ -102,12 +102,8 @@ bullet: {
     puddleRange: 1
     puddles: 13
 
-    fragRandomSpread: 5
-    fragBullets: 4
-    fragSpread: 90
-
-    incendAmount: 48
-    incendSpread: 81
+    incendAmount: 24
+    incendSpread: 4
     incendChance: 1
 
     frontColor: ffffff
@@ -119,4 +115,5 @@ bullet: {
     hitSound: none
 }
     ]
+
 
