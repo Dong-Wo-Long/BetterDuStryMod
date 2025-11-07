@@ -72,6 +72,8 @@ surge-alloy: {
 	frontColor: fcf387
 	backColor: e8d174
 
+	despawnEffect: instBomb
+
 trailEffect: [
 	{
 	baseRotation: 0
@@ -240,12 +242,3 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
-
-
-
-
-
-
-
-
-
