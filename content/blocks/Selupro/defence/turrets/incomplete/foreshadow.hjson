@@ -148,6 +148,7 @@ silicon: {
 	pierceDamageFactor: 10
 	reloadMultiplier: 0.1
     ammoMultiplier: 1
+	rangeChange: 72
 
 	damage: 24000
 	lifetime: 64
@@ -231,6 +232,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
