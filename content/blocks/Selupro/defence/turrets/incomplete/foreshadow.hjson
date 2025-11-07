@@ -150,6 +150,7 @@ silicon: {
     ammoMultiplier: 1
 	rangeChange: 72
 
+	homingPower: 0.24
 	damage: 24000
 	lifetime: 64
 	speed: 18
@@ -167,25 +168,32 @@ despawnEffect: [
     }
 {
     type: ParticleEffect
-    particles: 6
+	particles: 6
+	lifetime: 20
+
     sizeFrom: 4
     sizeTo: 0
+
     colorFrom: 757575
     colorTo: ffffff00
+
+	baseLength: 60
     length: 64
-    baseLength: 60
-    lifetime: 20
 	}
 {
     type: ParticleEffect
-    particles: 6
-    colorTo: f7e4c0
+	particles: 6
+	lifetime: 60
+	line: true
+
+	baseLength: 30
     length: 64
-    baseLength: 30
-    line: true
-    lifetime: 60
+
+	colorTo: f7e4c0
+
     lenFrom: 8
     lenTo: 6
+
     strokeFrom: 3
     strokeTo: 0
 	}
@@ -232,6 +240,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
