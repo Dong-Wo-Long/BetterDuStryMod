@@ -51,7 +51,7 @@ surge-alloy: {
 	lightningLength: 4
 	splashDamage: 1000
 	lightning: 13
-	lifetime: 60
+	lifetime: 24
 	damage: 5000
 	speed: 24
 
@@ -149,11 +149,9 @@ silicon: {
 	reloadMultiplier: 0.1
     ammoMultiplier: 1
 
-	splashDamageRadius: 32
-	splashDamage: 8100
 	damage: 24000
-	lifetime: 61
-	speed: 15.5
+	lifetime: 64
+	speed: 18
 
 despawnEffect: [
 {
@@ -233,6 +231,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
