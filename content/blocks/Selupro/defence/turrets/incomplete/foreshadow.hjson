@@ -35,6 +35,7 @@ ammoTypes: {
 surge-alloy: {
 	type: BasicBulletType
 	pierceArmor: true
+	absorbable: false
 	hittable: false
 	pierce: true
 	height: 48
@@ -243,6 +244,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
