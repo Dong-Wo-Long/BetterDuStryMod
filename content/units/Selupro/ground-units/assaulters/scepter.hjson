@@ -416,7 +416,7 @@ bullet: {
 despawnEffect: [
     titanExplosion, 
     titanSmoke,
-    {
+{
     type: WaveEffect
     rotWithParent: true
     followParent: true
@@ -431,10 +431,10 @@ despawnEffect: [
 
     colorFrom: ffffff
     colorTo: feb380
-}
     }
-}
+]
     ]
+
 
 
 
