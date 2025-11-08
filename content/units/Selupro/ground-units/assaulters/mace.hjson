@@ -96,8 +96,8 @@ bullet: {
     buildingDamageMultiplier: 5
 
     splashDamageRadius: 26
-    statusDuration: 90
-    splashDamage: 24
+    statusDuration: 74
+    splashDamage: 15
     status: burning
     speed: 0
 
