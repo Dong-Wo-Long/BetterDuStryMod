@@ -231,7 +231,7 @@ bullet: {
 
     splashDamageRadius: 26
     statusDuration: 90
-    splashDamage: 24
+    splashDamage: 74
     status: burning
     speed: 0
 
