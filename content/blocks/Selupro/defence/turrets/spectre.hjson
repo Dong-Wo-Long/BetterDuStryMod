@@ -18,7 +18,7 @@ range: 436
 armor: 34
 
 consumes: {
-    power: 1350
+    power: 1600
     }
 
 requirements: [
@@ -381,6 +381,7 @@ effects: [
     }
 }
     }
+
 
 
 
