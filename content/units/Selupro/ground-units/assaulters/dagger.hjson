@@ -89,7 +89,7 @@ bullet: {
     hittable: false
     collides: false
 
-    buildingDamageMultiplier: 5
+    buildingDamageMultiplier: 1.8
 
     splashDamageRadius: 27
     statusDuration: 48
@@ -116,6 +116,7 @@ bullet: {
     }
 }
     ]
+
 
 
 
