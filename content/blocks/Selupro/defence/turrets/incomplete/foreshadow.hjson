@@ -149,7 +149,7 @@ silicon: {
 	width: 18
 
 	buildingDamageMultiplier: 6
-	pierceDamageFactor: 0.5
+	pierceDamageFactor: 4
 	reloadMultiplier: 0.1
     ammoMultiplier: 1
 	rangeChange: 72
@@ -158,6 +158,19 @@ silicon: {
 	damage: 24000
 	lifetime: 64
 	speed: 18
+
+	lightColor: fcf387
+	lightOpacity: 0.7
+	lightRadius: 32
+
+	trailRotation: true
+	trailColor: f7e4c0
+	trailInterval: 1
+	trailLength: 12.5
+	trailWidth: 3
+
+	hitEffect: blastExplosion
+	shootEffect: railShoot
 
 despawnEffect: [
 {
@@ -203,19 +216,6 @@ despawnEffect: [
 	}
 ]
 
-	hitEffect: blastExplosion
-	shootEffect: railShoot
-
-	lightColor: fcf387
-	lightOpacity: 0.7
-	lightRadius: 32
-
-	trailRotation: true
-	trailColor: f7e4c0
-	trailInterval: 1
-	trailLength: 12.5
-	trailWidth: 3
-
 trailEffect: [
 {
 	baseRotation: 0
@@ -244,6 +244,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
