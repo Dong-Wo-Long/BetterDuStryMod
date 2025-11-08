@@ -152,7 +152,7 @@ silicon: {
     ammoMultiplier: 1
 	rangeChange: 72
 
-	homingPower: 0.24
+	homingPower: 0.4
 	damage: 24000
 	lifetime: 64
 	speed: 18
@@ -242,3 +242,4 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
