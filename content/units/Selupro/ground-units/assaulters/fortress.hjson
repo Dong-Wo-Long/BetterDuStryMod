@@ -237,8 +237,8 @@ bullet: {
 
     puddleLiquid: oil
     puddleAmount: 180
-    puddleRange: 1
-    puddles: 25
+    puddleRange: 25
+    puddles: 100
 
     incendAmount: 24
     incendSpread: 2
