@@ -103,8 +103,8 @@ bullet: {
 
     puddleLiquid: oil
     puddleAmount: 180
-    puddleRange: 8
-    puddles: 50
+    puddleRange: 5
+    puddles: 13
 
     frontColor: ffffff
     backColor: feb380
