@@ -41,7 +41,7 @@ shoot: {
     }
 
 ammoTypes: {
-graphite: {
+titanium: {
     type: ArtilleryBulletType
     hittable: false
     hitSize: 4.8
@@ -381,6 +381,7 @@ effects: [
     }
 }
     }
+
 
 
 
