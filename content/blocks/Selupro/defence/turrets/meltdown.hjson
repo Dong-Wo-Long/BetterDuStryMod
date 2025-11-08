@@ -23,18 +23,16 @@ loopSoundVolume: 3
 shootSound: none
 
 consumes: {
-    power: 1600
+    power: 1200
     }
 
 requirements: [
-    copper/9600
-    lead/8100
-    metaglass/6000
-    graphite/3000
-    silicon/7500
-    thorium/5000
-    plastanium/2500
-    surge-alloy/1800
+    copper/27400
+    lead/24000
+    metaglass/21000
+    graphite/18000
+    silicon/15000
+    thorium/8100
     ]
 
 chargeSound: laser-large-charge
@@ -198,3 +196,4 @@ effects: [
     ]
 }
     }
+
