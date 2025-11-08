@@ -12,7 +12,7 @@ range: 576
 armor: 27
 
 consumes: {
-    power: 3000
+    power: 1350
 liquids: [
     cryofluid/4
 ]
@@ -246,6 +246,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
