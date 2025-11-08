@@ -227,7 +227,7 @@ bullet: {
     hittable: false
     collides: false
 
-    buildingDamageMultiplier: 2
+    buildingDamageMultiplier: 5
 
     splashDamageRadius: 26
     statusDuration: 90
