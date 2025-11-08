@@ -387,16 +387,15 @@ bullet: {
 bullet: {
     instantDisappear: true
     collidesTiles: false
-    collidesAir: false
     killShooter: true
     hittable: false
     collides: false
 
     buildingDamageMultiplier: 8
 
-    splashDamageRadius: 26
+    splashDamageRadius: 120
     statusDuration: 180
-    splashDamage: 24
+    splashDamage: 5000
     status: burning
     speed: 0
 
@@ -419,4 +418,5 @@ bullet: {
     }
 }
     ]
+
 
