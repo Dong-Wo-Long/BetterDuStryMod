@@ -148,7 +148,7 @@ silicon: {
 	width: 18
 
 	buildingDamageMultiplier: 6
-	pierceDamageFactor: 10
+	pierceDamageFactor: 0.5
 	reloadMultiplier: 0.1
     ammoMultiplier: 1
 	rangeChange: 72
@@ -243,5 +243,6 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
