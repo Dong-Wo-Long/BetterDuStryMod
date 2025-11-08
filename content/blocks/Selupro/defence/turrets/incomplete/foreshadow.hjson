@@ -25,7 +25,6 @@ requirements: [
     silicon/21000
 	plastanium/15000
 	surge-alloy/8100
-	phase-fabric/780
     ]
 
 ammoUseEffect: casing3
@@ -245,6 +244,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
