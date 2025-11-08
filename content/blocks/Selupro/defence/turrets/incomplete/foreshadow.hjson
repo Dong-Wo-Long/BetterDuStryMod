@@ -20,13 +20,12 @@ liquids: [
 
 requirements: [
 	lead/24000
-	graphite/5000
+	graphite/24000
     metaglass/18000
     silicon/21000
-	thorium/8100
-	plastanium/7800
-	surge-alloy/810
-	phase-fabric/240
+	plastanium/15000
+	surge-alloy/8100
+	phase-fabric/780
     ]
 
 ammoUseEffect: casing3
@@ -121,10 +120,10 @@ fragBullet: {
 	splashDamageRadius: 120
 	status: bsm-emp-tier-3
 	statusDuration: 900
-	splashDamage: 81000
+	splashDamage: 8100
+	damage: 24000
 	pierceCap: 8
 	lightning: 3
-	damage: 180
 			
 	lifetime: 1
 	speed: 0
@@ -246,6 +245,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
