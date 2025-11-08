@@ -372,22 +372,20 @@ bullet: {
 {
     controllable: false
     shootOnDeath: true
+    alternate: false
     shootCone: 360
-    display: false
     mirror: false
+    reload: 0
+    recoil: 0
     shootY: 0
     x: 0
     y: 0
 
-    reload: 1
-
-    ejectEffect: none
     shootSound: none
 
 bullet: {
     instantDisappear: true
     collidesTiles: false
-    killShooter: true
     hittable: false
     collides: false
 
@@ -437,6 +435,7 @@ despawnEffect: [
     }
 }
     ]
+
 
 
 
