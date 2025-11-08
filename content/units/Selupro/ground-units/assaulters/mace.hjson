@@ -102,7 +102,7 @@ bullet: {
     speed: 0
 
     puddleLiquid: oil
-    puddleAmount: 180
+    puddleAmount: 96
     puddleRange: 5
     puddles: 13
 
