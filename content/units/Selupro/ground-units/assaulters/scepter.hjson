@@ -373,7 +373,7 @@ bullet: {
     controllable: false
     shootOnDeath: true
     alternate: false
-    shootCone: 360
+    shootCone: 81
     mirror: false
     reload: 0
     recoil: 0
@@ -436,3 +436,4 @@ despawnEffect: [
     }
 }
     ]
+
