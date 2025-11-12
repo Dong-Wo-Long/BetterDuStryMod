@@ -13,6 +13,12 @@ reload: 480
 range: 648
 armor: 27
 
+ammoUseEffect: casing3
+shoot: {
+    firstShotDelay: 141
+    shots: 1
+    }
+
 consumes: {
     power: 1350
 liquids: [
@@ -424,6 +430,7 @@ trailEffect: [
 	]
 }
     }
+
 
 
 
