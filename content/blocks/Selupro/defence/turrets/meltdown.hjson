@@ -1,8 +1,7 @@
 research: lancer
 moveWhileCharging: false
-firingMoveFract: 0.18
 predictTarget: false
-rotateSpeed: 0.24
+targetAir: false
 shootCone: 1
 shootY: 5
 recoil: 4
@@ -12,8 +11,10 @@ buildCostMultiplier: 0.3246169
 researchCostMultiplier: 3
 coolantMultiplier: 4
 
+firingMoveFract: 0.18
 shootDuration: 475
 cooldownTime: 750
+rotateSpeed: 0.24
 health: 9600
 reload: 1000
 range: 648
@@ -197,5 +198,6 @@ effects: [
     ]
 }
     }
+
 
 
