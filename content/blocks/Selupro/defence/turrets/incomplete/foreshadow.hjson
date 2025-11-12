@@ -41,7 +41,6 @@ surge-alloy: {
 	height: 48
 	width: 16
 
-    buildingDamageMultiplier: 0.0001
 	pierceDamageFactor: 0.1
 	reloadMultiplier: 0.8
     ammoMultiplier: 10
@@ -150,14 +149,13 @@ silicon: {
 	height: 48
 	width: 18
 
-	buildingDamageMultiplier: 6
 	pierceDamageFactor: 0.8
 	reloadMultiplier: 0.1
     ammoMultiplier: 1
 
 	homingPower: 0.4
 	damage: 24000
-	lifetime: 64
+	lifetime: 96
 	speed: 18
 
 	lightColor: fcf387
@@ -245,6 +243,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
