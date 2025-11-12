@@ -8,6 +8,7 @@ shake: 5
 
 buildCostMultiplier: 1.5
 
+velocityRnd: 0.125
 inaccuracy: 9
 maxAmmo: 15
 health: 180
@@ -371,3 +372,4 @@ despawnEffect: {
     }
 }
     }
+
