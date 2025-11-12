@@ -55,6 +55,7 @@ shootEffect: {
 shootType: {
     type: ContinuousLaserBulletType
     timescaleDamage: true
+    collidesAir: false
     despawnShake: 18
     drawSize: 360
     hitShake: 18
@@ -196,4 +197,5 @@ effects: [
     ]
 }
     }
+
 
