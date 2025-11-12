@@ -9,7 +9,7 @@ ammoPerShot: 5000
 rotateSpeed: 0.4
 shootCone: 0.2
 maxAmmo: 5000
-reload: 480
+reload: 1080
 range: 648
 armor: 27
 
@@ -430,6 +430,7 @@ trailEffect: [
 	]
 }
     }
+
 
 
 
