@@ -2,7 +2,8 @@ research: lancer
 targetGround: false
 shake: 24
 
-liquidCapacity: 360
+liquidCapacity: 780
+velocityRnd: 0.125
 scaledHealth: 530
 ammoPerShot: 5000
 rotateSpeed: 0.4
@@ -423,5 +424,6 @@ trailEffect: [
 	]
 }
     }
+
 
 
