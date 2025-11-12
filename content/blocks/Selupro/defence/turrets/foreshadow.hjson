@@ -13,9 +13,10 @@ reload: 1080
 range: 648
 armor: 27
 
+chargeSound: laser-large-charge
 ammoUseEffect: casing3
 shoot: {
-    firstShotDelay: 141
+    firstShotDelay: 315
     shots: 1
     }
 
@@ -49,7 +50,6 @@ surge-alloy: {
     width: 16
 
     pierceDamageFactor: 0.1
-    reloadMultiplier: 0.8
     ammoMultiplier: 10
     rangeChange: -56
 
@@ -335,8 +335,8 @@ silicon: {
     height: 48
     width: 18
 
-    pierceDamageFactor: 0.8
-    reloadMultiplier: 0.1
+    pierceDamageFactor: 0.04
+    reloadMultiplier: 0.78
     ammoMultiplier: 1
 
     homingPower: 0.4
@@ -430,6 +430,7 @@ trailEffect: [
 	]
 }
     }
+
 
 
 
