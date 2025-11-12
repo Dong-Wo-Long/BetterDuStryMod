@@ -9,6 +9,7 @@ recoil: 9
 buildCostMultiplier: 1.32
 coolantMultiplier: 1.2
 
+velocityRnd: 0.125
 ammoPerShot: 81
 inaccuracy: 0.4
 maxAmmo: 1960
@@ -381,6 +382,7 @@ effects: [
     }
 }
     }
+
 
 
 
