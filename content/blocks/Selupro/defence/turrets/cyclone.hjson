@@ -1,4 +1,5 @@
 research: salvo
+keepVelocity: true
 rotateSpeed: 1.75
 fogRadius: 47.5
 recoilTime: 10
@@ -445,3 +446,4 @@ despawnEffect: {
     }
 }
     }
+
