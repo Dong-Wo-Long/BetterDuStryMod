@@ -9,6 +9,7 @@ shake: 1
 buildCostMultiplier: 2.399
 coolantMultiplier: 2.5
 
+velocityRnd: 0.215
 ammoEjectBack: 5
 inaccuracy: 7.5
 maxAmmo: 120
@@ -205,3 +206,4 @@ effects: [
     }
 }
     }
+
