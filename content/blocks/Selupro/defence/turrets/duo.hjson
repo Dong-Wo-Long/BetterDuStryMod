@@ -5,6 +5,7 @@ recoil: 0.5
 range: 192
 shootY: 3
 
+velocityRnd: 0.04
 inaccuracy: 3
 maxAmmo: 32
 health: 360
@@ -226,3 +227,4 @@ effects: [
     }
 }
     }
+
