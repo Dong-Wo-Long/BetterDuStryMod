@@ -9,7 +9,7 @@ rotateSpeed: 0.4
 shootCone: 0.2
 maxAmmo: 5000
 reload: 480
-range: 576
+range: 648
 armor: 27
 
 consumes: {
@@ -45,6 +45,7 @@ surge-alloy: {
 	pierceDamageFactor: 0.1
 	reloadMultiplier: 0.8
     ammoMultiplier: 10
+	rangeChange: -56
 
 	splashDamageRadius: 192
 	lightningDamage: 240
@@ -153,7 +154,6 @@ silicon: {
 	pierceDamageFactor: 0.8
 	reloadMultiplier: 0.1
     ammoMultiplier: 1
-	rangeChange: 72
 
 	homingPower: 0.4
 	damage: 24000
@@ -245,6 +245,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
