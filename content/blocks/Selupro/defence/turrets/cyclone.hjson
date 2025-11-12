@@ -1,5 +1,4 @@
 research: salvo
-keepVelocity: true
 rotateSpeed: 1.75
 fogRadius: 47.5
 recoilTime: 10
@@ -49,6 +48,8 @@ barrels: [
 ammoTypes: {
 metaglass: { 
     type: BasicBulletType
+    lifeScaleRandMax: 1.2
+    lifeScaleRandMin: 0.8
     pierce: true
     height: 12.5
     width: 4.8
@@ -110,6 +111,8 @@ fragBullet: {
 
 blast-compound: { 
     type: BasicBulletType
+    lifeScaleRandMax: 1.2
+    lifeScaleRandMin: 0.8
     height: 15.25
     width: 5.25
 
@@ -183,6 +186,8 @@ fragBullet: {
 
 plastanium: { 
     type: BasicBulletType
+    lifeScaleRandMax: 1.2
+    lifeScaleRandMin: 0.8
     height: 12.5
     width: 5
 
@@ -244,6 +249,8 @@ fragBullet: {
 
 surge-alloy: {
     type: BasicBulletType
+    lifeScaleRandMax: 1.2
+    lifeScaleRandMin: 0.8
     height: 16
     width: 4.5
 
@@ -282,6 +289,8 @@ surge-alloy: {
 
 silicon: {
     type: BasicBulletType
+    lifeScaleRandMax: 1.2
+    lifeScaleRandMin: 0.8
     height: 12
     width: 6
 
@@ -315,6 +324,8 @@ silicon: {
 
 pyratite: {
     type: BasicBulletType
+    lifeScaleRandMax: 1.2
+    lifeScaleRandMin: 0.8
     makeFire: true
     height: 15
     width: 7.5
@@ -370,6 +381,8 @@ effects: [
 
 scrap: {
     type: BasicBulletType
+    lifeScaleRandMax: 1.2
+    lifeScaleRandMin: 0.8
     height: 11
     width: 6
 
@@ -446,4 +459,5 @@ despawnEffect: {
     }
 }
     }
+
 
