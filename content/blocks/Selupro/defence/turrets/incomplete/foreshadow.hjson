@@ -143,7 +143,7 @@ fragBullet: {
 
 silicon: {
 	type: BasicBulletType
-	pierceBuilding: true
+	collidesGround: false
 	pierceArmor: true
 	pierce: true
 	height: 48
@@ -243,6 +243,7 @@ trailEffect: [
 	backColor: e8d174
 }
 	}
+
 
 
 
