@@ -5,6 +5,7 @@ recoil: 6
 
 buildCostMultiplier: 4.5
 
+velocityRnd: 0.325
 cooldownTime: 700
 velocityRnd: 0
 inaccuracy: 8
