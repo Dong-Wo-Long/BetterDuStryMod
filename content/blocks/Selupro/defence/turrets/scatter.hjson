@@ -8,6 +8,7 @@ recoil: 1
 buildCostMultiplier: 2.1
 coolantMultiplier: 1.2
 
+velocityRnd: 0.4
 inaccuracy: 18
 maxAmmo: 45
 health: 360
@@ -203,3 +204,4 @@ fragBullet: {
     }
 }
     }
+
