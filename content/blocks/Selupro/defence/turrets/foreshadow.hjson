@@ -48,8 +48,8 @@ surge-alloy: {
 
     splashDamageRadius: 192
     lightningDamage: 240
-    statusDuration: 1440
     status: bsm-high-emp
+	statusDuration: 900
     lightningLength: 4
     splashDamage: 1000
     lightning: 13
@@ -119,7 +119,7 @@ fragBullet: {
             
     splashDamageRadius: 120
     status: bsm-emp-tier-3
-    statusDuration: 900
+    statusDuration: 1440
     splashDamage: 8
     pierceCap: 8
     lightning: 3
@@ -244,3 +244,4 @@ trailEffect: [
 	]
 }
     }
+
