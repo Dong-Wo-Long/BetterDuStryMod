@@ -377,50 +377,6 @@ silicon: {
 	frontColor: fcf387
     backColor: e8d174
 
-despawnEffect: [
-{
-    type: ParticleEffect
-    particles: 14
-    sizeFrom: 7
-    sizeTo: 0
-    colorTo: f7e4c0
-    length: 64
-    baseLength: 30
-    lifetime: 60
-    }
-{
-    type: ParticleEffect
-    particles: 6
-    lifetime: 20
-
-    sizeFrom: 4
-    sizeTo: 0
-
-    colorFrom: 757575
-    colorTo: ffffff00
-
-    baseLength: 60
-    length: 64
-    }
-{
-    type: ParticleEffect
-    particles: 6
-    lifetime: 60
-    line: true
-
-    baseLength: 30
-    length: 64
-
-    colorTo: f7e4c0
-
-    lenFrom: 8
-    lenTo: 6
-
-    strokeFrom: 3
-    strokeTo: 0
-}
-	]
-
 trailEffect: [
 {
     baseRotation: 0
@@ -446,7 +402,203 @@ trailEffect: [
 }
 	]
 }
+
+shootEffect: {
+    type: MultiEffect
+
+effects: [ shootBigColor, colorSparkBig, shootBigSmoke ]
     }
+
+despawnEffect: [
+	{
+    type: WaveEffect
+    lifetime: 48
+
+    sizeFrom: 0
+    sizeTo: 241
+
+    strokeFrom: 2.5
+    strokeTo: 0
+
+    colorFrom: 757575
+    colorTo: ffffff00
+}
+
+	{
+    type: WaveEffect
+    lifetime: 24
+
+    sizeFrom: 121
+    sizeTo: 0
+
+    strokeFrom: 2.5
+    strokeTo: 0
+
+    colorFrom: 757575
+    colorTo: ffffff00
+}
+	]
+
+smokeEffect: [
+    {
+    type: WaveEffect
+    lifetime: 30
+
+    sizeFrom: 0
+    sizeTo: 50
+
+    strokeFrom: 2.5
+    strokeTo: 0
+
+    colorFrom: 757575
+    colorTo: ffffff00
+}
+
+    {
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    particles: 15
+    lifetime: 20
+    line: true
+    cone: 360
+
+    baseLength: 0
+    length: 40
+
+    sizeFrom: 2.5
+    sizeTo: 0
+
+    strokeFrom: 0.8
+    strokeTo: 0.6
+
+    colorFrom: 757575
+    colorTo: ffffff00
+}
+    ]
+
+chargeEffect: [
+{
+    type: ParticleEffect
+    lifetime: 310
+    particles: 1
+    cone: 360
+
+    baseLength: 0
+    length: 0
+
+    sizeFrom: 0
+    sizeTo: 5
+
+    strokeFrom: 0.8
+    strokeTo: 0
+
+    colorFrom: 757575
+    colorTo: ffffff00
+    }
+{
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 310
+
+    sizeFrom: 35
+    sizeTo: 0
+
+    strokeFrom: 5
+    strokeTo: 0
+
+    colorFrom: 757575
+    colorTo: ffffff00
+    }
+
+{
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    particles: 15
+    lifetime: 310
+    line: true
+    cone: 5
+
+    baseLength: 70
+    length: -70
+
+    sizeFrom: 2.5
+    sizeTo: 0
+
+    strokeFrom: 0.8
+    strokeTo: 0.6
+
+    colorFrom: 757575
+    colorTo: ffffff00
+    }
+{
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    particles: 15
+    lifetime: 310
+    line: true
+    cone: 360
+
+    baseLength: 34
+    length: -34
+
+    sizeFrom: 2.5
+    sizeTo: 0
+
+    strokeFrom: 0.8
+    strokeTo: 0.6
+
+    colorFrom: 757575
+    colorTo: ffffff00
+    }
+{
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    lifetime: 310
+    particles: 5
+    line: true
+    cone: 360
+
+    baseLength: 34
+    length: -34
+
+    sizeFrom: 5
+    sizeTo: 0
+
+    strokeFrom: 0.8
+    strokeTo: 0.6
+
+    colorFrom: 757575
+    colorTo: ffffff00
+    }
+{
+    type: ParticleEffect
+    rotWithParent: true
+    followParent: true
+    particles: 3
+    lifetime: 310
+    line: true
+    cone: 360
+
+    baseLength: 34
+    length: -34
+
+    sizeFrom: 9
+    sizeTo: 0
+
+    strokeFrom: 0.8
+    strokeTo: 0.6
+
+    colorFrom: 757575
+    colorTo: ffffff00
+}
+	]
+    }
+
 
 
 
