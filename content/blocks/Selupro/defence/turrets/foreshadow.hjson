@@ -118,19 +118,35 @@ shootEffect: {
 effects: [ shootBigColor, colorSparkBig, shootBigSmoke ]
     }
 
-despawnEffect: {
+despawnEffect: [
+	{
     type: WaveEffect
-    lifetime: 20
+    lifetime: 24
 
     sizeFrom: 0
-    sizeTo: 40
+    sizeTo: 181
 
     strokeFrom: 2.5
     strokeTo: 0
 
     colorFrom: fcf387
     colorTo: e8d174
-    }
+}
+
+	{
+    type: WaveEffect
+    lifetime: 18
+
+    sizeFrom: 81
+    sizeTo: 0
+
+    strokeFrom: 2.5
+    strokeTo: 0
+
+    colorFrom: fcf387
+    colorTo: e8d174
+}
+	]
 
 smokeEffect: [
     {
@@ -431,6 +447,7 @@ trailEffect: [
 	]
 }
     }
+
 
 
 
