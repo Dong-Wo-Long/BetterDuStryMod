@@ -55,13 +55,13 @@ surge-alloy: {
     rangeChange: -56
 
     splashDamageRadius: 192
-    lightningDamage: 240
+    lightningDamage: 274
     status: bsm-high-emp
+	lightningLength: 10
 	statusDuration: 900
-    lightningLength: 4
     splashDamage: 1000
-    lightning: 13
     damage: 81000
+	lightning: 8
     lifetime: 24
     speed: 24
 
@@ -121,10 +121,10 @@ effects: [ shootBigColor, colorSparkBig, shootBigSmoke ]
 despawnEffect: [
 	{
     type: WaveEffect
-    lifetime: 24
+    lifetime: 48
 
     sizeFrom: 0
-    sizeTo: 181
+    sizeTo: 241
 
     strokeFrom: 2.5
     strokeTo: 0
@@ -135,9 +135,9 @@ despawnEffect: [
 
 	{
     type: WaveEffect
-    lifetime: 18
+    lifetime: 24
 
-    sizeFrom: 81
+    sizeFrom: 121
     sizeTo: 0
 
     strokeFrom: 2.5
@@ -447,6 +447,7 @@ trailEffect: [
 	]
 }
     }
+
 
 
 
