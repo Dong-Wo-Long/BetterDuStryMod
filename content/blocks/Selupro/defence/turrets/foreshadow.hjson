@@ -320,10 +320,10 @@ fragBullet: {
 
     buildingDamageMultiplier: 0.00001
             
-    splashDamageRadius: 120
+    splashDamageRadius: 648
     status: bsm-emp-tier-3
     statusDuration: 1440
-    splashDamage: 8
+    splashDamage: 81
     pierceCap: 8
     lightning: 3
     damage: 1
@@ -447,6 +447,7 @@ trailEffect: [
 	]
 }
     }
+
 
 
 
