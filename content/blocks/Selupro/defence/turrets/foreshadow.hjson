@@ -1,5 +1,6 @@
 research: lancer
 targetGround: false
+shootY: 0
 shake: 24
 
 liquidCapacity: 780
@@ -430,6 +431,7 @@ trailEffect: [
 	]
 }
     }
+
 
 
 
