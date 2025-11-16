@@ -173,7 +173,7 @@ smokeEffect: [
 chargeEffect: [
 {
     type: ParticleEffect
-    lifetime: 135
+    lifetime: 310
     particles: 1
     cone: 360
 
@@ -193,7 +193,7 @@ chargeEffect: [
     type: WaveEffect
     rotWithParent: true
     followParent: true
-    lifetime: 135
+    lifetime: 310
 
     sizeFrom: 35
     sizeTo: 0
@@ -210,7 +210,7 @@ chargeEffect: [
     rotWithParent: true
     followParent: true
     particles: 15
-    lifetime: 135
+    lifetime: 310
     line: true
     cone: 5
 
@@ -231,7 +231,7 @@ chargeEffect: [
     rotWithParent: true
     followParent: true
     particles: 15
-    lifetime: 135
+    lifetime: 310
     line: true
     cone: 360
 
@@ -251,7 +251,7 @@ chargeEffect: [
     type: ParticleEffect
     rotWithParent: true
     followParent: true
-    lifetime: 135
+    lifetime: 310
     particles: 5
     line: true
     cone: 360
@@ -273,7 +273,7 @@ chargeEffect: [
     rotWithParent: true
     followParent: true
     particles: 3
-    lifetime: 135
+    lifetime: 310
     line: true
     cone: 360
 
@@ -431,6 +431,7 @@ trailEffect: [
 	]
 }
     }
+
 
 
 
