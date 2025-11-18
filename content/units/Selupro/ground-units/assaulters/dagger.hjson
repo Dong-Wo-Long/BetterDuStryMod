@@ -41,7 +41,7 @@ weapons: [
     shootCone: 90
     rotate: true
     x: 4
-    y: 2
+    y: 1
 
     inaccuracy: 5
     reload: 7.5
@@ -119,6 +119,7 @@ bullet: {
     }
 }
     ]
+
 
 
 
