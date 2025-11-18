@@ -44,7 +44,7 @@ weapons: [
     y: 1
 
     inaccuracy: 5
-    reload: 7.5
+    reload: 4
 
     shootStatus: bsm-motor-acceleration-tier-1
     shootSound: machine-gun-shot-2
@@ -119,6 +119,7 @@ bullet: {
     }
 }
     ]
+
 
 
 
