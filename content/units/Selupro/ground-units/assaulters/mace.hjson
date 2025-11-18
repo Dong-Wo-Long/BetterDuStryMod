@@ -67,8 +67,8 @@ bullet: {
     shootEffect: shootSmallFlame
     hitEffect: hitFlameSmall
     despawnEffect: none
-    }
 }
+    }
 
 {
     controllable: false
