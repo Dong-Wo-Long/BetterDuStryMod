@@ -700,8 +700,8 @@ bullet: {
     puddleRange: 34
     puddles: 18
 
-    incendAmount: 24
-    incendSpread: 2
+    incendAmount: 27
+    incendSpread: 4
     incendChance: 1
 
     frontColor: ffffff
@@ -734,4 +734,5 @@ despawnEffect: [
     }
 }
     ]
+
 
