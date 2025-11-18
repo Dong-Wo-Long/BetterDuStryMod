@@ -789,11 +789,13 @@ despawnEffect: [
 
     colorFrom: ffffff
     colorTo: ffffff
-    }
-]
+}
+    ]
+}
     }
 }
     ]
+
 
 
 
