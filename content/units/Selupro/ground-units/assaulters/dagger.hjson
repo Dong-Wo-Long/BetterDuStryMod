@@ -46,7 +46,9 @@ weapons: [
     inaccuracy: 5
     reload: 7.5
 
+    shootStatus: bsm-motor-acceleration-tier-1
     shootSound: machine-gun-shot-2
+    shootStatusDuration: 48
     ejectEffect: casing1
 bullet: {
     type: BasicBulletType
@@ -117,6 +119,7 @@ bullet: {
     }
 }
     ]
+
 
 
 
