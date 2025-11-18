@@ -722,7 +722,7 @@ despawnEffect: [
     lifetime: 60
 
     sizeFrom: 0
-    sizeTo: 120
+    sizeTo: 172
 
     strokeFrom: 3
     strokeTo: 0
@@ -734,6 +734,7 @@ despawnEffect: [
     }
 }
     ]
+
 
 
 
