@@ -689,10 +689,10 @@ bullet: {
 
     buildingDamageMultiplier: 8
 
+    status: bsm-armor-piercing-tier-2
     splashDamageRadius: 172
-    statusDuration: 480
+    statusDuration: 450
     splashDamage: 50000
-    status: melting
     speed: 0
 
     puddleLiquid: oil
@@ -729,11 +729,72 @@ despawnEffect: [
 
     colorFrom: ffffff
     colorTo: feb380
+}
+    ]
+
+fragBullet: {
+    type: BasicBulletType
+    sprite: large-orb
+    pierceBuilding: true
+    collidesAir: false
+    fragOnHit: false
+    shrinkX: 0.5
+    shrinkY: 0.5
+    height: 24
+    width: 24
+
+    buildingDamageMultiplier: 0.1
+    pierceDamageFactor: 0.0005
+
+    splashDamageRadius: 332
+    statusDuration: 480
+    splashDamage: 16
+    status: melting
+    pierceCap: 5
+    knockback: 1
+    lifetime: 81
+    damage: 1000
+    speed: 0
+    drag: 1
+
+    lightningColor: feb380
+    lightningLength: 15
+    lightningDamage: 81
+    lightning: 4
+
+    despawnSound: none
+    hitEffect: none
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 70
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+
+despawnEffect: [
+{
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    particles: 1
+    lifetime: 81
+
+    sizeFrom: 0
+    sizeTo: 335
+
+    strokeFrom: 3
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: ffffff
     }
 ]
     }
 }
     ]
+
 
 
 
