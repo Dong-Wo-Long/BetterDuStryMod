@@ -689,7 +689,7 @@ bullet: {
 
     buildingDamageMultiplier: 8
 
-    splashDamageRadius: 276
+    splashDamageRadius: 172
     statusDuration: 480
     splashDamage: 50000
     status: melting
@@ -734,5 +734,6 @@ despawnEffect: [
     }
 }
     ]
+
 
 
