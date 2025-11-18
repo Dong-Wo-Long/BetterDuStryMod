@@ -36,6 +36,7 @@ abilities: [
 weapons: [
     {
     name: dagger-weapon
+    layerOffset: -0.001
     rotationLimit: 25
     rotateSpeed: 3
     shootCone: 90
@@ -120,3 +121,4 @@ bullet: {
     }
 }
     ]
+
