@@ -663,6 +663,75 @@ bullet: {
 
 bullet: {
     maxRange: 128
+}
+    }
+
+{
+    controllable: false
+    shootOnDeath: true
+    baseRotation: 180
+    alternate: false
+    shootCone: 81
+    mirror: false
+    reload: 0
+    recoil: 0
+    shootY: 0
+    x: 0
+    y: 0
+
+    shootSound: none
+
+bullet: {
+    instantDisappear: true
+    collidesTiles: false
+    hittable: false
+    collides: false
+
+    buildingDamageMultiplier: 8
+
+    splashDamageRadius: 276
+    statusDuration: 480
+    splashDamage: 50000
+    status: melting
+    speed: 0
+
+    puddleLiquid: oil
+    puddleAmount: 510
+    puddleRange: 34
+    puddles: 18
+
+    incendAmount: 24
+    incendSpread: 2
+    incendChance: 1
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+
+    hitEffect: none
+    hitSound: none
+
+despawnEffect: [
+    titanExplosion, 
+    titanSmoke,
+{
+    type: WaveEffect
+    rotWithParent: true
+    followParent: true
+    particles: 1
+    lifetime: 60
+
+    sizeFrom: 0
+    sizeTo: 120
+
+    strokeFrom: 3
+    strokeTo: 0
+
+    colorFrom: ffffff
+    colorTo: feb380
+    }
+]
     }
 }
     ]
+
