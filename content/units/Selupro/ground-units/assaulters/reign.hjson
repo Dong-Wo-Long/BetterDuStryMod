@@ -669,7 +669,7 @@ bullet: {
 {
     controllable: false
     shootOnDeath: true
-    baseRotation: 180
+    baseRotation: 274
     alternate: false
     shootCone: 81
     mirror: false
@@ -734,6 +734,7 @@ despawnEffect: [
     }
 }
     ]
+
 
 
 
