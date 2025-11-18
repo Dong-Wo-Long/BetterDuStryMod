@@ -69,7 +69,7 @@ bullet: {
 {
     controllable: false
     shootOnDeath: true
-    baseRotation: 74.5
+    baseRotation: 81
     display: false
     shootCone: 30
     mirror: false
@@ -117,6 +117,7 @@ bullet: {
     }
 }
     ]
+
 
 
 
