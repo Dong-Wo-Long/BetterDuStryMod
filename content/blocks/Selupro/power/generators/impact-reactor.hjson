@@ -7,3 +7,12 @@ liquidCapacity: 240
 itemDuration: 180
 itemCapacity: 360
 health: 5000
+
+requirements: [
+    lead/21000
+    metaglass/15000
+    graphite/12000
+    thorium/8100
+    silicon/8100
+    surge-alloy/1800
+    ]
