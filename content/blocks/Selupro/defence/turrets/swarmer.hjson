@@ -8,7 +8,7 @@ buildCostMultiplier: 1.6892
 coolantMultiplier: 1
 
 ammoPerShot: 36
-inaccuracy: 32
+inaccuracy: 4
 maxAmmo: 108
 reload: 1080
 health: 960
@@ -360,3 +360,4 @@ fragBullet: {
     }
 }
     }
+
