@@ -4,3 +4,10 @@ powerProduction: 12.083335
 liquidCapacity: 32
 itemDuration: 450
 itemCapacity: 24
+
+requirements: [
+    lead/81
+    thorium/74
+    silicon/24
+    plastanium/21
+    ]
