@@ -14,12 +14,13 @@ consumes: {
 
 requirements: [
     lead/21000
-    metaglass/18000
-    graphite/15000
+    metaglass/15000
+    graphite/18000
     thorium/8100
     silicon/12000
-    surge-alloy/1800
+    surge-alloy/1000
     ]
+
 
 
 
