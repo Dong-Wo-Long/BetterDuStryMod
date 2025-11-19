@@ -11,7 +11,7 @@ rotateSpeed: 0.4
 shootCone: 0.2
 maxAmmo: 5000
 reload: 1080
-range: 648
+range: 1440
 armor: 27
 
 chargeSound: laser-large-charge
@@ -403,5 +403,6 @@ trailEffect: [
 ]
 	}
     }
+
 
 
