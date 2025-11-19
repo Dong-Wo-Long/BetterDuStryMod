@@ -18,8 +18,9 @@ requirements: [
     graphite/18000
     thorium/8100
     silicon/12000
-    surge-alloy/1000
+    surge-alloy/5000
     ]
+
 
 
 
