@@ -1,3 +1,7 @@
+consumes: {
+    power: 12.5
+    }
+
 requirements: [
     lead/74
     graphite/81
