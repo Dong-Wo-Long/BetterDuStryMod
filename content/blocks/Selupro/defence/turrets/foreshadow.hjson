@@ -371,13 +371,12 @@ silicon: {
     trailLength: 12.5
     trailWidth: 3
 
-    hitEffect: blastExplosion
-    shootEffect: railShoot
-
 	frontColor: fcf387
     backColor: e8d174
 
-	despawnEffect: none
+	despawnEffect: instBomb
+	shootEffect: railShoot
+    hitEffect: instBomb
 
 trailEffect: [
 {
@@ -565,6 +564,7 @@ chargeEffect: [
     ]
 }
     }
+
 
 
 
