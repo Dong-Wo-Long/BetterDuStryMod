@@ -3,8 +3,9 @@ health: 480
 armor: 24
 
 requirements: [
-    lead/8
+    lead/15
     metaglass/7
     thorium/4
     plastanium/1
     ]
+
