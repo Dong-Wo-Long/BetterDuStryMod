@@ -87,7 +87,7 @@ bullet: {
     x: 11
     y: 10
 
-    reload: 3
+    reload: 1
 
     ejectEffect: none
     shootSound: flame
@@ -131,7 +131,7 @@ bullet: {
     x: 7
     y: 11
 
-    reload: 3
+    reload: 1
 
     ejectEffect: none
     shootSound: flame
@@ -176,13 +176,13 @@ bullet: {
     cooldownTime: 600
     velocityRnd: 0.18
     inaccuracy: 5
-    reload: 640
+    reload: 600
 
     chargeSound: minigun-heavy-charge
     shootSound: minigun-heavy-shot
     ejectEffect: casing4
 shoot: {
-    firstShotDelay: 102
+    firstShotDelay: 105
     shotDelay: 5
     shots: 96
     }
@@ -795,6 +795,7 @@ despawnEffect: [
     }
 }
     ]
+
 
 
 
