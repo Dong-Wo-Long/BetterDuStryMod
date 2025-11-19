@@ -55,7 +55,7 @@ weapons: [
     x: 0
     y: 0
 
-    reload: 27.5
+    reload: 64
 
     shootSound: mech-medium-footsteps
 bullet: {
@@ -87,7 +87,7 @@ bullet: {
     x: 9.5
     y: 1
 
-    reload: 64
+    reload: 41.5
 
     shootSound: artillery-shot
     shootEffect: shootSmall
