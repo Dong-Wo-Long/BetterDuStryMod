@@ -153,7 +153,7 @@ bullet: {
     cooldownTime: 150
     velocityRnd: 0.24
     inaccuracy: 3
-    reload: 125
+    reload: 105
 
     chargeSound: turret-target-lock
     shootSound: turret-shot
