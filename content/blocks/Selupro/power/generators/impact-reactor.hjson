@@ -3,9 +3,9 @@ ambientSoundVolume: 0.25
 
 powerProduction: 400
 explosionRadius: 32
-liquidCapacity: 240
+liquidCapacity: 810
 itemDuration: 180
-itemCapacity: 360
+itemCapacity: 810
 health: 5000
 
 consumes: {
@@ -20,3 +20,4 @@ requirements: [
     silicon/12000
     surge-alloy/1800
     ]
+
