@@ -9,10 +9,10 @@ buildCostMultiplier: 2.1
 coolantMultiplier: 1.2
 
 velocityRnd: 0.4
-inaccuracy: 18
+inaccuracy: 1
 maxAmmo: 45
 health: 360
-reload: 24
+reload: 7.5
 range: 360
 armor: 3
 
@@ -204,4 +204,5 @@ fragBullet: {
     }
 }
     }
+
 
