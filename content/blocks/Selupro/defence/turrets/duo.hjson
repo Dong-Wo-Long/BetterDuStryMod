@@ -22,6 +22,7 @@ requirements: [
 ammoTypes: {
 copper: {
     type: BasicBulletType
+    collideTerrain: true
     height: 9
     width: 7
 
@@ -47,6 +48,7 @@ copper: {
 
 graphite: {
     type: BasicBulletType
+    collideTerrain: true
     height: 12
     width: 9
 
@@ -79,6 +81,7 @@ graphite: {
 
 silicon: {
     type: BasicBulletType
+    collideTerrain: true
     height: 9
     width: 7
 
@@ -112,6 +115,7 @@ silicon: {
 
 scrap: {
     type: BasicBulletType
+    collideTerrain: true
     height: 8
     width: 6
 
@@ -143,6 +147,7 @@ scrap: {
 
 fragBullet: {
     type: BasicBulletType
+    collideTerrain: true
     shrinkY: 0.25
     height: 12
     width: 5
@@ -170,6 +175,7 @@ fragBullet: {
 
 pyratite: {
     type: BasicBulletType
+    collideTerrain: true
     makeFire: true
     height: 12
     width: 6
@@ -227,5 +233,6 @@ effects: [
     }
 }
     }
+
 
 
