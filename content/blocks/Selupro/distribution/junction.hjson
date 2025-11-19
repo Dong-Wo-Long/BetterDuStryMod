@@ -2,6 +2,7 @@ squareSprite: false
 capacity: 4
 
 requirements: [
-    copper/15
+    copper/21
     ]
+
 
