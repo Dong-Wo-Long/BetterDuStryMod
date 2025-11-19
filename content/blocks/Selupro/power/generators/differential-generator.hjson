@@ -7,8 +7,9 @@ itemCapacity: 75
 
 requirements: [
     copper/710
-    lead/210
-    metaglass/180
-    titanium/81
-    silicon/120
+    lead/510
+    metaglass/410
+    titanium/180
+    silicon/210
     ]
+
