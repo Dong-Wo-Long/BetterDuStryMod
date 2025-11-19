@@ -9,7 +9,7 @@ fallSpeed: 0.008
 accel: 0.025
 health: 810
 drag: 0.025
-speed: 2.5
+speed: 2.8
 armor: 12
 
 lightColor: fff8e8
@@ -300,3 +300,4 @@ bullet: {
     }
 }
     ]
+
