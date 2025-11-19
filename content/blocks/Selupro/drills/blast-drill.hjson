@@ -3,9 +3,8 @@ consumes: {
     }
 
 requirements: [
-    lead/181
-    graphite/274
-    titanium/81
-    thorium/24
-    silicon/74
+    silicon/960
+    lead/810
+    titanium/780
+    thorium/510
     ]
