@@ -2,6 +2,8 @@ research: rtg-generator
 
 powerProduction: 135
 explosionRadius: 24
+liquidCapacity: 960
+itemCapacity: 810
 itemDuration: 240
 health: 8000
 
@@ -12,6 +14,7 @@ requirements: [
     thorium/2100
     silicon/1500
     ]
+
 
 
 
