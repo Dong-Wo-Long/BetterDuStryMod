@@ -297,7 +297,59 @@ bullet: {
 
     frontColor: fff8e8
     backColor: f9c27a
+}
+    }
+
+{
+    controllable: false
+    shootOnDeath: true
+    baseRotation: 181
+    display: false
+    shootCone: 30
+    mirror: false
+    shootY: 0
+    x: 0
+    y: 0
+
+    reload: 1
+
+    ejectEffect: none
+    shootSound: none
+
+bullet: {
+    instantDisappear: true
+    collidesTiles: false
+    collidesAir: false
+    killShooter: true
+    hittable: false
+    collides: false
+
+    buildingDamageMultiplier: 2.1
+
+    splashDamageRadius: 40
+    statusDuration: 48
+    splashDamage: 50
+    status: burning
+    speed: 0
+
+    puddleLiquid: oil
+    puddleAmount: 81
+    puddleRange: 2
+    puddles: 11
+
+    incendAmount: 34
+    incendSpread: 4
+    incendChance: 1
+
+    frontColor: ffffff
+    backColor: feb380
+    hitColor: feb380
+
+    despawnEffect: none
+    hitEffect: none
+    hitSound: none
     }
 }
     ]
+
 
