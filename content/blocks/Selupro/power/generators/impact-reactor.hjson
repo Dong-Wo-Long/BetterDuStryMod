@@ -8,6 +8,10 @@ itemDuration: 180
 itemCapacity: 360
 health: 5000
 
+consumes: {
+    power: 50
+    }
+
 requirements: [
     lead/21000
     metaglass/18000
@@ -16,5 +20,3 @@ requirements: [
     silicon/12000
     surge-alloy/1800
     ]
-
-
