@@ -5,7 +5,7 @@ stepShake: 0.15
 rotateSpeed: 12.5
 itemCapacity: 24
 health: 210
-speed: 0.6
+speed: 1
 armor: 9
 
 lightColor: fff8e8
@@ -121,4 +121,5 @@ bullet: {
     }
 }
     ]
+
 
