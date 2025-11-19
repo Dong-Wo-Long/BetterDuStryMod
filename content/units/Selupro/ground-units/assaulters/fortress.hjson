@@ -55,7 +55,7 @@ weapons: [
     x: 0
     y: 0
 
-    reload: 60
+    reload: 48
 
     shootSound: mech-medium-footsteps
 bullet: {
@@ -153,15 +153,15 @@ bullet: {
     cooldownTime: 150
     velocityRnd: 0.24
     inaccuracy: 3
-    reload: 120
+    reload: 125
 
     chargeSound: turret-target-lock
     shootSound: turret-shot
     ejectEffect: casing2
 shoot: {
     firstShotDelay: 64
-    shotDelay: 6
-    shots: 7
+    shotDelay: 4
+    shots: 15
     }
 
 parts: [
