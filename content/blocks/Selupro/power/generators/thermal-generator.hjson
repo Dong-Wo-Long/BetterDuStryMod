@@ -1,3 +1,11 @@
 research: steam-generator
 
 powerProduction: 4.5
+
+requirements: [
+    copper/81
+    lead/74
+    metaglass/48
+    graphite/24
+    silicon/21
+    ]
