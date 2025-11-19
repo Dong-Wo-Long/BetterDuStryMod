@@ -51,7 +51,7 @@ surge-alloy: {
     width: 16
 
     pierceDamageFactor: 0.1
-    ammoMultiplier: 1
+    ammoMultiplier: 10
     rangeChange: -56
 
     splashDamageRadius: 192
@@ -62,7 +62,7 @@ surge-alloy: {
     splashDamage: 1000
     damage: 81000
 	lightning: 8
-    lifetime: 48
+    lifetime: 24
     speed: 24
 
 	fragRandomSpread: 0
@@ -341,8 +341,8 @@ fragBullet: {
     trailColor: e8d174
     trailLength: 6.5
     trailWidth: 2
-}
     }
+}
 
 silicon: {
     type: BasicBulletType
@@ -371,8 +371,8 @@ silicon: {
     trailLength: 12.5
     trailWidth: 3
 
-	frontColor: fcf387
-    backColor: e8d174
+	frontColor: f7e4c0
+    backColor: ffffff00
 
 	despawnEffect: instBomb
 	shootEffect: railShoot
@@ -400,9 +400,8 @@ trailEffect: [
     colorFrom: f7e4c0
     colorTo: ffffff00
     lenFrom: 8
-	}
-]
-	}
+}
+    ]
 
 smokeEffect: [
     {
@@ -415,8 +414,8 @@ smokeEffect: [
     strokeFrom: 2.5
     strokeTo: 0
 
-    colorFrom: fcf387
-    colorTo: e8d174
+    colorFrom: f7e4c0
+    colorTo: ffffff00
 }
 
     {
@@ -437,8 +436,8 @@ smokeEffect: [
     strokeFrom: 0.8
     strokeTo: 0.6
 
-    colorFrom: fcf387
-    colorTo: e8d174
+    colorFrom: f7e4c0
+    colorTo: ffffff00
 }
     ]
 
@@ -458,8 +457,8 @@ chargeEffect: [
     strokeFrom: 0.8
     strokeTo: 0
 
-    colorFrom: fcf387
-    colorTo: e8d174
+    colorFrom: f7e4c0
+    colorTo: ffffff00
     }
 {
     type: WaveEffect
@@ -473,8 +472,8 @@ chargeEffect: [
     strokeFrom: 5
     strokeTo: 0
 
-    colorFrom: fcf387
-    colorTo: e8d174
+    colorFrom: f7e4c0
+    colorTo: ffffff00
     }
 
 {
@@ -495,8 +494,8 @@ chargeEffect: [
     strokeFrom: 0.8
     strokeTo: 0.6
 
-    colorFrom: fcf387
-    colorTo: e8d174
+    colorFrom: f7e4c0
+    colorTo: ffffff00
     }
 {
     type: ParticleEffect
@@ -516,8 +515,8 @@ chargeEffect: [
     strokeFrom: 0.8
     strokeTo: 0.6
 
-    colorFrom: fcf387
-    colorTo: e8d174
+    colorFrom: f7e4c0
+    colorTo: ffffff00
     }
 {
     type: ParticleEffect
@@ -537,8 +536,8 @@ chargeEffect: [
     strokeFrom: 0.8
     strokeTo: 0.6
 
-    colorFrom: fcf387
-    colorTo: e8d174
+    colorFrom: f7e4c0
+    colorTo: ffffff00
     }
 {
     type: ParticleEffect
@@ -558,8 +557,9 @@ chargeEffect: [
     strokeFrom: 0.8
     strokeTo: 0.6
 
-    colorFrom: fcf387
-    colorTo: e8d174
-	}
-]
+    colorFrom: f7e4c0
+    colorTo: ffffff00
+}
+    ]
+}
     }
