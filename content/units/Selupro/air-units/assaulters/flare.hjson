@@ -107,8 +107,8 @@ bullet: {
     puddleRange: 2
     puddles: 7
 
-    incendAmount: 24
-    incendSpread: 4
+    incendAmount: 15
+    incendSpread: 3
     incendChance: 1
 
     frontColor: ffffff
@@ -121,5 +121,6 @@ bullet: {
     }
 }
     ]
+
 
 
