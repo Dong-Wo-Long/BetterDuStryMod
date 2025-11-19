@@ -11,9 +11,9 @@ coolantMultiplier: 2.5
 
 velocityRnd: 0.215
 ammoEjectBack: 5
-inaccuracy: 7.5
+inaccuracy: 1
 maxAmmo: 120
-reload: 24.5
+reload: 12.5
 health: 500
 range: 384
 armor: 4
@@ -206,4 +206,5 @@ effects: [
     }
 }
     }
+
 
