@@ -11,7 +11,7 @@ velocityRnd: 0
 inaccuracy: 8
 health: 1250
 maxAmmo: 32
-reload: 750
+reload: 450
 range: 960
 armor: 9
 
@@ -20,7 +20,7 @@ ammoUseEffect: casing3Double
 ammoEjectBack: 5
 ammoPerShot: 5
 shoot: {
-    shotDelay: 24
+    shotDelay: 15
     shots: 9
     }
 
