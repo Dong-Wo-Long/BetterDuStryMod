@@ -1,1 +1,5 @@
 squareSprite: false
+
+requirements: [
+    copper/7
+    ]
