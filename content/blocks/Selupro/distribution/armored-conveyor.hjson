@@ -1,3 +1,10 @@
 displayedSpeed: 10.5
 health: 480
 armor: 24
+
+requirements: [
+    lead/8
+    metaglass/7
+    thorium/4
+    plastanium/1
+    ]
