@@ -9,7 +9,7 @@ velocityRnd: 0.04
 inaccuracy: 3
 maxAmmo: 32
 health: 360
-reload: 24
+reload: 5
 armor: 2
 
 ammoUseEffect: casing1
@@ -227,4 +227,5 @@ effects: [
     }
 }
     }
+
 
