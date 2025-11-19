@@ -14,7 +14,7 @@ ammoPerShot: 81
 inaccuracy: 0.4
 maxAmmo: 1960
 health: 3200
-reload: 750
+reload: 415
 range: 436
 armor: 34
 
@@ -382,6 +382,7 @@ effects: [
     }
 }
     }
+
 
 
 
