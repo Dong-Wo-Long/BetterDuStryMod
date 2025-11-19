@@ -3,11 +3,11 @@ health: 360
 
 requirements: [
     lead/24
-    metaglass/41
-    graphite/21
+    metaglass/21
     silicon/18
     plastanium/15
     ]
+
 
 
 
