@@ -6,7 +6,7 @@ explosionRadius: 32
 liquidCapacity: 810
 itemDuration: 180
 itemCapacity: 810
-health: 5000
+health: 8000
 
 consumes: {
     power: 50
@@ -20,4 +20,5 @@ requirements: [
     silicon/12000
     surge-alloy/1800
     ]
+
 
