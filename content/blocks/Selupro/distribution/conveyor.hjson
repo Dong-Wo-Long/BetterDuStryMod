@@ -3,7 +3,8 @@ displayedSpeed: 4.5
 health: 48
 
 requirements: [
-    copper/54
+    copper/24
     ]
+
 
 
