@@ -1,1 +1,6 @@
 squareSprite: false
+
+requirements: [
+    copper/15
+    lead/12
+    ]
