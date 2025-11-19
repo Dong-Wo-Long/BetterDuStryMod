@@ -4,7 +4,7 @@ health: 96
 armor: 8
 
 requirements: [
-    lead/8
     graphite/7
     titanium/4
     ]
+
