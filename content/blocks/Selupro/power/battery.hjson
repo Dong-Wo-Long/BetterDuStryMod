@@ -8,6 +8,7 @@ consumes: {
 }
 
 requirements: [
-    copper/25
-    lead/24
+    copper/24
+    lead/21
+
 ]
