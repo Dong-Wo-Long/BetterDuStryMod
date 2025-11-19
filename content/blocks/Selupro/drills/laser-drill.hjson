@@ -1,3 +1,5 @@
+armor: 4
+
 consumes: {
     power: 12.5
     }
