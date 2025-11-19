@@ -10,7 +10,7 @@ coolantMultiplier: 1.8
 
 health: 1750
 maxAmmo: 64
-reload: 48
+reload: 24
 range: 100
 armor: 15
 
@@ -309,3 +309,4 @@ despawnEffect: {
     }
 }
     }
+
