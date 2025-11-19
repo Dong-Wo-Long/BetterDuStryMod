@@ -7,6 +7,7 @@ flashThreshold: 0.8
 smokeThreshold: 0.4
 itemCapacity: 810
 itemDuration: 240
+heating: 0.0001
 health: 8000
 
 requirements: [
@@ -16,6 +17,7 @@ requirements: [
     thorium/2100
     silicon/1500
     ]
+
 
 
 
