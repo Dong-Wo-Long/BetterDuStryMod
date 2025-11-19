@@ -1,7 +1,7 @@
 research: differential-generator
 ambientSoundVolume: 0.25
 
-powerProduction: 160
+powerProduction: 400
 explosionRadius: 32
 liquidCapacity: 240
 itemDuration: 180
@@ -16,4 +16,5 @@ requirements: [
     silicon/12000
     surge-alloy/1800
     ]
+
 
