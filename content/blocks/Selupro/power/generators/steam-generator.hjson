@@ -1,1 +1,8 @@
 research: combustion-generator
+
+requirements: [
+    copper/81
+    lead/75
+    graphite/60
+    silicon/45
+    ]
