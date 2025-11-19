@@ -2,8 +2,9 @@ itemCapacity: 4
 health: 81
 
 requirements: [
-    copper/41
-    lead/24
+    copper/24
+    lead/21
     ]
+
 
 
