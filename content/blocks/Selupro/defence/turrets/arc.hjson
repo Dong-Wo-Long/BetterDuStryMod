@@ -9,8 +9,8 @@ buildCostMultiplier: 0.75
 coolantMultiplier: 3.2
 
 health: 210
-reload: 32
 range: 144
+reload: 4
 armor: 2
 
 shootEffect: lightningShoot
@@ -60,3 +60,4 @@ lightningType: {
     lightRadius: 14.5
 }
     }
+
