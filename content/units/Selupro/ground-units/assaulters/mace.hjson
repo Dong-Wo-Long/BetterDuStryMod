@@ -37,7 +37,7 @@ weapons: [
     shootY: 2
     recoil: 1
 
-    reload: 5
+    reload: 2.4
     
     ejectEffect: none
     shootSound: flame
