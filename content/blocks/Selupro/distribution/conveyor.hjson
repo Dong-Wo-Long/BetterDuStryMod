@@ -1,2 +1,7 @@
 displayedSpeed: 4.5
+
 health: 48
+
+requirements: [
+  copper/4
+    ]
