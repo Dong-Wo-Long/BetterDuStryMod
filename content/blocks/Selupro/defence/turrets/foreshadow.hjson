@@ -354,8 +354,9 @@ silicon: {
 
     pierceDamageFactor: 0.04
     reloadMultiplier: 0.78
-    ammoMultiplier: 1
+    ammoMultiplier: 4
 
+	homingRange: 500
     homingPower: 0.4
     damage: 24000
     lifetime: 96
@@ -563,3 +564,4 @@ chargeEffect: [
     ]
 }
     }
+
