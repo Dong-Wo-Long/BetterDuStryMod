@@ -6,7 +6,7 @@ liquidCapacity: 75
 inaccuracy: 5
 health: 320
 range: 200
-reload: 4
+reload: 1
 
 shootEffect: shootLiquid
 
@@ -93,3 +93,4 @@ oil: {
     lightRadius: 0
 }
     }
+
