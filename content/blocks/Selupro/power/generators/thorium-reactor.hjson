@@ -1,6 +1,6 @@
 research: rtg-generator
 
-powerProduction: 30
+powerProduction: 135
 explosionRadius: 24
 health: 2100
 
@@ -11,3 +11,4 @@ requirements: [
     thorium/2100
     silicon/1500
     ]
+
