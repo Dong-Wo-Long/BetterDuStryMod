@@ -12,7 +12,7 @@ velocityRnd: 0.125
 inaccuracy: 9
 maxAmmo: 15
 health: 180
-reload: 150
+reload: 75
 range: 720
 armor: 1
 
@@ -372,4 +372,5 @@ despawnEffect: {
     }
 }
     }
+
 
