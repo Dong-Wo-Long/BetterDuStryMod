@@ -8,7 +8,7 @@ velocityRnd: 0.1
 ammoPerShot: 2
 health: 1500
 range: 260
-reload: 3
+reload: 1
 armor: 15
 
 consumes: {
