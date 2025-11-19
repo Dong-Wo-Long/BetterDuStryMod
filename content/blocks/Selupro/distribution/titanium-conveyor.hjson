@@ -2,3 +2,9 @@ displayedSpeed: 12.5
 speed: 0.09
 health: 96
 armor: 8
+
+requirements: [
+    lead/8
+    graphite/7
+    titanium/4
+    ]
