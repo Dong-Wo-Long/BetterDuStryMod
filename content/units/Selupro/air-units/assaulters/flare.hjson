@@ -43,9 +43,10 @@ weapons: [
 
     reload: 5
 
+    shootStatus: bsm-motor-acceleration-tier-2
     shootSound: machine-gun-shot-3
+    shootStatusDuration: 48
     ejectEffect: casing1
-    
 bullet: {
     type: BasicBulletType
     rangeOverride: 332
@@ -69,3 +70,4 @@ bullet: {
     }
 }
     ]
+
