@@ -1,0 +1,4 @@
+requirements: [
+    graphite/74
+    copper/24
+    ]
