@@ -2,10 +2,11 @@ displayedSpeed: 10.5
 health: 360
 
 requirements: [
-    lead/74
-    metaglass/54
-    graphite/41
-    silicon/24
+    lead/41
+    metaglass/24
+    graphite/48
+    silicon/21
     plastanium/15
     ]
+
 
