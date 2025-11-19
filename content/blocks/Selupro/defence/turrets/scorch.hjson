@@ -10,7 +10,7 @@ coolantMultiplier: 15
 
 maxAmmo: 24
 health: 320
-reload: 9
+reload: 4
 range: 60
 armor: 3
 
@@ -227,3 +227,4 @@ hitEffect: {
     }
 }
     }
+
