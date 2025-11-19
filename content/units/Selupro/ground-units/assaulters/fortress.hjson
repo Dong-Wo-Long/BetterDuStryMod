@@ -55,7 +55,7 @@ weapons: [
     x: 0
     y: 0
 
-    reload: 48
+    reload: 27.5
 
     shootSound: mech-medium-footsteps
 bullet: {
