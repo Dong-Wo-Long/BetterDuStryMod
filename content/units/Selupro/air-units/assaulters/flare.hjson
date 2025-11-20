@@ -50,7 +50,7 @@ weapons: [
     cooldownTime: 90
     velocityRnd: 1
     inaccuracy: 45
-    reload: 450
+    reload: 480
 
     shootStatus: bsm-motor-acceleration-tier-3
     shootSound: rocket-shot-1
@@ -185,6 +185,7 @@ bullet: {
     }
 }
     ]
+
 
 
 
