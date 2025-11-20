@@ -197,7 +197,7 @@ bullet: {
     cooldownTime: 90
     inaccuracy: 8
     shootCone: 81
-    reload: 180
+    reload: 710
 
     heatColor: d1efff
     
@@ -222,14 +222,14 @@ bullet: {
 
     shieldDamageMultiplier: 1.5
 
-    splashDamageRadius: 26
-    statusDuration: 180
+    status: motor-deceleration-tier-1
+    splashDamageRadius: 12
+    statusDuration: 108
     homingPower: 0.025
-    status: emp-tier-1
-    splashDamage: 34
+    splashDamage: 0.4
     homingRange: 500
-    lifetime: 180
-    damage: 69
+    lifetime: 300
+    damage: 1
     speed: 4
 
     weaveScale: 2
@@ -298,6 +298,7 @@ hitEffect: {
     }
 }
     ]
+
 
 
 
