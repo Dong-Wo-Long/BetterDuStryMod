@@ -182,9 +182,123 @@ bullet: {
     despawnEffect: none
     hitEffect: none
     hitSound: none
+}
+    }
+
+{
+    controllable: false
+    autoTarget: true
+    rotate: false
+    top: true
+    x: 1.5
+    y: 1.8
+
+    velocityRnd: 0.025
+    cooldownTime: 90
+    inaccuracy: 8
+    shootCone: 81
+    reload: 180
+
+    heatColor: d1efff
+    
+    shootSound: rocket-swarm-start
+    chargeSound: target-lock-1
+    ejectEffect: casing1
+shoot: {
+    firstShotDelay: 85
+    shots: 1
+    }
+
+bullet: {
+    type: BasicBulletType
+    sprite: missile
+    collidesGround: false
+    despawnShake: 4.5
+    hitShake: 4.5
+    shrinkX: 0.5
+    shrinkY: 0.5
+    height: 9
+    width: 6
+
+    shieldDamageMultiplier: 1.5
+
+    splashDamageRadius: 26
+    statusDuration: 180
+    homingPower: 0.025
+    status: emp-tier-1
+    splashDamage: 34
+    homingRange: 500
+    lifetime: 180
+    damage: 69
+    speed: 4
+
+    weaveScale: 2
+    weaveMag: 2
+
+    hitSound: rocket-swarm-detonate
+
+    trailEffect: vapor
+    trailInterp: slope
+    trailColor: feb380
+    trailLength: 27.5
+    trailChance: 0.44
+    trailWidth: 0.8
+
+    lightColor: feb380
+    lightOpacity: 0.7
+    lightRadius: 32.5
+
+    frontColor: ffffff
+    backColor: feb380
+
+    shootEffect: [ smokeCloud, shootSmallColor ]
+    smokeEffect: flakExplosionBig
+
+despawnEffect: {
+    type: ExplosionEffect
+
+    lifetime: 45
+
+    waveColor: feb380
+    waveStroke: 0
+    waveRad: 14.5
+
+    smokeColor: feb380
+    smokeSizeBase: 0
+    smokeSize: 15
+    smokes: 9
+
+    sparkColor: feb380
+    sparkStroke: 0
+    sparkRad: 7.5
+    sparkLen: 2.5
+    sparks: 15
+    }
+
+hitEffect: {
+    type: ExplosionEffect
+
+    lifetime: 45
+
+    waveColor: ffffff
+    waveStroke: 0
+    waveRad: 14.5
+
+    smokeColor: feb380
+    smokeSizeBase: 0
+    smokeSize: 15
+    smokes: 9
+
+    sparkColor: feb380
+    sparkStroke: 0
+    sparkRad: 7.5
+    sparkLen: 2.5
+    sparks: 15
+}
     }
 }
     ]
+
 
 
 
