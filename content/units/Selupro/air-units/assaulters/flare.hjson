@@ -29,7 +29,7 @@ targetFlags: [ generator, reactor, battery, extinguisher, drill, repair ]
 abilities: [
     {
     type: RegenAbility
-    amount: 0.025
+    amount: 0.4
 }
     ]
 
@@ -108,7 +108,7 @@ bullet: {
     reload: 5
 
     shootStatus: bsm-motor-acceleration-tier-2
-    shootSound: machine-gun-shot-3
+    shootSound: machine-gun-shot-2
     shootStatusDuration: 48
     ejectEffect: casing1
 bullet: {
@@ -185,6 +185,7 @@ bullet: {
     }
 }
     ]
+
 
 
 
