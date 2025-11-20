@@ -34,6 +34,70 @@ abilities: [
     ]
 
 weapons: [
+{
+    controllable: false
+    layerOffset: -0.001
+    baseRotation: -135
+    rotationLimit: 1
+    autoTarget: true
+    alternate: false
+    shootCone: 120
+    rotate: true
+    shake: 2.75
+    x: 5
+    y: -2
+
+    cooldownTime: 90
+    velocityRnd: 1
+    inaccuracy: 45
+    reload: 450
+
+    shootStatus: bsm-motor-acceleration-tier-3
+    shootSound: rocket-shot-1
+    shootStatusDuration: 48
+shoot: {
+    shotDelay: 5
+    shots: 9
+    }
+
+bullet: {
+    type: MissileBulletType
+    sprite: mine-bullet
+    collidesGround: false
+    keepVelocity: false
+    despawnShake: 0
+    shrinkY: 0.85
+    hitShake: 0
+    height: 8
+    width: 8
+
+    splashDamageRadius: 20
+    splashDamage: 24
+    homingRange: 0
+    homingPower: 0
+    lifetime: 90
+    damage: 48
+    drag: 0.03
+    speed: 3
+
+    despawnEffect: blastExplosion
+    hitEffect: blastExplosion
+    hitSoundVolume: 0.25
+    hitSound: none
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 27.5
+
+    trailColor: f9c27a
+    trailLength: 3.5
+    trailWidth: 1.25
+
+    frontColor: fff8e8
+    backColor: f9c27a
+}
+    }
+
 {   
     name: mount-weapon
     layerOffset: -0.001
@@ -121,6 +185,7 @@ bullet: {
     }
 }
     ]
+
 
 
 
