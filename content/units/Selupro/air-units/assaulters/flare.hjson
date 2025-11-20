@@ -71,13 +71,13 @@ bullet: {
     height: 8
     width: 8
 
-    splashDamageRadius: 20
-    splashDamage: 24
+    splashDamageRadius: 12
+    splashDamage: 1
     homingRange: 0
     homingPower: 0
     lifetime: 90
-    damage: 48
     drag: 0.03
+    damage: 4
     speed: 3
 
     despawnEffect: blastExplosion
@@ -185,6 +185,7 @@ bullet: {
     }
 }
     ]
+
 
 
 
