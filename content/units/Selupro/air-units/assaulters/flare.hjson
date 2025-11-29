@@ -78,7 +78,7 @@ bullet: {
     lifetime: 90
     drag: 0.03
     damage: 4
-    speed: 3
+    speed: 6
 
     despawnEffect: blastExplosion
     hitEffect: blastExplosion
@@ -298,6 +298,7 @@ hitEffect: {
     }
 }
     ]
+
 
 
 
