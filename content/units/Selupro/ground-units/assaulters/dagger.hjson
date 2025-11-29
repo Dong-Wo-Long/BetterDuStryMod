@@ -46,7 +46,7 @@ weapons: [
     y: 1
 
     velocityRnd: 0.125
-    inaccuracy: 5
+    inaccuracy: 3
     reload: 4
 
     shootStatus: bsm-motor-acceleration-tier-1
@@ -56,18 +56,100 @@ weapons: [
 bullet: {
     type: BasicBulletType
     collideTerrain: true
+    scaleLife: true
     height: 9
     width: 7
 
     status: air-specialization
     statusDuration: 90
-    lifetime: 49
+    lifetime: 81
     damage: 15
     speed: 4
 
     lightColor: fff8e8
     lightOpacity: 0.7
     lightRadius: 20
+}
+    }
+
+{
+    layerOffset: -0.001
+    shootCone: 45
+    rotate: false
+    mirror: false
+    x: 0
+    y: 2.25
+
+    reload: 780
+
+    shootStatusDuration: 180
+    shootStatus: overcharge
+    ejectEffect: casing2
+    shootSound: gl-shot1
+shoot: { 
+    type: ShootBarrel
+    shotDelay: 21.5
+    shots: 6
+barrels: [
+    -3.25, 2.25, 0
+    3.25, -2.25, 0
+]
+    }
+
+bullet: {
+    type: ArtilleryBulletType
+    sprite: large-orb
+    shrinkY: 0.4
+    sticky: true
+    height: 4
+    width: 4
+
+    stickyExtraLifetime: 81
+    statusDuration: 300
+    status: burning
+    lifetime: 50
+    damage: 48
+    speed: 4.5
+
+    fragRandomSpread: 0
+    fragVelocityMin: 1
+    fragVelocityMax: 1
+    fragSpread: 120
+    fragBullets: 3
+    fragLifeMin: 1
+    fragLifeMax: 1
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 21
+
+    trailInterp: slope
+    trailColor: f9c27a
+    trailLength: 41.8
+    trailWidth: 1.25
+
+    despawnEffect: blastExplosion
+    despawnSound: gl-hit1
+
+fragBullet: {
+    type: BasicBulletType
+    collideTerrain: true
+    shrinkY: 1
+    height: 12
+    width: 5
+
+    pierceCap: 4
+    lifetime: 20
+    damage: 15
+
+    lightColor: fff8e8
+    lightOpacity: 0.7
+    lightRadius: 21
+
+    trailColor: f9c27a
+    trailLength: 4.8
+    trailWidth: 1.25
+    }
 }
     }
 
@@ -122,6 +204,3 @@ bullet: {
     }
 }
     ]
-
-
-
