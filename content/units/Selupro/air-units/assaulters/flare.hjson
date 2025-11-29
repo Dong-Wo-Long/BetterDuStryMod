@@ -201,8 +201,8 @@ bullet: {
 
     heatColor: d1efff
     
-    shootSound: rocket-swarm-start
     chargeSound: target-lock-1
+    shootSound: rocket-shot-1
     ejectEffect: casing1
 shoot: {
     firstShotDelay: 85
@@ -235,7 +235,7 @@ bullet: {
     weaveScale: 2
     weaveMag: 2
 
-    hitSound: rocket-swarm-detonate
+    hitSound: howitzer-shot-2
 
     trailEffect: vapor
     trailInterp: slope
@@ -298,6 +298,7 @@ hitEffect: {
     }
 }
     ]
+
 
 
 
