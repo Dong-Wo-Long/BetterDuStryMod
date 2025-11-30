@@ -1,5 +1,5 @@
 research: duo
-rotateSpeed: 0.64
+rotateSpeed: 0.81
 targetAir: false
 fogRadius: 48.5
 shootY: 1.5
@@ -11,11 +11,12 @@ coolantMultiplier: 2.5
 
 velocityRnd: 0.215
 ammoEjectBack: 5
+shootCone: 180
 inaccuracy: 1
 maxAmmo: 120
-reload: 12.5
+reload: 110
 health: 500
-range: 384
+range: 648
 armor: 4
 
 consumes: {
@@ -29,43 +30,21 @@ requirements: [
     silicon/45
 ]
 
+shootSound: tower-salvo-shot
 ammoUseEffect: casing2
-shootSound: duo-shot
 shoot: {
+    firstShotDelay: 81
     shotDelay: 4
-    shots: 5
+    shots: 50
     }
 
 ammoTypes: {
-copper: {
-    type: BasicBulletType
-    collidesAir: false
-    height: 9
-    width: 7
-
-    buildingDamageMultiplier: 0.25
-    pierceDamageFactor: 0.00008
-    ammoMultiplier: 12
-
-    pierceCap: 7
-    lifetime: 80
-    speed: 3.75
-    damage: 21
-
-    lightColor: fff8e8
-    lightOpacity: 0.7
-    lightRadius: 24.5
-
-    trailColor: f9c27a
-    trailLength: 7.5
-    trailWidth: 1.5
-}
-
 graphite: {
     type: BasicBulletType
     collidesAir: false
+    scaleLife: true
     height: 12
-    width: 9
+    width: 6
 
     buildingDamageMultiplier: 0.35
     pierceDamageFactor: 0.00005
@@ -73,9 +52,10 @@ graphite: {
     ammoMultiplier: 6
 
     pierceCap: 12
-    lifetime: 84
+    lifetime: 50
+    speed: 72.5
     damage: 32
-    speed: 4
+    drag: 0.1
 
     lightColor: 95abd9
     lightOpacity: 0.7
@@ -83,15 +63,16 @@ graphite: {
 
     trailColor: 6b77a1
     trailLength: 7.5
-    trailWidth: 2
+    trailWidth: 1.5
 
     frontColor: 95abd9
     backColor: 6b77a1
-}
+    }
 
 silicon: {
     type: BasicBulletType
     collidesAir: false
+    scaleLife: true
     height: 9
     width: 7
 
@@ -102,9 +83,10 @@ silicon: {
 
     homingPower: 0.18
     pierceCap: 7
-    lifetime: 80
+    lifetime: 50
     damage: 16.5
-    speed: 4.8
+    speed: 81
+    drag: 0.1
 
     lightColor: 8e9097
     lightOpacity: 0.7
@@ -112,53 +94,19 @@ silicon: {
 
     trailColor: 767a84
     trailLength: 7.5
-    trailWidth: 1.5
+    trailWidth: 1.25
 
     frontColor: 8e9097
     backColor: 767a84
-}
-
-thorium: {
-    type: BasicBulletType
-    collidesAir: false
-    height: 13
-    width: 10
-
-    buildingDamageMultiplier: 0.75
-    pierceDamageFactor: 100
-    reloadMultiplier: 0.5
-    ammoMultiplier: 4
-
-    splashDamageRadius: 26
-    splashDamage: 27.5
-    pierceCap: 15
-    lifetime: 84
-    damage: 48.5
-    speed: 3.25
-
-    despawnEffect: flakExplosion
-    smokeEffect: shootBigSmoke
-    hitEffect: flakExplosion
-    shootEffect: shootBig
-
-    lightColor: f9a3c7
-    lightOpacity: 0.7
-    lightRadius: 32
-
-    trailColor: cb8ebf
-    trailLength: 12.5
-    trailWidth: 2.4
-
-    frontColor: f9a3c7
-    backColor: cb8ebf
-}
+    }
 
 pyratite: {
     type: BasicBulletType
     collidesAir: false
+    scaleLife: true
     makeFire: true
-    height: 12
-    width: 10
+    height: 9
+    width: 6
 
     buildingDamageMultiplier: 0.01
     pierceDamageFactor: 0.0003
@@ -169,9 +117,10 @@ pyratite: {
     splashDamage: 14.5
     status: burning
     pierceCap: 7
-    lifetime: 84
+    lifetime: 50
     damage: 17.5
-    speed: 4.25
+    speed: 75
+    drag: 0.1
 
     lightColor: ffaa5f
     lightOpacity: 0.7
@@ -179,7 +128,7 @@ pyratite: {
 
     trailColor: d37f47
     trailLength: 7.5
-    trailWidth: 2.4
+    trailWidth: 1
 
     frontColor: ffaa5f
     backColor: d37f47
@@ -206,5 +155,3 @@ effects: [
     }
 }
     }
-
-
