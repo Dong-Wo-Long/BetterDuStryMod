@@ -1,4 +1,5 @@
 research: salvo
+predictTarget: false
 rotateSpeed: 1.75
 fogRadius: 47.5
 recoilTime: 10
@@ -12,11 +13,11 @@ coolantMultiplier: 2.4
 
 velocityRnd: 0.175
 ammoPerShot: 96
-inaccuracy: 4.5
+inaccuracy: 0.4
 maxAmmo: 720
 health: 1320
 reload: 750
-range: 340
+range: 580
 armor: 12
 
 consumes: {
@@ -446,4 +447,3 @@ despawnEffect: {
     }
 }
     }
-
