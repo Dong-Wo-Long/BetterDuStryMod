@@ -39,14 +39,16 @@ engineLayer: 110
 immunities: [ bsm-ground-specialization, bsm-naval-specialization ]
 
 parts: [
-    type: FlarePart
-    followRotation: true
-    color2: ffffff
-    color1: bf92f9
-    rotation: 45
-    radius: 24
-    stroke: 3
-    y: -5
+{
+type: FlarePart
+followRotation: true
+color2: ffffff
+color1: bf92f9
+rotation: 45
+radius: 24
+stroke: 3
+y: -5
+}
     ]
 
 weapons: [
